@@ -125,20 +125,7 @@
     "lng": -54.436,
     "revelacao": "Resposta: Cataratas do Iguaçu (Brasil–Argentina)."
   },
-  {
-    "id": "largest_ocean",
-    "nome": "Maior oceano do mundo",
-    "lat": 0.0,
-    "lng": -160.0,
-    "revelacao": "Resposta: Oceano Pacífico (ponto em mar aberto)."
-  },
-  {
-    "id": "smallest_ocean",
-    "nome": "Menor oceano do mundo",
-    "lat": 85.0,
-    "lng": 0.0,
-    "revelacao": "Resposta: Oceano Ártico (região polar norte)."
-  },
+  
   {
     "id": "largest_bay",
     "nome": "Maior baía do mundo",
