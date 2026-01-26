@@ -1,0 +1,266 @@
+:root{
+  --bg: #050712;
+
+  --glassTop: rgba(255,255,255,.14);
+  --glassBot: rgba(255,255,255,.08);
+  --stroke: rgba(255,255,255,.18);
+
+  --text: rgba(255,255,255,.94);
+  --muted: rgba(255,255,255,.70);
+
+  --shadow: 0 22px 70px rgba(0,0,0,.62);
+
+  --greenA: rgba(170,255,210,.96);
+  --greenB: rgba(120,255,170,.94);
+  --greenText: rgba(6, 12, 10, 0.98);
+}
+
+*{ box-sizing:border-box; }
+html, body{ height:100%; }
+
+body{
+  margin:0;
+  overflow:hidden;
+  background: radial-gradient(1200px 900px at 25% 10%, #121a3a 0%, var(--bg) 60%, #03040a 100%);
+  font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial;
+  color: var(--text);
+}
+
+#globeViz{
+  position:fixed;
+  inset:0;
+  touch-action: none; /* ajuda no iOS */
+}
+
+#globeViz canvas{
+  touch-action: none;
+  -webkit-user-select: none;
+  -webkit-touch-callout: none;
+}
+
+/* HUD */
+.ui{
+  position:fixed;
+  inset:0;
+  display:flex;
+  align-items:flex-end;
+  justify-content:center;
+  padding: 10px 12px calc(10px + env(safe-area-inset-bottom)) 12px;
+
+  /* não bloqueia o globo por padrão */
+  pointer-events:none;
+}
+
+/* Sheet iOS glass */
+.panel{
+  width:min(560px, 100%);
+  border-radius: 22px;
+  background: linear-gradient(180deg, var(--glassTop), var(--glassBot));
+  border:1px solid var(--stroke);
+  box-shadow: var(--shadow);
+  backdrop-filter: blur(18px);
+  -webkit-backdrop-filter: blur(18px);
+  padding: 10px 12px 12px;
+  position:relative;
+  overflow:hidden;
+
+  /* click-through */
+  pointer-events:none;
+}
+
+.panel::before{
+  content:"";
+  position:absolute;
+  inset:-2px;
+  background:
+    radial-gradient(700px 200px at 25% 0%, rgba(255,255,255,.18), transparent 58%),
+    radial-gradient(500px 220px at 90% 20%, rgba(140,170,255,.10), transparent 60%);
+  pointer-events:none;
+}
+
+/* handle */
+.sheet-handle{
+  width: 44px;
+  height: 5px;
+  border-radius: 999px;
+  margin: 2px auto 8px;
+  background: rgba(255,255,255,.22);
+  border: 1px solid rgba(255,255,255,.12);
+  pointer-events:none;
+}
+
+.topbar{
+  display:flex;
+  align-items:center;
+  justify-content:flex-start;
+  margin-bottom: 8px;
+  pointer-events:none;
+}
+
+.brand{
+  display:inline-flex;
+  align-items:center;
+  gap:10px;
+  font-weight: 950;
+  letter-spacing: .2px;
+  font-size: 14px;
+  padding: 7px 10px;
+  border-radius: 999px;
+  background: rgba(0,0,0,.22);
+  border:1px solid rgba(255,255,255,.12);
+  box-shadow: 0 10px 28px rgba(0,0,0,.28);
+  pointer-events:none;
+}
+
+.prompt{
+  font-size: 20px;
+  font-weight: 950;
+  line-height: 1.12;
+  letter-spacing: .2px;
+  margin: 6px 2px 10px;
+  text-shadow: 0 12px 34px rgba(0,0,0,.38);
+  pointer-events:none;
+
+  overflow:hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.meta{
+  display:flex;
+  gap:10px;
+  margin-bottom: 10px;
+  pointer-events:none;
+}
+
+.pill{
+  width:100%;
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap:10px;
+  padding: 10px 12px;
+  border-radius: 16px;
+  background: rgba(0,0,0,.26);
+  border:1px solid rgba(255,255,255,.12);
+  box-shadow:
+    inset 0 1px 0 rgba(255,255,255,.10),
+    0 12px 32px rgba(0,0,0,.22);
+}
+
+.pill-label{
+  font-size: 11px;
+  color: rgba(255,255,255,.62);
+  letter-spacing: .10em;
+  text-transform: uppercase;
+}
+
+.pill-value{
+  font-size: 15px;
+  font-weight: 950;
+  color: var(--text);
+}
+
+/* Botões: clicáveis */
+.actions{
+  display:flex;
+  gap:10px;
+  pointer-events:auto;
+}
+
+.btn{
+  flex:1;
+  appearance:none;
+  border:1px solid rgba(255,255,255,.18);
+  border-radius: 16px;
+  padding: 13px 12px;
+  font-weight: 950;
+  cursor:pointer;
+  user-select:none;
+  -webkit-tap-highlight-color: transparent;
+  transition: transform .06s ease, filter .12s ease, opacity .12s ease;
+}
+.btn:active{ transform: translateY(1px); }
+
+.btn-primary{
+  background: linear-gradient(180deg, var(--greenA), var(--greenB));
+  color: var(--greenText);
+  border-color: rgba(255,255,255,.16);
+  box-shadow: 0 18px 46px rgba(0,0,0,.30);
+}
+
+.btn-secondary{
+  background: rgba(0,0,0,.24);
+  color: var(--text);
+}
+
+.btn:disabled{
+  opacity:.55;
+  cursor:not-allowed;
+}
+
+/* Desktop: painel no canto */
+@media (min-width: 900px){
+  .ui{
+    align-items:flex-start;
+    justify-content:flex-start;
+    padding: 14px;
+  }
+  .panel{ width: 420px; }
+}
+
+/* Toast */
+.toast{
+  position:fixed;
+  inset:0;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  padding: 18px;
+  opacity:0;
+  transform: scale(.98);
+  transition: opacity .14s ease, transform .14s ease;
+  pointer-events:none;
+}
+
+.toast.show{
+  opacity:1;
+  transform: scale(1);
+  pointer-events:auto;
+}
+
+.toast-card{
+  width:min(420px, 100%);
+  border-radius: 20px;
+  background: linear-gradient(180deg, rgba(255,255,255,.14), rgba(255,255,255,.08));
+  border:1px solid rgba(255,255,255,.18);
+  box-shadow: 0 28px 96px rgba(0,0,0,.64);
+  backdrop-filter: blur(18px);
+  -webkit-backdrop-filter: blur(18px);
+  padding: 16px;
+  text-align:center;
+}
+
+.toast-title{
+  font-size: 20px;
+  font-weight: 950;
+  margin-bottom: 6px;
+}
+
+.toast-sub{
+  font-size: 14px;
+  color: rgba(255,255,255,.72);
+  line-height:1.35;
+  margin-bottom: 12px;
+}
+
+.toast-close{
+  width: 100%;
+  border-radius: 16px;
+  border:1px solid rgba(255,255,255,.18);
+  background: rgba(255,255,255,.14);
+  color: var(--text);
+  font-weight: 950;
+  padding: 10px 12px;
+  cursor:pointer;
+}

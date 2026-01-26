@@ -1,0 +1,577 @@
+[
+  {
+    "id": "highest_mountain_sea_level",
+    "nome": "Maior montanha do mundo em altitude (acima do nível do mar)",
+    "lat": 27.9881,
+    "lng": 86.9250,
+    "revelacao": "Resposta: Monte Everest (Himalaia, fronteira Nepal–China)."
+  },
+  {
+    "id": "tallest_mountain_base_to_peak",
+    "nome": "Montanha mais alta do mundo se medir da base no fundo do oceano até o topo",
+    "lat": 19.8206,
+    "lng": -155.4681,
+    "revelacao": "Resposta: Mauna Kea (Havaí, EUA)."
+  },
+  {
+    "id": "longest_mountain_range_continental",
+    "nome": "Maior cordilheira continental do mundo em extensão",
+    "lat": -32.6532,
+    "lng": -70.0109,
+    "revelacao": "Resposta: Andes (o ponto está perto do Aconcágua, referência)."
+  },
+  {
+    "id": "highest_mountain_outside_asia",
+    "nome": "Maior montanha do mundo fora da Ásia (em altitude)",
+    "lat": -32.6532,
+    "lng": -70.0109,
+    "revelacao": "Resposta: Aconcágua (Andes, Argentina)."
+  },
+  {
+    "id": "largest_plateau",
+    "nome": "Maior planalto do mundo (em área)",
+    "lat": 32.0,
+    "lng": 88.0,
+    "revelacao": "Resposta: Planalto do Tibete (China e região do Himalaia)."
+  },
+  {
+    "id": "largest_desert",
+    "nome": "Maior deserto do mundo (por área)",
+    "lat": -82.0,
+    "lng": 0.0,
+    "revelacao": "Resposta: Antártida (deserto polar, pouca precipitação)."
+  },
+  {
+    "id": "largest_hot_desert",
+    "nome": "Maior deserto quente do mundo",
+    "lat": 23.4162,
+    "lng": 25.6628,
+    "revelacao": "Resposta: Saara (norte da África)."
+  },
+  {
+    "id": "largest_island",
+    "nome": "Maior ilha do mundo",
+    "lat": 72.0,
+    "lng": -40.0,
+    "revelacao": "Resposta: Groenlândia (território do Reino da Dinamarca)."
+  },
+  {
+    "id": "largest_peninsula",
+    "nome": "Maior península do mundo",
+    "lat": 23.8,
+    "lng": 45.1,
+    "revelacao": "Resposta: Península Arábica (principalmente Arábia Saudita)."
+  },
+  {
+    "id": "largest_lake_area",
+    "nome": "Maior lago do mundo por área",
+    "lat": 41.8476,
+    "lng": 50.3568,
+    "revelacao": "Resposta: Mar Cáspio (entre Europa e Ásia)."
+  },
+  {
+    "id": "largest_freshwater_lake_area",
+    "nome": "Maior lago de água doce do mundo por área",
+    "lat": 47.7,
+    "lng": -87.5,
+    "revelacao": "Resposta: Lago Superior (EUA–Canadá)."
+  },
+  {
+    "id": "deepest_freshwater_lake",
+    "nome": "Lago mais profundo do mundo (água doce)",
+    "lat": 53.5,
+    "lng": 108.1,
+    "revelacao": "Resposta: Lago Baikal (Sibéria, Rússia)."
+  },
+  {
+    "id": "largest_freshwater_lake_volume",
+    "nome": "Maior lago de água doce do mundo por volume",
+    "lat": 53.5,
+    "lng": 108.1,
+    "revelacao": "Resposta: Lago Baikal (também é o mais profundo)."
+  },
+  {
+    "id": "longest_river_traditional",
+    "nome": "Rio tradicionalmente citado como o mais longo do mundo",
+    "lat": 31.3,
+    "lng": 31.9,
+    "revelacao": "Resposta: Rio Nilo (deságua no Mediterrâneo)."
+  },
+  {
+    "id": "largest_river_discharge",
+    "nome": "Rio com maior vazão do mundo",
+    "lat": 0.5,
+    "lng": -49.5,
+    "revelacao": "Resposta: Rio Amazonas (norte do Brasil)."
+  },
+  {
+    "id": "largest_drainage_basin",
+    "nome": "Maior bacia hidrográfica do mundo",
+    "lat": -3.1,
+    "lng": -60.0,
+    "revelacao": "Resposta: Bacia Amazônica (referência perto de Manaus, Brasil)."
+  },
+  {
+    "id": "highest_waterfall",
+    "nome": "Cachoeira com a maior queda d’água do mundo (mais alta)",
+    "lat": 5.967,
+    "lng": -62.535,
+    "revelacao": "Resposta: Salto Ángel (Venezuela)."
+  },
+  {
+    "id": "largest_waterfall_system",
+    "nome": "Maior conjunto de cataratas do mundo (sistema de quedas)",
+    "lat": -25.695,
+    "lng": -54.436,
+    "revelacao": "Resposta: Cataratas do Iguaçu (Brasil–Argentina)."
+  },
+  {
+    "id": "largest_ocean",
+    "nome": "Maior oceano do mundo",
+    "lat": 0.0,
+    "lng": -160.0,
+    "revelacao": "Resposta: Oceano Pacífico (ponto em mar aberto)."
+  },
+  {
+    "id": "smallest_ocean",
+    "nome": "Menor oceano do mundo",
+    "lat": 85.0,
+    "lng": 0.0,
+    "revelacao": "Resposta: Oceano Ártico (região polar norte)."
+  },
+  {
+    "id": "largest_bay",
+    "nome": "Maior baía do mundo",
+    "lat": 15.0,
+    "lng": 88.0,
+    "revelacao": "Resposta: Baía de Bengala (Índia–Bangladesh–Mianmar)."
+  },
+  {
+    "id": "largest_gulf",
+    "nome": "Maior golfo do mundo",
+    "lat": 25.0,
+    "lng": -90.0,
+    "revelacao": "Resposta: Golfo do México (entre EUA, México e Cuba)."
+  },
+  {
+    "id": "highest_volcano",
+    "nome": "Vulcão mais alto do mundo (em altitude)",
+    "lat": -27.109,
+    "lng": -68.541,
+    "revelacao": "Resposta: Ojos del Salado (Chile–Argentina)."
+  },
+  {
+    "id": "largest_volcano_volume",
+    "nome": "Maior vulcão do mundo por volume",
+    "lat": 19.475,
+    "lng": -155.608,
+    "revelacao": "Resposta: Mauna Loa (Havaí, EUA)."
+  },
+  {
+    "id": "largest_coral_reef",
+    "nome": "Maior recife de coral do mundo",
+    "lat": -18.2871,
+    "lng": 147.6992,
+    "revelacao": "Resposta: Grande Barreira de Coral (Austrália)."
+  },
+  {
+    "id": "largest_ice_sheet",
+    "nome": "Maior camada de gelo do mundo (mantos de gelo)",
+    "lat": -75.0,
+    "lng": 0.0,
+    "revelacao": "Resposta: Manto de gelo da Antártida (cobre quase todo o continente)."
+  },
+  {
+    "id": "largest_country_area",
+    "nome": "Maior país do mundo em área",
+    "lat": 61.524,
+    "lng": 105.318,
+    "revelacao": "Resposta: Rússia (se estende da Europa ao Pacífico)."
+  },
+  {
+    "id": "largest_landlocked_country",
+    "nome": "Maior país sem saída para o mar",
+    "lat": 48.0196,
+    "lng": 66.9237,
+    "revelacao": "Resposta: Cazaquistão (Ásia Central)."
+  },
+  {
+    "id": "largest_continent",
+    "nome": "Maior continente do mundo",
+    "lat": 34.0,
+    "lng": 100.0,
+    "revelacao": "Resposta: Ásia (ponto de referência no interior do continente)."
+  },
+  {
+    "id": "smallest_continent",
+    "nome": "Menor continente do mundo",
+    "lat": -25.0,
+    "lng": 133.0,
+    "revelacao": "Resposta: Oceania/Austrália (referência no interior da Austrália)."
+  },
+  {
+    "id": "highest_point_europe",
+    "nome": "Ponto mais alto da Europa (montanha)",
+    "lat": 43.355,
+    "lng": 42.439,
+    "revelacao": "Resposta: Monte Elbrus (Rússia, Cáucaso)."
+  },
+  {
+    "id": "largest_delta",
+    "nome": "Maior delta do mundo",
+    "lat": 21.95,
+    "lng": 89.18,
+    "revelacao": "Resposta: Delta do Ganges–Brahmaputra–Meghna (Sundarbans, Bangladesh/Índia)."
+  },
+    {
+    "nome": "Maior terremoto já registrado (em magnitude)",
+    "revelacao": "Grande Terremoto do Chile (Valdivia), 1960 — magnitude 9,5.",
+    "lat": -38.143,
+    "lon": -73.407
+  },
+  {
+    "nome": "Maior tsunami já registrado (maior altura de subida/\"run-up\")",
+    "revelacao": "Megatsunami da Baía de Lituya (Alasca), 1958 — run-up de 524 m.",
+    "lat": 58.6333,
+    "lon": -137.5667
+  },
+  {
+    "nome": "Edifício mais alto do mundo",
+    "revelacao": "Burj Khalifa, Dubai (Emirados Árabes Unidos) — 828 m.",
+    "lat": 25.197525,
+    "lon": 55.274288
+  },
+  {
+    "nome": "Maior sistema de metrô do mundo (por extensão de linhas)",
+    "revelacao": "Beijing Subway (Metrô de Pequim), China — maior por extensão de rede.",
+    "lat": 39.90549,
+    "lon": 116.397632
+  },
+  {
+    "nome": "Maior aeroporto do mundo (por área total)",
+    "revelacao": "Aeroporto Internacional Rei Fahd (Dammam), Arábia Saudita — maior por área.",
+    "lat": 26.4693,
+    "lon": 49.792
+  },
+  {
+    "nome": "Maior ponte do mundo (em extensão total)",
+    "revelacao": "Ponte Danyang–Kunshan (China) — a mais longa do mundo (viaduto).",
+    "lat": 31.597837,
+    "lon": 120.456848
+  },
+  {
+    "nome": "Maior túnel ferroviário do mundo (em comprimento)",
+    "revelacao": "Túnel de Base de São Gotardo (Suíça) — 57 km.",
+    "lat": 46.6,
+    "lon": 8.765
+  },
+  {
+    "nome": "Maior prédio do mundo (por volume interno)",
+    "revelacao": "Fábrica Boeing Everett (EUA) — maior edifício por volume.",
+    "lat": 47.9257,
+    "lon": -122.2718
+  },
+  {
+    "nome": "Maior estádio do mundo (por capacidade)",
+    "revelacao": "Narendra Modi Stadium (Ahmedabad, Índia) — capacidade ~132 mil.",
+    "lat": 23.091841,
+    "lon": 72.597176
+  },
+  {
+    "nome": "Maior usina hidrelétrica do mundo (por capacidade instalada)",
+    "revelacao": "Usina de Três Gargantas (China) — 22.500 MW.",
+    "lat": 30.752206,
+    "lon": 111.2672
+  },
+  {
+    "nome": "Maior cratera de impacto da Terra (exposta)",
+    "revelacao": "Cratera de Vredefort (África do Sul) — a maior estrutura de impacto confirmada.",
+    "lat": -26.99655,
+    "lon": 27.37067
+  },
+  {
+    "nome": "Maior caldeira vulcânica do Quaternário",
+    "revelacao": "Caldeira de Toba / Lago Toba (Sumatra, Indonésia) — supervulcão.",
+    "lat": 2.6083,
+    "lon": 98.8417
+  },
+  {
+    "nome": "Maior geleira do mundo (por volume/escala)",
+    "revelacao": "Geleira Lambert (Antártida) — uma das maiores do planeta.",
+    "lat": -71.0,
+    "lon": 70.0
+  },
+  {
+    "nome": "Maior caverna natural do mundo (por volume do salão/galerias)",
+    "revelacao": "Caverna Sơn Đoòng (Vietnã) — maior caverna conhecida por volume.",
+    "lat": 17.9167,
+    "lon": 106.2333
+  },
+  {
+    "nome": "Maior planície alagada do mundo",
+    "revelacao": "Pantanal (Brasil/Bolívia/Paraguai) — a maior planície alagável tropical.",
+    "lat": -18.0,
+    "lon": -56.5
+  },
+  {
+    "nome": "Maior ilha flúvio-marítima do mundo",
+    "revelacao": "Ilha de Marajó (Pará, Brasil) — na foz do rio Amazonas.",
+    "lat": -0.9833,
+    "lon": -49.5833
+  },
+   {
+    "id": "k2",
+    "nome": "Montanha K2",
+    "lat": 35.8808,
+    "lng": 76.5158,
+    "revelacao": "Resposta: K2 (Cordilheira do Karakoram, fronteira Paquistão–China)."
+  },
+  {
+    "id": "table_mountain",
+    "nome": "Montanha da Mesa",
+    "lat": -33.9628,
+    "lng": 18.4098,
+    "revelacao": "Resposta: Table Mountain (Cidade do Cabo, África do Sul)."
+  },
+  {
+    "id": "mount_kosciuszko",
+    "nome": "Monte Kosciuszko",
+    "lat": -36.4553,
+    "lng": 148.2633,
+    "revelacao": "Resposta: Monte Kosciuszko (Nova Gales do Sul, Austrália)."
+  },
+  {
+    "id": "mount_kilimanjaro",
+    "nome": "Monte Kilimanjaro",
+    "lat": -3.0674,
+    "lng": 37.3556,
+    "revelacao": "Resposta: Kilimanjaro (Tanzânia, África Oriental)."
+  },
+  {
+    "id": "lake_victoria",
+    "nome": "Lago Vitória",
+    "lat": -1.0,
+    "lng": 33.0,
+    "revelacao": "Resposta: Lago Vitória (Uganda–Quênia–Tanzânia)."
+  },
+  {
+    "id": "lake_superior_specific",
+    "nome": "Lago Superior",
+    "lat": 47.7,
+    "lng": -87.5,
+    "revelacao": "Resposta: Lago Superior (EUA–Canadá)."
+  },
+  {
+    "id": "lake_tanganyika",
+    "nome": "Lago Tanganica",
+    "lat": -6.3,
+    "lng": 29.8,
+    "revelacao": "Resposta: Lago Tanganica (Tanzânia–RD Congo–Burundi–Zâmbia)."
+  },
+  {
+    "id": "gobi_desert",
+    "nome": "Deserto de Gobi",
+    "lat": 42.6,
+    "lng": 103.8,
+    "revelacao": "Resposta: Deserto de Gobi (Mongólia e norte da China)."
+  },
+  {
+    "id": "atacama_desert",
+    "nome": "Deserto de Atacama",
+    "lat": -24.5,
+    "lng": -69.25,
+    "revelacao": "Resposta: Deserto do Atacama (norte do Chile)."
+  },
+  {
+    "id": "kalahari_desert",
+    "nome": "Deserto do Kalahari",
+    "lat": -23.0,
+    "lng": 22.0,
+    "revelacao": "Resposta: Deserto do Kalahari (principalmente Botsuana)."
+  },
+  {
+    "id": "great_victoria_desert",
+    "nome": "Grande Deserto de Vitória",
+    "lat": -29.0,
+    "lng": 129.0,
+    "revelacao": "Resposta: Great Victoria Desert (sul da Austrália)."
+  },
+  {
+    "id": "angkor_wat",
+    "nome": "Angkor Wat",
+    "lat": 13.4125,
+    "lng": 103.867,
+    "revelacao": "Resposta: Angkor Wat (Siem Reap, Camboja)."
+  },
+  {
+    "id": "gobekli_tepe",
+    "nome": "Göbekli Tepe",
+    "lat": 37.2231,
+    "lng": 38.9226,
+    "revelacao": "Resposta: Göbekli Tepe (perto de Şanlıurfa, Turquia)."
+  },
+  {
+    "id": "petra",
+    "nome": "Petra",
+    "lat": 30.3285,
+    "lng": 35.4444,
+    "revelacao": "Resposta: Petra (Jordânia, região de Ma'an)."
+  },
+  {
+    "id": "karnak_temple",
+    "nome": "Templo de Karnak",
+    "lat": 25.7196,
+    "lng": 32.6573,
+    "revelacao": "Resposta: Complexo de Karnak (Luxor, Egito)."
+  },
+  {
+    "id": "hattusa",
+    "nome": "Hattusa",
+    "lat": 40.02,
+    "lng": 34.62,
+    "revelacao": "Resposta: Hattusa (Boğazkale, Turquia; capital hitita)."
+  },
+  {
+    "id": "nuclear_accident_1986",
+    "nome": "Local do acidente nuclear de 1986",
+    "lat": 51.389,
+    "lng": 30.099,
+    "revelacao": "Resposta: Usina de Chernobyl (perto de Pripyat, Ucrânia)."
+  },
+  {
+    "id": "roman_city_79ad_ash",
+    "nome": "Cidade romana sepultada por cinzas em 79 d.C.",
+    "lat": 40.7497,
+    "lng": 14.4869,
+    "revelacao": "Resposta: Pompeia (perto de Nápoles, Itália)."
+  },
+  {
+    "id": "giant_tortoises_archipelago",
+    "nome": "Arquipélago das “tartarugas gigantes” ligado a estudos sobre evolução",
+    "lat": -0.639,
+    "lng": -90.354,
+    "revelacao": "Resposta: Ilhas Galápagos (Equador)."
+  },
+  {
+    "id": "prehistoric_t_pillars_temple",
+    "nome": "Templo pré-histórico com pilares em “T” e relevos de animais",
+    "lat": 37.2231,
+    "lng": 38.9226,
+    "revelacao": "Resposta: Göbekli Tepe (perto de Şanlıurfa, Turquia)."
+  },
+  {
+    "id": "rose_rock_city_siq",
+    "nome": "Cidade antiga esculpida em rocha rosada, acessada por um desfiladeiro estreito",
+    "lat": 30.3285,
+    "lng": 35.4444,
+    "revelacao": "Resposta: Petra (Jordânia)."
+  },
+  {
+    "id": "hittite_capital_lions_gate",
+    "nome": "Capital hitita da Idade do Bronze com a famosa Porta dos Leões",
+    "lat": 40.02,
+    "lng": 34.62,
+    "revelacao": "Resposta: Hattusa (Boğazkale, Turquia)."
+  },
+  {
+    "id": "first_nuclear_test_1945",
+    "nome": "Local do primeiro teste nuclear da história (1945)",
+    "lat": 33.6773,
+    "lng": -106.4754,
+    "revelacao": "Resposta: Trinity Site (Novo México, EUA)."
+  },
+  {
+    "id": "napoleon_final_exile_island",
+    "nome": "Ilha do exílio final de Napoleão (morreu em 1821)",
+    "lat": -15.965,
+    "lng": -5.708,
+    "revelacao": "Resposta: Ilha de Santa Helena (Atlântico Sul)."
+  },
+  {
+    "id": "fall_of_berlin_wall_1989",
+    "nome": "Lugar símbolo da queda do Muro que dividia a Guerra Fria (1989)",
+    "lat": 52.5163,
+    "lng": 13.3777,
+    "revelacao": "Resposta: Berlim (referência: Portão de Brandemburgo, Alemanha)."
+  },
+  {
+    "id": "oil_chokepoint_strait",
+    "nome": "Estreito com um dos maiores engargalamentos marítimos do petróleo mundial",
+    "lat": 26.566,
+    "lng": 56.25,
+    "revelacao": "Resposta: Estreito de Ormuz (entre Irã e Omã)."
+  },
+  {
+    "id": "canal_1914",
+    "nome": "Canal artificial inaugurado em 1914",
+    "lat": 9.1012,
+    "lng": -79.6972,
+    "revelacao": "Resposta: Canal do Panamá (Panamá)."
+  },
+  {
+    "id": "birthplace_cuneiform",
+    "nome": "Região onde nasceu a escrita cuneiforme (primeiras tabuletas administrativas)",
+    "lat": 31.3222,
+    "lng": 45.6364,
+    "revelacao": "Resposta: Uruk (atual sul do Iraque)."
+  },
+  {
+    "id": "titanic_wreck",
+    "nome": "Local do naufrágio do Titanic",
+    "lat": 41.7325,
+    "lng": -49.9469,
+    "revelacao": "Resposta: Atlântico Norte (local aproximado do naufrágio)."
+  },
+  {
+    "id": "hannibal_elephants_alps_crossing",
+    "nome": "Região da travessia histórica pelos Alpes com elefantes rumo à península Itálica",
+    "lat": 44.708,
+    "lng": 6.978,
+    "revelacao": "Resposta: Alpes (referência: área do Col de la Traversette, França/Itália)."
+  },
+  {
+    "id": "first_atomic_bomb_city_1945",
+    "nome": "Cidade atingida pela primeira bomba atômica em 1945",
+    "lat": 34.3853,
+    "lng": 132.4553,
+    "revelacao": "Resposta: Hiroshima (Japão)."
+  },
+  {
+    "id": "second_atomic_bomb_city_1945",
+    "nome": "Cidade atingida pela segunda bomba atômica em 1945",
+    "lat": 32.7503,
+    "lng": 129.8777,
+    "revelacao": "Resposta: Nagasaki (Japão)."
+  },
+  {
+    "id": "great_earthquake_1755",
+    "nome": "Local do grande terremoto de 1755 que impactou debates filosóficos europeus",
+    "lat": 38.711,
+    "lng": -9.141,
+    "revelacao": "Resposta: Lisboa (Portugal)."
+  },
+  {
+    "id": "uluru",
+    "nome": "Monólito sagrado no deserto australiano (grande rocha isolada)",
+    "lat": -25.3444,
+    "lng": 131.0369,
+    "revelacao": "Resposta: Uluru (Território do Norte, Austrália)."
+  },
+  {
+    "id": "kakadu_archaeological_site",
+    "nome": "Sítio arqueológico australiano famoso por arte rupestre ancestral",
+    "lat": -12.423,
+    "lng": 132.904,
+    "revelacao": "Resposta: Kakadu (referência: Ubirr, Parque Nacional de Kakadu, Austrália)."
+  },
+  {
+    "id": "port_arthur_prison",
+    "nome": "Histórica prisão penal colonial na Tasmânia",
+    "lat": -43.1467,
+    "lng": 147.8519,
+    "revelacao": "Resposta: Port Arthur (Tasmânia, Austrália)."
+  }
+  
+
+
+]
