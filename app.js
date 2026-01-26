@@ -15,7 +15,7 @@
   const toastSub = document.getElementById("toastSub");
   const toastClose = document.getElementById("toastClose");
 
-  const HIT_RADIUS_KM = 100;
+  const HIT_RADIUS_KM = 200;
   const EARTH_RADIUS_KM = 6371;
 
   let locations = [];
@@ -260,3 +260,4 @@
 
   init();
 })();
+
