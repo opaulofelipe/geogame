@@ -1,5 +1,5 @@
 /* service-worker.js */
-const CACHE_VERSION = "v1"; // <-- aumente para v2, v3... quando atualizar
+const CACHE_VERSION = "v2"; // <-- aumente para v2, v3... quando atualizar
 const CACHE_NAME = `geogame-${CACHE_VERSION}`;
 
 const CORE_ASSETS = [
@@ -77,3 +77,4 @@ self.addEventListener("fetch", (event) => {
     })()
   );
 });
+
