@@ -15,7 +15,7 @@
   const toastSub = document.getElementById("toastSub");
   const toastClose = document.getElementById("toastClose");
 
-  const HIT_RADIUS_KM = 300;
+  const HIT_RADIUS_KM = 100;
   const EARTH_RADIUS_KM = 6371;
 
   let locations = [];
@@ -28,8 +28,8 @@
   let guessPoint = null;
   let answerPoint = null;
 
-  // ✅ arco (linha) ligando chute -> resposta
-  let revealArc = null;
+  // ✅ linha reta (polyline) ligando chute -> resposta
+  let revealPath = null; // [{lat,lng},{lat,lng}]
 
   // Globe.gl
   const world = Globe()
@@ -40,7 +40,7 @@
     .atmosphereAltitude(0.22)
     .onGlobeClick(({ lat, lng }) => {
       if (!current) return;
-      if (solved) return; // após acertar, só explora
+      if (solved) return;
       setPendingGuess(lat, lng);
     })(elGlobe);
 
@@ -81,7 +81,6 @@
     if (elGlobe.querySelector("canvas") || tries > 40) clearInterval(t);
   }, 50);
 
-  // UI events
   btnConfirm.addEventListener("click", () => {
     if (!current || solved || !pendingGuess) return;
     confirmGuess();
@@ -147,32 +146,28 @@
       .pointColor(d => d.color || "rgba(255,255,255,0.9)");
   }
 
-  // ✅ desenha/remova a linha (arco) vermelho
-  function updateArcLayer() {
-    const data = revealArc ? [revealArc] : [];
+  // ✅ linha reta: usa pathsData
+  function updatePathLayer() {
+    const data = revealPath ? [revealPath] : [];
 
     world
-      .arcsData(data)
-      .arcStartLat(d => d.startLat)
-      .arcStartLng(d => d.startLng)
-      .arcEndLat(d => d.endLat)
-      .arcEndLng(d => d.endLng)
-      .arcColor(d => d.color)
-      .arcAltitude(d => d.alt)
-      .arcStroke(d => d.stroke)
-      // efeito pontilhado animado (fica lindo)
-      .arcDashLength(0.45)
-      .arcDashGap(0.22)
-      .arcDashAnimateTime(1200);
+      .pathsData(data)
+      .pathPoints(d => d)            // d é um array de pontos
+      .pathPointLat(p => p.lat)
+      .pathPointLng(p => p.lng)
+      .pathColor(() => "rgba(255, 80, 80, 0.95)")
+      .pathStroke(() => 2.2)         // espessura
+      .pathDashLength(() => 0)       // 0 = linha contínua
+      .pathDashGap(() => 0);
   }
 
   function clearMarkers() {
     pendingGuess = null;
     guessPoint = null;
     answerPoint = null;
-    revealArc = null;        // ✅ limpa a linha também
+    revealPath = null;
     updatePointsLayer();
-    updateArcLayer();
+    updatePathLayer();
   }
 
   function hideReveal() {
@@ -195,8 +190,12 @@
       alt: 0.03,
       color: "rgba(255,255,255,0.92)"
     };
-    updatePointsLayer();
 
+    // se o jogador escolhe outro ponto antes de confirmar, apaga qualquer linha antiga
+    revealPath = null;
+    updatePathLayer();
+
+    updatePointsLayer();
     btnConfirm.disabled = false;
     elDistance.textContent = "—";
     hideToast();
@@ -219,31 +218,24 @@
 
       guessPoint.color = "rgba(255,255,255,0.95)";
 
-      // ✅ cria a linha vermelha ligando o chute ao local correto
-      revealArc = {
-        startLat: pendingGuess.lat,
-        startLng: pendingGuess.lng,
-        endLat: current.lat,
-        endLng: current.lng,
-        color: "rgba(255, 90, 90, 0.95)",
-        alt: 0.18,     // altura do arco (visual)
-        stroke: 0.9    // espessura
-      };
+      // ✅ linha reta ligando os 2 pontos
+      revealPath = [
+        { lat: pendingGuess.lat, lng: pendingGuess.lng },
+        { lat: current.lat, lng: current.lng }
+      ];
+      updatePathLayer();
 
       updatePointsLayer();
-      updateArcLayer();
-
       btnConfirm.disabled = true;
+
       world.pointOfView({ lat: current.lat, lng: current.lng, altitude: 1.7 }, 850);
 
       showReveal(current.revelacao);
-
       confettiBurst();
       showToast("Você acertou!", `Você ficou a ${formatKm(dist)} do ponto exato.`);
       return;
     }
 
-    // errou: pode tentar de novo
     guessPoint.color = "rgba(255,190,190,0.92)";
     updatePointsLayer();
     showToast("Que pena, você errou.", `Você ficou a ${formatKm(dist)} do local correto.`);
@@ -284,10 +276,7 @@
       if (!Array.isArray(locations) || locations.length === 0) throw new Error("JSON inválido ou vazio.");
 
       refillBag();
-
-      // ✅ garante que a camada do arco já existe (mesmo vazia)
-      updateArcLayer();
-
+      updatePathLayer(); // garante camada inicial
       startRound(pickNext());
     } catch (err) {
       console.error(err);
