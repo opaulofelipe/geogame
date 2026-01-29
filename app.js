@@ -15,7 +15,7 @@
   const toastSub = document.getElementById("toastSub");
   const toastClose = document.getElementById("toastClose");
 
-  const HIT_RADIUS_KM = 200;
+  const HIT_RADIUS_KM = 300;
   const EARTH_RADIUS_KM = 6371;
 
   let locations = [];
@@ -27,6 +27,9 @@
 
   let guessPoint = null;
   let answerPoint = null;
+
+  // ✅ arco (linha) ligando chute -> resposta
+  let revealArc = null;
 
   // Globe.gl
   const world = Globe()
@@ -60,7 +63,7 @@
     world.height(window.innerHeight);
   });
 
-  // iOS touch fix: impede o Safari de tratar drag no canvas como scroll/bounce (somente no canvas)
+  // iOS touch fix (somente no canvas)
   function applyIOSTouchFix() {
     const canvas = elGlobe.querySelector("canvas");
     if (!canvas) return;
@@ -144,11 +147,32 @@
       .pointColor(d => d.color || "rgba(255,255,255,0.9)");
   }
 
+  // ✅ desenha/remova a linha (arco) vermelho
+  function updateArcLayer() {
+    const data = revealArc ? [revealArc] : [];
+
+    world
+      .arcsData(data)
+      .arcStartLat(d => d.startLat)
+      .arcStartLng(d => d.startLng)
+      .arcEndLat(d => d.endLat)
+      .arcEndLng(d => d.endLng)
+      .arcColor(d => d.color)
+      .arcAltitude(d => d.alt)
+      .arcStroke(d => d.stroke)
+      // efeito pontilhado animado (fica lindo)
+      .arcDashLength(0.45)
+      .arcDashGap(0.22)
+      .arcDashAnimateTime(1200);
+  }
+
   function clearMarkers() {
     pendingGuess = null;
     guessPoint = null;
     answerPoint = null;
+    revealArc = null;        // ✅ limpa a linha também
     updatePointsLayer();
+    updateArcLayer();
   }
 
   function hideReveal() {
@@ -194,12 +218,24 @@
       };
 
       guessPoint.color = "rgba(255,255,255,0.95)";
+
+      // ✅ cria a linha vermelha ligando o chute ao local correto
+      revealArc = {
+        startLat: pendingGuess.lat,
+        startLng: pendingGuess.lng,
+        endLat: current.lat,
+        endLng: current.lng,
+        color: "rgba(255, 90, 90, 0.95)",
+        alt: 0.18,     // altura do arco (visual)
+        stroke: 0.9    // espessura
+      };
+
       updatePointsLayer();
+      updateArcLayer();
 
       btnConfirm.disabled = true;
       world.pointOfView({ lat: current.lat, lng: current.lng, altitude: 1.7 }, 850);
 
-      // ✅ Revelação só depois do acerto
       showReveal(current.revelacao);
 
       confettiBurst();
@@ -231,7 +267,7 @@
     solved = false;
 
     clearMarkers();
-    hideReveal();              // ✅ esconde a revelação no próximo
+    hideReveal();
     btnConfirm.disabled = true;
     elPrompt.textContent = current?.nome ?? "—";
     elDistance.textContent = "—";
@@ -242,13 +278,16 @@
 
   async function init() {
     try {
-      // cache-busting para evitar JSON “velho”
       const res = await fetch("./locations.json?v=" + Date.now(), { cache: "no-store" });
       if (!res.ok) throw new Error(`HTTP ${res.status} ao carregar locations.json`);
       locations = await res.json();
       if (!Array.isArray(locations) || locations.length === 0) throw new Error("JSON inválido ou vazio.");
 
       refillBag();
+
+      // ✅ garante que a camada do arco já existe (mesmo vazia)
+      updateArcLayer();
+
       startRound(pickNext());
     } catch (err) {
       console.error(err);
@@ -260,4 +299,3 @@
 
   init();
 })();
-
