@@ -4,21 +4,16 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover" />
   <title>GeoGame</title>
-  <link rel="apple-touch-icon" href="./apple-touch-icon.png">
-
 
   <!-- PWA (Android/Chrome/Edge) -->
-  <link rel="manifest" href="./manifest.webmanifest" />
+  <link rel="manifest" href="./manifest.json?v=3" />
   <meta name="theme-color" content="#050712" />
 
   <!-- iOS (Add to Home Screen) -->
   <meta name="apple-mobile-web-app-capable" content="yes" />
   <meta name="apple-mobile-web-app-title" content="GeoGame" />
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
-  <link rel="apple-touch-icon" href="./icons/apple-touch-icon.png" />
-
-  <!-- (Opcional) favicon -->
-  <link rel="icon" type="image/png" sizes="32x32" href="./icons/favicon-32.png" />
+  <link rel="apple-touch-icon" href="./apple-touch-icon.png" />
 
   <style>
     :root{
@@ -229,7 +224,10 @@
   <div class="ui">
     <div class="panel">
       <div class="sheet-handle" aria-hidden="true"></div>
-      <div class="topbar"><div class="brand">GeoGame</div></div>
+
+      <div class="topbar">
+        <div class="brand">GeoGame</div>
+      </div>
 
       <div class="prompt" id="placePrompt">Carregando…</div>
 
@@ -266,12 +264,12 @@
 
   <script src="./app.js?v=dev"></script>
 
-  <!-- Registra o Service Worker (PWA) -->
+  <!-- Service Worker (PWA) -->
   <script>
     if ("serviceWorker" in navigator) {
       window.addEventListener("load", async () => {
         try {
-          await navigator.serviceWorker.register("./service-worker.js");
+          await navigator.serviceWorker.register("./service-worker.js", { scope: "./" });
         } catch (e) {
           console.warn("SW não registrado:", e);
         }
@@ -280,4 +278,3 @@
   </script>
 </body>
 </html>
-
