@@ -1,564 +1,902 @@
 [
   {
-    "id": "highest_mountain_sea_level",
-    "nome": "Maior montanha do mundo em altitude (acima do nível do mar)",
-    "lat": 27.9881,
-    "lng": 86.9250,
-    "revelacao": "Resposta: Monte Everest (Himalaia, fronteira Nepal–China)."
-  },
-  {
-    "id": "tallest_mountain_base_to_peak",
-    "nome": "Montanha mais alta do mundo se medir da base no fundo do oceano até o topo",
-    "lat": 19.8206,
-    "lng": -155.4681,
-    "revelacao": "Resposta: Mauna Kea (Havaí, EUA)."
-  },
-  {
-    "id": "longest_mountain_range_continental",
-    "nome": "Maior cordilheira continental do mundo em extensão",
-    "lat": -32.6532,
-    "lng": -70.0109,
-    "revelacao": "Resposta: Andes (o ponto está perto do Aconcágua, referência)."
-  },
-  {
-    "id": "highest_mountain_outside_asia",
-    "nome": "Maior montanha do mundo fora da Ásia (em altitude)",
-    "lat": -32.6532,
-    "lng": -70.0109,
-    "revelacao": "Resposta: Aconcágua (Andes, Argentina)."
-  },
-  {
-    "id": "largest_plateau",
-    "nome": "Maior planalto do mundo (em área)",
-    "lat": 32.0,
-    "lng": 88.0,
-    "revelacao": "Resposta: Planalto do Tibete (China e região do Himalaia)."
-  },
-  {
-    "id": "largest_desert",
-    "nome": "Maior deserto do mundo (por área)",
-    "lat": -82.0,
-    "lng": 0.0,
-    "revelacao": "Resposta: Antártida (deserto polar, pouca precipitação)."
-  },
-  {
-    "id": "largest_hot_desert",
-    "nome": "Maior deserto quente do mundo",
-    "lat": 23.4162,
-    "lng": 25.6628,
-    "revelacao": "Resposta: Saara (norte da África)."
-  },
-  {
-    "id": "largest_island",
-    "nome": "Maior ilha do mundo",
-    "lat": 72.0,
-    "lng": -40.0,
-    "revelacao": "Resposta: Groenlândia (território do Reino da Dinamarca)."
-  },
-  {
-    "id": "largest_peninsula",
-    "nome": "Maior península do mundo",
-    "lat": 23.8,
-    "lng": 45.1,
-    "revelacao": "Resposta: Península Arábica (principalmente Arábia Saudita)."
-  },
-  {
-    "id": "largest_lake_area",
-    "nome": "Maior lago do mundo por área",
-    "lat": 41.8476,
-    "lng": 50.3568,
-    "revelacao": "Resposta: Mar Cáspio (entre Europa e Ásia)."
-  },
-  {
-    "id": "largest_freshwater_lake_area",
-    "nome": "Maior lago de água doce do mundo por área",
-    "lat": 47.7,
-    "lng": -87.5,
-    "revelacao": "Resposta: Lago Superior (EUA–Canadá)."
-  },
-  {
-    "id": "deepest_freshwater_lake",
-    "nome": "Lago mais profundo do mundo (água doce)",
-    "lat": 53.5,
-    "lng": 108.1,
-    "revelacao": "Resposta: Lago Baikal (Sibéria, Rússia)."
-  },
-  {
-    "id": "largest_freshwater_lake_volume",
-    "nome": "Maior lago de água doce do mundo por volume",
-    "lat": 53.5,
-    "lng": 108.1,
-    "revelacao": "Resposta: Lago Baikal (também é o mais profundo)."
-  },
-  {
-    "id": "longest_river_traditional",
-    "nome": "Rio tradicionalmente citado como o mais longo do mundo",
-    "lat": 31.3,
-    "lng": 31.9,
-    "revelacao": "Resposta: Rio Nilo (deságua no Mediterrâneo)."
-  },
-  {
-    "id": "largest_river_discharge",
-    "nome": "Rio com maior vazão do mundo",
-    "lat": 0.5,
-    "lng": -49.5,
-    "revelacao": "Resposta: Rio Amazonas (norte do Brasil)."
-  },
-  {
-    "id": "largest_drainage_basin",
-    "nome": "Maior bacia hidrográfica do mundo",
-    "lat": -3.1,
-    "lng": -60.0,
-    "revelacao": "Resposta: Bacia Amazônica (referência perto de Manaus, Brasil)."
-  },
-  {
-    "id": "highest_waterfall",
-    "nome": "Cachoeira com a maior queda d’água do mundo (mais alta)",
-    "lat": 5.967,
-    "lng": -62.535,
-    "revelacao": "Resposta: Salto Ángel (Venezuela)."
-  },
-  {
-    "id": "largest_waterfall_system",
-    "nome": "Maior conjunto de cataratas do mundo (sistema de quedas)",
-    "lat": -25.695,
-    "lng": -54.436,
-    "revelacao": "Resposta: Cataratas do Iguaçu (Brasil–Argentina)."
-  },
-  
-  {
-    "id": "largest_bay",
-    "nome": "Maior baía do mundo",
-    "lat": 15.0,
-    "lng": 88.0,
-    "revelacao": "Resposta: Baía de Bengala (Índia–Bangladesh–Mianmar)."
-  },
-  {
-    "id": "largest_gulf",
-    "nome": "Maior golfo do mundo",
-    "lat": 25.0,
-    "lng": -90.0,
-    "revelacao": "Resposta: Golfo do México (entre EUA, México e Cuba)."
-  },
-  {
-    "id": "highest_volcano",
-    "nome": "Vulcão mais alto do mundo (em altitude)",
-    "lat": -27.109,
-    "lng": -68.541,
-    "revelacao": "Resposta: Ojos del Salado (Chile–Argentina)."
-  },
-  {
-    "id": "largest_volcano_volume",
-    "nome": "Maior vulcão do mundo por volume",
-    "lat": 19.475,
-    "lng": -155.608,
-    "revelacao": "Resposta: Mauna Loa (Havaí, EUA)."
-  },
-  {
-    "id": "largest_coral_reef",
-    "nome": "Maior recife de coral do mundo",
-    "lat": -18.2871,
-    "lng": 147.6992,
-    "revelacao": "Resposta: Grande Barreira de Coral (Austrália)."
-  },
-  {
-    "id": "largest_ice_sheet",
-    "nome": "Maior camada de gelo do mundo (mantos de gelo)",
-    "lat": -75.0,
-    "lng": 0.0,
-    "revelacao": "Resposta: Manto de gelo da Antártida (cobre quase todo o continente)."
-  },
-  {
-    "id": "largest_country_area",
-    "nome": "Maior país do mundo em área",
-    "lat": 61.524,
-    "lng": 105.318,
-    "revelacao": "Resposta: Rússia (se estende da Europa ao Pacífico)."
-  },
-  {
-    "id": "largest_landlocked_country",
-    "nome": "Maior país sem saída para o mar",
-    "lat": 48.0196,
-    "lng": 66.9237,
-    "revelacao": "Resposta: Cazaquistão (Ásia Central)."
-  },
-  {
-    "id": "largest_continent",
-    "nome": "Maior continente do mundo",
-    "lat": 34.0,
-    "lng": 100.0,
-    "revelacao": "Resposta: Ásia (ponto de referência no interior do continente)."
-  },
-  {
-    "id": "smallest_continent",
-    "nome": "Menor continente do mundo",
-    "lat": -25.0,
-    "lng": 133.0,
-    "revelacao": "Resposta: Oceania/Austrália (referência no interior da Austrália)."
-  },
-  {
-    "id": "highest_point_europe",
-    "nome": "Ponto mais alto da Europa (montanha)",
-    "lat": 43.355,
-    "lng": 42.439,
-    "revelacao": "Resposta: Monte Elbrus (Rússia, Cáucaso)."
-  },
-  {
-    "id": "largest_delta",
-    "nome": "Maior delta do mundo",
-    "lat": 21.95,
-    "lng": 89.18,
-    "revelacao": "Resposta: Delta do Ganges–Brahmaputra–Meghna (Sundarbans, Bangladesh/Índia)."
-  },
-    {
-    "nome": "Maior terremoto já registrado (em magnitude)",
-    "revelacao": "Grande Terremoto do Chile (Valdivia), 1960 — magnitude 9,5.",
-    "lat": -38.143,
-    "lon": -73.407
-  },
-  {
-    "nome": "Maior tsunami já registrado (maior altura de subida/\"run-up\")",
-    "revelacao": "Megatsunami da Baía de Lituya (Alasca), 1958 — run-up de 524 m.",
-    "lat": 58.6333,
-    "lon": -137.5667
-  },
-  {
-    "nome": "Edifício mais alto do mundo",
-    "revelacao": "Burj Khalifa, Dubai (Emirados Árabes Unidos) — 828 m.",
-    "lat": 25.197525,
-    "lon": 55.274288
-  },
-  {
-    "nome": "Maior sistema de metrô do mundo (por extensão de linhas)",
-    "revelacao": "Beijing Subway (Metrô de Pequim), China — maior por extensão de rede.",
-    "lat": 39.90549,
-    "lon": 116.397632
-  },
-  {
-    "nome": "Maior aeroporto do mundo (por área total)",
-    "revelacao": "Aeroporto Internacional Rei Fahd (Dammam), Arábia Saudita — maior por área.",
-    "lat": 26.4693,
-    "lon": 49.792
-  },
-  {
-    "nome": "Maior ponte do mundo (em extensão total)",
-    "revelacao": "Ponte Danyang–Kunshan (China) — a mais longa do mundo (viaduto).",
-    "lat": 31.597837,
-    "lon": 120.456848
-  },
-  {
-    "nome": "Maior túnel ferroviário do mundo (em comprimento)",
-    "revelacao": "Túnel de Base de São Gotardo (Suíça) — 57 km.",
-    "lat": 46.6,
-    "lon": 8.765
-  },
-  {
-    "nome": "Maior prédio do mundo (por volume interno)",
-    "revelacao": "Fábrica Boeing Everett (EUA) — maior edifício por volume.",
-    "lat": 47.9257,
-    "lon": -122.2718
-  },
-  {
-    "nome": "Maior estádio do mundo (por capacidade)",
-    "revelacao": "Narendra Modi Stadium (Ahmedabad, Índia) — capacidade ~132 mil.",
-    "lat": 23.091841,
-    "lon": 72.597176
-  },
-  {
-    "nome": "Maior usina hidrelétrica do mundo (por capacidade instalada)",
-    "revelacao": "Usina de Três Gargantas (China) — 22.500 MW.",
-    "lat": 30.752206,
-    "lon": 111.2672
-  },
-  {
-    "nome": "Maior cratera de impacto da Terra (exposta)",
-    "revelacao": "Cratera de Vredefort (África do Sul) — a maior estrutura de impacto confirmada.",
-    "lat": -26.99655,
-    "lon": 27.37067
-  },
-  {
-    "nome": "Maior caldeira vulcânica do Quaternário",
-    "revelacao": "Caldeira de Toba / Lago Toba (Sumatra, Indonésia) — supervulcão.",
-    "lat": 2.6083,
-    "lon": 98.8417
-  },
-  {
-    "nome": "Maior geleira do mundo (por volume/escala)",
-    "revelacao": "Geleira Lambert (Antártida) — uma das maiores do planeta.",
-    "lat": -71.0,
-    "lon": 70.0
-  },
-  {
-    "nome": "Maior caverna natural do mundo (por volume do salão/galerias)",
-    "revelacao": "Caverna Sơn Đoòng (Vietnã) — maior caverna conhecida por volume.",
-    "lat": 17.9167,
-    "lon": 106.2333
-  },
-  {
-    "nome": "Maior planície alagada do mundo",
-    "revelacao": "Pantanal (Brasil/Bolívia/Paraguai) — a maior planície alagável tropical.",
-    "lat": -18.0,
-    "lon": -56.5
-  },
-  {
-    "nome": "Maior ilha flúvio-marítima do mundo",
-    "revelacao": "Ilha de Marajó (Pará, Brasil) — na foz do rio Amazonas.",
-    "lat": -0.9833,
-    "lon": -49.5833
-  },
-   {
-    "id": "k2",
-    "nome": "Montanha K2",
-    "lat": 35.8808,
-    "lng": 76.5158,
-    "revelacao": "Resposta: K2 (Cordilheira do Karakoram, fronteira Paquistão–China)."
-  },
-  {
-    "id": "table_mountain",
-    "nome": "Montanha da Mesa",
-    "lat": -33.9628,
-    "lng": 18.4098,
-    "revelacao": "Resposta: Table Mountain (Cidade do Cabo, África do Sul)."
-  },
-  {
-    "id": "mount_kosciuszko",
-    "nome": "Monte Kosciuszko",
-    "lat": -36.4553,
-    "lng": 148.2633,
-    "revelacao": "Resposta: Monte Kosciuszko (Nova Gales do Sul, Austrália)."
-  },
-  {
-    "id": "mount_kilimanjaro",
-    "nome": "Monte Kilimanjaro",
-    "lat": -3.0674,
-    "lng": 37.3556,
-    "revelacao": "Resposta: Kilimanjaro (Tanzânia, África Oriental)."
-  },
-  {
-    "id": "lake_victoria",
-    "nome": "Lago Vitória",
-    "lat": -1.0,
-    "lng": 33.0,
-    "revelacao": "Resposta: Lago Vitória (Uganda–Quênia–Tanzânia)."
-  },
-  {
-    "id": "lake_superior_specific",
-    "nome": "Lago Superior",
-    "lat": 47.7,
-    "lng": -87.5,
-    "revelacao": "Resposta: Lago Superior (EUA–Canadá)."
-  },
-  {
-    "id": "lake_tanganyika",
-    "nome": "Lago Tanganica",
-    "lat": -6.3,
-    "lng": 29.8,
-    "revelacao": "Resposta: Lago Tanganica (Tanzânia–RD Congo–Burundi–Zâmbia)."
-  },
-  {
-    "id": "gobi_desert",
-    "nome": "Deserto de Gobi",
-    "lat": 42.6,
-    "lng": 103.8,
-    "revelacao": "Resposta: Deserto de Gobi (Mongólia e norte da China)."
-  },
-  {
-    "id": "atacama_desert",
-    "nome": "Deserto de Atacama",
-    "lat": -24.5,
-    "lng": -69.25,
-    "revelacao": "Resposta: Deserto do Atacama (norte do Chile)."
-  },
-  {
-    "id": "kalahari_desert",
-    "nome": "Deserto do Kalahari",
-    "lat": -23.0,
-    "lng": 22.0,
-    "revelacao": "Resposta: Deserto do Kalahari (principalmente Botsuana)."
-  },
-  {
-    "id": "great_victoria_desert",
-    "nome": "Grande Deserto de Vitória",
-    "lat": -29.0,
-    "lng": 129.0,
-    "revelacao": "Resposta: Great Victoria Desert (sul da Austrália)."
-  },
-  {
-    "id": "angkor_wat",
-    "nome": "Angkor Wat",
-    "lat": 13.4125,
-    "lng": 103.867,
-    "revelacao": "Resposta: Angkor Wat (Siem Reap, Camboja)."
-  },
-  {
-    "id": "gobekli_tepe",
-    "nome": "Göbekli Tepe",
-    "lat": 37.2231,
-    "lng": 38.9226,
-    "revelacao": "Resposta: Göbekli Tepe (perto de Şanlıurfa, Turquia)."
-  },
-  {
-    "id": "petra",
-    "nome": "Petra",
-    "lat": 30.3285,
-    "lng": 35.4444,
-    "revelacao": "Resposta: Petra (Jordânia, região de Ma'an)."
-  },
-  {
-    "id": "karnak_temple",
-    "nome": "Templo de Karnak",
-    "lat": 25.7196,
-    "lng": 32.6573,
-    "revelacao": "Resposta: Complexo de Karnak (Luxor, Egito)."
-  },
-  {
-    "id": "hattusa",
-    "nome": "Hattusa",
-    "lat": 40.02,
-    "lng": 34.62,
-    "revelacao": "Resposta: Hattusa (Boğazkale, Turquia; capital hitita)."
-  },
-  {
-    "id": "nuclear_accident_1986",
-    "nome": "Local do acidente nuclear de 1986",
-    "lat": 51.389,
-    "lng": 30.099,
-    "revelacao": "Resposta: Usina de Chernobyl (perto de Pripyat, Ucrânia)."
-  },
-  {
-    "id": "roman_city_79ad_ash",
-    "nome": "Cidade romana sepultada por cinzas em 79 d.C.",
-    "lat": 40.7497,
-    "lng": 14.4869,
-    "revelacao": "Resposta: Pompeia (perto de Nápoles, Itália)."
-  },
-  {
-    "id": "giant_tortoises_archipelago",
-    "nome": "Arquipélago das “tartarugas gigantes” ligado a estudos sobre evolução",
-    "lat": -0.639,
-    "lng": -90.354,
-    "revelacao": "Resposta: Ilhas Galápagos (Equador)."
-  },
-  {
-    "id": "prehistoric_t_pillars_temple",
-    "nome": "Templo pré-histórico com pilares em “T” e relevos de animais",
-    "lat": 37.2231,
-    "lng": 38.9226,
-    "revelacao": "Resposta: Göbekli Tepe (perto de Şanlıurfa, Turquia)."
-  },
-  {
-    "id": "rose_rock_city_siq",
-    "nome": "Cidade antiga esculpida em rocha rosada, acessada por um desfiladeiro estreito",
-    "lat": 30.3285,
-    "lng": 35.4444,
-    "revelacao": "Resposta: Petra (Jordânia)."
-  },
-  {
-    "id": "hittite_capital_lions_gate",
-    "nome": "Capital hitita da Idade do Bronze com a famosa Porta dos Leões",
-    "lat": 40.02,
-    "lng": 34.62,
-    "revelacao": "Resposta: Hattusa (Boğazkale, Turquia)."
-  },
-  {
-    "id": "first_nuclear_test_1945",
-    "nome": "Local do primeiro teste nuclear da história (1945)",
-    "lat": 33.6773,
-    "lng": -106.4754,
-    "revelacao": "Resposta: Trinity Site (Novo México, EUA)."
-  },
-  {
-    "id": "napoleon_final_exile_island",
-    "nome": "Ilha do exílio final de Napoleão (morreu em 1821)",
-    "lat": -15.965,
-    "lng": -5.708,
-    "revelacao": "Resposta: Ilha de Santa Helena (Atlântico Sul)."
-  },
-  {
-    "id": "fall_of_berlin_wall_1989",
-    "nome": "Lugar símbolo da queda do Muro que dividia a Guerra Fria (1989)",
-    "lat": 52.5163,
-    "lng": 13.3777,
-    "revelacao": "Resposta: Berlim (referência: Portão de Brandemburgo, Alemanha)."
-  },
-  {
-    "id": "oil_chokepoint_strait",
-    "nome": "Estreito com um dos maiores engargalamentos marítimos do petróleo mundial",
-    "lat": 26.566,
-    "lng": 56.25,
-    "revelacao": "Resposta: Estreito de Ormuz (entre Irã e Omã)."
-  },
-  {
-    "id": "canal_1914",
-    "nome": "Canal artificial inaugurado em 1914",
-    "lat": 9.1012,
-    "lng": -79.6972,
-    "revelacao": "Resposta: Canal do Panamá (Panamá)."
-  },
-  {
-    "id": "birthplace_cuneiform",
-    "nome": "Região onde nasceu a escrita cuneiforme (primeiras tabuletas administrativas)",
-    "lat": 31.3222,
-    "lng": 45.6364,
-    "revelacao": "Resposta: Uruk (atual sul do Iraque)."
-  },
-  {
-    "id": "titanic_wreck",
-    "nome": "Local do naufrágio do Titanic",
-    "lat": 41.7325,
-    "lng": -49.9469,
-    "revelacao": "Resposta: Atlântico Norte (local aproximado do naufrágio)."
-  },
-  {
-    "id": "hannibal_elephants_alps_crossing",
-    "nome": "Região da travessia histórica pelos Alpes com elefantes rumo à península Itálica",
-    "lat": 44.708,
-    "lng": 6.978,
-    "revelacao": "Resposta: Alpes (referência: área do Col de la Traversette, França/Itália)."
-  },
-  {
-    "id": "first_atomic_bomb_city_1945",
-    "nome": "Cidade atingida pela primeira bomba atômica em 1945",
-    "lat": 34.3853,
-    "lng": 132.4553,
-    "revelacao": "Resposta: Hiroshima (Japão)."
-  },
-  {
-    "id": "second_atomic_bomb_city_1945",
-    "nome": "Cidade atingida pela segunda bomba atômica em 1945",
-    "lat": 32.7503,
-    "lng": 129.8777,
-    "revelacao": "Resposta: Nagasaki (Japão)."
-  },
-  {
-    "id": "great_earthquake_1755",
-    "nome": "Local do grande terremoto de 1755 que impactou debates filosóficos europeus",
-    "lat": 38.711,
-    "lng": -9.141,
-    "revelacao": "Resposta: Lisboa (Portugal)."
-  },
-  {
-    "id": "uluru",
-    "nome": "Monólito sagrado no deserto australiano (grande rocha isolada)",
-    "lat": -25.3444,
-    "lng": 131.0369,
-    "revelacao": "Resposta: Uluru (Território do Norte, Austrália)."
-  },
-  {
-    "id": "kakadu_archaeological_site",
-    "nome": "Sítio arqueológico australiano famoso por arte rupestre ancestral",
-    "lat": -12.423,
-    "lng": 132.904,
-    "revelacao": "Resposta: Kakadu (referência: Ubirr, Parque Nacional de Kakadu, Austrália)."
-  },
-  {
-    "id": "port_arthur_prison",
-    "nome": "Histórica prisão penal colonial na Tasmânia",
-    "lat": -43.1467,
-    "lng": 147.8519,
-    "revelacao": "Resposta: Port Arthur (Tasmânia, Austrália)."
+    "id": "tassili-n-ajjer",
+    "nome": "Os seres de cabeça redonda",
+    "pista": "No coração do Saara, figuras humanas fluidas e rebanhos registram a transformação de uma savana fértil em deserto.",
+    "periodo": "c. 10.000 a.C.–era comum",
+    "resposta": "Tassili n’Ajjer",
+    "pais": "Argélia",
+    "regiao": "África",
+    "lat": 25.6667,
+    "lng": 9.0,
+    "revelacao": "Um vasto arquivo de milhares de pinturas e gravuras no sudeste argelino.",
+    "imagemArquivo": "Cave painting from the Tassili n'Ajjer mountains.jpg",
+    "imagemAlt": "Figuras humanas e animais pintadas em tons ocres numa parede de Tassili n’Ajjer."
+  },
+  {
+    "id": "tadrart-acacus",
+    "nome": "Pastores onde hoje há areia",
+    "pista": "Cenas de caça, dança e pastoreio sobrevivem em abrigos de arenito de uma região hoje extremamente árida.",
+    "periodo": "c. 12.000 a.C.–100 d.C.",
+    "resposta": "Tadrart Acacus",
+    "pais": "Líbia",
+    "regiao": "África",
+    "lat": 24.8334,
+    "lng": 10.3333,
+    "revelacao": "As imagens preservam sucessivas mudanças ambientais e modos de vida do Saara.",
+    "imagemArquivo": "Libya 4870 Pictograms Tadrart Acacus Luca Galuzzi 2007.jpg",
+    "imagemAlt": "Pessoas e animais pintados em vermelho numa parede rochosa de Tadrart Acacus."
+  },
+  {
+    "id": "tsodilo",
+    "nome": "O Louvre do deserto",
+    "pista": "Quatro colinas erguem-se sobre o Kalahari e guardam milhares de imagens, incluindo uma célebre girafa.",
+    "periodo": "Milênios de ocupação",
+    "resposta": "Tsodilo",
+    "pais": "Botsuana",
+    "regiao": "África",
+    "lat": -18.7717,
+    "lng": 21.7542,
+    "revelacao": "O conjunto é sagrado para comunidades locais e reúne uma das maiores concentrações de arte rupestre da região.",
+    "imagemArquivo": "Red and White Rock Art Tsodilo.jpg",
+    "imagemAlt": "Figura de um antílope pintada em vermelho e branco nas rochas de Tsodilo."
+  },
+  {
+    "id": "twyfelfontein",
+    "nome": "O leão com cauda de mão",
+    "pista": "Caçadores gravaram rinocerontes, elefantes e um felino singular nas rochas avermelhadas de um vale seco.",
+    "periodo": "Idade da Pedra",
+    "resposta": "Twyfelfontein",
+    "pais": "Namíbia",
+    "regiao": "África",
+    "lat": -20.5956,
+    "lng": 14.3726,
+    "revelacao": "O sítio reúne uma extraordinária concentração de gravuras de comunidades caçadoras-coletoras.",
+    "imagemArquivo": "Rock Paintig Twyfelfontein Namibia.jpg",
+    "imagemAlt": "Animais gravados numa laje alaranjada em Twyfelfontein."
+  },
+  {
+    "id": "brandberg-white-lady",
+    "nome": "A figura branca da montanha",
+    "pista": "Uma personagem clara, cercada por caçadores e animais, tornou este abrigo um ícone do sul da África.",
+    "periodo": "Tradição San",
+    "resposta": "Abrigo da White Lady, Brandberg",
+    "pais": "Namíbia",
+    "regiao": "África",
+    "lat": -21.1495,
+    "lng": 14.5775,
+    "revelacao": "A famosa figura integra um painel muito maior no maciço de Brandberg.",
+    "imagemArquivo": "White lady 2008 08.jpg",
+    "imagemAlt": "Detalhe da figura conhecida como White Lady em um painel de Brandberg."
+  },
+  {
+    "id": "drakensberg-eland-cave",
+    "nome": "A dança dos elandes",
+    "pista": "Antílopes esguios e figuras humanas parecem mover-se pelas paredes de um abrigo em uma cadeia montanhosa do sul africano.",
+    "periodo": "Tradição San",
+    "resposta": "Eland Cave, Drakensberg",
+    "pais": "África do Sul",
+    "regiao": "África",
+    "lat": -28.95,
+    "lng": 29.2,
+    "revelacao": "O elande ocupa papel central na cosmologia e na arte San preservada em uKhahlamba-Drakensberg.",
+    "imagemArquivo": "ELANDS - San rock paintings at Eland Cave, Cathedral Peak, South Africa, 2017.jpg",
+    "imagemAlt": "Elandes e pessoas pintados em ocre no abrigo Eland Cave, nas montanhas Drakensberg."
+  },
+  {
+    "id": "cederberg",
+    "nome": "Cinco figuras de manto",
+    "pista": "Em abrigos de arenito entre formações esculturais, personagens San usam mantos e dividem a parede com elefantes.",
+    "periodo": "Tradição San",
+    "resposta": "Cederberg",
+    "pais": "África do Sul",
+    "regiao": "África",
+    "lat": -32.492,
+    "lng": 19.254,
+    "revelacao": "Centenas de abrigos fazem desta paisagem do Cabo Ocidental uma grande galeria San.",
+    "imagemArquivo": "San Rock Art - Cederberg.jpg",
+    "imagemAlt": "Figuras humanas San pintadas em vermelho numa parede do Cederberg."
+  },
+  {
+    "id": "matobo-hills",
+    "nome": "Animais entre grandes blocos",
+    "pista": "Colinas de granito arredondado escondem abrigos com cenas naturalistas de caça e vida cotidiana.",
+    "periodo": "Pelo menos 13.000 anos",
+    "resposta": "Colinas de Matobo",
+    "pais": "Zimbábue",
+    "regiao": "África",
+    "lat": -20.55,
+    "lng": 28.508,
+    "revelacao": "A longa sequência de pinturas acompanha mudanças culturais no sudoeste do Zimbábue.",
+    "imagemArquivo": "Motherandchild Matobo.jpg",
+    "imagemAlt": "Figuras humanas pintadas em uma parede de abrigo nas Colinas de Matobo."
+  },
+  {
+    "id": "chongoni",
+    "nome": "Geometrias de uma tradição viva",
+    "pista": "Formas brancas ligadas a ritos femininos convivem com pinturas vermelhas de caçadores em colinas florestadas.",
+    "periodo": "Idade da Pedra ao séc. XX",
+    "resposta": "Área de Arte Rupestre de Chongoni",
+    "pais": "Maláui",
+    "regiao": "África",
+    "lat": -14.2933,
+    "lng": 34.2792,
+    "revelacao": "As pinturas Batwa e Chewa conectam arqueologia e práticas culturais ainda relevantes.",
+    "imagemArquivo": "Chongoni rock art.jpg",
+    "imagemAlt": "Formas humanas e geométricas claras pintadas numa rocha de Chongoni."
+  },
+  {
+    "id": "kondoa",
+    "nome": "A procissão vermelha",
+    "pista": "Pequenas figuras humanas alongadas correm, dançam e caçam em abrigos de uma escarpa da África Oriental.",
+    "periodo": "Tradições antigas e recentes",
+    "resposta": "Sítios de Arte Rupestre de Kondoa",
+    "pais": "Tanzânia",
+    "regiao": "África",
+    "lat": -4.7244,
+    "lng": 35.8339,
+    "revelacao": "Centenas de abrigos documentam tradições de caçadores-coletores e agricultores.",
+    "imagemArquivo": "Kondoa Irangi Rock Paintings (51507756351).jpg",
+    "imagemAlt": "Conjunto de pequenas figuras avermelhadas pintadas em Kondoa Irangi."
+  },
+  {
+    "id": "laas-geel",
+    "nome": "Bois de pescoços ornamentados",
+    "pista": "Rebanhos multicoloridos, acompanhados de pessoas e cães, cobrem abrigos de granito no Chifre da África.",
+    "periodo": "Neolítico",
+    "resposta": "Laas Geel",
+    "pais": "Somalilândia",
+    "regiao": "África",
+    "lat": 9.7803,
+    "lng": 44.4433,
+    "revelacao": "As vacas de chifres curvos e vestes cerimoniais estão entre as imagens mais bem preservadas da região.",
+    "imagemArquivo": "Laas Geel cow herd.jpg",
+    "imagemAlt": "Rebanho de vacas estilizadas em vermelho, branco e ocre nas cavernas de Laas Geel."
+  },
+  {
+    "id": "ennedi-manda-gueli",
+    "nome": "Camelos sob um teto de pedra",
+    "pista": "Pastores e animais ocupam um grande abrigo num maciço de arcos, cânions e torres de arenito.",
+    "periodo": "Milênios de arte saariana",
+    "resposta": "Manda Guéli, Maciço do Ennedi",
+    "pais": "Chade",
+    "regiao": "África",
+    "lat": 17.0417,
+    "lng": 21.8628,
+    "revelacao": "As pinturas testemunham épocas mais úmidas e a posterior presença de camelos no Saara.",
+    "imagemArquivo": "Prehistoric Rock Paintings at Manda Guéli Cave in the Ennedi Mountains - northeastern Chad 2015.jpg",
+    "imagemAlt": "Animais e pessoas pintados em um grande painel da caverna Manda Guéli no Ennedi."
+  },
+  {
+    "id": "dabous-giraffes",
+    "nome": "As duas girafas gigantes",
+    "pista": "Um par de animais em tamanho quase natural foi gravado no topo de uma laje, cercado hoje pelas areias do Saara.",
+    "periodo": "c. 8.000–6.000 a.C.",
+    "resposta": "Girafas de Dabous",
+    "pais": "Níger",
+    "regiao": "África",
+    "lat": 18.0303,
+    "lng": 7.5806,
+    "revelacao": "As gravuras monumentais ficam na região do Aïr e estão entre as imagens rupestres mais célebres da África.",
+    "imagemArquivo": "DabousGiraffe.jpg",
+    "imagemAlt": "Grande girafa gravada na superfície de uma rocha em Dabous."
+  },
+
+  {
+    "id": "lascaux",
+    "nome": "O salão dos touros",
+    "pista": "Touros, cavalos e cervos ganham volume e movimento numa caverna descoberta por adolescentes durante a Segunda Guerra.",
+    "periodo": "c. 17.000 anos",
+    "resposta": "Caverna de Lascaux",
+    "pais": "França",
+    "regiao": "Europa",
+    "lat": 45.0538,
+    "lng": 1.171,
+    "revelacao": "A caverna original está fechada para conservação; réplicas preservam a experiência visual.",
+    "imagemArquivo": "Lascaux painting.jpg",
+    "imagemAlt": "Grandes bovinos e cavalos pintados no teto claro da caverna de Lascaux."
+  },
+  {
+    "id": "chauvet",
+    "nome": "A parede dos leões",
+    "pista": "Felinos, rinocerontes e ursos aparecem sobrepostos com extraordinário domínio de linha e movimento.",
+    "periodo": "c. 36.000 anos",
+    "resposta": "Caverna de Chauvet-Pont-d’Arc",
+    "pais": "França",
+    "regiao": "Europa",
+    "lat": 44.3881,
+    "lng": 4.4161,
+    "revelacao": "Seus painéis estão entre os mais antigos exemplos conhecidos de arte figurativa europeia.",
+    "imagemArquivo": "Lions painting, Chauvet Cave (museum replica).jpg",
+    "imagemAlt": "Réplica do painel de leões desenhados a carvão da caverna de Chauvet."
+  },
+  {
+    "id": "altamira",
+    "nome": "Bisões no teto",
+    "pista": "O relevo natural da rocha foi usado para dar corpo a animais pintados em vermelho, preto e ocre.",
+    "periodo": "Paleolítico Superior",
+    "resposta": "Caverna de Altamira",
+    "pais": "Espanha",
+    "regiao": "Europa",
+    "lat": 43.3769,
+    "lng": -4.1198,
+    "revelacao": "A qualidade dos bisões levou o local a ser chamado de Capela Sistina da arte paleolítica.",
+    "imagemArquivo": "9 Bisonte Magdaleniense polícromo.jpg",
+    "imagemAlt": "Bisão policromado em vermelho e preto no teto de Altamira."
+  },
+  {
+    "id": "el-castillo",
+    "nome": "Mãos e discos vermelhos",
+    "pista": "Estênceis de mãos e pontos circulares ocupam uma caverna do mesmo complexo pré-histórico de outras grandes grutas cantábricas.",
+    "periodo": "Mais de 40.000 anos",
+    "resposta": "Caverna de El Castillo",
+    "pais": "Espanha",
+    "regiao": "Europa",
+    "lat": 43.2923,
+    "lng": -3.9655,
+    "revelacao": "Alguns motivos estão entre as pinturas datadas mais antigas da Europa.",
+    "imagemArquivo": "Hands Panel - Cave of the Castle (cueva del castillo) detail.jpg",
+    "imagemAlt": "Estênceis de mãos vermelhas no painel da caverna de El Castillo."
+  },
+  {
+    "id": "pech-merle",
+    "nome": "Os cavalos pontilhados",
+    "pista": "Dois cavalos cercados por pontos e silhuetas de mãos formam uma das composições mais reconhecíveis da pré-história.",
+    "periodo": "c. 25.000 anos",
+    "resposta": "Pech Merle",
+    "pais": "França",
+    "regiao": "Europa",
+    "lat": 44.5081,
+    "lng": 1.6444,
+    "revelacao": "O painel dos cavalos malhados combina pigmento, contorno e o relevo natural da parede.",
+    "imagemArquivo": "Pech Merle cave leopard spotting.JPG",
+    "imagemAlt": "Dois cavalos com manchas negras e mãos em negativo na caverna de Pech Merle."
+  },
+  {
+    "id": "font-de-gaume",
+    "nome": "A procissão dos bisões",
+    "pista": "Dezenas de bisões policromados acompanham cavalos, mamutes e renas numa estreita galeria calcária.",
+    "periodo": "Magdaleniano",
+    "resposta": "Font-de-Gaume",
+    "pais": "França",
+    "regiao": "Europa",
+    "lat": 44.9347,
+    "lng": 1.0289,
+    "revelacao": "É uma das raras cavernas francesas com pintura paleolítica original ainda acessível em visitas limitadas.",
+    "imagemArquivo": "Font de gaume bison.jpg",
+    "imagemAlt": "Reprodução histórica do contorno de um bisão da galeria de Font-de-Gaume."
+  },
+  {
+    "id": "rouffignac",
+    "nome": "A caverna dos cem mamutes",
+    "pista": "A maior parte dos animais desenhados nas galerias pertence à espécie de grandes presas e pelagem longa.",
+    "periodo": "Magdaleniano",
+    "resposta": "Caverna de Rouffignac",
+    "pais": "França",
+    "regiao": "Europa",
+    "lat": 45.0088,
+    "lng": 0.9876,
+    "revelacao": "Mais de 150 mamutes fazem deste labirinto subterrâneo um caso excepcional.",
+    "imagemArquivo": "Grotte de Rouff mammut.jpg",
+    "imagemAlt": "Desenho rupestre de um mamute com presas curvas em Rouffignac."
+  },
+  {
+    "id": "coa-valley",
+    "nome": "O santuário ao ar livre",
+    "pista": "Cavalos, auroques e cabras foram gravados em painéis de xisto ao longo de um rio, sob céu aberto.",
+    "periodo": "c. 22.000–10.000 a.C.",
+    "resposta": "Vale do Côa",
+    "pais": "Portugal",
+    "regiao": "Europa",
+    "lat": 41.033,
+    "lng": -7.117,
+    "revelacao": "A descoberta ajudou a cancelar uma barragem e transformou a compreensão da arte paleolítica ao ar livre.",
+    "imagemArquivo": "Prehistoric Rock-Art Site of the Côa Valley - Penascosa - Bull @ 2011-08-06.jpg",
+    "imagemAlt": "Contorno de um bovino paleolítico gravado em rocha no sítio de Penascosa, Vale do Côa."
+  },
+  {
+    "id": "siega-verde",
+    "nome": "Animais à margem do Águeda",
+    "pista": "Cavalos, cervos e um raro rinoceronte foram picotados e incisos em rochas junto a um rio ibérico.",
+    "periodo": "Paleolítico Superior",
+    "resposta": "Siega Verde",
+    "pais": "Espanha",
+    "regiao": "Europa",
+    "lat": 40.6975,
+    "lng": -6.6611,
+    "revelacao": "O sítio espanhol integra o Patrimônio Mundial transfronteiriço compartilhado com o Vale do Côa.",
+    "imagemArquivo": "Siega Verde.JPG",
+    "imagemAlt": "Gravura paleolítica de animal numa laje ao ar livre em Siega Verde."
+  },
+  {
+    "id": "valcamonica",
+    "nome": "O duelo gravado",
+    "pista": "Milhares de figuras — guerreiros, cervos, arados e símbolos — cobrem rochas polidas por antigas geleiras alpinas.",
+    "periodo": "8.000 a.C.–Idade do Ferro",
+    "resposta": "Arte Rupestre de Valcamonica",
+    "pais": "Itália",
+    "regiao": "Europa",
+    "lat": 46.0239,
+    "lng": 10.35,
+    "revelacao": "Foi o primeiro sítio italiano inscrito na Lista do Patrimônio Mundial.",
+    "imagemArquivo": "Scena di duello R6 - Foppe - Nadro (Foto Luca Giarelli).jpg",
+    "imagemAlt": "Dois guerreiros armados gravados em uma rocha de Valcamonica."
+  },
+  {
+    "id": "tanum",
+    "nome": "Navios sobre granito",
+    "pista": "Em lajes hoje realçadas em vermelho, longas embarcações convivem com guerreiros, animais e rodas solares.",
+    "periodo": "Idade do Bronze",
+    "resposta": "Gravuras Rupestres de Tanum",
+    "pais": "Suécia",
+    "regiao": "Europa",
+    "lat": 58.7,
+    "lng": 11.3364,
+    "revelacao": "Os painéis de Bohuslän revelam a importância ritual dos barcos para comunidades escandinavas.",
+    "imagemArquivo": "Rock carving Vitlycke Tanum.JPG",
+    "imagemAlt": "Navios, pessoas e animais gravados e realçados em vermelho no painel de Vitlycke, Tanum."
+  },
+  {
+    "id": "alta",
+    "nome": "Caçadas perto do Círculo Polar",
+    "pista": "Renas, barcos e caçadores foram gravados em antigas linhas costeiras que subiram à medida que o gelo recuou.",
+    "periodo": "c. 5.200 a.C.–100 d.C.",
+    "resposta": "Gravuras Rupestres de Alta",
+    "pais": "Noruega",
+    "regiao": "Europa",
+    "lat": 69.9469,
+    "lng": 23.1878,
+    "revelacao": "A variação de altitude dos painéis ajuda a organizar milhares de anos de imagens do extremo norte.",
+    "imagemArquivo": "Alta rock carvings 01.jpg",
+    "imagemAlt": "Renas e figuras humanas gravadas e pintadas de vermelho nas rochas de Alta."
+  },
+  {
+    "id": "magura",
+    "nome": "A dança em guano de morcego",
+    "pista": "Figuras negras, calendários e cenas rituais foram desenhados com um material incomum no interior de uma longa caverna.",
+    "periodo": "Neolítico à Idade do Bronze",
+    "resposta": "Caverna de Magura",
+    "pais": "Bulgária",
+    "regiao": "Europa",
+    "lat": 43.7183,
+    "lng": 22.6003,
+    "revelacao": "Os desenhos escuros foram feitos com guano de morcego e registram ritos, animais e símbolos.",
+    "imagemArquivo": "Magura - drawings.jpg",
+    "imagemAlt": "Figuras humanas negras em posições de dança na caverna de Magura."
+  },
+
+  {
+    "id": "bhimbetka",
+    "nome": "O abrigo das muitas épocas",
+    "pista": "Caçadas, cavaleiros, elefantes e cenas comunitárias se sobrepõem em centenas de abrigos de arenito.",
+    "periodo": "Paleolítico à história recente",
+    "resposta": "Abrigos Rupestres de Bhimbetka",
+    "pais": "Índia",
+    "regiao": "Ásia",
+    "lat": 22.9386,
+    "lng": 77.6144,
+    "revelacao": "A sequência de pinturas acompanha uma ocupação humana excepcionalmente longa no centro da Índia.",
+    "imagemArquivo": "Bhimbetka Cave Paintings.jpg",
+    "imagemAlt": "Animais e pessoas pintados em branco e vermelho num abrigo de Bhimbetka."
+  },
+  {
+    "id": "edakkal",
+    "nome": "A fenda coberta de sinais",
+    "pista": "Uma enorme rocha presa entre outras cria o abrigo onde pessoas, rodas e símbolos geométricos foram incisados.",
+    "periodo": "Neolítico e períodos posteriores",
+    "resposta": "Cavernas de Edakkal",
+    "pais": "Índia",
+    "regiao": "Ásia",
+    "lat": 11.6315,
+    "lng": 76.2305,
+    "revelacao": "O sítio nos Gates Ocidentais guarda uma rara concentração de petróglifos no sul da Índia.",
+    "imagemArquivo": "Edakkal Caves - Petroglyphs - 9.jpg",
+    "imagemAlt": "Densa composição de figuras e símbolos gravados na parede de Edakkal."
+  },
+  {
+    "id": "daraki-chattan",
+    "nome": "A caverna das cúpulas",
+    "pista": "Centenas de pequenas cavidades circulares foram percutidas numa parede de quartzito, em sucessivas camadas de grande antiguidade.",
+    "periodo": "Possivelmente Paleolítico",
+    "resposta": "Daraki-Chattan",
+    "pais": "Índia",
+    "regiao": "Ásia",
+    "lat": 24.5355,
+    "lng": 75.7305,
+    "revelacao": "As cupules deste abrigo de Madhya Pradesh estão no centro de debates sobre as origens da expressão gráfica.",
+    "imagemArquivo": "Daraki-Chattan Cave Cupules 1.jpg",
+    "imagemAlt": "Parede de caverna coberta por pequenas cavidades circulares em Daraki-Chattan."
+  },
+  {
+    "id": "chaturbhujnath-nala",
+    "nome": "A longa galeria do desfiladeiro",
+    "pista": "Centenas de cenas pintadas acompanham um corredor rochoso, mostrando caçadores, animais e mudanças ao longo do tempo.",
+    "periodo": "Mesolítico a períodos históricos",
+    "resposta": "Chaturbhujnath Nala",
+    "pais": "Índia",
+    "regiao": "Ásia",
+    "lat": 24.6812,
+    "lng": 75.6703,
+    "revelacao": "O complexo de Madhya Pradesh é uma das galerias rupestres contínuas mais extensas da Índia.",
+    "imagemArquivo": "Chaturbhujnath Nala rock art 1.jpg",
+    "imagemAlt": "Cenas humanas e animais em pigmento vermelho na parede de Chaturbhujnath Nala."
+  },
+  {
+    "id": "helan-mountains",
+    "nome": "Rostos na fronteira do deserto",
+    "pista": "Máscaras, animais e cenas de pastoreio foram gravadas nas encostas de uma cadeia que separa planalto e deserto.",
+    "periodo": "Milênios de gravação",
+    "resposta": "Arte Rupestre das Montanhas Helan",
+    "pais": "China",
+    "regiao": "Ásia",
+    "lat": 38.9,
+    "lng": 105.9667,
+    "revelacao": "Milhares de petróglifos documentam povos pastoris e suas cosmologias no noroeste chinês.",
+    "imagemArquivo": "Rock art from Helan Mountains in Ningxia Museum 03.jpg",
+    "imagemAlt": "Rosto estilizado gravado em rocha das Montanhas Helan, exposto no Museu de Ningxia."
+  },
+  {
+    "id": "zuojiang-huashan",
+    "nome": "Homens vermelhos sobre o rio",
+    "pista": "Centenas de figuras frontais, braços erguidos e pernas abertas, cobrem paredões quase verticais acima da água.",
+    "periodo": "c. séc. V a.C.–II d.C.",
+    "resposta": "Arte Rupestre de Zuojiang Huashan",
+    "pais": "China",
+    "regiao": "Ásia",
+    "lat": 22.2483,
+    "lng": 107.0423,
+    "revelacao": "Os grandes painéis são associados à cultura Luoyue e dominam a paisagem fluvial de Guangxi.",
+    "imagemArquivo": "Rock painting hua mountain 2.jpg",
+    "imagemAlt": "Grande paredão com muitas figuras humanas vermelhas de braços erguidos em Huashan."
+  },
+  {
+    "id": "tamgaly",
+    "nome": "Os deuses de cabeça solar",
+    "pista": "Figuras com halos radiantes aparecem entre rebanhos, dançarinos e cenas rituais de uma garganta da estepe.",
+    "periodo": "Idade do Bronze em diante",
+    "resposta": "Petróglifos de Tamgaly",
+    "pais": "Cazaquistão",
+    "regiao": "Ásia",
+    "lat": 43.8033,
+    "lng": 75.535,
+    "revelacao": "Cerca de cinco mil gravuras formam uma paisagem ritual nas montanhas Chu-Ili.",
+    "imagemArquivo": "Sun God at Tamgaly Petroglyphs.jpg",
+    "imagemAlt": "Figura antropomórfica com cabeça em forma de sol gravada em Tamgaly."
+  },
+  {
+    "id": "saimaluu-tash",
+    "nome": "Milhares de pedras desenhadas",
+    "pista": "Num vale de alta montanha, animais, carros e cenas rituais cobrem blocos escuros espalhados pela encosta.",
+    "periodo": "Idade do Bronze à Idade Média",
+    "resposta": "Saimaluu-Tash",
+    "pais": "Quirguistão",
+    "regiao": "Ásia",
+    "lat": 41.1807,
+    "lng": 73.814,
+    "revelacao": "O nome significa pedras bordadas e descreve uma das maiores concentrações de petróglifos da Ásia Central.",
+    "imagemArquivo": "Saimaluu-Tash petroglyph 04.jpg",
+    "imagemAlt": "Animais e figuras geométricas gravados em uma pedra escura de Saimaluu-Tash."
+  },
+  {
+    "id": "mongolian-altai",
+    "nome": "Caçadores do Altai",
+    "pista": "Mamutes, alces e íbex registram doze mil anos de mudanças ambientais e da passagem da caça ao pastoreio.",
+    "periodo": "c. 11.000 a.C.–séc. VIII",
+    "resposta": "Complexos de Petróglifos do Altai Mongol",
+    "pais": "Mongólia",
+    "regiao": "Ásia",
+    "lat": 49.334,
+    "lng": 88.3954,
+    "revelacao": "Três complexos no extremo oeste mongol preservam um raro registro contínuo da pré-história norte-asiática.",
+    "imagemArquivo": "Altai Petroglyph.jpg",
+    "imagemAlt": "Animais de grandes chifres gravados numa rocha do Altai Mongol."
+  },
+  {
+    "id": "jubbah-hail",
+    "nome": "Os grandes camelos de pedra",
+    "pista": "Figuras humanas e animais em tamanho expressivo foram gravadas ao redor de um antigo lago no deserto.",
+    "periodo": "Neolítico a períodos recentes",
+    "resposta": "Arte Rupestre de Jubbah, região de Hail",
+    "pais": "Arábia Saudita",
+    "regiao": "Ásia",
+    "lat": 28.01,
+    "lng": 40.92,
+    "revelacao": "Jabal Umm Sinman reúne painéis que acompanham mudanças de clima, fauna e mobilidade humana.",
+    "imagemArquivo": "Petroglyphs at Jubbah rock art site, Saudi Arabia (2).jpg",
+    "imagemAlt": "Camelo e outras figuras gravadas numa superfície rochosa escura em Jubbah."
+  },
+  {
+    "id": "hima",
+    "nome": "A rota escrita nas rochas",
+    "pista": "Caçadas, guerreiros e inscrições em vários alfabetos marcam um antigo corredor de caravanas e poços.",
+    "periodo": "7.000 anos de registros",
+    "resposta": "Área Cultural de Ḥimā",
+    "pais": "Arábia Saudita",
+    "regiao": "Ásia",
+    "lat": 18.2492,
+    "lng": 44.4518,
+    "revelacao": "A posição numa antiga rota comercial explica a combinação singular de imagens e inscrições.",
+    "imagemArquivo": "Petroglyph at Bir Hima in Saudi Arabia.jpg",
+    "imagemAlt": "Animais e pessoas gravados numa rocha da área cultural de Bir Hima."
+  },
+  {
+    "id": "gobustan",
+    "nome": "Barcos no Mar Cáspio",
+    "pista": "Em montanhas de lama e rochas calcárias, silhuetas de embarcações convivem com dançarinos e caçadores.",
+    "periodo": "Paleolítico à Idade Média",
+    "resposta": "Reserva de Gobustan",
+    "pais": "Azerbaijão",
+    "regiao": "Ásia",
+    "lat": 40.1056,
+    "lng": 49.3889,
+    "revelacao": "Mais de seis mil gravuras documentam ocupações humanas próximas à costa oeste do Cáspio.",
+    "imagemArquivo": "Stone Age rock carvings in Gobustan.jpg",
+    "imagemAlt": "Pessoas e embarcações gravadas em uma rocha clara de Gobustan."
+  },
+  {
+    "id": "leang-tedongnge",
+    "nome": "O porco vermelho mais antigo",
+    "pista": "Um suídeo pintado com pigmento ocre numa caverna tropical mudou a cronologia da arte figurativa conhecida.",
+    "periodo": "Pelo menos 45.500 anos",
+    "resposta": "Leang Tedongnge",
+    "pais": "Indonésia",
+    "regiao": "Ásia",
+    "lat": -4.9411,
+    "lng": 119.6689,
+    "revelacao": "A pintura de um porco-verruguento de Sulawesi está entre as imagens figurativas datadas mais antigas.",
+    "imagemArquivo": "Leang Tedongnge rock art panel credit Basran Burhan.jpg",
+    "imagemAlt": "Pintura avermelhada de um porco-verruguento na parede de Leang Tedongnge."
+  },
+
+  {
+    "id": "cueva-de-las-manos",
+    "nome": "Uma nuvem de mãos",
+    "pista": "Centenas de mãos em negativo cercam cenas de caça num cânion remoto da Patagônia.",
+    "periodo": "c. 9.300–1.300 anos",
+    "resposta": "Cueva de las Manos",
+    "pais": "Argentina",
+    "regiao": "Américas",
+    "lat": -47.1558,
+    "lng": -70.6572,
+    "revelacao": "Pigmento soprado ao redor das mãos criou um dos painéis mais reconhecíveis das Américas.",
+    "imagemArquivo": "SantaCruz-CuevaManos-P2210651b.jpg",
+    "imagemAlt": "Muitas mãos em negativo vermelhas, amarelas e pretas na Cueva de las Manos."
+  },
+  {
+    "id": "serra-da-capivara",
+    "nome": "A dança da Capivara",
+    "pista": "Figuras vermelhas correm, caçam e celebram sob paredões no semiárido, compondo cenas cheias de narrativa.",
+    "periodo": "Milênios de ocupação",
+    "resposta": "Parque Nacional da Serra da Capivara",
+    "pais": "Brasil",
+    "regiao": "Américas",
+    "lat": -8.6667,
+    "lng": -42.55,
+    "revelacao": "A região concentra centenas de sítios e é uma referência central para a arqueologia sul-americana.",
+    "imagemArquivo": "Serra da Capivara - Several Paintings 2b.jpg",
+    "imagemAlt": "Muitas figuras humanas e animais vermelhos em um abrigo da Serra da Capivara."
+  },
+  {
+    "id": "chiribiquete",
+    "nome": "A maloca do jaguar",
+    "pista": "Painéis monumentais cobrem paredões de tepuis no encontro entre floresta amazônica e planícies tropicais.",
+    "periodo": "Tradição milenar e viva",
+    "resposta": "Parque Nacional de Chiribiquete",
+    "pais": "Colômbia",
+    "regiao": "Américas",
+    "lat": 0.7006,
+    "lng": -72.8054,
+    "revelacao": "Dezenas de milhares de figuras registram animais, ritos e uma profunda relação com o jaguar.",
+    "imagemArquivo": "Chiribiquete petroglyph 2.jpg",
+    "imagemAlt": "Painel de arte rupestre com figuras vermelhas em Chiribiquete."
+  },
+  {
+    "id": "serrania-la-lindosa",
+    "nome": "A muralha de animais vermelhos",
+    "pista": "Milhares de figuras cobrem longos painéis amazônicos, incluindo humanos, cervos e possíveis animais da megafauna.",
+    "periodo": "Fim do Pleistoceno em diante",
+    "resposta": "Serranía de la Lindosa",
+    "pais": "Colômbia",
+    "regiao": "Américas",
+    "lat": 2.5333,
+    "lng": -72.6486,
+    "revelacao": "Os painéis de Cerro Azul formam uma narrativa visual excepcionalmente densa.",
+    "imagemArquivo": "Serrania de la Lindosa rock paintings.jpg",
+    "imagemAlt": "Parede coberta por centenas de pequenas figuras vermelhas em La Lindosa."
+  },
+  {
+    "id": "sierra-san-francisco",
+    "nome": "Os gigantes bicolores",
+    "pista": "Pessoas muito maiores que o natural, divididas em vermelho e preto, ocupam tetos de abrigos numa serra desértica.",
+    "periodo": "c. 100 a.C.–1300 d.C.",
+    "resposta": "Pinturas Rupestres da Sierra de San Francisco",
+    "pais": "México",
+    "regiao": "Américas",
+    "lat": 27.6556,
+    "lng": -112.9161,
+    "revelacao": "A tradição dos Grandes Murais cobre abrigos remotos da península da Baixa Califórnia.",
+    "imagemArquivo": "Pintura rupestre de Baja California.jpg",
+    "imagemAlt": "Grandes figuras humanas bicolores e animais pintados num abrigo da Baixa Califórnia."
+  },
+  {
+    "id": "toquepala",
+    "nome": "A caçada em círculo",
+    "pista": "Caçadores cercam camelídeos em uma cena dinâmica pintada no alto de uma região mineral andina.",
+    "periodo": "c. 9.500 anos",
+    "resposta": "Cavernas de Toquepala",
+    "pais": "Peru",
+    "regiao": "Américas",
+    "lat": -17.3044,
+    "lng": -70.7181,
+    "revelacao": "A famosa cena é interpretada como uma chaku, técnica coletiva de caça aos camelídeos.",
+    "imagemArquivo": "Toquepala Caves 1.jpg",
+    "imagemAlt": "Pequenas figuras de caçadores e camelídeos pintadas na caverna de Toquepala."
+  },
+  {
+    "id": "toro-muerto",
+    "nome": "O campo dos dançarinos",
+    "pista": "Milhares de blocos vulcânicos espalhados num deserto carregam lhamas, felinos e figuras humanas dançantes.",
+    "periodo": "c. 500–1300 d.C.",
+    "resposta": "Toro Muerto",
+    "pais": "Peru",
+    "regiao": "Américas",
+    "lat": -16.2222,
+    "lng": -72.5078,
+    "revelacao": "É uma das maiores concentrações de petróglifos da América do Sul.",
+    "imagemArquivo": "Toro Muerto Archaeological site - petroglyph (llama).jpg",
+    "imagemAlt": "Lhama de corpo quadriculado gravada em um bloco de Toro Muerto."
+  },
+  {
+    "id": "pusharo",
+    "nome": "A parede de serpentes",
+    "pista": "Linhas sinuosas, rostos e símbolos cobrem uma parede na floresta, acessível por rio dentro de uma área protegida.",
+    "periodo": "Cronologia ainda debatida",
+    "resposta": "Petróglifos de Pusharo",
+    "pais": "Peru",
+    "regiao": "Américas",
+    "lat": -12.5843,
+    "lng": -71.486,
+    "revelacao": "O painel fica no Parque Nacional do Manú e tem grande importância cultural para povos amazônicos.",
+    "imagemArquivo": "Sixto-petroglifos-paititi-2007.jpg",
+    "imagemAlt": "Pessoa diante de uma parede densamente gravada com linhas e símbolos em Pusharo."
+  },
+  {
+    "id": "petroglyph-national-monument",
+    "nome": "Símbolos na lava escura",
+    "pista": "Povos Pueblo e colonizadores hispânicos gravaram milhares de figuras na crosta negra de um antigo campo vulcânico.",
+    "periodo": "c. 1300–século XVIII",
+    "resposta": "Petroglyph National Monument",
+    "pais": "Estados Unidos",
+    "regiao": "Américas",
+    "lat": 35.1358,
+    "lng": -106.7619,
+    "revelacao": "A escarpa vulcânica na borda de Albuquerque preserva cerca de 24 mil imagens.",
+    "imagemArquivo": "Animal Images in Rinconada Canyon at Petroglyph National Monument.jpg",
+    "imagemAlt": "Figuras de animais gravadas em rochas vulcânicas escuras no Rinconada Canyon."
+  },
+  {
+    "id": "horseshoe-canyon",
+    "nome": "O Espírito Santo do cânion",
+    "pista": "Figuras altas, sem braços e ricamente decoradas formam um painel solene no fundo de um cânion desértico.",
+    "periodo": "Período Arcaico",
+    "resposta": "Great Gallery, Horseshoe Canyon",
+    "pais": "Estados Unidos",
+    "regiao": "Américas",
+    "lat": 38.5708,
+    "lng": -110.0422,
+    "revelacao": "A composição é a obra-prima do estilo Barrier Canyon e inclui figuras em tamanho quase natural.",
+    "imagemArquivo": "GreatGalleryedit.jpg",
+    "imagemAlt": "Altas figuras antropomórficas pintadas em vermelho no painel Great Gallery."
+  },
+  {
+    "id": "newspaper-rock",
+    "nome": "O jornal de pedra",
+    "pista": "Centenas de símbolos, animais, pés e cavaleiros se acumulam como mensagens em um único painel de verniz do deserto.",
+    "periodo": "Cerca de 2.000 anos de marcas",
+    "resposta": "Newspaper Rock",
+    "pais": "Estados Unidos",
+    "regiao": "Américas",
+    "lat": 37.9881,
+    "lng": -109.5183,
+    "revelacao": "O painel reúne imagens de diferentes povos e épocas no atual estado de Utah.",
+    "imagemArquivo": "Newspaper Rock Full.jpg",
+    "imagemAlt": "Grande painel escuro densamente coberto por petróglifos em Newspaper Rock."
+  },
+  {
+    "id": "writing-on-stone",
+    "nome": "Batalhas entre os hoodoos",
+    "pista": "Guerreiros com escudos, cavalos e cenas de combate foram gravados e pintados em arenito numa paisagem de colunas erodidas.",
+    "periodo": "Tradição Blackfoot",
+    "resposta": "Writing-on-Stone / Áísínai’pi",
+    "pais": "Canadá",
+    "regiao": "Américas",
+    "lat": 49.0819,
+    "lng": -111.617,
+    "revelacao": "A paisagem do vale do Milk River continua sagrada para o povo Blackfoot.",
+    "imagemArquivo": "Petroglyph from Writing-on-Stone Provincial Park.jpg",
+    "imagemAlt": "Figura gravada na superfície clara de arenito em Writing-on-Stone."
+  },
+  {
+    "id": "nine-mile-canyon",
+    "nome": "A grande caçada de carneiros",
+    "pista": "Um famoso painel mostra arqueiros cercando animais de grandes chifres numa longa galeria natural do oeste americano.",
+    "periodo": "Cultura Fremont",
+    "resposta": "Nine Mile Canyon",
+    "pais": "Estados Unidos",
+    "regiao": "Américas",
+    "lat": 39.7764,
+    "lng": -110.5,
+    "revelacao": "Apesar do nome, o cânion se estende por dezenas de quilômetros e guarda milhares de imagens.",
+    "imagemArquivo": "Hunt Scene petroglyph along Nine Mile Canyon National Backcountry Byway, near Price, Utah, US.jpg",
+    "imagemAlt": "Arqueiros e carneiros de grandes chifres gravados no painel Hunt Scene de Nine Mile Canyon."
+  },
+
+  {
+    "id": "ubirr",
+    "nome": "O cardápio das monções",
+    "pista": "Peixes, tartarugas e outros animais aparecem com ossos e órgãos internos visíveis em um famoso painel do norte tropical.",
+    "periodo": "Tradição contínua milenar",
+    "resposta": "Ubirr, Parque Nacional Kakadu",
+    "pais": "Austrália",
+    "regiao": "Oceania",
+    "lat": -12.4095,
+    "lng": 132.9593,
+    "revelacao": "O estilo de raios X revela detalhes internos dos animais e a profunda relação Bininj/Mungguy com o território.",
+    "imagemArquivo": "Ubirr rock art.JPG",
+    "imagemAlt": "Peixes e outros animais pintados no estilo de raios X em Ubirr."
+  },
+  {
+    "id": "nourlangie",
+    "nome": "O espírito do relâmpago",
+    "pista": "Uma figura poderosa, cercada por armas e elementos naturais, representa um ancestral ligado às tempestades.",
+    "periodo": "Tradição viva",
+    "resposta": "Burrungkuy (Nourlangie), Kakadu",
+    "pais": "Austrália",
+    "regiao": "Oceania",
+    "lat": -12.8617,
+    "lng": 132.8125,
+    "revelacao": "Namarrgon, o Homem-Relâmpago, é uma das figuras centrais da galeria Anbangbang.",
+    "imagemArquivo": "Kakadu 2488.jpg",
+    "imagemAlt": "Figuras ancestrais pintadas com contornos brancos e detalhes ocres em Burrungkuy."
+  },
+  {
+    "id": "quinkan",
+    "nome": "Os espíritos longos da escarpa",
+    "pista": "Figuras esguias e seres espirituais habitam abrigos de arenito numa região tropical de serras e savanas.",
+    "periodo": "Milênios de tradição",
+    "resposta": "Arte Rupestre Quinkan, Laura",
+    "pais": "Austrália",
+    "regiao": "Oceania",
+    "lat": -15.8167,
+    "lng": 144.4167,
+    "revelacao": "As galerias da península do Cabo York preservam estilos figurativos próprios e histórias dos povos locais.",
+    "imagemArquivo": "Quinkan1.jpg",
+    "imagemAlt": "Figura humana alongada pintada em vermelho e amarelo na região de Quinkan."
+  },
+  {
+    "id": "murujuga",
+    "nome": "Um milhão de marcas no ferro",
+    "pista": "Animais extintos, rostos e formas geométricas foram gravados na pátina escura de incontáveis blocos costeiros.",
+    "periodo": "Mais de 40.000 anos de tradição",
+    "resposta": "Murujuga / Península de Burrup",
+    "pais": "Austrália",
+    "regiao": "Oceania",
+    "lat": -20.581,
+    "lng": 116.808,
+    "revelacao": "A paisagem cultural reúne uma das maiores e mais longas sequências de arte rupestre do mundo.",
+    "imagemArquivo": "Aboriginal Rock Art meets Art of the Engineer.jpg",
+    "imagemAlt": "Tartaruga e figura humana gravadas num bloco avermelhado em Murujuga."
+  },
+  {
+    "id": "gwion-gwion",
+    "nome": "As figuras de elegantes adornos",
+    "pista": "Personagens finos usam cocares, borlas e faixas elaboradas em pinturas preservadas nos abrigos de uma região remota.",
+    "periodo": "Tradição antiga de Kimberley",
+    "resposta": "Pinturas Gwion Gwion, Kimberley",
+    "pais": "Austrália",
+    "regiao": "Oceania",
+    "lat": -14.75,
+    "lng": 125.0,
+    "revelacao": "Também conhecidas como figuras Bradshaw, formam uma tradição visual distinta do noroeste australiano.",
+    "imagemArquivo": "Bradshaw rock paintings.jpg",
+    "imagemAlt": "Figuras humanas esguias com adornos detalhados em uma pintura Gwion Gwion."
+  },
+  {
+    "id": "wandjina",
+    "nome": "Olhos que trazem a chuva",
+    "pista": "Rostos frontais de olhos enormes e sem boca observam os abrigos, associados a nuvens, chuva e renovação.",
+    "periodo": "Tradição viva de Kimberley",
+    "resposta": "Pinturas Wandjina, Kimberley",
+    "pais": "Austrália",
+    "regiao": "Oceania",
+    "lat": -16.42,
+    "lng": 126.1,
+    "revelacao": "Comunidades Ngarinyin, Worrorra e Wunambal continuam responsáveis por essa tradição ancestral.",
+    "imagemArquivo": "Wandjina rock art.jpg",
+    "imagemAlt": "Grandes rostos Wandjina brancos, com olhos escuros e halos avermelhados."
+  },
+  {
+    "id": "bunjil-shelter",
+    "nome": "O criador e seus dois cães",
+    "pista": "Uma figura branca de braços abertos, acompanhada por dois dingos, ocupa um pequeno abrigo de granito.",
+    "periodo": "Tradição Djab Wurrung",
+    "resposta": "Abrigo de Bunjil",
+    "pais": "Austrália",
+    "regiao": "Oceania",
+    "lat": -37.1394,
+    "lng": 142.7334,
+    "revelacao": "É a única representação rupestre conhecida de Bunjil, ser criador central de povos Kulin.",
+    "imagemArquivo": "20120705 Bunjil Shelter.JPG",
+    "imagemAlt": "Figura clara de Bunjil com dois pequenos dingos pintada num abrigo de granito."
+  },
+  {
+    "id": "carnarvon-gorge",
+    "nome": "A parede dos estênceis",
+    "pista": "Mãos, machados e bumerangues em negativo cobrem dezenas de metros de arenito numa garganta verde do interior.",
+    "periodo": "Centenas a milhares de anos",
+    "resposta": "Art Gallery, Carnarvon Gorge",
+    "pais": "Austrália",
+    "regiao": "Oceania",
+    "lat": -25.0318,
+    "lng": 148.1833,
+    "revelacao": "A galeria preserva mais de duas mil imagens ligadas aos povos Bidjara e Karingbal.",
+    "imagemArquivo": "Aboriginal art Carnarvon Gorge.jpg",
+    "imagemAlt": "Muitos estênceis ocres de mãos e objetos na parede de Carnarvon Gorge."
+  },
+  {
+    "id": "ku-ring-gai-chase",
+    "nome": "O casal na pedra de Sydney",
+    "pista": "Figuras humanas, peixes, cangurus e baleias foram sulcados em grandes plataformas planas de arenito.",
+    "periodo": "Tradição ancestral contínua",
+    "resposta": "Gravuras de Ku-ring-gai Chase",
+    "pais": "Austrália",
+    "regiao": "Oceania",
+    "lat": -33.615,
+    "lng": 151.2011,
+    "revelacao": "O parque conserva centenas de conjuntos de gravuras dos povos da região de Sydney.",
+    "imagemArquivo": "Man and woman sydney rock art.JPG",
+    "imagemAlt": "Contornos gravados de uma figura masculina e outra feminina em Ku-ring-gai Chase."
+  },
+  {
+    "id": "red-hands-cave",
+    "nome": "Mãos vermelhas nas Montanhas Azuis",
+    "pista": "Camadas de mãos adultas e infantis foram sopradas em ocre dentro de um abrigo próximo a uma grande metrópole.",
+    "periodo": "c. 500–1.600 anos",
+    "resposta": "Red Hands Cave, Blue Mountains",
+    "pais": "Austrália",
+    "regiao": "Oceania",
+    "lat": -33.7822,
+    "lng": 150.5908,
+    "revelacao": "O abrigo perto de Glenbrook é uma das melhores galerias de estênceis aborígenes da região.",
+    "imagemArquivo": "(1)Red Hands Cave004.jpg",
+    "imagemAlt": "Diversas mãos vermelhas em negativo numa parede da Red Hands Cave."
+  },
+  {
+    "id": "takiroa",
+    "nome": "Pessoas-pássaro em carvão e ocre",
+    "pista": "Desenhos Māori alongados combinam formas humanas e animais em um abrigo de calcário da Ilha Sul.",
+    "periodo": "Antes e depois do contato europeu",
+    "resposta": "Abrigo Rupestre de Takiroa",
+    "pais": "Nova Zelândia",
+    "regiao": "Oceania",
+    "lat": -44.8431,
+    "lng": 170.6452,
+    "revelacao": "As figuras de Takiroa estão entre os exemplos mais acessíveis da arte rupestre Māori do vale do Waitaki.",
+    "imagemArquivo": "Takiroa Rock Art, Duntroon A.jpg",
+    "imagemAlt": "Figura Māori alongada em pigmento vermelho no abrigo rupestre de Takiroa."
+  },
+  {
+    "id": "orongo",
+    "nome": "O homem-pássaro no vulcão",
+    "pista": "Figuras híbridas de corpo humano e cabeça de ave foram gravadas à beira de uma cratera diante de pequenas ilhas oceânicas.",
+    "periodo": "c. séculos XVII–XIX",
+    "resposta": "Orongo, Rapa Nui",
+    "pais": "Chile",
+    "regiao": "Oceania",
+    "lat": -27.1894,
+    "lng": -109.4425,
+    "revelacao": "Os petróglifos se ligam à competição ritual tangata manu, ou homem-pássaro.",
+    "imagemArquivo": "PETROGLYPHS ON THE ROCKS NEAR ORONGO VILLAGE - EASTER ISLAND.jpg",
+    "imagemAlt": "Petróglifos de figuras homem-pássaro gravados nas rochas de Orongo em Rapa Nui."
   }
-  
-
-
 ]
