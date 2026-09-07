@@ -12,6 +12,7 @@
     imageSkeleton: document.getElementById("imageSkeleton"),
     imageFallback: document.getElementById("imageFallback"),
     imageSource: document.getElementById("imageSource"),
+    cardCategory: document.getElementById("cardCategory"),
     cardPeriod: document.getElementById("cardPeriod"),
     clueTitle: document.getElementById("clueTitle"),
     clueText: document.getElementById("clueText"),
@@ -195,7 +196,7 @@
     const distance = haversineKm(pendingGuess.lat, pendingGuess.lng, current.lat, current.lng);
     el.distance.textContent = formatKm(distance);
 
-    if (distance > HIT_RADIUS_KM) {
+    if (distance > current.raioKm) {
       guessPoint.color = "rgba(225, 112, 88, 0.96)";
       updatePointsLayer();
       el.btnConfirm.disabled = true;
@@ -288,6 +289,7 @@
 
     el.clueTitle.textContent = current.nome;
     el.clueText.textContent = current.pista;
+    el.cardCategory.textContent = current.categoria;
     el.cardPeriod.textContent = current.periodo;
     loadCardImage(current);
 
@@ -324,7 +326,8 @@
         ...item,
         id: item.id || `carta-${index + 1}`,
         lat: Number(item.lat),
-        lng: Number(item.lng ?? item.lon)
+        lng: Number(item.lng ?? item.lon),
+        raioKm: Number(item.raioKm ?? HIT_RADIUS_KM)
       };
 
       if (ids.has(normalized.id)) throw new Error(`ID duplicado: ${normalized.id}`);
@@ -334,7 +337,11 @@
       if (!Number.isFinite(normalized.lng) || normalized.lng < -180 || normalized.lng > 180) {
         throw new Error(`Longitude inválida em ${normalized.id}`);
       }
-      if (!normalized.nome || !normalized.pista || !normalized.resposta || !normalized.imagemArquivo) {
+      if (!Number.isFinite(normalized.raioKm) || normalized.raioKm < 100 || normalized.raioKm > 5000) {
+        throw new Error(`Raio de acerto inválido em ${normalized.id}`);
+      }
+      if (!normalized.nome || !normalized.pista || !normalized.resposta || !normalized.categoria
+        || !normalized.periodo || !normalized.revelacao || !normalized.imagemArquivo || !normalized.imagemAlt) {
         throw new Error(`Carta incompleta: ${normalized.id}`);
       }
 
@@ -345,11 +352,11 @@
 
   async function init() {
     try {
-      const response = await fetch("./locations.json?v=4", { cache: "no-store" });
+      const response = await fetch("./locations.json?v=5", { cache: "no-store" });
       if (!response.ok) throw new Error(`HTTP ${response.status} ao carregar locations.json`);
       const rawLocations = await response.json();
-      if (!Array.isArray(rawLocations) || rawLocations.length !== 64) {
-        throw new Error("A coleção deve conter exatamente 64 cartas.");
+      if (!Array.isArray(rawLocations) || rawLocations.length === 0) {
+        throw new Error("A coleção de cartas está vazia ou inválida.");
       }
 
       locations = normalizeLocations(rawLocations);

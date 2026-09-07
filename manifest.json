@@ -1,8 +1,8 @@
 {
   "id": "./",
-  "name": "GeoGame — Arte Rupestre",
+  "name": "GeoGame — Desafios do Mundo",
   "short_name": "GeoGame",
-  "description": "Descubra 64 sítios de arte rupestre ao redor do mundo.",
+  "description": "Descubra 168 lugares, recordes e histórias ao redor do mundo.",
   "start_url": "./index.html",
   "scope": "./",
   "display": "standalone",
