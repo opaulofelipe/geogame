@@ -352,7 +352,7 @@
 
   async function init() {
     try {
-      const response = await fetch("./locations.json?v=5", { cache: "no-store" });
+      const response = await fetch("./locations.json?v=6", { cache: "no-store" });
       if (!response.ok) throw new Error(`HTTP ${response.status} ao carregar locations.json`);
       const rawLocations = await response.json();
       if (!Array.isArray(rawLocations) || rawLocations.length === 0) {

@@ -2,7 +2,7 @@
   "id": "./",
   "name": "GeoGame — Desafios do Mundo",
   "short_name": "GeoGame",
-  "description": "Descubra 168 lugares, recordes e histórias ao redor do mundo.",
+  "description": "Descubra 300 lugares, recordes, histórias e tradições ao redor do mundo.",
   "start_url": "./index.html",
   "scope": "./",
   "display": "standalone",
