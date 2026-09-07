@@ -1,28 +1,39 @@
-const CACHE = "geogame-v1";
+const CACHE = "geogame-v4";
 const ASSETS = [
   "./",
   "./index.html",
-  "./app.js",
-  "./locations.json",
-  "./manifest.json",
+  "./style.css?v=4",
+  "./app.js?v=4",
+  "./locations.json?v=4",
+  "./manifest.json?v=4",
   "./icon-192.png",
-  "./icon-512.png"
+  "./apple-touch-icon.png"
 ];
 
-self.addEventListener("install", (e) => {
-  e.waitUntil(caches.open(CACHE).then((c) => c.addAll(ASSETS)));
+self.addEventListener("install", (event) => {
+  event.waitUntil(caches.open(CACHE).then((cache) => cache.addAll(ASSETS)));
   self.skipWaiting();
 });
 
-self.addEventListener("activate", (e) => {
-  e.waitUntil(self.clients.claim());
+self.addEventListener("activate", (event) => {
+  event.waitUntil(
+    caches.keys()
+      .then((keys) => Promise.all(keys.filter((key) => key !== CACHE).map((key) => caches.delete(key))))
+      .then(() => self.clients.claim())
+  );
 });
 
-self.addEventListener("fetch", (e) => {
-  const url = new URL(e.request.url);
-  if (url.origin !== location.origin) return;
+self.addEventListener("fetch", (event) => {
+  const url = new URL(event.request.url);
+  if (url.origin !== self.location.origin || event.request.method !== "GET") return;
 
-  e.respondWith(
-    caches.match(e.request).then((r) => r || fetch(e.request))
+  event.respondWith(
+    fetch(event.request)
+      .then((response) => {
+        const copy = response.clone();
+        caches.open(CACHE).then((cache) => cache.put(event.request, copy));
+        return response;
+      })
+      .catch(() => caches.match(event.request))
   );
 });

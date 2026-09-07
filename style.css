@@ -1,266 +1,525 @@
-:root{
-  --bg: #050712;
-
-  --glassTop: rgba(255,255,255,.14);
-  --glassBot: rgba(255,255,255,.08);
-  --stroke: rgba(255,255,255,.18);
-
-  --text: rgba(255,255,255,.94);
-  --muted: rgba(255,255,255,.70);
-
-  --shadow: 0 22px 70px rgba(0,0,0,.62);
-
-  --greenA: rgba(170,255,210,.96);
-  --greenB: rgba(120,255,170,.94);
-  --greenText: rgba(6, 12, 10, 0.98);
+:root {
+  color-scheme: dark;
+  --ink: #21140e;
+  --ink-soft: #3b281d;
+  --charcoal: #100d0b;
+  --paper: #f3e7d2;
+  --ochre: #d47732;
+  --ochre-light: #f2a85f;
+  --clay: #8f3f27;
+  --cream: #fff8eb;
+  --line: rgba(57, 31, 16, 0.18);
+  --shadow-card: 0 30px 90px rgba(16, 8, 3, 0.42), 0 4px 16px rgba(16, 8, 3, 0.28);
+  --shadow-panel: 0 24px 70px rgba(0, 0, 0, 0.46);
+  font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
 }
 
-*{ box-sizing:border-box; }
-html, body{ height:100%; }
+* { box-sizing: border-box; }
+html, body, #app { height: 100%; }
 
-body{
-  margin:0;
-  overflow:hidden;
-  background: radial-gradient(1200px 900px at 25% 10%, #121a3a 0%, var(--bg) 60%, #03040a 100%);
-  font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial;
-  color: var(--text);
+body {
+  margin: 0;
+  overflow: hidden;
+  background: var(--charcoal);
+  color: var(--cream);
 }
 
-#globeViz{
-  position:fixed;
-  inset:0;
-  touch-action: none; /* ajuda no iOS */
+button, a { -webkit-tap-highlight-color: transparent; }
+button { font: inherit; }
+
+button:focus-visible,
+a:focus-visible {
+  outline: 3px solid #ffd59d;
+  outline-offset: 3px;
 }
 
-#globeViz canvas{
+[hidden] { display: none !important; }
+
+.view {
+  position: fixed;
+  inset: 0;
+  min-height: 100dvh;
+}
+
+.clue-view {
+  overflow: auto;
+  background:
+    radial-gradient(circle at 16% 5%, rgba(223, 151, 78, 0.22), transparent 30rem),
+    radial-gradient(circle at 86% 92%, rgba(137, 58, 34, 0.28), transparent 32rem),
+    linear-gradient(145deg, #2c1910 0%, #120e0b 56%, #080706 100%);
+}
+
+.clue-backdrop {
+  position: fixed;
+  inset: 0;
+  opacity: 0.27;
+  pointer-events: none;
+  background-image:
+    radial-gradient(circle at 20% 28%, rgba(255, 242, 207, 0.16) 0 1px, transparent 1.5px),
+    radial-gradient(circle at 72% 64%, rgba(255, 242, 207, 0.1) 0 1px, transparent 1.5px);
+  background-size: 34px 34px, 51px 51px;
+  mask-image: linear-gradient(to bottom, black, transparent 92%);
+}
+
+.clue-shell {
+  position: relative;
+  z-index: 1;
+  width: min(100%, 1160px);
+  min-height: 100%;
+  margin: 0 auto;
+  padding: max(18px, env(safe-area-inset-top)) max(18px, env(safe-area-inset-right)) max(22px, env(safe-area-inset-bottom)) max(18px, env(safe-area-inset-left));
+  display: grid;
+  grid-template-rows: auto 1fr;
+  gap: 16px;
+}
+
+.app-header,
+.globe-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.brand {
+  display: inline-flex;
+  align-items: center;
+  gap: 9px;
+  color: var(--cream);
+  text-decoration: none;
+  font-size: 0.91rem;
+  font-weight: 850;
+  letter-spacing: 0.02em;
+}
+
+.brand-mark {
+  display: grid;
+  width: 30px;
+  height: 30px;
+  place-items: center;
+  border: 1px solid rgba(255, 248, 235, 0.24);
+  border-radius: 50%;
+  color: var(--ochre-light);
+  background: rgba(255, 255, 255, 0.06);
+}
+
+.round-progress {
+  color: rgba(255, 248, 235, 0.7);
+  font-size: 0.76rem;
+  font-weight: 750;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.game-card {
+  align-self: center;
+  justify-self: center;
+  width: min(100%, 940px);
+  max-height: calc(100dvh - 100px);
+  overflow: hidden;
+  display: grid;
+  grid-template-columns: minmax(0, 1.12fr) minmax(320px, 0.88fr);
+  color: var(--ink);
+  border: 1px solid rgba(255, 245, 218, 0.34);
+  border-radius: 30px;
+  background:
+    radial-gradient(circle at 14% 12%, rgba(255, 255, 255, 0.78) 0 1px, transparent 1.6px),
+    linear-gradient(135deg, #f7ecd9, #e5caa1);
+  background-size: 29px 29px, auto;
+  box-shadow: var(--shadow-card);
+  animation: card-in 460ms cubic-bezier(0.2, 0.75, 0.2, 1) both;
+}
+
+.card-visual {
+  position: relative;
+  min-height: 520px;
+  margin: 0;
+  overflow: hidden;
+  background: #5d3a27;
+}
+
+.card-visual::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background:
+    linear-gradient(to top, rgba(20, 10, 5, 0.66), transparent 38%),
+    linear-gradient(120deg, rgba(255, 186, 98, 0.08), transparent 42%);
+}
+
+.card-visual img {
+  width: 100%;
+  height: 100%;
+  min-height: inherit;
+  display: block;
+  object-fit: cover;
+  opacity: 0;
+  transform: scale(1.02);
+  transition: opacity 260ms ease, transform 700ms ease;
+}
+
+.card-visual img.is-loaded {
+  opacity: 1;
+  transform: scale(1);
+}
+
+.image-skeleton {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  background: linear-gradient(100deg, #5b3a28 10%, #80533a 28%, #5b3a28 46%);
+  background-size: 220% 100%;
+  animation: shimmer 1.3s infinite linear;
+}
+
+.image-fallback {
+  position: absolute;
+  inset: 0;
+  z-index: 2;
+  display: grid;
+  place-content: center;
+  gap: 8px;
+  padding: 24px;
+  text-align: center;
+  color: rgba(255, 248, 235, 0.8);
+  background: radial-gradient(circle, #70472f, #3b261a);
+}
+
+.image-fallback span { font-size: 2.5rem; }
+.image-fallback p { margin: 0; }
+
+.card-visual figcaption {
+  position: absolute;
+  z-index: 3;
+  right: 16px;
+  bottom: 14px;
+  left: 16px;
+  text-align: left;
+}
+
+.card-visual figcaption a {
+  display: inline-flex;
+  min-height: 36px;
+  align-items: center;
+  padding: 8px 11px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 999px;
+  color: rgba(255, 255, 255, 0.86);
+  background: rgba(16, 10, 7, 0.58);
+  backdrop-filter: blur(12px);
+  font-size: 0.68rem;
+  font-weight: 650;
+  text-decoration: none;
+}
+
+.card-content {
+  min-width: 0;
+  padding: clamp(28px, 4vw, 54px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-left: 1px solid var(--line);
+}
+
+.card-kicker {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 18px;
+  color: var(--clay);
+  font-size: 0.71rem;
+  font-weight: 850;
+  letter-spacing: 0.11em;
+  text-transform: uppercase;
+}
+
+.game-card h1 {
+  margin: 0;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: clamp(2.05rem, 4.6vw, 4rem);
+  line-height: 0.98;
+  letter-spacing: -0.04em;
+  text-wrap: balance;
+}
+
+.clue-copy {
+  margin: 20px 0 0;
+  color: var(--ink-soft);
+  font-size: clamp(1rem, 1.5vw, 1.16rem);
+  line-height: 1.58;
+  text-wrap: pretty;
+}
+
+.card-actions,
+.guess-actions {
+  display: flex;
+  gap: 10px;
+  margin-top: 28px;
+}
+
+.btn {
+  min-height: 50px;
+  padding: 13px 17px;
+  border: 1px solid transparent;
+  border-radius: 15px;
+  cursor: pointer;
+  font-weight: 820;
+  letter-spacing: -0.01em;
+  transition: transform 120ms ease, box-shadow 180ms ease, filter 180ms ease, opacity 180ms ease;
+}
+
+.btn:not(:disabled):hover { filter: brightness(1.06); }
+.btn:not(:disabled):active { transform: translateY(1px) scale(0.99); }
+.btn:disabled { cursor: not-allowed; opacity: 0.48; }
+
+.btn-primary {
+  flex: 1;
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  color: #1d1009;
+  background: linear-gradient(180deg, var(--ochre-light), var(--ochre));
+  border-color: rgba(93, 42, 18, 0.34);
+  box-shadow: 0 10px 28px rgba(113, 51, 20, 0.25), inset 0 1px rgba(255, 255, 255, 0.42);
+}
+
+.btn-secondary {
+  flex: 1;
+  color: var(--cream);
+  background: rgba(255, 255, 255, 0.12);
+  border-color: rgba(255, 255, 255, 0.18);
+}
+
+.btn-quiet {
+  color: #654d3d;
+  background: transparent;
+  border-color: rgba(72, 43, 24, 0.2);
+}
+
+.heritage-note {
+  margin: 18px 0 0;
+  color: #806956;
+  font-size: 0.71rem;
+  line-height: 1.45;
+}
+
+.globe-view { background: #020407; }
+
+#globeViz {
+  position: absolute;
+  inset: 0;
+  touch-action: none;
+}
+
+#globeViz canvas {
   touch-action: none;
   -webkit-user-select: none;
   -webkit-touch-callout: none;
 }
 
-/* HUD */
-.ui{
-  position:fixed;
-  inset:0;
-  display:flex;
-  align-items:flex-end;
-  justify-content:center;
-  padding: 10px 12px calc(10px + env(safe-area-inset-bottom)) 12px;
-
-  /* não bloqueia o globo por padrão */
-  pointer-events:none;
+.globe-header {
+  position: fixed;
+  z-index: 4;
+  top: max(14px, env(safe-area-inset-top));
+  right: max(14px, env(safe-area-inset-right));
+  left: max(14px, env(safe-area-inset-left));
+  pointer-events: none;
 }
 
-/* Sheet iOS glass */
-.panel{
-  width:min(560px, 100%);
-  border-radius: 22px;
-  background: linear-gradient(180deg, var(--glassTop), var(--glassBot));
-  border:1px solid var(--stroke);
-  box-shadow: var(--shadow);
-  backdrop-filter: blur(18px);
-  -webkit-backdrop-filter: blur(18px);
-  padding: 10px 12px 12px;
-  position:relative;
-  overflow:hidden;
-
-  /* click-through */
-  pointer-events:none;
-}
-
-.panel::before{
-  content:"";
-  position:absolute;
-  inset:-2px;
-  background:
-    radial-gradient(700px 200px at 25% 0%, rgba(255,255,255,.18), transparent 58%),
-    radial-gradient(500px 220px at 90% 20%, rgba(140,170,255,.10), transparent 60%);
-  pointer-events:none;
-}
-
-/* handle */
-.sheet-handle{
-  width: 44px;
-  height: 5px;
+.icon-btn {
+  min-height: 46px;
+  display: inline-flex;
+  align-items: center;
+  gap: 9px;
+  padding: 10px 15px;
+  color: var(--cream);
+  border: 1px solid rgba(255, 255, 255, 0.18);
   border-radius: 999px;
-  margin: 2px auto 8px;
-  background: rgba(255,255,255,.22);
-  border: 1px solid rgba(255,255,255,.12);
-  pointer-events:none;
+  background: rgba(8, 9, 10, 0.58);
+  box-shadow: 0 10px 34px rgba(0, 0, 0, 0.24);
+  backdrop-filter: blur(16px);
+  cursor: pointer;
+  font-weight: 760;
+  pointer-events: auto;
 }
 
-.topbar{
-  display:flex;
-  align-items:center;
-  justify-content:flex-start;
-  margin-bottom: 8px;
-  pointer-events:none;
-}
-
-.brand{
-  display:inline-flex;
-  align-items:center;
-  gap:10px;
-  font-weight: 950;
-  letter-spacing: .2px;
-  font-size: 14px;
-  padding: 7px 10px;
+.round-progress-dark {
+  padding: 8px 11px;
   border-radius: 999px;
-  background: rgba(0,0,0,.22);
-  border:1px solid rgba(255,255,255,.12);
-  box-shadow: 0 10px 28px rgba(0,0,0,.28);
-  pointer-events:none;
+  background: rgba(8, 9, 10, 0.48);
+  backdrop-filter: blur(12px);
 }
 
-.prompt{
-  font-size: 20px;
-  font-weight: 950;
-  line-height: 1.12;
-  letter-spacing: .2px;
-  margin: 6px 2px 10px;
-  text-shadow: 0 12px 34px rgba(0,0,0,.38);
-  pointer-events:none;
-
-  overflow:hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
+.guess-panel {
+  position: fixed;
+  z-index: 4;
+  right: max(12px, env(safe-area-inset-right));
+  bottom: max(12px, env(safe-area-inset-bottom));
+  left: max(12px, env(safe-area-inset-left));
+  width: min(100% - 24px, 560px);
+  margin: 0 auto;
+  padding: 18px;
+  overflow: hidden;
+  color: var(--cream);
+  border: 1px solid rgba(255, 255, 255, 0.17);
+  border-radius: 24px;
+  background: linear-gradient(145deg, rgba(38, 28, 21, 0.86), rgba(14, 14, 14, 0.82));
+  box-shadow: var(--shadow-panel);
+  backdrop-filter: blur(22px) saturate(1.15);
 }
 
-.meta{
-  display:flex;
-  gap:10px;
-  margin-bottom: 10px;
-  pointer-events:none;
+.guess-heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 18px;
 }
 
-.pill{
-  width:100%;
-  display:flex;
-  align-items:center;
-  justify-content:space-between;
-  gap:10px;
-  padding: 10px 12px;
-  border-radius: 16px;
-  background: rgba(0,0,0,.26);
-  border:1px solid rgba(255,255,255,.12);
-  box-shadow:
-    inset 0 1px 0 rgba(255,255,255,.10),
-    0 12px 32px rgba(0,0,0,.22);
-}
-
-.pill-label{
-  font-size: 11px;
-  color: rgba(255,255,255,.62);
-  letter-spacing: .10em;
+.eyebrow {
+  display: block;
+  margin-bottom: 4px;
+  color: rgba(255, 248, 235, 0.56);
+  font-size: 0.67rem;
+  font-weight: 800;
+  letter-spacing: 0.12em;
   text-transform: uppercase;
 }
 
-.pill-value{
-  font-size: 15px;
-  font-weight: 950;
-  color: var(--text);
+.guess-heading h2 {
+  margin: 0;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 1.42rem;
+  letter-spacing: -0.025em;
 }
 
-/* Botões: clicáveis */
-.actions{
-  display:flex;
-  gap:10px;
-  pointer-events:auto;
+.distance {
+  min-width: 104px;
+  padding: 9px 12px;
+  text-align: right;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: 14px;
+  background: rgba(0, 0, 0, 0.22);
 }
 
-.btn{
-  flex:1;
-  appearance:none;
-  border:1px solid rgba(255,255,255,.18);
+.distance span {
+  display: block;
+  margin-bottom: 2px;
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 0.62rem;
+  font-weight: 750;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.distance strong { font-size: 0.96rem; }
+
+.guess-status {
+  margin: 12px 0 0;
+  color: rgba(255, 248, 235, 0.68);
+  font-size: 0.84rem;
+  line-height: 1.45;
+}
+
+.reveal {
+  margin-top: 14px;
+  padding: 13px 14px;
+  border: 1px solid rgba(242, 168, 95, 0.24);
   border-radius: 16px;
-  padding: 13px 12px;
-  font-weight: 950;
-  cursor:pointer;
-  user-select:none;
-  -webkit-tap-highlight-color: transparent;
-  transition: transform .06s ease, filter .12s ease, opacity .12s ease;
-}
-.btn:active{ transform: translateY(1px); }
-
-.btn-primary{
-  background: linear-gradient(180deg, var(--greenA), var(--greenB));
-  color: var(--greenText);
-  border-color: rgba(255,255,255,.16);
-  box-shadow: 0 18px 46px rgba(0,0,0,.30);
+  background: rgba(212, 119, 50, 0.1);
 }
 
-.btn-secondary{
-  background: rgba(0,0,0,.24);
-  color: var(--text);
+.reveal strong { display: block; font-size: 1rem; }
+
+.reveal p {
+  margin: 5px 0 0;
+  color: rgba(255, 248, 235, 0.7);
+  font-size: 0.8rem;
+  line-height: 1.4;
 }
 
-.btn:disabled{
-  opacity:.55;
-  cursor:not-allowed;
+.guess-actions { margin-top: 14px; }
+
+.toast {
+  position: fixed;
+  z-index: 10;
+  top: max(74px, calc(env(safe-area-inset-top) + 62px));
+  left: 50%;
+  max-width: min(88vw, 420px);
+  padding: 11px 15px;
+  color: var(--cream);
+  border: 1px solid rgba(255, 255, 255, 0.16);
+  border-radius: 999px;
+  background: rgba(13, 12, 11, 0.84);
+  box-shadow: 0 16px 46px rgba(0, 0, 0, 0.38);
+  backdrop-filter: blur(16px);
+  font-size: 0.8rem;
+  font-weight: 720;
+  opacity: 0;
+  pointer-events: none;
+  transform: translate(-50%, -8px);
+  transition: opacity 160ms ease, transform 160ms ease;
 }
 
-/* Desktop: painel no canto */
-@media (min-width: 900px){
-  .ui{
-    align-items:flex-start;
-    justify-content:flex-start;
-    padding: 14px;
+.toast.show { opacity: 1; transform: translate(-50%, 0); }
+
+@keyframes card-in {
+  from { opacity: 0; transform: translateY(16px) scale(0.99); }
+  to { opacity: 1; transform: none; }
+}
+
+@keyframes shimmer { to { background-position-x: -220%; } }
+
+@media (max-width: 760px) {
+  .clue-shell { padding: max(14px, env(safe-area-inset-top)) 12px max(14px, env(safe-area-inset-bottom)); }
+
+  .game-card {
+    width: min(100%, 480px);
+    max-height: none;
+    grid-template-columns: 1fr;
+    border-radius: 24px;
   }
-  .panel{ width: 420px; }
+
+  .card-visual { min-height: 0; aspect-ratio: 16 / 10; }
+  .card-visual img { min-height: 0; }
+
+  .card-content {
+    padding: 24px 22px 20px;
+    border-top: 1px solid var(--line);
+    border-left: 0;
+  }
+
+  .game-card h1 { font-size: clamp(2rem, 10vw, 3.05rem); }
+  .clue-copy { margin-top: 14px; font-size: 0.96rem; line-height: 1.48; }
+  .card-kicker { margin-bottom: 12px; }
+  .card-actions { margin-top: 20px; }
+  .heritage-note { margin-top: 13px; }
 }
 
-/* Toast */
-.toast{
-  position:fixed;
-  inset:0;
-  display:flex;
-  align-items:center;
-  justify-content:center;
-  padding: 18px;
-  opacity:0;
-  transform: scale(.98);
-  transition: opacity .14s ease, transform .14s ease;
-  pointer-events:none;
+@media (max-width: 430px), (max-height: 720px) {
+  .app-header { min-height: 30px; }
+  .card-content { padding: 20px 18px 17px; }
+  .card-visual { aspect-ratio: 16 / 8.6; }
+  .game-card h1 { font-size: clamp(1.75rem, 8.6vw, 2.5rem); }
+  .clue-copy { font-size: 0.88rem; }
+  .heritage-note { display: none; }
+  .card-actions { margin-top: 16px; }
+  .btn { min-height: 48px; }
+  .guess-panel { padding: 15px; border-radius: 21px; }
+  .guess-status { margin-top: 8px; }
 }
 
-.toast.show{
-  opacity:1;
-  transform: scale(1);
-  pointer-events:auto;
+@media (min-width: 900px) {
+  .guess-panel { right: 20px; bottom: 20px; left: auto; margin: 0; }
+  .globe-header { right: 20px; left: 20px; }
 }
 
-.toast-card{
-  width:min(420px, 100%);
-  border-radius: 20px;
-  background: linear-gradient(180deg, rgba(255,255,255,.14), rgba(255,255,255,.08));
-  border:1px solid rgba(255,255,255,.18);
-  box-shadow: 0 28px 96px rgba(0,0,0,.64);
-  backdrop-filter: blur(18px);
-  -webkit-backdrop-filter: blur(18px);
-  padding: 16px;
-  text-align:center;
-}
-
-.toast-title{
-  font-size: 20px;
-  font-weight: 950;
-  margin-bottom: 6px;
-}
-
-.toast-sub{
-  font-size: 14px;
-  color: rgba(255,255,255,.72);
-  line-height:1.35;
-  margin-bottom: 12px;
-}
-
-.toast-close{
-  width: 100%;
-  border-radius: 16px;
-  border:1px solid rgba(255,255,255,.18);
-  background: rgba(255,255,255,.14);
-  color: var(--text);
-  font-weight: 950;
-  padding: 10px 12px;
-  cursor:pointer;
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    scroll-behavior: auto !important;
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
 }

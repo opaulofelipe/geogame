@@ -1,52 +1,60 @@
 (() => {
-  const elGlobe = document.getElementById("globeViz");
-
-  const elPrompt = document.getElementById("placePrompt");
-  const elDistance = document.getElementById("distanceValue");
-
-  const revealBox = document.getElementById("revealBox");
-  const revealText = document.getElementById("revealText");
-
-  const btnConfirm = document.getElementById("btnConfirm");
-  const btnNext = document.getElementById("btnNext");
-
-  const toast = document.getElementById("toast");
-  const toastTitle = document.getElementById("toastTitle");
-  const toastSub = document.getElementById("toastSub");
-  const toastClose = document.getElementById("toastClose");
-
   const HIT_RADIUS_KM = 350;
   const EARTH_RADIUS_KM = 6371;
+
+  const el = {
+    clueScreen: document.getElementById("clueScreen"),
+    globeScreen: document.getElementById("globeScreen"),
+    globe: document.getElementById("globeViz"),
+    cardProgress: document.getElementById("cardProgress"),
+    globeProgress: document.getElementById("globeProgress"),
+    clueImage: document.getElementById("clueImage"),
+    imageSkeleton: document.getElementById("imageSkeleton"),
+    imageFallback: document.getElementById("imageFallback"),
+    imageSource: document.getElementById("imageSource"),
+    cardPeriod: document.getElementById("cardPeriod"),
+    clueTitle: document.getElementById("clueTitle"),
+    clueText: document.getElementById("clueText"),
+    distance: document.getElementById("distanceValue"),
+    guessStatus: document.getElementById("guessStatus"),
+    revealBox: document.getElementById("revealBox"),
+    revealTitle: document.getElementById("revealTitle"),
+    revealText: document.getElementById("revealText"),
+    btnToGlobe: document.getElementById("btnToGlobe"),
+    btnSkipCard: document.getElementById("btnSkipCard"),
+    btnBackCard: document.getElementById("btnBackCard"),
+    btnConfirm: document.getElementById("btnConfirm"),
+    btnNext: document.getElementById("btnNext"),
+    toast: document.getElementById("toast")
+  };
 
   let locations = [];
   let bag = [];
   let current = null;
-
-  let pendingGuess = null; // {lat, lng}
-  let solved = false;
-
+  let roundNumber = 0;
+  let pendingGuess = null;
   let guessPoint = null;
   let answerPoint = null;
+  let revealPath = null;
+  let solved = false;
+  let toastTimer = null;
 
-  // ✅ linha reta (polyline) ligando chute -> resposta
-  let revealPath = null; // [{lat,lng},{lat,lng}]
-
-  // Globe.gl
   const world = Globe()
-    .globeImageUrl("//unpkg.com/three-globe/example/img/earth-blue-marble.jpg")
-    .bumpImageUrl("//unpkg.com/three-globe/example/img/earth-topology.png")
-    .backgroundImageUrl("//unpkg.com/three-globe/example/img/night-sky.png")
+    .globeImageUrl("https://unpkg.com/three-globe/example/img/earth-blue-marble.jpg")
+    .bumpImageUrl("https://unpkg.com/three-globe/example/img/earth-topology.png")
+    .backgroundImageUrl("https://unpkg.com/three-globe/example/img/night-sky.png")
     .showAtmosphere(true)
-    .atmosphereAltitude(0.22)
+    .atmosphereColor("#c68b60")
+    .atmosphereAltitude(0.2)
     .onGlobeClick(({ lat, lng }) => {
-      if (!current) return;
-      if (solved) return;
+      if (!current || solved || el.globeScreen.hidden) return;
       setPendingGuess(lat, lng);
-    })(elGlobe);
+    })(el.globe);
 
   world.width(window.innerWidth);
   world.height(window.innerHeight);
-  world.pointOfView({ lat: 15, lng: -20, altitude: 2.2 }, 0);
+  world.pointOfView({ lat: 12, lng: -18, altitude: 2.25 }, 0);
+
 
   const controls = world.controls();
   if (controls) {
@@ -58,231 +66,302 @@
     controls.maxDistance = 600;
   }
 
-  window.addEventListener("resize", () => {
+  window.addEventListener("resize", resizeGlobe);
+  el.btnToGlobe.addEventListener("click", showGlobe);
+  el.btnBackCard.addEventListener("click", showCard);
+  el.btnSkipCard.addEventListener("click", nextRound);
+  el.btnNext.addEventListener("click", nextRound);
+  el.btnConfirm.addEventListener("click", confirmGuess);
+
+  document.addEventListener("keydown", (event) => {
+    if (event.key === "Escape" && !el.globeScreen.hidden) showCard();
+  });
+
+  function resizeGlobe() {
     world.width(window.innerWidth);
     world.height(window.innerHeight);
-  });
-
-  // iOS touch fix (somente no canvas)
-  function applyIOSTouchFix() {
-    const canvas = elGlobe.querySelector("canvas");
-    if (!canvas) return;
-
-    canvas.style.touchAction = "none";
-    const prevent = (e) => e.preventDefault();
-    canvas.addEventListener("touchstart", prevent, { passive: false });
-    canvas.addEventListener("touchmove", prevent, { passive: false });
   }
 
-  let tries = 0;
-  const t = setInterval(() => {
-    tries++;
-    applyIOSTouchFix();
-    if (elGlobe.querySelector("canvas") || tries > 40) clearInterval(t);
+  function applyTouchFix() {
+    const canvas = el.globe.querySelector("canvas");
+    if (!canvas || canvas.dataset.touchReady) return Boolean(canvas);
+    canvas.dataset.touchReady = "true";
+    canvas.style.touchAction = "none";
+    const preventDefault = (event) => event.preventDefault();
+    canvas.addEventListener("touchstart", preventDefault, { passive: false });
+    canvas.addEventListener("touchmove", preventDefault, { passive: false });
+    return true;
+  }
+
+  let touchAttempts = 0;
+  const touchTimer = window.setInterval(() => {
+    touchAttempts += 1;
+    if (applyTouchFix() || touchAttempts > 40) window.clearInterval(touchTimer);
   }, 50);
 
-  btnConfirm.addEventListener("click", () => {
-    if (!current || solved || !pendingGuess) return;
-    confirmGuess();
-  });
-
-  btnNext.addEventListener("click", () => {
-    startRound(pickNext());
-  });
-
-  toastClose.addEventListener("click", hideToast);
-  toast.addEventListener("click", (e) => {
-    if (e.target === toast) hideToast();
-  });
-
-  function toRad(deg) { return (deg * Math.PI) / 180; }
+  function toRad(degrees) {
+    return (degrees * Math.PI) / 180;
+  }
 
   function haversineKm(lat1, lng1, lat2, lng2) {
     const dLat = toRad(lat2 - lat1);
     const dLng = toRad(lng2 - lng1);
-    const a =
-      Math.sin(dLat / 2) ** 2 +
-      Math.cos(toRad(lat1)) * Math.cos(toRad(lat2)) * Math.sin(dLng / 2) ** 2;
-    const c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a));
-    return EARTH_RADIUS_KM * c;
+    const a = Math.sin(dLat / 2) ** 2
+      + Math.cos(toRad(lat1)) * Math.cos(toRad(lat2)) * Math.sin(dLng / 2) ** 2;
+    return EARTH_RADIUS_KM * 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a));
   }
 
   function formatKm(km) {
-    if (!Number.isFinite(km)) return "—";
-    return `${Math.round(km)} km`;
+    return Number.isFinite(km) ? `${Math.round(km).toLocaleString("pt-BR")} km` : "—";
   }
 
-  function showToast(title, sub) {
-    toastTitle.textContent = title;
-    toastSub.textContent = sub || "";
-    toast.classList.add("show");
-    toast.setAttribute("aria-hidden", "false");
+  function imageUrl(item) {
+    if (item.imagem) return item.imagem;
+    return `https://commons.wikimedia.org/wiki/Special:FilePath/${encodeURIComponent(item.imagemArquivo)}?width=1600`;
   }
 
-  function hideToast() {
-    toast.classList.remove("show");
-    toast.setAttribute("aria-hidden", "true");
+  function imageSourceUrl(item) {
+    if (item.fonteImagem) return item.fonteImagem;
+    return `https://commons.wikimedia.org/wiki/File:${encodeURIComponent(item.imagemArquivo)}`;
   }
 
-  function confettiBurst() {
-    if (typeof confetti !== "function") return;
-    const opts = { origin: { y: 0.75 }, spread: 70, ticks: 180, gravity: 1.05, scalar: 0.95 };
-    confetti({ ...opts, particleCount: 90, startVelocity: 38 });
-    setTimeout(() => confetti({ ...opts, particleCount: 60, startVelocity: 30 }), 140);
-    setTimeout(() => confetti({ ...opts, particleCount: 55, startVelocity: 28 }), 260);
+  function showToast(message) {
+    window.clearTimeout(toastTimer);
+    el.toast.textContent = message;
+    el.toast.classList.add("show");
+    toastTimer = window.setTimeout(() => el.toast.classList.remove("show"), 3200);
   }
 
   function updatePointsLayer() {
-    const pts = [];
-    if (guessPoint) pts.push(guessPoint);
-    if (answerPoint) pts.push(answerPoint);
-
+    const points = [guessPoint, answerPoint].filter(Boolean);
     world
-      .pointsData(pts)
-      .pointLat(d => d.lat)
-      .pointLng(d => d.lng)
-      .pointAltitude(d => d.alt || 0.03)
-      .pointRadius(d => d.r || 0.35)
-      .pointColor(d => d.color || "rgba(255,255,255,0.9)");
+      .pointsData(points)
+      .pointLat((point) => point.lat)
+      .pointLng((point) => point.lng)
+      .pointAltitude((point) => point.altitude)
+      .pointRadius((point) => point.radius)
+      .pointColor((point) => point.color);
   }
 
-  // ✅ linha reta: usa pathsData
   function updatePathLayer() {
-    const data = revealPath ? [revealPath] : [];
-
     world
-      .pathsData(data)
-      .pathPoints(d => d)            // d é um array de pontos
-      .pathPointLat(p => p.lat)
-      .pathPointLng(p => p.lng)
-      .pathColor(() => "rgba(255, 80, 80, 0.95)")
-      .pathStroke(() => 2.2)         // espessura
-      .pathDashLength(() => 0)       // 0 = linha contínua
+      .pathsData(revealPath ? [revealPath] : [])
+      .pathPoints((path) => path)
+      .pathPointLat((point) => point.lat)
+      .pathPointLng((point) => point.lng)
+      .pathColor(() => "rgba(242, 168, 95, 0.96)")
+      .pathStroke(() => 2.1)
+      .pathDashLength(() => 0)
       .pathDashGap(() => 0);
   }
 
-  function clearMarkers() {
+  function clearRoundState() {
     pendingGuess = null;
     guessPoint = null;
     answerPoint = null;
     revealPath = null;
+    solved = false;
     updatePointsLayer();
     updatePathLayer();
-  }
 
-  function hideReveal() {
-    revealBox.hidden = true;
-    revealText.textContent = "—";
-  }
-
-  function showReveal(text) {
-    revealText.textContent = text || "Resposta indisponível.";
-    revealBox.hidden = false;
+    el.distance.textContent = "—";
+    el.guessStatus.textContent = "Gire, aproxime e marque onde você acha que fica o sítio.";
+    el.revealBox.hidden = true;
+    el.btnConfirm.disabled = true;
+    el.btnNext.hidden = true;
   }
 
   function setPendingGuess(lat, lng) {
     pendingGuess = { lat, lng };
-
     guessPoint = {
       lat,
       lng,
-      r: 0.35,
-      alt: 0.03,
-      color: "rgba(255,255,255,0.92)"
+      radius: 0.34,
+      altitude: 0.03,
+      color: "rgba(255, 248, 235, 0.96)"
     };
-
-    // se o jogador escolhe outro ponto antes de confirmar, apaga qualquer linha antiga
     revealPath = null;
     updatePathLayer();
-
     updatePointsLayer();
-    btnConfirm.disabled = false;
-    elDistance.textContent = "—";
-    hideToast();
+
+    el.btnConfirm.disabled = false;
+    el.distance.textContent = "—";
+    el.guessStatus.textContent = "Ponto marcado. Você ainda pode tocar em outro lugar antes de confirmar.";
   }
 
   function confirmGuess() {
-    const dist = haversineKm(pendingGuess.lat, pendingGuess.lng, current.lat, current.lng);
-    elDistance.textContent = formatKm(dist);
+    if (!current || solved || !pendingGuess) return;
 
-    if (dist <= HIT_RADIUS_KM) {
-      solved = true;
+    const distance = haversineKm(pendingGuess.lat, pendingGuess.lng, current.lat, current.lng);
+    el.distance.textContent = formatKm(distance);
 
-      answerPoint = {
-        lat: current.lat,
-        lng: current.lng,
-        r: 0.45,
-        alt: 0.05,
-        color: "rgba(120,255,170,0.95)"
-      };
-
-      guessPoint.color = "rgba(255,255,255,0.95)";
-
-      // ✅ linha reta ligando os 2 pontos
-      revealPath = [
-        { lat: pendingGuess.lat, lng: pendingGuess.lng },
-        { lat: current.lat, lng: current.lng }
-      ];
-      updatePathLayer();
-
+    if (distance > HIT_RADIUS_KM) {
+      guessPoint.color = "rgba(225, 112, 88, 0.96)";
       updatePointsLayer();
-      btnConfirm.disabled = true;
-
-      world.pointOfView({ lat: current.lat, lng: current.lng, altitude: 1.7 }, 850);
-
-      showReveal(current.revelacao);
-      confettiBurst();
-      showToast("Você acertou!", `Você ficou a ${formatKm(dist)} do ponto exato.`);
+      el.btnConfirm.disabled = true;
+      el.guessStatus.textContent = `Ainda não: seu palpite ficou a ${formatKm(distance)}. Marque outro ponto e tente de novo.`;
+      showToast("Quase uma nova expedição — tente outro ponto.");
       return;
     }
 
-    guessPoint.color = "rgba(255,190,190,0.92)";
+    solved = true;
+    answerPoint = {
+      lat: current.lat,
+      lng: current.lng,
+      radius: 0.46,
+      altitude: 0.05,
+      color: "rgba(126, 195, 120, 0.98)"
+    };
+    guessPoint.color = "rgba(255, 248, 235, 0.96)";
+    revealPath = [
+      { lat: pendingGuess.lat, lng: pendingGuess.lng },
+      { lat: current.lat, lng: current.lng }
+    ];
+    updatePathLayer();
     updatePointsLayer();
-    showToast("Que pena, você errou.", `Você ficou a ${formatKm(dist)} do local correto.`);
+
+    el.btnConfirm.disabled = true;
+    el.btnNext.hidden = false;
+    el.guessStatus.textContent = `Acertou: ${formatKm(distance)} do ponto de referência.`;
+    el.revealTitle.textContent = current.resposta;
+    el.revealText.textContent = `${current.pais} · ${current.revelacao}`;
+    el.revealBox.hidden = false;
+
+    world.pointOfView({ lat: current.lat, lng: current.lng, altitude: 1.68 }, 850);
+    celebrate();
+    showToast("Você encontrou este patrimônio!");
+  }
+
+  function celebrate() {
+    if (typeof window.confetti !== "function" || window.matchMedia("(prefers-reduced-motion: reduce)").matches) return;
+    const options = { origin: { y: 0.76 }, spread: 68, ticks: 150, gravity: 1.08, scalar: 0.82 };
+    window.confetti({ ...options, particleCount: 64, startVelocity: 34, colors: ["#f2a85f", "#f3e7d2", "#6e9a69"] });
   }
 
   function refillBag() {
     bag = locations.slice();
-    for (let i = bag.length - 1; i > 0; i--) {
+    for (let i = bag.length - 1; i > 0; i -= 1) {
       const j = Math.floor(Math.random() * (i + 1));
       [bag[i], bag[j]] = [bag[j], bag[i]];
     }
   }
 
   function pickNext() {
-    if (!bag.length) refillBag();
+    if (!bag.length) {
+      refillBag();
+      roundNumber = 0;
+    }
+    roundNumber += 1;
     return bag.pop();
+  }
+
+  function setProgress() {
+    const label = `Carta ${roundNumber} de ${locations.length}`;
+    el.cardProgress.textContent = label;
+    el.globeProgress.textContent = label;
+  }
+
+  function loadCardImage(item) {
+    el.clueImage.classList.remove("is-loaded");
+    el.imageSkeleton.hidden = false;
+    el.imageFallback.hidden = true;
+    el.clueImage.alt = item.imagemAlt;
+    el.imageSource.href = imageSourceUrl(item);
+
+    el.clueImage.onload = () => {
+      el.imageSkeleton.hidden = true;
+      el.imageFallback.hidden = true;
+      el.clueImage.classList.add("is-loaded");
+    };
+    el.clueImage.onerror = () => {
+      el.imageSkeleton.hidden = true;
+      el.imageFallback.hidden = false;
+      el.clueImage.classList.remove("is-loaded");
+    };
+    el.clueImage.src = imageUrl(item);
   }
 
   function startRound(target) {
     current = target;
-    solved = false;
+    clearRoundState();
+    setProgress();
 
-    clearMarkers();
-    hideReveal();
-    btnConfirm.disabled = true;
-    elPrompt.textContent = current?.nome ?? "—";
-    elDistance.textContent = "—";
-    hideToast();
+    el.clueTitle.textContent = current.nome;
+    el.clueText.textContent = current.pista;
+    el.cardPeriod.textContent = current.periodo;
+    loadCardImage(current);
 
-    world.pointOfView({ lat: 10, lng: -20, altitude: 2.25 }, 600);
+    el.btnToGlobe.disabled = false;
+    el.btnSkipCard.disabled = false;
+    world.pointOfView({ lat: 12, lng: -18, altitude: 2.25 }, 600);
+  }
+
+  function showCard() {
+    el.globeScreen.hidden = true;
+    el.clueScreen.hidden = false;
+    window.requestAnimationFrame(() => el.btnToGlobe.focus({ preventScroll: true }));
+  }
+
+  function showGlobe() {
+    if (!current) return;
+    el.clueScreen.hidden = true;
+    el.globeScreen.hidden = false;
+    window.requestAnimationFrame(() => {
+      resizeGlobe();
+      el.btnBackCard.focus({ preventScroll: true });
+    });
+  }
+
+  function nextRound() {
+    startRound(pickNext());
+    showCard();
+  }
+
+  function normalizeLocations(rawLocations) {
+    const ids = new Set();
+    return rawLocations.map((item, index) => {
+      const normalized = {
+        ...item,
+        id: item.id || `carta-${index + 1}`,
+        lat: Number(item.lat),
+        lng: Number(item.lng ?? item.lon)
+      };
+
+      if (ids.has(normalized.id)) throw new Error(`ID duplicado: ${normalized.id}`);
+      if (!Number.isFinite(normalized.lat) || normalized.lat < -90 || normalized.lat > 90) {
+        throw new Error(`Latitude inválida em ${normalized.id}`);
+      }
+      if (!Number.isFinite(normalized.lng) || normalized.lng < -180 || normalized.lng > 180) {
+        throw new Error(`Longitude inválida em ${normalized.id}`);
+      }
+      if (!normalized.nome || !normalized.pista || !normalized.resposta || !normalized.imagemArquivo) {
+        throw new Error(`Carta incompleta: ${normalized.id}`);
+      }
+
+      ids.add(normalized.id);
+      return normalized;
+    });
   }
 
   async function init() {
     try {
-      const res = await fetch("./locations.json?v=" + Date.now(), { cache: "no-store" });
-      if (!res.ok) throw new Error(`HTTP ${res.status} ao carregar locations.json`);
-      locations = await res.json();
-      if (!Array.isArray(locations) || locations.length === 0) throw new Error("JSON inválido ou vazio.");
+      const response = await fetch("./locations.json?v=4", { cache: "no-store" });
+      if (!response.ok) throw new Error(`HTTP ${response.status} ao carregar locations.json`);
+      const rawLocations = await response.json();
+      if (!Array.isArray(rawLocations) || rawLocations.length !== 64) {
+        throw new Error("A coleção deve conter exatamente 64 cartas.");
+      }
 
+      locations = normalizeLocations(rawLocations);
       refillBag();
-      updatePathLayer(); // garante camada inicial
+      updatePathLayer();
       startRound(pickNext());
-    } catch (err) {
-      console.error(err);
-      elPrompt.textContent = "Erro ao carregar locais.";
-      elDistance.textContent = "—";
-      showToast("Erro", "Abra via servidor (Live Server/GitHub Pages) e veja o Console.");
+    } catch (error) {
+      console.error(error);
+      el.clueTitle.textContent = "Não foi possível abrir as cartas";
+      el.clueText.textContent = "Recarregue a página. Se o problema continuar, verifique o console do navegador.";
+      el.imageSkeleton.hidden = true;
+      el.imageFallback.hidden = false;
     }
   }
 
