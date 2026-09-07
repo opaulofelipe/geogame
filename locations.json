@@ -8,10 +8,11 @@
     "pais": "Argélia",
     "regiao": "África",
     "lat": 25.6667,
-    "lng": 9.0,
+    "lng": 9,
     "revelacao": "Um vasto arquivo de milhares de pinturas e gravuras no sudeste argelino.",
     "imagemArquivo": "Cave painting from the Tassili n'Ajjer mountains.jpg",
-    "imagemAlt": "Figuras humanas e animais pintadas em tons ocres numa parede de Tassili n’Ajjer."
+    "imagemAlt": "Figuras humanas e animais pintadas em tons ocres numa parede de Tassili n’Ajjer.",
+    "categoria": "Arte rupestre"
   },
   {
     "id": "tadrart-acacus",
@@ -25,7 +26,8 @@
     "lng": 10.3333,
     "revelacao": "As imagens preservam sucessivas mudanças ambientais e modos de vida do Saara.",
     "imagemArquivo": "Libya 4870 Pictograms Tadrart Acacus Luca Galuzzi 2007.jpg",
-    "imagemAlt": "Pessoas e animais pintados em vermelho numa parede rochosa de Tadrart Acacus."
+    "imagemAlt": "Pessoas e animais pintados em vermelho numa parede rochosa de Tadrart Acacus.",
+    "categoria": "Arte rupestre"
   },
   {
     "id": "tsodilo",
@@ -39,7 +41,8 @@
     "lng": 21.7542,
     "revelacao": "O conjunto é sagrado para comunidades locais e reúne uma das maiores concentrações de arte rupestre da região.",
     "imagemArquivo": "Red and White Rock Art Tsodilo.jpg",
-    "imagemAlt": "Figura de um antílope pintada em vermelho e branco nas rochas de Tsodilo."
+    "imagemAlt": "Figura de um antílope pintada em vermelho e branco nas rochas de Tsodilo.",
+    "categoria": "Arte rupestre"
   },
   {
     "id": "twyfelfontein",
@@ -53,7 +56,8 @@
     "lng": 14.3726,
     "revelacao": "O sítio reúne uma extraordinária concentração de gravuras de comunidades caçadoras-coletoras.",
     "imagemArquivo": "Rock Paintig Twyfelfontein Namibia.jpg",
-    "imagemAlt": "Animais gravados numa laje alaranjada em Twyfelfontein."
+    "imagemAlt": "Animais gravados numa laje alaranjada em Twyfelfontein.",
+    "categoria": "Arte rupestre"
   },
   {
     "id": "brandberg-white-lady",
@@ -67,7 +71,8 @@
     "lng": 14.5775,
     "revelacao": "A famosa figura integra um painel muito maior no maciço de Brandberg.",
     "imagemArquivo": "White lady 2008 08.jpg",
-    "imagemAlt": "Detalhe da figura conhecida como White Lady em um painel de Brandberg."
+    "imagemAlt": "Detalhe da figura conhecida como White Lady em um painel de Brandberg.",
+    "categoria": "Arte rupestre"
   },
   {
     "id": "drakensberg-eland-cave",
@@ -81,7 +86,8 @@
     "lng": 29.2,
     "revelacao": "O elande ocupa papel central na cosmologia e na arte San preservada em uKhahlamba-Drakensberg.",
     "imagemArquivo": "ELANDS - San rock paintings at Eland Cave, Cathedral Peak, South Africa, 2017.jpg",
-    "imagemAlt": "Elandes e pessoas pintados em ocre no abrigo Eland Cave, nas montanhas Drakensberg."
+    "imagemAlt": "Elandes e pessoas pintados em ocre no abrigo Eland Cave, nas montanhas Drakensberg.",
+    "categoria": "Arte rupestre"
   },
   {
     "id": "cederberg",
@@ -95,7 +101,8 @@
     "lng": 19.254,
     "revelacao": "Centenas de abrigos fazem desta paisagem do Cabo Ocidental uma grande galeria San.",
     "imagemArquivo": "San Rock Art - Cederberg.jpg",
-    "imagemAlt": "Figuras humanas San pintadas em vermelho numa parede do Cederberg."
+    "imagemAlt": "Figuras humanas San pintadas em vermelho numa parede do Cederberg.",
+    "categoria": "Arte rupestre"
   },
   {
     "id": "matobo-hills",
@@ -109,7 +116,8 @@
     "lng": 28.508,
     "revelacao": "A longa sequência de pinturas acompanha mudanças culturais no sudoeste do Zimbábue.",
     "imagemArquivo": "Motherandchild Matobo.jpg",
-    "imagemAlt": "Figuras humanas pintadas em uma parede de abrigo nas Colinas de Matobo."
+    "imagemAlt": "Figuras humanas pintadas em uma parede de abrigo nas Colinas de Matobo.",
+    "categoria": "Arte rupestre"
   },
   {
     "id": "chongoni",
@@ -123,7 +131,8 @@
     "lng": 34.2792,
     "revelacao": "As pinturas Batwa e Chewa conectam arqueologia e práticas culturais ainda relevantes.",
     "imagemArquivo": "Chongoni rock art.jpg",
-    "imagemAlt": "Formas humanas e geométricas claras pintadas numa rocha de Chongoni."
+    "imagemAlt": "Formas humanas e geométricas claras pintadas numa rocha de Chongoni.",
+    "categoria": "Arte rupestre"
   },
   {
     "id": "kondoa",
@@ -137,7 +146,8 @@
     "lng": 35.8339,
     "revelacao": "Centenas de abrigos documentam tradições de caçadores-coletores e agricultores.",
     "imagemArquivo": "Kondoa Irangi Rock Paintings (51507756351).jpg",
-    "imagemAlt": "Conjunto de pequenas figuras avermelhadas pintadas em Kondoa Irangi."
+    "imagemAlt": "Conjunto de pequenas figuras avermelhadas pintadas em Kondoa Irangi.",
+    "categoria": "Arte rupestre"
   },
   {
     "id": "laas-geel",
@@ -151,7 +161,8 @@
     "lng": 44.4433,
     "revelacao": "As vacas de chifres curvos e vestes cerimoniais estão entre as imagens mais bem preservadas da região.",
     "imagemArquivo": "Laas Geel cow herd.jpg",
-    "imagemAlt": "Rebanho de vacas estilizadas em vermelho, branco e ocre nas cavernas de Laas Geel."
+    "imagemAlt": "Rebanho de vacas estilizadas em vermelho, branco e ocre nas cavernas de Laas Geel.",
+    "categoria": "Arte rupestre"
   },
   {
     "id": "ennedi-manda-gueli",
@@ -165,7 +176,8 @@
     "lng": 21.8628,
     "revelacao": "As pinturas testemunham épocas mais úmidas e a posterior presença de camelos no Saara.",
     "imagemArquivo": "Prehistoric Rock Paintings at Manda Guéli Cave in the Ennedi Mountains - northeastern Chad 2015.jpg",
-    "imagemAlt": "Animais e pessoas pintados em um grande painel da caverna Manda Guéli no Ennedi."
+    "imagemAlt": "Animais e pessoas pintados em um grande painel da caverna Manda Guéli no Ennedi.",
+    "categoria": "Arte rupestre"
   },
   {
     "id": "dabous-giraffes",
@@ -179,9 +191,9 @@
     "lng": 7.5806,
     "revelacao": "As gravuras monumentais ficam na região do Aïr e estão entre as imagens rupestres mais célebres da África.",
     "imagemArquivo": "DabousGiraffe.jpg",
-    "imagemAlt": "Grande girafa gravada na superfície de uma rocha em Dabous."
+    "imagemAlt": "Grande girafa gravada na superfície de uma rocha em Dabous.",
+    "categoria": "Arte rupestre"
   },
-
   {
     "id": "lascaux",
     "nome": "O salão dos touros",
@@ -194,7 +206,8 @@
     "lng": 1.171,
     "revelacao": "A caverna original está fechada para conservação; réplicas preservam a experiência visual.",
     "imagemArquivo": "Lascaux painting.jpg",
-    "imagemAlt": "Grandes bovinos e cavalos pintados no teto claro da caverna de Lascaux."
+    "imagemAlt": "Grandes bovinos e cavalos pintados no teto claro da caverna de Lascaux.",
+    "categoria": "Arte rupestre"
   },
   {
     "id": "chauvet",
@@ -208,7 +221,8 @@
     "lng": 4.4161,
     "revelacao": "Seus painéis estão entre os mais antigos exemplos conhecidos de arte figurativa europeia.",
     "imagemArquivo": "Lions painting, Chauvet Cave (museum replica).jpg",
-    "imagemAlt": "Réplica do painel de leões desenhados a carvão da caverna de Chauvet."
+    "imagemAlt": "Réplica do painel de leões desenhados a carvão da caverna de Chauvet.",
+    "categoria": "Arte rupestre"
   },
   {
     "id": "altamira",
@@ -222,7 +236,8 @@
     "lng": -4.1198,
     "revelacao": "A qualidade dos bisões levou o local a ser chamado de Capela Sistina da arte paleolítica.",
     "imagemArquivo": "9 Bisonte Magdaleniense polícromo.jpg",
-    "imagemAlt": "Bisão policromado em vermelho e preto no teto de Altamira."
+    "imagemAlt": "Bisão policromado em vermelho e preto no teto de Altamira.",
+    "categoria": "Arte rupestre"
   },
   {
     "id": "el-castillo",
@@ -236,7 +251,8 @@
     "lng": -3.9655,
     "revelacao": "Alguns motivos estão entre as pinturas datadas mais antigas da Europa.",
     "imagemArquivo": "Hands Panel - Cave of the Castle (cueva del castillo) detail.jpg",
-    "imagemAlt": "Estênceis de mãos vermelhas no painel da caverna de El Castillo."
+    "imagemAlt": "Estênceis de mãos vermelhas no painel da caverna de El Castillo.",
+    "categoria": "Arte rupestre"
   },
   {
     "id": "pech-merle",
@@ -250,7 +266,8 @@
     "lng": 1.6444,
     "revelacao": "O painel dos cavalos malhados combina pigmento, contorno e o relevo natural da parede.",
     "imagemArquivo": "Pech Merle cave leopard spotting.JPG",
-    "imagemAlt": "Dois cavalos com manchas negras e mãos em negativo na caverna de Pech Merle."
+    "imagemAlt": "Dois cavalos com manchas negras e mãos em negativo na caverna de Pech Merle.",
+    "categoria": "Arte rupestre"
   },
   {
     "id": "font-de-gaume",
@@ -264,7 +281,8 @@
     "lng": 1.0289,
     "revelacao": "É uma das raras cavernas francesas com pintura paleolítica original ainda acessível em visitas limitadas.",
     "imagemArquivo": "Font de gaume bison.jpg",
-    "imagemAlt": "Reprodução histórica do contorno de um bisão da galeria de Font-de-Gaume."
+    "imagemAlt": "Reprodução histórica do contorno de um bisão da galeria de Font-de-Gaume.",
+    "categoria": "Arte rupestre"
   },
   {
     "id": "rouffignac",
@@ -278,7 +296,8 @@
     "lng": 0.9876,
     "revelacao": "Mais de 150 mamutes fazem deste labirinto subterrâneo um caso excepcional.",
     "imagemArquivo": "Grotte de Rouff mammut.jpg",
-    "imagemAlt": "Desenho rupestre de um mamute com presas curvas em Rouffignac."
+    "imagemAlt": "Desenho rupestre de um mamute com presas curvas em Rouffignac.",
+    "categoria": "Arte rupestre"
   },
   {
     "id": "coa-valley",
@@ -292,7 +311,8 @@
     "lng": -7.117,
     "revelacao": "A descoberta ajudou a cancelar uma barragem e transformou a compreensão da arte paleolítica ao ar livre.",
     "imagemArquivo": "Prehistoric Rock-Art Site of the Côa Valley - Penascosa - Bull @ 2011-08-06.jpg",
-    "imagemAlt": "Contorno de um bovino paleolítico gravado em rocha no sítio de Penascosa, Vale do Côa."
+    "imagemAlt": "Contorno de um bovino paleolítico gravado em rocha no sítio de Penascosa, Vale do Côa.",
+    "categoria": "Arte rupestre"
   },
   {
     "id": "siega-verde",
@@ -306,7 +326,8 @@
     "lng": -6.6611,
     "revelacao": "O sítio espanhol integra o Patrimônio Mundial transfronteiriço compartilhado com o Vale do Côa.",
     "imagemArquivo": "Siega Verde.JPG",
-    "imagemAlt": "Gravura paleolítica de animal numa laje ao ar livre em Siega Verde."
+    "imagemAlt": "Gravura paleolítica de animal numa laje ao ar livre em Siega Verde.",
+    "categoria": "Arte rupestre"
   },
   {
     "id": "valcamonica",
@@ -320,7 +341,8 @@
     "lng": 10.35,
     "revelacao": "Foi o primeiro sítio italiano inscrito na Lista do Patrimônio Mundial.",
     "imagemArquivo": "Scena di duello R6 - Foppe - Nadro (Foto Luca Giarelli).jpg",
-    "imagemAlt": "Dois guerreiros armados gravados em uma rocha de Valcamonica."
+    "imagemAlt": "Dois guerreiros armados gravados em uma rocha de Valcamonica.",
+    "categoria": "Arte rupestre"
   },
   {
     "id": "tanum",
@@ -334,7 +356,8 @@
     "lng": 11.3364,
     "revelacao": "Os painéis de Bohuslän revelam a importância ritual dos barcos para comunidades escandinavas.",
     "imagemArquivo": "Rock carving Vitlycke Tanum.JPG",
-    "imagemAlt": "Navios, pessoas e animais gravados e realçados em vermelho no painel de Vitlycke, Tanum."
+    "imagemAlt": "Navios, pessoas e animais gravados e realçados em vermelho no painel de Vitlycke, Tanum.",
+    "categoria": "Arte rupestre"
   },
   {
     "id": "alta",
@@ -348,7 +371,8 @@
     "lng": 23.1878,
     "revelacao": "A variação de altitude dos painéis ajuda a organizar milhares de anos de imagens do extremo norte.",
     "imagemArquivo": "Alta rock carvings 01.jpg",
-    "imagemAlt": "Renas e figuras humanas gravadas e pintadas de vermelho nas rochas de Alta."
+    "imagemAlt": "Renas e figuras humanas gravadas e pintadas de vermelho nas rochas de Alta.",
+    "categoria": "Arte rupestre"
   },
   {
     "id": "magura",
@@ -362,9 +386,9 @@
     "lng": 22.6003,
     "revelacao": "Os desenhos escuros foram feitos com guano de morcego e registram ritos, animais e símbolos.",
     "imagemArquivo": "Magura - drawings.jpg",
-    "imagemAlt": "Figuras humanas negras em posições de dança na caverna de Magura."
+    "imagemAlt": "Figuras humanas negras em posições de dança na caverna de Magura.",
+    "categoria": "Arte rupestre"
   },
-
   {
     "id": "bhimbetka",
     "nome": "O abrigo das muitas épocas",
@@ -377,7 +401,8 @@
     "lng": 77.6144,
     "revelacao": "A sequência de pinturas acompanha uma ocupação humana excepcionalmente longa no centro da Índia.",
     "imagemArquivo": "Bhimbetka Cave Paintings.jpg",
-    "imagemAlt": "Animais e pessoas pintados em branco e vermelho num abrigo de Bhimbetka."
+    "imagemAlt": "Animais e pessoas pintados em branco e vermelho num abrigo de Bhimbetka.",
+    "categoria": "Arte rupestre"
   },
   {
     "id": "edakkal",
@@ -391,7 +416,8 @@
     "lng": 76.2305,
     "revelacao": "O sítio nos Gates Ocidentais guarda uma rara concentração de petróglifos no sul da Índia.",
     "imagemArquivo": "Edakkal Caves - Petroglyphs - 9.jpg",
-    "imagemAlt": "Densa composição de figuras e símbolos gravados na parede de Edakkal."
+    "imagemAlt": "Densa composição de figuras e símbolos gravados na parede de Edakkal.",
+    "categoria": "Arte rupestre"
   },
   {
     "id": "daraki-chattan",
@@ -405,7 +431,8 @@
     "lng": 75.7305,
     "revelacao": "As cupules deste abrigo de Madhya Pradesh estão no centro de debates sobre as origens da expressão gráfica.",
     "imagemArquivo": "Daraki-Chattan Cave Cupules 1.jpg",
-    "imagemAlt": "Parede de caverna coberta por pequenas cavidades circulares em Daraki-Chattan."
+    "imagemAlt": "Parede de caverna coberta por pequenas cavidades circulares em Daraki-Chattan.",
+    "categoria": "Arte rupestre"
   },
   {
     "id": "chaturbhujnath-nala",
@@ -419,7 +446,8 @@
     "lng": 75.6703,
     "revelacao": "O complexo de Madhya Pradesh é uma das galerias rupestres contínuas mais extensas da Índia.",
     "imagemArquivo": "Chaturbhujnath Nala rock art 1.jpg",
-    "imagemAlt": "Cenas humanas e animais em pigmento vermelho na parede de Chaturbhujnath Nala."
+    "imagemAlt": "Cenas humanas e animais em pigmento vermelho na parede de Chaturbhujnath Nala.",
+    "categoria": "Arte rupestre"
   },
   {
     "id": "helan-mountains",
@@ -433,7 +461,8 @@
     "lng": 105.9667,
     "revelacao": "Milhares de petróglifos documentam povos pastoris e suas cosmologias no noroeste chinês.",
     "imagemArquivo": "Rock art from Helan Mountains in Ningxia Museum 03.jpg",
-    "imagemAlt": "Rosto estilizado gravado em rocha das Montanhas Helan, exposto no Museu de Ningxia."
+    "imagemAlt": "Rosto estilizado gravado em rocha das Montanhas Helan, exposto no Museu de Ningxia.",
+    "categoria": "Arte rupestre"
   },
   {
     "id": "zuojiang-huashan",
@@ -447,7 +476,8 @@
     "lng": 107.0423,
     "revelacao": "Os grandes painéis são associados à cultura Luoyue e dominam a paisagem fluvial de Guangxi.",
     "imagemArquivo": "Rock painting hua mountain 2.jpg",
-    "imagemAlt": "Grande paredão com muitas figuras humanas vermelhas de braços erguidos em Huashan."
+    "imagemAlt": "Grande paredão com muitas figuras humanas vermelhas de braços erguidos em Huashan.",
+    "categoria": "Arte rupestre"
   },
   {
     "id": "tamgaly",
@@ -461,7 +491,8 @@
     "lng": 75.535,
     "revelacao": "Cerca de cinco mil gravuras formam uma paisagem ritual nas montanhas Chu-Ili.",
     "imagemArquivo": "Sun God at Tamgaly Petroglyphs.jpg",
-    "imagemAlt": "Figura antropomórfica com cabeça em forma de sol gravada em Tamgaly."
+    "imagemAlt": "Figura antropomórfica com cabeça em forma de sol gravada em Tamgaly.",
+    "categoria": "Arte rupestre"
   },
   {
     "id": "saimaluu-tash",
@@ -475,7 +506,8 @@
     "lng": 73.814,
     "revelacao": "O nome significa pedras bordadas e descreve uma das maiores concentrações de petróglifos da Ásia Central.",
     "imagemArquivo": "Saimaluu-Tash petroglyph 04.jpg",
-    "imagemAlt": "Animais e figuras geométricas gravados em uma pedra escura de Saimaluu-Tash."
+    "imagemAlt": "Animais e figuras geométricas gravados em uma pedra escura de Saimaluu-Tash.",
+    "categoria": "Arte rupestre"
   },
   {
     "id": "mongolian-altai",
@@ -489,7 +521,8 @@
     "lng": 88.3954,
     "revelacao": "Três complexos no extremo oeste mongol preservam um raro registro contínuo da pré-história norte-asiática.",
     "imagemArquivo": "Altai Petroglyph.jpg",
-    "imagemAlt": "Animais de grandes chifres gravados numa rocha do Altai Mongol."
+    "imagemAlt": "Animais de grandes chifres gravados numa rocha do Altai Mongol.",
+    "categoria": "Arte rupestre"
   },
   {
     "id": "jubbah-hail",
@@ -503,7 +536,8 @@
     "lng": 40.92,
     "revelacao": "Jabal Umm Sinman reúne painéis que acompanham mudanças de clima, fauna e mobilidade humana.",
     "imagemArquivo": "Petroglyphs at Jubbah rock art site, Saudi Arabia (2).jpg",
-    "imagemAlt": "Camelo e outras figuras gravadas numa superfície rochosa escura em Jubbah."
+    "imagemAlt": "Camelo e outras figuras gravadas numa superfície rochosa escura em Jubbah.",
+    "categoria": "Arte rupestre"
   },
   {
     "id": "hima",
@@ -517,7 +551,8 @@
     "lng": 44.4518,
     "revelacao": "A posição numa antiga rota comercial explica a combinação singular de imagens e inscrições.",
     "imagemArquivo": "Petroglyph at Bir Hima in Saudi Arabia.jpg",
-    "imagemAlt": "Animais e pessoas gravados numa rocha da área cultural de Bir Hima."
+    "imagemAlt": "Animais e pessoas gravados numa rocha da área cultural de Bir Hima.",
+    "categoria": "Arte rupestre"
   },
   {
     "id": "gobustan",
@@ -531,7 +566,8 @@
     "lng": 49.3889,
     "revelacao": "Mais de seis mil gravuras documentam ocupações humanas próximas à costa oeste do Cáspio.",
     "imagemArquivo": "Stone Age rock carvings in Gobustan.jpg",
-    "imagemAlt": "Pessoas e embarcações gravadas em uma rocha clara de Gobustan."
+    "imagemAlt": "Pessoas e embarcações gravadas em uma rocha clara de Gobustan.",
+    "categoria": "Arte rupestre"
   },
   {
     "id": "leang-tedongnge",
@@ -545,9 +581,9 @@
     "lng": 119.6689,
     "revelacao": "A pintura de um porco-verruguento de Sulawesi está entre as imagens figurativas datadas mais antigas.",
     "imagemArquivo": "Leang Tedongnge rock art panel credit Basran Burhan.jpg",
-    "imagemAlt": "Pintura avermelhada de um porco-verruguento na parede de Leang Tedongnge."
+    "imagemAlt": "Pintura avermelhada de um porco-verruguento na parede de Leang Tedongnge.",
+    "categoria": "Arte rupestre"
   },
-
   {
     "id": "cueva-de-las-manos",
     "nome": "Uma nuvem de mãos",
@@ -560,7 +596,8 @@
     "lng": -70.6572,
     "revelacao": "Pigmento soprado ao redor das mãos criou um dos painéis mais reconhecíveis das Américas.",
     "imagemArquivo": "SantaCruz-CuevaManos-P2210651b.jpg",
-    "imagemAlt": "Muitas mãos em negativo vermelhas, amarelas e pretas na Cueva de las Manos."
+    "imagemAlt": "Muitas mãos em negativo vermelhas, amarelas e pretas na Cueva de las Manos.",
+    "categoria": "Arte rupestre"
   },
   {
     "id": "serra-da-capivara",
@@ -574,7 +611,8 @@
     "lng": -42.55,
     "revelacao": "A região concentra centenas de sítios e é uma referência central para a arqueologia sul-americana.",
     "imagemArquivo": "Serra da Capivara - Several Paintings 2b.jpg",
-    "imagemAlt": "Muitas figuras humanas e animais vermelhos em um abrigo da Serra da Capivara."
+    "imagemAlt": "Muitas figuras humanas e animais vermelhos em um abrigo da Serra da Capivara.",
+    "categoria": "Arte rupestre"
   },
   {
     "id": "chiribiquete",
@@ -588,7 +626,8 @@
     "lng": -72.8054,
     "revelacao": "Dezenas de milhares de figuras registram animais, ritos e uma profunda relação com o jaguar.",
     "imagemArquivo": "Chiribiquete petroglyph 2.jpg",
-    "imagemAlt": "Painel de arte rupestre com figuras vermelhas em Chiribiquete."
+    "imagemAlt": "Painel de arte rupestre com figuras vermelhas em Chiribiquete.",
+    "categoria": "Arte rupestre"
   },
   {
     "id": "serrania-la-lindosa",
@@ -602,7 +641,8 @@
     "lng": -72.6486,
     "revelacao": "Os painéis de Cerro Azul formam uma narrativa visual excepcionalmente densa.",
     "imagemArquivo": "Serrania de la Lindosa rock paintings.jpg",
-    "imagemAlt": "Parede coberta por centenas de pequenas figuras vermelhas em La Lindosa."
+    "imagemAlt": "Parede coberta por centenas de pequenas figuras vermelhas em La Lindosa.",
+    "categoria": "Arte rupestre"
   },
   {
     "id": "sierra-san-francisco",
@@ -616,7 +656,8 @@
     "lng": -112.9161,
     "revelacao": "A tradição dos Grandes Murais cobre abrigos remotos da península da Baixa Califórnia.",
     "imagemArquivo": "Pintura rupestre de Baja California.jpg",
-    "imagemAlt": "Grandes figuras humanas bicolores e animais pintados num abrigo da Baixa Califórnia."
+    "imagemAlt": "Grandes figuras humanas bicolores e animais pintados num abrigo da Baixa Califórnia.",
+    "categoria": "Arte rupestre"
   },
   {
     "id": "toquepala",
@@ -630,7 +671,8 @@
     "lng": -70.7181,
     "revelacao": "A famosa cena é interpretada como uma chaku, técnica coletiva de caça aos camelídeos.",
     "imagemArquivo": "Toquepala Caves 1.jpg",
-    "imagemAlt": "Pequenas figuras de caçadores e camelídeos pintadas na caverna de Toquepala."
+    "imagemAlt": "Pequenas figuras de caçadores e camelídeos pintadas na caverna de Toquepala.",
+    "categoria": "Arte rupestre"
   },
   {
     "id": "toro-muerto",
@@ -644,7 +686,8 @@
     "lng": -72.5078,
     "revelacao": "É uma das maiores concentrações de petróglifos da América do Sul.",
     "imagemArquivo": "Toro Muerto Archaeological site - petroglyph (llama).jpg",
-    "imagemAlt": "Lhama de corpo quadriculado gravada em um bloco de Toro Muerto."
+    "imagemAlt": "Lhama de corpo quadriculado gravada em um bloco de Toro Muerto.",
+    "categoria": "Arte rupestre"
   },
   {
     "id": "pusharo",
@@ -658,7 +701,8 @@
     "lng": -71.486,
     "revelacao": "O painel fica no Parque Nacional do Manú e tem grande importância cultural para povos amazônicos.",
     "imagemArquivo": "Sixto-petroglifos-paititi-2007.jpg",
-    "imagemAlt": "Pessoa diante de uma parede densamente gravada com linhas e símbolos em Pusharo."
+    "imagemAlt": "Pessoa diante de uma parede densamente gravada com linhas e símbolos em Pusharo.",
+    "categoria": "Arte rupestre"
   },
   {
     "id": "petroglyph-national-monument",
@@ -672,7 +716,8 @@
     "lng": -106.7619,
     "revelacao": "A escarpa vulcânica na borda de Albuquerque preserva cerca de 24 mil imagens.",
     "imagemArquivo": "Animal Images in Rinconada Canyon at Petroglyph National Monument.jpg",
-    "imagemAlt": "Figuras de animais gravadas em rochas vulcânicas escuras no Rinconada Canyon."
+    "imagemAlt": "Figuras de animais gravadas em rochas vulcânicas escuras no Rinconada Canyon.",
+    "categoria": "Arte rupestre"
   },
   {
     "id": "horseshoe-canyon",
@@ -686,7 +731,8 @@
     "lng": -110.0422,
     "revelacao": "A composição é a obra-prima do estilo Barrier Canyon e inclui figuras em tamanho quase natural.",
     "imagemArquivo": "GreatGalleryedit.jpg",
-    "imagemAlt": "Altas figuras antropomórficas pintadas em vermelho no painel Great Gallery."
+    "imagemAlt": "Altas figuras antropomórficas pintadas em vermelho no painel Great Gallery.",
+    "categoria": "Arte rupestre"
   },
   {
     "id": "newspaper-rock",
@@ -700,7 +746,8 @@
     "lng": -109.5183,
     "revelacao": "O painel reúne imagens de diferentes povos e épocas no atual estado de Utah.",
     "imagemArquivo": "Newspaper Rock Full.jpg",
-    "imagemAlt": "Grande painel escuro densamente coberto por petróglifos em Newspaper Rock."
+    "imagemAlt": "Grande painel escuro densamente coberto por petróglifos em Newspaper Rock.",
+    "categoria": "Arte rupestre"
   },
   {
     "id": "writing-on-stone",
@@ -714,7 +761,8 @@
     "lng": -111.617,
     "revelacao": "A paisagem do vale do Milk River continua sagrada para o povo Blackfoot.",
     "imagemArquivo": "Petroglyph from Writing-on-Stone Provincial Park.jpg",
-    "imagemAlt": "Figura gravada na superfície clara de arenito em Writing-on-Stone."
+    "imagemAlt": "Figura gravada na superfície clara de arenito em Writing-on-Stone.",
+    "categoria": "Arte rupestre"
   },
   {
     "id": "nine-mile-canyon",
@@ -728,9 +776,9 @@
     "lng": -110.5,
     "revelacao": "Apesar do nome, o cânion se estende por dezenas de quilômetros e guarda milhares de imagens.",
     "imagemArquivo": "Hunt Scene petroglyph along Nine Mile Canyon National Backcountry Byway, near Price, Utah, US.jpg",
-    "imagemAlt": "Arqueiros e carneiros de grandes chifres gravados no painel Hunt Scene de Nine Mile Canyon."
+    "imagemAlt": "Arqueiros e carneiros de grandes chifres gravados no painel Hunt Scene de Nine Mile Canyon.",
+    "categoria": "Arte rupestre"
   },
-
   {
     "id": "ubirr",
     "nome": "O cardápio das monções",
@@ -743,7 +791,8 @@
     "lng": 132.9593,
     "revelacao": "O estilo de raios X revela detalhes internos dos animais e a profunda relação Bininj/Mungguy com o território.",
     "imagemArquivo": "Ubirr rock art.JPG",
-    "imagemAlt": "Peixes e outros animais pintados no estilo de raios X em Ubirr."
+    "imagemAlt": "Peixes e outros animais pintados no estilo de raios X em Ubirr.",
+    "categoria": "Arte rupestre"
   },
   {
     "id": "nourlangie",
@@ -757,7 +806,8 @@
     "lng": 132.8125,
     "revelacao": "Namarrgon, o Homem-Relâmpago, é uma das figuras centrais da galeria Anbangbang.",
     "imagemArquivo": "Kakadu 2488.jpg",
-    "imagemAlt": "Figuras ancestrais pintadas com contornos brancos e detalhes ocres em Burrungkuy."
+    "imagemAlt": "Figuras ancestrais pintadas com contornos brancos e detalhes ocres em Burrungkuy.",
+    "categoria": "Arte rupestre"
   },
   {
     "id": "quinkan",
@@ -771,7 +821,8 @@
     "lng": 144.4167,
     "revelacao": "As galerias da península do Cabo York preservam estilos figurativos próprios e histórias dos povos locais.",
     "imagemArquivo": "Quinkan1.jpg",
-    "imagemAlt": "Figura humana alongada pintada em vermelho e amarelo na região de Quinkan."
+    "imagemAlt": "Figura humana alongada pintada em vermelho e amarelo na região de Quinkan.",
+    "categoria": "Arte rupestre"
   },
   {
     "id": "murujuga",
@@ -785,7 +836,8 @@
     "lng": 116.808,
     "revelacao": "A paisagem cultural reúne uma das maiores e mais longas sequências de arte rupestre do mundo.",
     "imagemArquivo": "Aboriginal Rock Art meets Art of the Engineer.jpg",
-    "imagemAlt": "Tartaruga e figura humana gravadas num bloco avermelhado em Murujuga."
+    "imagemAlt": "Tartaruga e figura humana gravadas num bloco avermelhado em Murujuga.",
+    "categoria": "Arte rupestre"
   },
   {
     "id": "gwion-gwion",
@@ -796,10 +848,11 @@
     "pais": "Austrália",
     "regiao": "Oceania",
     "lat": -14.75,
-    "lng": 125.0,
+    "lng": 125,
     "revelacao": "Também conhecidas como figuras Bradshaw, formam uma tradição visual distinta do noroeste australiano.",
     "imagemArquivo": "Bradshaw rock paintings.jpg",
-    "imagemAlt": "Figuras humanas esguias com adornos detalhados em uma pintura Gwion Gwion."
+    "imagemAlt": "Figuras humanas esguias com adornos detalhados em uma pintura Gwion Gwion.",
+    "categoria": "Arte rupestre"
   },
   {
     "id": "wandjina",
@@ -813,7 +866,8 @@
     "lng": 126.1,
     "revelacao": "Comunidades Ngarinyin, Worrorra e Wunambal continuam responsáveis por essa tradição ancestral.",
     "imagemArquivo": "Wandjina rock art.jpg",
-    "imagemAlt": "Grandes rostos Wandjina brancos, com olhos escuros e halos avermelhados."
+    "imagemAlt": "Grandes rostos Wandjina brancos, com olhos escuros e halos avermelhados.",
+    "categoria": "Arte rupestre"
   },
   {
     "id": "bunjil-shelter",
@@ -827,7 +881,8 @@
     "lng": 142.7334,
     "revelacao": "É a única representação rupestre conhecida de Bunjil, ser criador central de povos Kulin.",
     "imagemArquivo": "20120705 Bunjil Shelter.JPG",
-    "imagemAlt": "Figura clara de Bunjil com dois pequenos dingos pintada num abrigo de granito."
+    "imagemAlt": "Figura clara de Bunjil com dois pequenos dingos pintada num abrigo de granito.",
+    "categoria": "Arte rupestre"
   },
   {
     "id": "carnarvon-gorge",
@@ -841,7 +896,8 @@
     "lng": 148.1833,
     "revelacao": "A galeria preserva mais de duas mil imagens ligadas aos povos Bidjara e Karingbal.",
     "imagemArquivo": "Aboriginal art Carnarvon Gorge.jpg",
-    "imagemAlt": "Muitos estênceis ocres de mãos e objetos na parede de Carnarvon Gorge."
+    "imagemAlt": "Muitos estênceis ocres de mãos e objetos na parede de Carnarvon Gorge.",
+    "categoria": "Arte rupestre"
   },
   {
     "id": "ku-ring-gai-chase",
@@ -855,7 +911,8 @@
     "lng": 151.2011,
     "revelacao": "O parque conserva centenas de conjuntos de gravuras dos povos da região de Sydney.",
     "imagemArquivo": "Man and woman sydney rock art.JPG",
-    "imagemAlt": "Contornos gravados de uma figura masculina e outra feminina em Ku-ring-gai Chase."
+    "imagemAlt": "Contornos gravados de uma figura masculina e outra feminina em Ku-ring-gai Chase.",
+    "categoria": "Arte rupestre"
   },
   {
     "id": "red-hands-cave",
@@ -869,7 +926,8 @@
     "lng": 150.5908,
     "revelacao": "O abrigo perto de Glenbrook é uma das melhores galerias de estênceis aborígenes da região.",
     "imagemArquivo": "(1)Red Hands Cave004.jpg",
-    "imagemAlt": "Diversas mãos vermelhas em negativo numa parede da Red Hands Cave."
+    "imagemAlt": "Diversas mãos vermelhas em negativo numa parede da Red Hands Cave.",
+    "categoria": "Arte rupestre"
   },
   {
     "id": "takiroa",
@@ -883,7 +941,8 @@
     "lng": 170.6452,
     "revelacao": "As figuras de Takiroa estão entre os exemplos mais acessíveis da arte rupestre Māori do vale do Waitaki.",
     "imagemArquivo": "Takiroa Rock Art, Duntroon A.jpg",
-    "imagemAlt": "Figura Māori alongada em pigmento vermelho no abrigo rupestre de Takiroa."
+    "imagemAlt": "Figura Māori alongada em pigmento vermelho no abrigo rupestre de Takiroa.",
+    "categoria": "Arte rupestre"
   },
   {
     "id": "orongo",
@@ -897,6 +956,1596 @@
     "lng": -109.4425,
     "revelacao": "Os petróglifos se ligam à competição ritual tangata manu, ou homem-pássaro.",
     "imagemArquivo": "PETROGLYPHS ON THE ROCKS NEAR ORONGO VILLAGE - EASTER ISLAND.jpg",
-    "imagemAlt": "Petróglifos de figuras homem-pássaro gravados nas rochas de Orongo em Rapa Nui."
+    "imagemAlt": "Petróglifos de figuras homem-pássaro gravados nas rochas de Orongo em Rapa Nui.",
+    "categoria": "Arte rupestre"
+  },
+  {
+    "id": "burj-khalifa-recorde",
+    "nome": "A torre acima das nuvens",
+    "pista": "Concluído em 2010, este arranha-céu alcança 828 metros e permanece o edifício concluído mais alto do mundo.",
+    "periodo": "828 m",
+    "resposta": "Burj Khalifa",
+    "pais": "Emirados Árabes Unidos",
+    "regiao": "Ásia",
+    "categoria": "Recorde geográfico",
+    "lat": 25.1972,
+    "lng": 55.2744,
+    "revelacao": "Seus 163 andares habitáveis dominam o horizonte de Dubai.",
+    "imagemAlt": "Arranha-céu muito alto elevando-se acima da paisagem urbana.",
+    "imagemArquivo": "Burj_Khalifa_(worlds_tallest_building)_and_the_Dubai_skyline_(25781049892).jpg"
+  },
+  {
+    "id": "amazonas-maior-vazao",
+    "nome": "O gigante das águas",
+    "pista": "Nenhum outro rio despeja tanta água no oceano; sua bacia atravessa a maior floresta tropical do planeta.",
+    "periodo": "Maior vazão",
+    "resposta": "Rio Amazonas",
+    "pais": "Brasil e países vizinhos",
+    "regiao": "Américas",
+    "categoria": "Recorde geográfico",
+    "lat": -3.13,
+    "lng": -60.02,
+    "revelacao": "O ponto de referência fica em Manaus, onde o Negro encontra o Solimões.",
+    "imagemAlt": "Rio muito largo cercado por floresta tropical densa.",
+    "imagemArquivo": "Amazon_River_ESA387332.jpg",
+    "raioKm": 900
+  },
+  {
+    "id": "nilo-comprimento",
+    "nome": "A longa faixa verde",
+    "pista": "Tradicionalmente citado como o rio mais longo do mundo, cruza o nordeste africano antes de formar um grande delta mediterrâneo.",
+    "periodo": "c. 6.650 km",
+    "resposta": "Rio Nilo",
+    "pais": "Egito e África Oriental",
+    "regiao": "África",
+    "categoria": "Recorde geográfico",
+    "lat": 30.0444,
+    "lng": 31.2357,
+    "revelacao": "O ponto de referência está no Cairo; a medição de rios pode variar conforme a nascente adotada.",
+    "imagemAlt": "Grande rio atravessando uma cidade e margens verdes.",
+    "imagemArquivo": "Beautiful_nature_along_Nile_River_01.jpg",
+    "raioKm": 750
+  },
+  {
+    "id": "lago-superior-superficie",
+    "nome": "Um mar de água doce",
+    "pista": "Pela área de superfície, é o maior lago de água doce do planeta e integra um conjunto de cinco grandes lagos.",
+    "periodo": "82.100 km²",
+    "resposta": "Lago Superior",
+    "pais": "Canadá e Estados Unidos",
+    "regiao": "Américas",
+    "categoria": "Recorde geográfico",
+    "lat": 47.7,
+    "lng": -87.5,
+    "revelacao": "Sua água ocupa uma bacia moldada por geleiras na fronteira binacional.",
+    "imagemAlt": "Extensa massa de água azul vista entre margens rochosas.",
+    "imagemArquivo": "Lake_Superior,_ISS.jpg",
+    "raioKm": 450
+  },
+  {
+    "id": "baikal-profundidade",
+    "nome": "O abismo de água doce",
+    "pista": "Este lago siberiano chega a cerca de 1.642 metros de profundidade e guarda uma enorme parcela da água doce líquida superficial do mundo.",
+    "periodo": "1.642 m",
+    "resposta": "Lago Baikal",
+    "pais": "Rússia",
+    "regiao": "Ásia",
+    "categoria": "Recorde geográfico",
+    "lat": 53.5,
+    "lng": 108,
+    "revelacao": "É o lago mais profundo e um dos mais antigos da Terra.",
+    "imagemAlt": "Lago azul profundo cercado por montanhas e encostas.",
+    "imagemArquivo": "Baikal.A2001296.0420.250m-NASA.jpg",
+    "raioKm": 450
+  },
+  {
+    "id": "congo-rio-profundo",
+    "nome": "O rio sem fundo aparente",
+    "pista": "Medições de sonar encontraram canais com mais de 200 metros neste grande rio equatorial africano.",
+    "periodo": "Mais de 200 m",
+    "resposta": "Rio Congo",
+    "pais": "República Democrática do Congo e República do Congo",
+    "regiao": "África",
+    "categoria": "Recorde geográfico",
+    "lat": -5.85,
+    "lng": 13.05,
+    "revelacao": "É considerado o rio mais profundo já medido; o ponto fica no baixo Congo.",
+    "imagemAlt": "Rio largo e caudaloso atravessando vegetação tropical.",
+    "imagemArquivo": "Aerial_view_of_the_Congo_River_near_Kisangani.jpg",
+    "raioKm": 750
+  },
+  {
+    "id": "everest-altitude",
+    "nome": "O teto acima do mar",
+    "pista": "Seu cume, na cordilheira do Himalaia, é o ponto mais alto da superfície terrestre medido a partir do nível do mar.",
+    "periodo": "8.848,86 m",
+    "resposta": "Monte Everest",
+    "pais": "Nepal e China",
+    "regiao": "Ásia",
+    "categoria": "Recorde geográfico",
+    "lat": 27.9881,
+    "lng": 86.925,
+    "revelacao": "A altitude oficial conjunta foi anunciada por Nepal e China em 2020.",
+    "imagemAlt": "Pico piramidal coberto de neve acima das nuvens.",
+    "imagemArquivo": "Mt._Everest_from_Gokyo_Ri_November_5,_2012.jpg"
+  },
+  {
+    "id": "chimborazo-centro-terra",
+    "nome": "Mais perto das estrelas",
+    "pista": "Graças ao abaulamento equatorial, o cume deste vulcão é o ponto da superfície mais distante do centro da Terra.",
+    "periodo": "6.263 m do nível do mar",
+    "resposta": "Chimborazo",
+    "pais": "Equador",
+    "regiao": "Américas",
+    "categoria": "Recorde geográfico",
+    "lat": -1.4692,
+    "lng": -78.817,
+    "revelacao": "Embora mais baixo que o Everest, seu cume está mais longe do núcleo terrestre.",
+    "imagemAlt": "Grande vulcão nevado erguendo-se sobre o planalto.",
+    "imagemArquivo": "Chimborazo,_aspecto_norte,_Ecuador._(26354503702).jpg"
+  },
+  {
+    "id": "mauna-kea-base-cume",
+    "nome": "A montanha escondida",
+    "pista": "Medida desde sua base no fundo oceânico até o cume, esta montanha supera dez quilômetros de altura.",
+    "periodo": "Mais de 10 km da base",
+    "resposta": "Mauna Kea",
+    "pais": "Estados Unidos",
+    "regiao": "Oceania",
+    "categoria": "Recorde geográfico",
+    "lat": 19.8207,
+    "lng": -155.4681,
+    "revelacao": "A maior parte de sua estrutura vulcânica fica submersa no Pacífico.",
+    "imagemAlt": "Cume vulcânico alto com observatórios sob céu limpo.",
+    "imagemArquivo": "Mauna_Kea_from_the_ocean.jpg"
+  },
+  {
+    "id": "challenger-deep",
+    "nome": "O ponto mais profundo",
+    "pista": "Este vale submarino numa fossa do Pacífico desce a quase onze quilômetros abaixo do nível do mar.",
+    "periodo": "c. 10.900 m",
+    "resposta": "Challenger Deep, Fossa das Marianas",
+    "pais": "Oceano Pacífico",
+    "regiao": "Oceania",
+    "categoria": "Recorde geográfico",
+    "lat": 11.35,
+    "lng": 142.2,
+    "revelacao": "É o ponto mais profundo conhecido dos oceanos.",
+    "imagemAlt": "Ilustração oceânica mostrando uma fossa submarina muito profunda.",
+    "imagemArquivo": "Marianatrenchmap.png",
+    "raioKm": 500
+  },
+  {
+    "id": "mar-morto-menor-altitude",
+    "nome": "A margem mais baixa",
+    "pista": "As margens deste lago salgado ficam mais de 430 metros abaixo do nível do mar, a menor altitude continental exposta.",
+    "periodo": "c. −430 m",
+    "resposta": "Mar Morto",
+    "pais": "Jordânia, Israel e Palestina",
+    "regiao": "Ásia",
+    "categoria": "Recorde geográfico",
+    "lat": 31.5,
+    "lng": 35.5,
+    "revelacao": "A salinidade elevada permite que banhistas flutuem com facilidade.",
+    "imagemAlt": "Lago salgado azul entre montanhas áridas.",
+    "imagemArquivo": "Dead_Sea_beach_00.JPG",
+    "raioKm": 300
+  },
+  {
+    "id": "antartida-maior-deserto",
+    "nome": "O maior deserto é gelado",
+    "pista": "Com precipitação extremamente baixa e cerca de 14 milhões de quilômetros quadrados, este continente é o maior deserto da Terra.",
+    "periodo": "c. 14 milhões km²",
+    "resposta": "Antártida",
+    "pais": "Área regida pelo Tratado da Antártida",
+    "regiao": "Antártida",
+    "categoria": "Recorde geográfico",
+    "lat": -90,
+    "lng": 0,
+    "revelacao": "Deserto é definido pela escassez de precipitação, não pela temperatura.",
+    "imagemAlt": "Vasta paisagem de gelo branco sob céu azul.",
+    "imagemArquivo": "Antarctica landscape (53107252158).jpg",
+    "raioKm": 2600
+  },
+  {
+    "id": "saara-maior-deserto-quente",
+    "nome": "O oceano de areia",
+    "pista": "Este cinturão árido ocupa grande parte do norte africano e é o maior deserto quente do mundo.",
+    "periodo": "c. 9,2 milhões km²",
+    "resposta": "Deserto do Saara",
+    "pais": "Norte da África",
+    "regiao": "África",
+    "categoria": "Recorde geográfico",
+    "lat": 23.4162,
+    "lng": 25.6628,
+    "revelacao": "Sua paisagem inclui dunas, planaltos rochosos e montanhas.",
+    "imagemAlt": "Grandes dunas douradas estendendo-se até o horizonte.",
+    "imagemArquivo": "Sahara_real_color.jpg",
+    "raioKm": 1700
+  },
+  {
+    "id": "groenlandia-maior-ilha",
+    "nome": "A maior ilha",
+    "pista": "Sem contar os continentes, esta massa terrestre coberta por uma enorme camada de gelo é a maior ilha do planeta.",
+    "periodo": "2,16 milhões km²",
+    "resposta": "Groenlândia",
+    "pais": "Reino da Dinamarca",
+    "regiao": "Américas",
+    "categoria": "Recorde geográfico",
+    "lat": 72,
+    "lng": -40,
+    "revelacao": "A maior parte de sua superfície permanece sob gelo permanente.",
+    "imagemAlt": "Costa ártica com geleiras, montanhas e água azul.",
+    "imagemArquivo": "Greenland-fjord ice hg.jpg",
+    "raioKm": 1300
+  },
+  {
+    "id": "caspio-maior-lago",
+    "nome": "O lago chamado de mar",
+    "pista": "Apesar do nome, esta massa fechada entre Europa e Ásia é o maior corpo de água interior do mundo por área.",
+    "periodo": "c. 371 mil km²",
+    "resposta": "Mar Cáspio",
+    "pais": "Cinco países ribeirinhos",
+    "regiao": "Ásia",
+    "categoria": "Recorde geográfico",
+    "lat": 41,
+    "lng": 51,
+    "revelacao": "Não possui saída natural para os oceanos.",
+    "imagemAlt": "Grande extensão de água interior vista da costa.",
+    "imagemArquivo": "Caspian_Sea_from_orbit.jpg",
+    "raioKm": 650
+  },
+  {
+    "id": "angel-falls-altura",
+    "nome": "A queda quase sem fim",
+    "pista": "A água despenca de um tepui por 979 metros, formando a maior cachoeira ininterrupta do mundo.",
+    "periodo": "979 m",
+    "resposta": "Salto Ángel",
+    "pais": "Venezuela",
+    "regiao": "Américas",
+    "categoria": "Recorde geográfico",
+    "lat": 5.9675,
+    "lng": -62.5356,
+    "revelacao": "A queda nasce no topo do Auyán-tepui, no Parque Nacional Canaima.",
+    "imagemAlt": "Cachoeira muito alta caindo de um paredão rochoso isolado.",
+    "imagemArquivo": "SaltoAngel1.jpg"
+  },
+  {
+    "id": "uyuni-maior-salar",
+    "nome": "O espelho do céu",
+    "pista": "Na estação úmida, uma fina lâmina de água transforma o maior salar do mundo num gigantesco espelho.",
+    "periodo": "10.582 km²",
+    "resposta": "Salar de Uyuni",
+    "pais": "Bolívia",
+    "regiao": "Américas",
+    "categoria": "Recorde geográfico",
+    "lat": -20.1338,
+    "lng": -67.4891,
+    "revelacao": "A planície de sal também contém importantes reservas de lítio.",
+    "imagemAlt": "Planície de sal refletindo perfeitamente o céu e as nuvens.",
+    "imagemArquivo": "Salar_Uyuni_au01.jpg"
+  },
+  {
+    "id": "grande-barreira-recifes",
+    "nome": "A estrutura viva colossal",
+    "pista": "Milhares de recifes e ilhas formam o maior sistema de recifes de coral da Terra.",
+    "periodo": "Mais de 2.300 km",
+    "resposta": "Grande Barreira de Coral",
+    "pais": "Austrália",
+    "regiao": "Oceania",
+    "categoria": "Recorde geográfico",
+    "lat": -18.2871,
+    "lng": 147.6992,
+    "revelacao": "O sistema acompanha a costa de Queensland e pode ser visto do espaço em imagens orbitais.",
+    "imagemAlt": "Recifes de coral azul-turquesa vistos do alto.",
+    "imagemArquivo": "ISS-45_StoryOfWater,_Great_Barrier_Reef,_Australia.jpg",
+    "raioKm": 700
+  },
+  {
+    "id": "pacifico-maior-oceano",
+    "nome": "Metade do mundo em água",
+    "pista": "Este oceano cobre mais área que todas as terras emersas combinadas e contém a fossa mais profunda.",
+    "periodo": "c. 165 milhões km²",
+    "resposta": "Oceano Pacífico",
+    "pais": "Oceano global",
+    "regiao": "Oceania",
+    "categoria": "Recorde geográfico",
+    "lat": 0,
+    "lng": -160,
+    "revelacao": "É o maior e mais profundo dos oceanos terrestres.",
+    "imagemAlt": "Vista orbital de uma vasta extensão azul do oceano.",
+    "imagemArquivo": "Pacific_Ocean_-_en.png",
+    "raioKm": 4000
+  },
+  {
+    "id": "mar-filipinas-maior-mar",
+    "nome": "O maior mar",
+    "pista": "Delimitado por extensos arcos de ilhas no oeste do Pacífico, é geralmente considerado o maior mar do mundo.",
+    "periodo": "c. 5,7 milhões km²",
+    "resposta": "Mar das Filipinas",
+    "pais": "Pacífico ocidental",
+    "regiao": "Ásia",
+    "categoria": "Recorde geográfico",
+    "lat": 20,
+    "lng": 135,
+    "revelacao": "Sua borda oriental acompanha as Ilhas Marianas.",
+    "imagemAlt": "Mar azul profundo cercado por ilhas vistas do espaço.",
+    "imagemArquivo": "Philippine_Sea_location.jpg",
+    "raioKm": 1700
+  },
+  {
+    "id": "baia-bengala-maior",
+    "nome": "A maior baía",
+    "pista": "Esta grande reentrância do Índico recebe rios como Ganges, Brahmaputra e Meghna.",
+    "periodo": "c. 2,17 milhões km²",
+    "resposta": "Baía de Bengala",
+    "pais": "Sul e Sudeste da Ásia",
+    "regiao": "Ásia",
+    "categoria": "Recorde geográfico",
+    "lat": 15,
+    "lng": 88,
+    "revelacao": "É amplamente reconhecida como a maior baía do planeta.",
+    "imagemAlt": "Grande baía azul vista em imagem de satélite.",
+    "imagemArquivo": "Bay_of_Bengal_map.png",
+    "raioKm": 1000
+  },
+  {
+    "id": "peninsula-arabica-maior",
+    "nome": "A maior península",
+    "pista": "Cercada pelo Mar Vermelho, Golfo Pérsico e Mar Arábico, esta vasta região é a maior península do mundo.",
+    "periodo": "c. 3,2 milhões km²",
+    "resposta": "Península Arábica",
+    "pais": "Sudoeste da Ásia",
+    "regiao": "Ásia",
+    "categoria": "Recorde geográfico",
+    "lat": 24,
+    "lng": 45,
+    "revelacao": "Seu interior é dominado por planaltos e grandes desertos.",
+    "imagemAlt": "Península árida entre mares vista do espaço.",
+    "imagemArquivo": "Arabian_Peninsula_dust_SeaWiFS.jpg",
+    "raioKm": 950
+  },
+  {
+    "id": "andes-cordilheira-longa",
+    "nome": "A espinha dorsal continental",
+    "pista": "Esta cadeia acompanha a margem ocidental de um continente por cerca de sete mil quilômetros.",
+    "periodo": "c. 7.000 km",
+    "resposta": "Cordilheira dos Andes",
+    "pais": "América do Sul",
+    "regiao": "Américas",
+    "categoria": "Recorde geográfico",
+    "lat": -20,
+    "lng": -68,
+    "revelacao": "É a mais longa cordilheira continental do mundo.",
+    "imagemAlt": "Longa sequência de picos montanhosos cobertos de neve.",
+    "imagemArquivo": "Panoramic_view_Andes-Chile.jpg",
+    "raioKm": 1400
+  },
+  {
+    "id": "planalto-tibete-altura",
+    "nome": "O teto do mundo",
+    "pista": "Com altitude média acima de 4.500 metros, este enorme planalto alimenta muitos dos grandes rios asiáticos.",
+    "periodo": "Média acima de 4.500 m",
+    "resposta": "Planalto Tibetano",
+    "pais": "China e áreas vizinhas",
+    "regiao": "Ásia",
+    "categoria": "Recorde geográfico",
+    "lat": 33,
+    "lng": 88,
+    "revelacao": "É o maior e mais elevado planalto do planeta.",
+    "imagemAlt": "Planalto elevado com lagos e montanhas nevadas.",
+    "imagemArquivo": "Himalaya_composite.jpg",
+    "raioKm": 1000
+  },
+  {
+    "id": "delta-ganges-brahmaputra",
+    "nome": "O delta dos grandes rios",
+    "pista": "Sedimentos de três grandes sistemas fluviais criaram uma imensa planície antes das águas alcançarem uma baía tropical.",
+    "periodo": "Maior delta",
+    "resposta": "Delta do Ganges–Brahmaputra–Meghna",
+    "pais": "Bangladesh e Índia",
+    "regiao": "Ásia",
+    "categoria": "Recorde geográfico",
+    "lat": 22,
+    "lng": 90,
+    "revelacao": "É frequentemente descrito como o maior delta do mundo.",
+    "imagemAlt": "Rede de rios e canais formando um grande delta verde.",
+    "imagemArquivo": "Ganges_Delta_ESA22274217.jpeg",
+    "raioKm": 500
+  },
+  {
+    "id": "sundarbans-manguezal",
+    "nome": "O labirinto das marés",
+    "pista": "Ilhas, canais e florestas salobras formam o maior manguezal contínuo do planeta e habitat do tigre-de-bengala.",
+    "periodo": "c. 10 mil km²",
+    "resposta": "Sundarbans",
+    "pais": "Bangladesh e Índia",
+    "regiao": "Ásia",
+    "categoria": "Recorde geográfico",
+    "lat": 21.9497,
+    "lng": 89.1833,
+    "revelacao": "A paisagem muda diariamente com as marés do delta.",
+    "imagemAlt": "Manguezal verde cortado por numerosos canais de maré.",
+    "imagemArquivo": "Save_the_sundarbans_20.jpg"
+  },
+  {
+    "id": "son-doong-volume",
+    "nome": "A caverna gigante",
+    "pista": "Sua passagem principal é tão volumosa que poderia abrigar quarteirões urbanos e possui floresta sob claraboias naturais.",
+    "periodo": "Maior passagem por volume",
+    "resposta": "Caverna Sơn Đoòng",
+    "pais": "Vietnã",
+    "regiao": "Ásia",
+    "categoria": "Recorde geográfico",
+    "lat": 17.4569,
+    "lng": 106.287,
+    "revelacao": "É reconhecida como a maior passagem de caverna conhecida por volume.",
+    "imagemAlt": "Enorme salão de caverna iluminado por abertura natural e vegetação.",
+    "imagemArquivo": "Son_Doong_Cave_5.jpg"
+  },
+  {
+    "id": "lambert-maior-geleira",
+    "nome": "O rio de gelo colossal",
+    "pista": "Uma vasta corrente de gelo drena grande parte do manto oriental do continente mais frio.",
+    "periodo": "c. 400 km de extensão",
+    "resposta": "Geleira Lambert",
+    "pais": "Antártida",
+    "regiao": "Antártida",
+    "categoria": "Recorde geográfico",
+    "lat": -71,
+    "lng": 70,
+    "revelacao": "É frequentemente identificada como a maior geleira do mundo.",
+    "imagemAlt": "Imensa corrente branca de gelo vista por satélite.",
+    "imagemArquivo": "Icefall_hires_2.jpg",
+    "raioKm": 700
+  },
+  {
+    "id": "titicaca-navegavel",
+    "nome": "Navegação nas alturas",
+    "pista": "Grandes embarcações cruzam este lago andino situado a mais de 3.800 metros de altitude.",
+    "periodo": "3.812 m de altitude",
+    "resposta": "Lago Titicaca",
+    "pais": "Peru e Bolívia",
+    "regiao": "Américas",
+    "categoria": "Recorde geográfico",
+    "lat": -15.765,
+    "lng": -69.456,
+    "revelacao": "É conhecido como o lago navegável por grandes embarcações mais alto do mundo.",
+    "imagemAlt": "Lago azul de altitude com montanhas ao fundo.",
+    "imagemArquivo": "Lake_Titicaca_ESA22522896.jpeg",
+    "raioKm": 300
+  },
+  {
+    "id": "atacama-deserto-seco",
+    "nome": "Décadas sem chuva",
+    "pista": "Entre o Pacífico e os Andes, algumas estações desta região registram precipitação quase inexistente.",
+    "periodo": "Deserto não polar mais seco",
+    "resposta": "Deserto do Atacama",
+    "pais": "Chile",
+    "regiao": "Américas",
+    "categoria": "Recorde geográfico",
+    "lat": -24.5,
+    "lng": -69.25,
+    "revelacao": "É considerado o deserto não polar mais seco da Terra.",
+    "imagemAlt": "Planície desértica extremamente seca diante de montanhas.",
+    "imagemArquivo": "Atacama.png",
+    "raioKm": 700
+  },
+  {
+    "id": "mawsynram-chuvas",
+    "nome": "Onde as nuvens descarregam",
+    "pista": "Ventos úmidos são forçados a subir por colinas, produzindo a maior média anual de chuva registrada para uma localidade.",
+    "periodo": "c. 11.800 mm por ano",
+    "resposta": "Mawsynram",
+    "pais": "Índia",
+    "regiao": "Ásia",
+    "categoria": "Recorde geográfico",
+    "lat": 25.298,
+    "lng": 91.582,
+    "revelacao": "A aldeia fica nas colinas Khasi, no estado de Meghalaya.",
+    "imagemAlt": "Colinas muito verdes cobertas por nuvens de chuva.",
+    "imagemArquivo": "Mawsynram, Meghalaya.jpg"
+  },
+  {
+    "id": "ojos-del-salado-vulcao",
+    "nome": "O vulcão mais alto",
+    "pista": "Este estratovulcão dos Andes ergue-se na fronteira de dois países e ultrapassa 6.890 metros.",
+    "periodo": "6.893 m",
+    "resposta": "Ojos del Salado",
+    "pais": "Chile e Argentina",
+    "regiao": "Américas",
+    "categoria": "Recorde geográfico",
+    "lat": -27.109,
+    "lng": -68.541,
+    "revelacao": "É o vulcão ativo mais alto do mundo.",
+    "imagemAlt": "Vulcão árido e nevado sob céu azul intenso.",
+    "imagemArquivo": "Ojos_del_Salado_looming_big_on_the_horizon.jpg"
+  },
+  {
+    "id": "aconcagua-fora-asia",
+    "nome": "O gigante fora da Ásia",
+    "pista": "Este pico andino é o mais alto dos hemisférios ocidental e sul.",
+    "periodo": "6.961 m",
+    "resposta": "Aconcágua",
+    "pais": "Argentina",
+    "regiao": "Américas",
+    "categoria": "Recorde geográfico",
+    "lat": -32.653,
+    "lng": -70.011,
+    "revelacao": "Também é a montanha mais alta fora da Ásia.",
+    "imagemAlt": "Pico rochoso muito alto com neve nas encostas.",
+    "imagemArquivo": "Aconcagua2016.jpg"
+  },
+  {
+    "id": "denali-america-norte",
+    "nome": "O grande do norte",
+    "pista": "A partir da planície ao redor, esta montanha apresenta uma das maiores elevações verticais visíveis do mundo.",
+    "periodo": "6.190 m",
+    "resposta": "Denali",
+    "pais": "Estados Unidos",
+    "regiao": "Américas",
+    "categoria": "Recorde geográfico",
+    "lat": 63.069,
+    "lng": -151.007,
+    "revelacao": "É o ponto culminante da América do Norte.",
+    "imagemAlt": "Face maciça de montanha nevada erguendo-se acima de nuvens.",
+    "imagemArquivo": "Wonder_Lake_and_Denali.jpg"
+  },
+  {
+    "id": "vinson-antartida",
+    "nome": "O cume do continente branco",
+    "pista": "Este maciço isolado nas montanhas Ellsworth é o ponto mais alto do continente gelado.",
+    "periodo": "4.892 m",
+    "resposta": "Maciço Vinson",
+    "pais": "Antártida",
+    "regiao": "Antártida",
+    "categoria": "Recorde geográfico",
+    "lat": -78.526,
+    "lng": -85.617,
+    "revelacao": "Integra o desafio de montanhismo dos Sete Cumes.",
+    "imagemAlt": "Maciço de neve e gelo elevando-se numa paisagem polar.",
+    "imagemArquivo": "Mount_Vinson_from_NW_at_Vinson_Plateau_by_Christian_Stangl_(flickr).jpg"
+  },
+  {
+    "id": "puncak-jaya-oceania",
+    "nome": "A pirâmide tropical de pedra",
+    "pista": "Próximo ao equador, este pico escarpado é o mais alto de uma grande ilha e, na definição mais ampla, da Oceania.",
+    "periodo": "4.884 m",
+    "resposta": "Puncak Jaya",
+    "pais": "Indonésia",
+    "regiao": "Oceania",
+    "categoria": "Recorde geográfico",
+    "lat": -4.0785,
+    "lng": 137.1583,
+    "revelacao": "Também é chamado de Pirâmide Carstensz.",
+    "imagemAlt": "Pico rochoso escarpado acima de vales montanhosos.",
+    "imagemArquivo": "Carstenzs_Piramida_Mountain.jpg"
+  },
+  {
+    "id": "yangtze-asia",
+    "nome": "O grande rio asiático",
+    "pista": "Nascendo no planalto tibetano, atravessa a China até o Mar da China Oriental.",
+    "periodo": "c. 6.300 km",
+    "resposta": "Rio Yangtzé",
+    "pais": "China",
+    "regiao": "Ásia",
+    "categoria": "Recorde geográfico",
+    "lat": 30.823,
+    "lng": 111.003,
+    "revelacao": "É o rio mais longo inteiramente situado na Ásia.",
+    "imagemAlt": "Grande rio sinuoso atravessando montanhas verdes.",
+    "imagemArquivo": "Dusk_on_the_Yangtze_River.jpg",
+    "raioKm": 950
+  },
+  {
+    "id": "volga-europa",
+    "nome": "A artéria da planície europeia",
+    "pista": "Este rio corre inteiramente por um único país antes de desaguar no maior lago fechado do mundo.",
+    "periodo": "3.530 km",
+    "resposta": "Rio Volga",
+    "pais": "Rússia",
+    "regiao": "Europa",
+    "categoria": "Recorde geográfico",
+    "lat": 48.708,
+    "lng": 44.514,
+    "revelacao": "É o rio mais longo da Europa.",
+    "imagemAlt": "Rio largo atravessando cidade e planície.",
+    "imagemArquivo": "Yaroslavl._Volga_River._Cathedral_of_the_Dormition_P5212700_2200.jpg",
+    "raioKm": 750
+  },
+  {
+    "id": "danubio-paises",
+    "nome": "O rio de muitas fronteiras",
+    "pista": "De uma floresta alemã ao Mar Negro, este curso passa ou faz fronteira com dez países.",
+    "periodo": "10 países",
+    "resposta": "Rio Danúbio",
+    "pais": "Europa Central e Oriental",
+    "regiao": "Europa",
+    "categoria": "Recorde geográfico",
+    "lat": 47.498,
+    "lng": 19.04,
+    "revelacao": "Nenhum outro rio atravessa tantos países.",
+    "imagemAlt": "Rio amplo passando por uma capital europeia iluminada.",
+    "imagemArquivo": "View_from_Gellért_Hill_to_the_Danube,_Hungary_-_Budapest_(28493220635).jpg",
+    "raioKm": 750
+  },
+  {
+    "id": "tanganica-comprimento",
+    "nome": "A cicatriz líquida do Rift",
+    "pista": "Estreito, profundo e com cerca de 673 quilômetros, este lago acompanha o vale tectônico africano.",
+    "periodo": "c. 673 km",
+    "resposta": "Lago Tanganica",
+    "pais": "Tanzânia, RDC, Burundi e Zâmbia",
+    "regiao": "África",
+    "categoria": "Recorde geográfico",
+    "lat": -6.1,
+    "lng": 29.5,
+    "revelacao": "É o lago de água doce mais longo e o segundo mais profundo do mundo.",
+    "imagemAlt": "Lago longo e azul entre montanhas do vale do Rift.",
+    "imagemArquivo": "STS51G-034-0012_Lake_Tanganyika_June1985.jpg",
+    "raioKm": 550
+  },
+  {
+    "id": "monte-atlas",
+    "nome": "Montanhas entre mar e deserto",
+    "pista": "Esta cadeia do noroeste africano separa as costas atlântica e mediterrânea das extensões do Saara.",
+    "periodo": "Cordilheira africana",
+    "resposta": "Montanhas do Atlas",
+    "pais": "Marrocos, Argélia e Tunísia",
+    "regiao": "África",
+    "categoria": "Lugar marcante",
+    "lat": 31.0619,
+    "lng": -7.9161,
+    "revelacao": "O ponto de referência é o Jbel Toubkal, seu cume mais alto.",
+    "imagemAlt": "Cordilheira africana com cumes nevados e vales áridos.",
+    "imagemArquivo": "Plateau_Yagour,_Agdal,_Morocco.jpg",
+    "raioKm": 550
+  },
+  {
+    "id": "kilimanjaro-lugar",
+    "nome": "Neve sobre a savana",
+    "pista": "Três cones vulcânicos formam esta montanha isolada que se eleva quase cinco quilômetros acima das planícies.",
+    "periodo": "Patrimônio natural",
+    "resposta": "Monte Kilimanjaro",
+    "pais": "Tanzânia",
+    "regiao": "África",
+    "categoria": "Lugar marcante",
+    "lat": -3.0674,
+    "lng": 37.3556,
+    "revelacao": "Com 5.895 metros, é a montanha mais alta da África.",
+    "imagemAlt": "Montanha vulcânica nevada acima de uma savana africana.",
+    "imagemArquivo": "Kilimanjaro_from_Amboseli.jpg"
+  },
+  {
+    "id": "grande-mesquita-djenne",
+    "nome": "A monumental arquitetura de terra",
+    "pista": "Torres com vigas salientes definem este grande edifício comunitário reconstruído anualmente com barro.",
+    "periodo": "Reconstruída em 1907",
+    "resposta": "Grande Mesquita de Djenné",
+    "pais": "Mali",
+    "regiao": "África",
+    "categoria": "Lugar marcante",
+    "lat": 13.9054,
+    "lng": -4.555,
+    "revelacao": "É um dos exemplos mais célebres da arquitetura sudano-saheliana.",
+    "imagemAlt": "Grande mesquita de barro com torres e vigas de madeira salientes.",
+    "imagemArquivo": "Djenne_great_mud_mosque.jpg"
+  },
+  {
+    "id": "piramides-gize",
+    "nome": "Geometria no deserto",
+    "pista": "Três grandes pirâmides e uma esfinge compõem esta necrópole erguida na margem ocidental de uma antiga capital.",
+    "periodo": "c. 2600–2500 a.C.",
+    "resposta": "Complexo das Pirâmides de Gizé",
+    "pais": "Egito",
+    "regiao": "África",
+    "categoria": "Lugar marcante",
+    "lat": 29.9792,
+    "lng": 31.1342,
+    "revelacao": "A Grande Pirâmide é a única Maravilha do Mundo Antigo ainda substancialmente preservada.",
+    "imagemAlt": "Grandes pirâmides de pedra erguendo-se sobre o deserto.",
+    "imagemArquivo": "Pyramids_of_the_Giza_Necropolis.jpg"
+  },
+  {
+    "id": "lalibela-igrejas",
+    "nome": "Templos escavados para baixo",
+    "pista": "Onze igrejas foram talhadas diretamente na rocha, formando pátios e passagens abaixo do nível do terreno.",
+    "periodo": "Séculos XII–XIII",
+    "resposta": "Igrejas Rupestres de Lalibela",
+    "pais": "Etiópia",
+    "regiao": "África",
+    "categoria": "Lugar marcante",
+    "lat": 12.0319,
+    "lng": 39.0476,
+    "revelacao": "O conjunto continua sendo um importante centro de peregrinação cristã etíope.",
+    "imagemAlt": "Igreja em forma de cruz escavada profundamente na rocha avermelhada.",
+    "imagemArquivo": "Lalibela,_san_giorgio,_esterno_24.jpg"
+  },
+  {
+    "id": "axum-obelisco",
+    "nome": "A estela de um antigo reino",
+    "pista": "Um monólito esculpido como um edifício de vários andares marca a capital de um poderoso reino do Chifre da África.",
+    "periodo": "Séculos III–IV",
+    "resposta": "Obelisco de Axum",
+    "pais": "Etiópia",
+    "regiao": "África",
+    "categoria": "Lugar marcante",
+    "lat": 14.1319,
+    "lng": 38.719,
+    "revelacao": "A estela voltou à Etiópia depois de décadas em Roma.",
+    "imagemAlt": "Alta estela de pedra esculpida com portas e janelas falsas.",
+    "imagemArquivo": "Stela in Main Stelae Field - Axum (Aksum) - Ethiopia - 01 (8701108913).jpg"
+  },
+  {
+    "id": "sankore-timbuktu",
+    "nome": "A cidade dos manuscritos",
+    "pista": "Mesquita, universidade e bibliotecas floresceram neste centro de saber ligado às caravanas transaarianas.",
+    "periodo": "Apogeu nos séculos XV–XVI",
+    "resposta": "Sankoré, Timbuktu",
+    "pais": "Mali",
+    "regiao": "África",
+    "categoria": "Lugar marcante",
+    "lat": 16.7758,
+    "lng": -3.009,
+    "revelacao": "A cidade preserva milhares de manuscritos sobre ciência, direito e religião.",
+    "imagemAlt": "Mesquita de terra com fachada pontuada por vigas de madeira.",
+    "imagemArquivo": "2007_Sankore_Mosque_Timbuktu_02.jpg"
+  },
+  {
+    "id": "table-mountain",
+    "nome": "A mesa sobre o oceano",
+    "pista": "Um topo quase plano domina uma cidade costeira onde dois oceanos se aproximam.",
+    "periodo": "Maciço de arenito",
+    "resposta": "Table Mountain",
+    "pais": "África do Sul",
+    "regiao": "África",
+    "categoria": "Lugar marcante",
+    "lat": -33.9628,
+    "lng": 18.4098,
+    "revelacao": "A montanha faz parte da Região Floral do Cabo, extraordinariamente biodiversa.",
+    "imagemAlt": "Montanha de topo plano elevando-se sobre uma cidade costeira.",
+    "imagemArquivo": "Table_Mountain_DanieVDM.jpg"
+  },
+  {
+    "id": "delta-okavango",
+    "nome": "O rio que não encontra o mar",
+    "pista": "Depois de cruzar terras secas, um grande rio se espalha num leque de canais, lagoas e ilhas interiores.",
+    "periodo": "Patrimônio natural",
+    "resposta": "Delta do Okavango",
+    "pais": "Botsuana",
+    "regiao": "África",
+    "categoria": "Lugar marcante",
+    "lat": -19.283,
+    "lng": 22.9,
+    "revelacao": "As cheias chegam durante a estação seca local, concentrando a vida selvagem.",
+    "imagemAlt": "Canais azuis serpenteando por uma planície verde vista do alto.",
+    "imagemArquivo": "Okavango_Delta,_Botswana1.jpg",
+    "raioKm": 500
+  },
+  {
+    "id": "ngorongoro",
+    "nome": "Um mundo dentro da cratera",
+    "pista": "A enorme caldeira de um vulcão extinto abriga savanas, lagos e uma concentração excepcional de grandes animais.",
+    "periodo": "Caldeira vulcânica",
+    "resposta": "Área de Conservação de Ngorongoro",
+    "pais": "Tanzânia",
+    "regiao": "África",
+    "categoria": "Lugar marcante",
+    "lat": -3.2,
+    "lng": 35.5,
+    "revelacao": "A cratera tem paredes que funcionam como uma vasta arena natural.",
+    "imagemAlt": "Grande cratera verde com savana e lago no interior.",
+    "imagemArquivo": "Ngorongoro-1001-2.jpg"
+  },
+  {
+    "id": "serengeti",
+    "nome": "A grande migração",
+    "pista": "Milhões de gnus, zebras e gazelas percorrem estas planícies numa das maiores migrações animais da Terra.",
+    "periodo": "Ecossistema de savana",
+    "resposta": "Parque Nacional do Serengeti",
+    "pais": "Tanzânia",
+    "regiao": "África",
+    "categoria": "Lugar marcante",
+    "lat": -2.333,
+    "lng": 34.833,
+    "revelacao": "Seu nome deriva de uma palavra maa associada a planícies sem fim.",
+    "imagemAlt": "Manada de gnus atravessando uma ampla savana dourada.",
+    "imagemArquivo": "Serengeti-Landscape-2012.JPG",
+    "raioKm": 450
+  },
+  {
+    "id": "victoria-falls",
+    "nome": "A fumaça que troveja",
+    "pista": "Um grande rio africano cai numa garganta estreita, levantando uma nuvem de spray visível a quilômetros.",
+    "periodo": "Queda de 108 m",
+    "resposta": "Cataratas Vitória / Mosi-oa-Tunya",
+    "pais": "Zâmbia e Zimbábue",
+    "regiao": "África",
+    "categoria": "Lugar marcante",
+    "lat": -17.9243,
+    "lng": 25.8572,
+    "revelacao": "O nome local Mosi-oa-Tunya significa “a fumaça que troveja”.",
+    "imagemAlt": "Imensa cortina de água lançando névoa sobre uma garganta.",
+    "imagemArquivo": "Cataratas_Victoria,_Zambia-Zimbabue,_2018-07-27,_DD_04.jpg"
+  },
+  {
+    "id": "petra-lugar",
+    "nome": "A cidade cor-de-rosa",
+    "pista": "Fachadas monumentais foram talhadas em paredões de arenito no cruzamento de antigas rotas comerciais.",
+    "periodo": "Reino Nabateu",
+    "resposta": "Petra",
+    "pais": "Jordânia",
+    "regiao": "Ásia",
+    "categoria": "Lugar marcante",
+    "lat": 30.3285,
+    "lng": 35.4444,
+    "revelacao": "O Tesouro é apenas uma parte de uma extensa cidade de túmulos, templos e canais.",
+    "imagemAlt": "Fachada monumental esculpida num paredão de arenito rosado.",
+    "imagemArquivo": "Al_Deir_Petra.JPG"
+  },
+  {
+    "id": "wadi-rum",
+    "nome": "O vale da lua",
+    "pista": "Arcos naturais, cânions e montanhas de arenito emergem de um deserto avermelhado marcado por milênios de presença humana.",
+    "periodo": "Paisagem cultural",
+    "resposta": "Wadi Rum",
+    "pais": "Jordânia",
+    "regiao": "Ásia",
+    "categoria": "Lugar marcante",
+    "lat": 29.576,
+    "lng": 35.419,
+    "revelacao": "A paisagem tornou-se cenário de numerosos filmes ambientados em outros planetas.",
+    "imagemAlt": "Deserto vermelho com grandes formações de arenito.",
+    "imagemArquivo": "Mountain_in_Wadi_Rum,_Jordan.jpg"
+  },
+  {
+    "id": "jerusalem-cidade-antiga",
+    "nome": "A cidade de muitas fés",
+    "pista": "Dentro de muralhas, lugares sagrados do judaísmo, cristianismo e islamismo convivem em poucos quilômetros quadrados.",
+    "periodo": "Mais de três milênios",
+    "resposta": "Cidade Antiga de Jerusalém",
+    "pais": "Jerusalém",
+    "regiao": "Ásia",
+    "categoria": "Lugar marcante",
+    "lat": 31.778,
+    "lng": 35.235,
+    "revelacao": "A área reúne o Muro Ocidental, a Igreja do Santo Sepulcro e o Domo da Rocha.",
+    "imagemAlt": "Cidade murada de pedra clara com cúpula dourada em destaque.",
+    "imagemArquivo": "2014-06_East_Jerusalem_090_(14936890061).jpg"
+  },
+  {
+    "id": "capadocia",
+    "nome": "Chaminés e cidades subterrâneas",
+    "pista": "Erosão e atividade vulcânica criaram torres de rocha onde comunidades escavaram casas, igrejas e refúgios.",
+    "periodo": "Paisagem cultural",
+    "resposta": "Capadócia",
+    "pais": "Turquia",
+    "regiao": "Ásia",
+    "categoria": "Lugar marcante",
+    "lat": 38.643,
+    "lng": 34.827,
+    "revelacao": "Balões ao amanhecer oferecem uma visão célebre das chaminés de fada.",
+    "imagemAlt": "Balões coloridos sobre torres de rocha ao amanhecer.",
+    "imagemArquivo": "Cappadocia_balloon_trip,_Ortahisar_Castle_(11893715185).jpg"
+  },
+  {
+    "id": "hagia-sophia",
+    "nome": "A cúpula entre impérios",
+    "pista": "Basílica, mesquita, museu e novamente mesquita: este edifício testemunhou mudanças de império e religião.",
+    "periodo": "Concluída em 537",
+    "resposta": "Hagia Sophia",
+    "pais": "Turquia",
+    "regiao": "Europa",
+    "categoria": "Lugar marcante",
+    "lat": 41.0086,
+    "lng": 28.98,
+    "revelacao": "Sua grande cúpula transformou a arquitetura bizantina.",
+    "imagemAlt": "Edifício monumental com grande cúpula e quatro minaretes.",
+    "imagemArquivo": "Hagia_Sophia_(228968325).jpeg"
+  },
+  {
+    "id": "acropole-atenas",
+    "nome": "A cidadela da deusa",
+    "pista": "Templos de mármore ocupam uma colina rochosa acima da cidade onde floresceu a democracia clássica.",
+    "periodo": "Século V a.C.",
+    "resposta": "Acrópole de Atenas",
+    "pais": "Grécia",
+    "regiao": "Europa",
+    "categoria": "Lugar marcante",
+    "lat": 37.9715,
+    "lng": 23.7257,
+    "revelacao": "O Partenon foi dedicado a Atena, protetora da cidade.",
+    "imagemAlt": "Templo clássico de mármore no alto de uma colina rochosa.",
+    "imagemArquivo": "1029_Acropolis_of_Athens_in_Greece_at_night_Photo_by_Giles_Laurent.jpg"
+  },
+  {
+    "id": "coliseu",
+    "nome": "A arena de pedra",
+    "pista": "Dezenas de milhares de espectadores assistiam a combates e espetáculos neste anfiteatro elíptico.",
+    "periodo": "Século I",
+    "resposta": "Coliseu",
+    "pais": "Itália",
+    "regiao": "Europa",
+    "categoria": "Lugar marcante",
+    "lat": 41.8902,
+    "lng": 12.4922,
+    "revelacao": "Seu nome antigo era Anfiteatro Flávio.",
+    "imagemAlt": "Grande anfiteatro romano de pedra com arcadas sobrepostas.",
+    "imagemArquivo": "Colosseo_2020.jpg"
+  },
+  {
+    "id": "stonehenge",
+    "nome": "O círculo do solstício",
+    "pista": "Grandes blocos foram erguidos e alinhados na paisagem pré-histórica, incluindo pedras transportadas por centenas de quilômetros.",
+    "periodo": "c. 3000–2000 a.C.",
+    "resposta": "Stonehenge",
+    "pais": "Reino Unido",
+    "regiao": "Europa",
+    "categoria": "Lugar marcante",
+    "lat": 51.1789,
+    "lng": -1.8262,
+    "revelacao": "Seu eixo principal se relaciona ao nascer e ao pôr do sol nos solstícios.",
+    "imagemAlt": "Círculo de grandes pedras verticais numa planície gramada.",
+    "imagemArquivo": "Stonehenge2007_07_30.jpg"
+  },
+  {
+    "id": "mont-saint-michel",
+    "nome": "A abadia das marés",
+    "pista": "Uma vila e uma abadia medieval coroam um ilhote que muda de relação com o continente conforme a maré.",
+    "periodo": "Fundada no século VIII",
+    "resposta": "Mont-Saint-Michel",
+    "pais": "França",
+    "regiao": "Europa",
+    "categoria": "Lugar marcante",
+    "lat": 48.636,
+    "lng": -1.511,
+    "revelacao": "A baía possui uma das maiores amplitudes de maré da Europa.",
+    "imagemAlt": "Abadia fortificada erguida sobre um ilhote cercado pela maré.",
+    "imagemArquivo": "Mont-Saint-Michel_vu_du_ciel.jpg"
+  },
+  {
+    "id": "alhambra",
+    "nome": "O palácio da água e da caligrafia",
+    "pista": "Pátios, fontes e paredes cobertas por arabescos formam uma cidadela palaciana do último reino islâmico da Península Ibérica.",
+    "periodo": "Séculos XIII–XV",
+    "resposta": "Alhambra",
+    "pais": "Espanha",
+    "regiao": "Europa",
+    "categoria": "Lugar marcante",
+    "lat": 37.1761,
+    "lng": -3.5881,
+    "revelacao": "Os palácios nasridas combinam geometria, poesia e controle refinado da água.",
+    "imagemAlt": "Pátio palaciano com fonte, arcos ornamentados e reflexos na água.",
+    "imagemArquivo": "Dawn_Charles_V_Palace_Alhambra_Granada_Andalusia_Spain.jpg"
+  },
+  {
+    "id": "grande-canal-veneza",
+    "nome": "A avenida feita de água",
+    "pista": "Palácios se alinham às curvas do principal canal de uma cidade construída sobre ilhas numa lagoa.",
+    "periodo": "Cidade lagunar",
+    "resposta": "Grande Canal de Veneza",
+    "pais": "Itália",
+    "regiao": "Europa",
+    "categoria": "Lugar marcante",
+    "lat": 45.4341,
+    "lng": 12.3388,
+    "revelacao": "Gôndolas, vaporetti e barcos substituem o tráfego rodoviário ao longo do canal.",
+    "imagemAlt": "Canal urbano com palácios históricos e embarcações.",
+    "imagemArquivo": "View_of_the_Grand_Canal_from_Rialto_to_Ca'Foscari.jpg"
+  },
+  {
+    "id": "matterhorn",
+    "nome": "A pirâmide dos Alpes",
+    "pista": "Quatro faces íngremes formam uma das silhuetas montanhosas mais reconhecíveis do mundo.",
+    "periodo": "4.478 m",
+    "resposta": "Matterhorn / Cervino",
+    "pais": "Suíça e Itália",
+    "regiao": "Europa",
+    "categoria": "Lugar marcante",
+    "lat": 45.9763,
+    "lng": 7.6586,
+    "revelacao": "O cume fica exatamente na fronteira entre os dois países.",
+    "imagemAlt": "Montanha alpina em forma de pirâmide acima de um vale.",
+    "imagemArquivo": "Matterhorn_from_Domhütte_-_2.jpg"
+  },
+  {
+    "id": "torre-eiffel",
+    "nome": "A torre de ferro",
+    "pista": "Construída para uma exposição universal, esta estrutura treliçada tornou-se símbolo de sua cidade.",
+    "periodo": "Inaugurada em 1889",
+    "resposta": "Torre Eiffel",
+    "pais": "França",
+    "regiao": "Europa",
+    "categoria": "Lugar marcante",
+    "lat": 48.8584,
+    "lng": 2.2945,
+    "revelacao": "Foi a estrutura mais alta do mundo até 1930.",
+    "imagemAlt": "Alta torre metálica treliçada acima de um parque urbano.",
+    "imagemArquivo": "Tour_Eiffel_Wikimedia_Commons_(cropped).jpg"
+  },
+  {
+    "id": "taj-mahal",
+    "nome": "O mausoléu de mármore",
+    "pista": "Uma cúpula branca e quatro minaretes compõem este monumento de amor imperial junto a um rio.",
+    "periodo": "Século XVII",
+    "resposta": "Taj Mahal",
+    "pais": "Índia",
+    "regiao": "Ásia",
+    "categoria": "Lugar marcante",
+    "lat": 27.1751,
+    "lng": 78.0421,
+    "revelacao": "O imperador Shah Jahan o mandou construir para Mumtaz Mahal.",
+    "imagemAlt": "Mausoléu de mármore branco refletido num longo espelho d’água.",
+    "imagemArquivo": "Taj_Mahal_(Edited).jpeg"
+  },
+  {
+    "id": "angkor-wat",
+    "nome": "Torres como botões de lótus",
+    "pista": "Um imenso complexo de templos cercado por fosso nasceu hindu e depois tornou-se um centro budista.",
+    "periodo": "Século XII",
+    "resposta": "Angkor Wat",
+    "pais": "Camboja",
+    "regiao": "Ásia",
+    "categoria": "Lugar marcante",
+    "lat": 13.4125,
+    "lng": 103.867,
+    "revelacao": "Sua silhueta aparece na bandeira nacional do Camboja.",
+    "imagemAlt": "Torres de templo refletidas num lago ao amanhecer.",
+    "imagemArquivo": "Angkor_Wat.jpg"
+  },
+  {
+    "id": "borobudur",
+    "nome": "A montanha de estupas",
+    "pista": "Terraços quadrados e circulares conduzem peregrinos por centenas de relevos até dezenas de estupas perfuradas.",
+    "periodo": "Séculos VIII–IX",
+    "resposta": "Borobudur",
+    "pais": "Indonésia",
+    "regiao": "Ásia",
+    "categoria": "Lugar marcante",
+    "lat": -7.6079,
+    "lng": 110.2038,
+    "revelacao": "É o maior monumento budista do mundo.",
+    "imagemAlt": "Estupas de pedra em terraços diante de montanhas tropicais.",
+    "imagemArquivo": "Borobudur-Nothwest-view.jpg"
+  },
+  {
+    "id": "cidade-proibida",
+    "nome": "A cidade dos telhados dourados",
+    "pista": "Durante quase cinco séculos, um vasto conjunto de pátios e salões foi o centro cerimonial de duas dinastias.",
+    "periodo": "1406–1420",
+    "resposta": "Cidade Proibida",
+    "pais": "China",
+    "regiao": "Ásia",
+    "categoria": "Lugar marcante",
+    "lat": 39.9163,
+    "lng": 116.3972,
+    "revelacao": "O complexo possui milhares de espaços organizados num eixo monumental.",
+    "imagemAlt": "Palácios de telhados amarelos organizados em grandes pátios vermelhos.",
+    "imagemArquivo": "The_Forbidden_City_-_View_from_Coal_Hill.jpg"
+  },
+  {
+    "id": "monte-fuji",
+    "nome": "O cone perfeito",
+    "pista": "Um vulcão quase simétrico, venerado e representado em incontáveis obras, eleva-se perto de uma megacidade.",
+    "periodo": "3.776 m",
+    "resposta": "Monte Fuji",
+    "pais": "Japão",
+    "regiao": "Ásia",
+    "categoria": "Lugar marcante",
+    "lat": 35.3606,
+    "lng": 138.7274,
+    "revelacao": "É a montanha mais alta do Japão e um lugar de peregrinação.",
+    "imagemAlt": "Vulcão simétrico coberto de neve acima de um lago.",
+    "imagemArquivo": "View_of_Mount_Fuji_from_Ōwakudani_20211202.jpg"
+  },
+  {
+    "id": "muralha-mutianyu",
+    "nome": "A muralha sobre as cristas",
+    "pista": "Torres de vigia acompanham montanhas por grandes distâncias numa rede defensiva construída e reconstruída por séculos.",
+    "periodo": "Trecho Ming",
+    "resposta": "Grande Muralha da China em Mutianyu",
+    "pais": "China",
+    "regiao": "Ásia",
+    "categoria": "Lugar marcante",
+    "lat": 40.4319,
+    "lng": 116.5704,
+    "revelacao": "Mutianyu preserva um dos trechos mais cênicos próximos de Pequim.",
+    "imagemAlt": "Muralha fortificada serpenteando sobre cristas montanhosas.",
+    "imagemArquivo": "Great_Wall_of_China_July_2006.JPG"
+  },
+  {
+    "id": "bagan",
+    "nome": "Um horizonte de templos",
+    "pista": "Milhares de pagodes e mosteiros de tijolo se espalham por uma planície junto a um grande rio.",
+    "periodo": "Séculos XI–XIII",
+    "resposta": "Bagan",
+    "pais": "Myanmar",
+    "regiao": "Ásia",
+    "categoria": "Lugar marcante",
+    "lat": 21.1717,
+    "lng": 94.8585,
+    "revelacao": "Foi a capital de um reino que consolidou tradições budistas na região.",
+    "imagemAlt": "Planície coberta por pagodes de tijolo sob luz dourada.",
+    "imagemArquivo": "Bagan,_Burma.jpg"
+  },
+  {
+    "id": "sigiriya",
+    "nome": "A fortaleza do leão",
+    "pista": "Palácio, jardins hidráulicos e afrescos ocupam uma enorme coluna de rocha que se eleva sobre a floresta.",
+    "periodo": "Século V",
+    "resposta": "Sigiriya",
+    "pais": "Sri Lanka",
+    "regiao": "Ásia",
+    "categoria": "Lugar marcante",
+    "lat": 7.957,
+    "lng": 80.7603,
+    "revelacao": "Patas monumentais marcam o acesso à escadaria final do rochedo.",
+    "imagemAlt": "Grande rochedo isolado elevando-se acima de floresta tropical.",
+    "imagemArquivo": "Sigiriya_(141688197).jpeg"
+  },
+  {
+    "id": "uluru",
+    "nome": "O monólito vermelho",
+    "pista": "A luz transforma as cores deste grande maciço de arenito, sagrado para seus guardiões tradicionais.",
+    "periodo": "Paisagem cultural viva",
+    "resposta": "Uluru",
+    "pais": "Austrália",
+    "regiao": "Oceania",
+    "categoria": "Lugar marcante",
+    "lat": -25.3444,
+    "lng": 131.0369,
+    "revelacao": "O povo Aṉangu mantém histórias e responsabilidades ligadas ao lugar.",
+    "imagemAlt": "Grande monólito de arenito vermelho numa planície desértica.",
+    "imagemArquivo": "ULURU.jpg"
+  },
+  {
+    "id": "opera-sydney",
+    "nome": "Velas sobre o porto",
+    "pista": "Cascas brancas curvas formam a silhueta deste centro de artes cênicas junto a uma ponte monumental.",
+    "periodo": "Inaugurada em 1973",
+    "resposta": "Sydney Opera House",
+    "pais": "Austrália",
+    "regiao": "Oceania",
+    "categoria": "Lugar marcante",
+    "lat": -33.8568,
+    "lng": 151.2153,
+    "revelacao": "O projeto de Jørn Utzon redefiniu a arquitetura do século XX.",
+    "imagemAlt": "Edifício à beira-mar com coberturas brancas semelhantes a velas.",
+    "imagemArquivo": "Sydney_Australia._(21339175489).jpg"
+  },
+  {
+    "id": "milford-sound",
+    "nome": "O fiorde da chuva",
+    "pista": "Paredões escuros, florestas úmidas e cascatas cercam um braço de mar esculpido por geleiras.",
+    "periodo": "Fiorde glacial",
+    "resposta": "Milford Sound / Piopiotahi",
+    "pais": "Nova Zelândia",
+    "regiao": "Oceania",
+    "categoria": "Lugar marcante",
+    "lat": -44.671,
+    "lng": 167.925,
+    "revelacao": "O pico Mitre é a silhueta mais conhecida desta paisagem.",
+    "imagemAlt": "Fiorde profundo entre montanhas íngremes cobertas de floresta.",
+    "imagemArquivo": "Milford_Sound_(New_Zealand).JPG"
+  },
+  {
+    "id": "machu-picchu-lugar",
+    "nome": "A cidade entre picos",
+    "pista": "Terraços, templos e residências de pedra ocupam uma crista montanhosa acima de um rio sinuoso.",
+    "periodo": "Século XV",
+    "resposta": "Machu Picchu",
+    "pais": "Peru",
+    "regiao": "Américas",
+    "categoria": "Lugar marcante",
+    "lat": -13.1631,
+    "lng": -72.545,
+    "revelacao": "O assentamento inca conecta arquitetura, agricultura e astronomia.",
+    "imagemAlt": "Ruínas de pedra e terraços verdes entre montanhas íngremes.",
+    "imagemArquivo": "Machu_Picchu,_2023_(012).jpg"
+  },
+  {
+    "id": "chichen-itza",
+    "nome": "A pirâmide do calendário",
+    "pista": "Escadarias e plataformas refletem ciclos calendáricos numa grande cidade maia do norte de uma península.",
+    "periodo": "Séculos IX–XII",
+    "resposta": "Chichén Itzá",
+    "pais": "México",
+    "regiao": "Américas",
+    "categoria": "Lugar marcante",
+    "lat": 20.6843,
+    "lng": -88.5678,
+    "revelacao": "A pirâmide de Kukulcán é o monumento mais reconhecido do conjunto.",
+    "imagemAlt": "Pirâmide escalonada de pedra sob céu azul.",
+    "imagemArquivo": "Chichen_Itza_3.jpg"
+  },
+  {
+    "id": "teotihuacan-lugar",
+    "nome": "A avenida das pirâmides",
+    "pista": "Uma longa via cerimonial conecta enormes pirâmides numa metrópole anterior ao império asteca.",
+    "periodo": "c. 100 a.C.–550 d.C.",
+    "resposta": "Teotihuacan",
+    "pais": "México",
+    "regiao": "Américas",
+    "categoria": "Lugar marcante",
+    "lat": 19.6925,
+    "lng": -98.8438,
+    "revelacao": "Seu nome atual foi dado pelos mexicas séculos depois do abandono da cidade.",
+    "imagemAlt": "Grande avenida alinhada com pirâmides monumentais.",
+    "imagemArquivo": "ZA77_Teotihuacán_edo_de_mex_Herberto_de_la_rosa.jpg"
+  },
+  {
+    "id": "iguacu-lugar",
+    "nome": "As muitas águas",
+    "pista": "Centenas de quedas formam um arco dentro de floresta subtropical na fronteira de dois países.",
+    "periodo": "Patrimônio natural",
+    "resposta": "Cataratas do Iguaçu",
+    "pais": "Brasil e Argentina",
+    "regiao": "Américas",
+    "categoria": "Lugar marcante",
+    "lat": -25.6953,
+    "lng": -54.4367,
+    "revelacao": "A Garganta do Diabo concentra parte da força do conjunto.",
+    "imagemAlt": "Numerosas cachoeiras cercadas por floresta verde e névoa.",
+    "imagemArquivo": "Aerial_Foz_de_Iguaçu_26_Nov_2005.jpg"
+  },
+  {
+    "id": "nineveh-assiria",
+    "nome": "A capital dos reis guerreiros",
+    "pista": "Palácios com relevos, touros alados e uma grande biblioteca marcaram a última capital de um império mesopotâmico.",
+    "periodo": "Império Neoassírio, 911–609 a.C.",
+    "resposta": "Nínive",
+    "pais": "Iraque",
+    "regiao": "Ásia",
+    "categoria": "História",
+    "lat": 36.359,
+    "lng": 43.152,
+    "revelacao": "A biblioteca de Assurbanípal preservou milhares de tabuletas cuneiformes.",
+    "imagemAlt": "Ruínas arqueológicas e reconstrução de um portal monumental mesopotâmico.",
+    "imagemArquivo": "Nineveh_-_Mashki_Gate.jpg"
+  },
+  {
+    "id": "persepolis-aquemenida",
+    "nome": "A escadaria das nações",
+    "pista": "Delegações de muitos povos foram esculpidas levando tributos à capital cerimonial de um vasto império persa.",
+    "periodo": "Império Aquemênida, 550–330 a.C.",
+    "resposta": "Persépolis",
+    "pais": "Irã",
+    "regiao": "Ásia",
+    "categoria": "História",
+    "lat": 29.935,
+    "lng": 52.891,
+    "revelacao": "Dario I iniciou o complexo, ampliado por seus sucessores.",
+    "imagemAlt": "Colunas e relevos monumentais de uma antiga capital persa.",
+    "imagemArquivo": "Iran 2007 081 Persepolis Gate of all Nations (1731628479).jpg"
+  },
+  {
+    "id": "babilonia-imperio",
+    "nome": "A cidade de tijolos azuis",
+    "pista": "Uma porta dedicada a Ishtar conduzia à capital associada a Nabucodonosor II e a jardins lendários.",
+    "periodo": "Império Neobabilônico, 626–539 a.C.",
+    "resposta": "Babilônia",
+    "pais": "Iraque",
+    "regiao": "Ásia",
+    "categoria": "História",
+    "lat": 32.536,
+    "lng": 44.421,
+    "revelacao": "A cidade controlou uma grande parte da Mesopotâmia no século VI a.C.",
+    "imagemAlt": "Ruínas de tijolos e reconstrução de muralhas de uma cidade mesopotâmica.",
+    "imagemArquivo": "Ishtar_Gate.jpg"
+  },
+  {
+    "id": "ur-sumeria",
+    "nome": "A cidade do grande zigurate",
+    "pista": "Um templo em terraços domina as ruínas de uma cidade-estado ligada às primeiras tradições urbanas e à escrita cuneiforme.",
+    "periodo": "Suméria, III milênio a.C.",
+    "resposta": "Ur",
+    "pais": "Iraque",
+    "regiao": "Ásia",
+    "categoria": "História",
+    "lat": 30.963,
+    "lng": 46.104,
+    "revelacao": "O zigurate foi erguido sob Ur-Nammu por volta do século XXI a.C.",
+    "imagemAlt": "Grande zigurate de tijolos com escadarias monumentais.",
+    "imagemArquivo": "Ziggurat of Ur Site in Nasiriyah 10.jpg"
+  },
+  {
+    "id": "hattusa-hitita",
+    "nome": "A capital dos leões de pedra",
+    "pista": "Portões monumentais protegiam a capital de um império que rivalizou com o Egito no final da Idade do Bronze.",
+    "periodo": "Império Hitita, c. 1650–1200 a.C.",
+    "resposta": "Hattusa",
+    "pais": "Turquia",
+    "regiao": "Ásia",
+    "categoria": "História",
+    "lat": 40.019,
+    "lng": 34.615,
+    "revelacao": "Arquivos em tabuletas ajudaram a revelar a diplomacia hitita.",
+    "imagemAlt": "Portal antigo ladeado por grandes esculturas de leões.",
+    "imagemArquivo": "Lion_Gate,_Hattusa_13_(cropped).jpg"
+  },
+  {
+    "id": "memphis-egito-antigo",
+    "nome": "A cidade de Ptah",
+    "pista": "Próxima ao início do delta, esta antiga capital unificada controlava a passagem entre o Alto e o Baixo país.",
+    "periodo": "Antigo Egito, desde c. 3000 a.C.",
+    "resposta": "Mênfis",
+    "pais": "Egito",
+    "regiao": "África",
+    "categoria": "História",
+    "lat": 29.849,
+    "lng": 31.254,
+    "revelacao": "O complexo de Saqqara e as pirâmides próximas formavam sua vasta necrópole.",
+    "imagemAlt": "Grande estátua faraônica reclinada num sítio arqueológico.",
+    "imagemArquivo": "Memphis200401.JPG"
+  },
+  {
+    "id": "meroe-kush",
+    "nome": "Pirâmides ao sul do Nilo",
+    "pista": "Pequenas pirâmides de ângulo acentuado marcam a necrópole de uma capital africana rica em ferro e comércio.",
+    "periodo": "Reino de Cuxe, c. 590 a.C.–350 d.C.",
+    "resposta": "Meroé",
+    "pais": "Sudão",
+    "regiao": "África",
+    "categoria": "História",
+    "lat": 16.937,
+    "lng": 33.748,
+    "revelacao": "Reis e rainhas cuxitas governaram dali por muitos séculos.",
+    "imagemAlt": "Grupo de pequenas pirâmides íngremes numa paisagem desértica.",
+    "imagemArquivo": "NubianMeroePyramids30sep2005(2).jpg"
+  },
+  {
+    "id": "cartago-fenicia",
+    "nome": "A rival do outro lado do mar",
+    "pista": "Fundada por navegadores fenícios, esta cidade construiu uma potência marítima e enfrentou Roma em três guerras.",
+    "periodo": "Império Cartaginês, c. 650–146 a.C.",
+    "resposta": "Cartago",
+    "pais": "Tunísia",
+    "regiao": "África",
+    "categoria": "História",
+    "lat": 36.8528,
+    "lng": 10.3233,
+    "revelacao": "O general Aníbal partiu de seu mundo político para cruzar os Alpes.",
+    "imagemAlt": "Ruínas de colunas antigas junto ao mar Mediterrâneo.",
+    "imagemArquivo": "Montage_ville_de_Carthage.png"
+  },
+  {
+    "id": "grande-zimbabwe-reino",
+    "nome": "A cidade das grandes muralhas",
+    "pista": "Muros de pedra construídos sem argamassa cercavam um centro político ligado ao comércio de ouro do interior africano.",
+    "periodo": "Reino do Zimbábue, séculos XI–XV",
+    "resposta": "Grande Zimbábue",
+    "pais": "Zimbábue",
+    "regiao": "África",
+    "categoria": "História",
+    "lat": -20.267,
+    "lng": 30.933,
+    "revelacao": "O sítio deu nome ao país moderno.",
+    "imagemAlt": "Altas muralhas curvas de pedra construídas sem argamassa.",
+    "imagemArquivo": "Conical_Tower_-_Great_Enclosure_III_(33736918448).jpg"
+  },
+  {
+    "id": "forum-romano-imperio",
+    "nome": "O centro do mundo romano",
+    "pista": "Templos, basílicas e arcos ladeavam a praça onde se concentravam cerimônias e decisões de uma potência mediterrânea.",
+    "periodo": "Império Romano, 27 a.C.–476 d.C.",
+    "resposta": "Fórum Romano",
+    "pais": "Itália",
+    "regiao": "Europa",
+    "categoria": "História",
+    "lat": 41.8925,
+    "lng": 12.4853,
+    "revelacao": "O vale foi o coração político e religioso da Roma antiga.",
+    "imagemAlt": "Ruínas de templos e colunas antigas no centro de uma cidade.",
+    "imagemArquivo": "Foro_Romano_Musei_Capitolini_Roma.jpg"
+  },
+  {
+    "id": "hipodromo-bizantino",
+    "nome": "Corridas na Nova Roma",
+    "pista": "Quadrigas competiam neste espaço monumental da capital oriental que sucedeu Roma por mais de mil anos.",
+    "periodo": "Império Bizantino, 330–1453",
+    "resposta": "Hipódromo de Constantinopla",
+    "pais": "Turquia",
+    "regiao": "Europa",
+    "categoria": "História",
+    "lat": 41.0065,
+    "lng": 28.9753,
+    "revelacao": "Obeliscos antigos ainda marcam o eixo da arena, hoje uma praça.",
+    "imagemAlt": "Praça alongada com antigo obelisco de pedra ao centro.",
+    "imagemArquivo": "Sultanahmet_Square,_Obelisk_of_Theodosius,_Istanbul_(52121868925).jpg"
+  },
+  {
+    "id": "knossos-minoico",
+    "nome": "O palácio do labirinto",
+    "pista": "Afrescos coloridos, pátios e corredores de um complexo insular inspiraram histórias de um rei, um monstro e um fio.",
+    "periodo": "Civilização Minoica, c. 2000–1450 a.C.",
+    "resposta": "Palácio de Cnossos",
+    "pais": "Grécia",
+    "regiao": "Europa",
+    "categoria": "História",
+    "lat": 35.298,
+    "lng": 25.163,
+    "revelacao": "O complexo foi o principal centro palaciano da Creta minoica.",
+    "imagemAlt": "Ruínas palacianas com colunas vermelhas reconstruídas.",
+    "imagemArquivo": "Knossos R03.jpg"
+  },
+  {
+    "id": "micenas",
+    "nome": "A porta dos leões",
+    "pista": "Uma cidadela fortificada deu nome à cultura grega da Idade do Bronze associada às narrativas da Guerra de Troia.",
+    "periodo": "Civilização Micênica, c. 1600–1100 a.C.",
+    "resposta": "Micenas",
+    "pais": "Grécia",
+    "regiao": "Europa",
+    "categoria": "História",
+    "lat": 37.7308,
+    "lng": 22.756,
+    "revelacao": "A entrada monumental sustenta um relevo triangular com dois leões.",
+    "imagemAlt": "Portão ciclópico de pedra com relevo de dois leões.",
+    "imagemArquivo": "Path_upto_the_Lion_Gate,_Mycenae_(28693130016).jpg"
+  },
+  {
+    "id": "pataliputra-mauria",
+    "nome": "A capital junto ao Ganges",
+    "pista": "Desta cidade, um imperador promoveu inscrições em pedra e uma política budista por grande parte do subcontinente.",
+    "periodo": "Império Máuria, c. 322–185 a.C.",
+    "resposta": "Pataliputra",
+    "pais": "Índia",
+    "regiao": "Ásia",
+    "categoria": "História",
+    "lat": 25.611,
+    "lng": 85.135,
+    "revelacao": "A atual Patna cresceu na mesma região da antiga capital de Chandragupta e Ashoka.",
+    "imagemAlt": "Restos de pilares e estruturas antigas num parque arqueológico.",
+    "imagemArquivo": "Pataliputra6.jpg"
+  },
+  {
+    "id": "mohenjo-daro-indus",
+    "nome": "A cidade do Grande Banho",
+    "pista": "Ruas em grade, drenagem e tijolos padronizados revelam o planejamento de uma civilização ainda pouco decifrada.",
+    "periodo": "Civilização do Vale do Indo, c. 2500 a.C.",
+    "resposta": "Mohenjo-daro",
+    "pais": "Paquistão",
+    "regiao": "Ásia",
+    "categoria": "História",
+    "lat": 27.329,
+    "lng": 68.138,
+    "revelacao": "Sua escrita permanece sem decifração consensual.",
+    "imagemAlt": "Ruínas de tijolos organizadas em ruas e plataformas.",
+    "imagemArquivo": "Mohenjodaro_-_view_of_the_stupa_mound.JPG"
+  },
+  {
+    "id": "exercito-terracota-qin",
+    "nome": "O exército enterrado",
+    "pista": "Milhares de soldados de cerâmica individualizados guardavam o túmulo do governante que unificou reinos rivais.",
+    "periodo": "Dinastia Qin, 221–206 a.C.",
+    "resposta": "Exército de Terracota, mausoléu de Qin Shi Huang",
+    "pais": "China",
+    "regiao": "Ásia",
+    "categoria": "História",
+    "lat": 34.385,
+    "lng": 109.273,
+    "revelacao": "As figuras foram descobertas por agricultores em 1974.",
+    "imagemAlt": "Fileiras de estátuas de soldados de terracota em escavação coberta.",
+    "imagemArquivo": "51714-Terracota-Army.jpg"
+  },
+  {
+    "id": "karakorum-mongol",
+    "nome": "A capital da estepe",
+    "pista": "Emissários de terras distantes chegaram a esta cidade criada no vale de um rio pelo império de cavaleiros mais extenso da história contínua.",
+    "periodo": "Império Mongol, séculos XIII–XIV",
+    "resposta": "Karakorum",
+    "pais": "Mongólia",
+    "regiao": "Ásia",
+    "categoria": "História",
+    "lat": 47.199,
+    "lng": 102.843,
+    "revelacao": "A cidade foi centro imperial antes de a corte se deslocar para Khanbaliq.",
+    "imagemAlt": "Tartaruga de pedra e ruínas numa ampla paisagem de estepe.",
+    "imagemArquivo": "Turtle-Karakorum.jpg"
+  },
+  {
+    "id": "fatehpur-sikri-mughal",
+    "nome": "A capital abandonada do imperador",
+    "pista": "Palácios de arenito vermelho foram erguidos para uma corte imperial, mas a cidade serviu como capital por poucos anos.",
+    "periodo": "Império Mogol, século XVI",
+    "resposta": "Fatehpur Sikri",
+    "pais": "Índia",
+    "regiao": "Ásia",
+    "categoria": "História",
+    "lat": 27.094,
+    "lng": 77.667,
+    "revelacao": "Akbar construiu ali um conjunto que combinou tradições arquitetônicas diversas.",
+    "imagemAlt": "Grande portal e pátio construídos em arenito vermelho.",
+    "imagemArquivo": "Fatehput_Sikiri_Buland_Darwaza_gate_2010.jpg"
+  },
+  {
+    "id": "tikal-maia",
+    "nome": "Torres acima da floresta",
+    "pista": "Pirâmides-templo emergem da copa tropical numa cidade que rivalizou com outras potências das terras baixas.",
+    "periodo": "Civilização Maia, c. 200–900",
+    "resposta": "Tikal",
+    "pais": "Guatemala",
+    "regiao": "Américas",
+    "categoria": "História",
+    "lat": 17.222,
+    "lng": -89.623,
+    "revelacao": "Inscrições registram dinastias, alianças e guerras de seus governantes.",
+    "imagemAlt": "Templos piramidais de pedra elevando-se acima da floresta tropical.",
+    "imagemArquivo": "Tikal_3.jpg"
+  },
+  {
+    "id": "templo-mayor-asteca",
+    "nome": "O templo da cidade do lago",
+    "pista": "Duas escadarias conduziam aos santuários principais no coração de uma capital construída sobre ilhas.",
+    "periodo": "Império Asteca, 1428–1521",
+    "resposta": "Templo Mayor de Tenochtitlán",
+    "pais": "México",
+    "regiao": "Américas",
+    "categoria": "História",
+    "lat": 19.435,
+    "lng": -99.131,
+    "revelacao": "As ruínas ficam ao lado da praça central da atual Cidade do México.",
+    "imagemAlt": "Ruínas de plataformas e escadarias de um templo mesoamericano em área urbana.",
+    "imagemArquivo": "Templo_Mayor_50.jpg"
+  },
+  {
+    "id": "cusco-inca",
+    "nome": "O umbigo do império",
+    "pista": "Estradas partiam desta capital andina, onde muralhas de blocos perfeitamente ajustados sustentaram construções posteriores.",
+    "periodo": "Império Inca, c. 1438–1533",
+    "resposta": "Cusco",
+    "pais": "Peru",
+    "regiao": "Américas",
+    "categoria": "História",
+    "lat": -13.517,
+    "lng": -71.978,
+    "revelacao": "A cidade era entendida como o centro do Tawantinsuyu.",
+    "imagemAlt": "Muralha de grandes blocos de pedra ajustados com precisão.",
+    "imagemArquivo": "CuscoPiedra12angulo.jpg"
+  },
+  {
+    "id": "tiwanaku-imperio",
+    "nome": "A porta no altiplano",
+    "pista": "Monólitos e uma porta esculpida marcam um centro cerimonial que influenciou grande parte dos Andes meridionais.",
+    "periodo": "Estado Tiwanaku, c. 500–1000",
+    "resposta": "Tiwanaku",
+    "pais": "Bolívia",
+    "regiao": "Américas",
+    "categoria": "História",
+    "lat": -16.554,
+    "lng": -68.673,
+    "revelacao": "O sítio floresceu próximo ao Lago Titicaca em grande altitude.",
+    "imagemAlt": "Portal monolítico esculpido numa paisagem de altiplano.",
+    "imagemArquivo": "PUERTA_DEL_SOL_TIWANAKU.jpg"
+  },
+  {
+    "id": "cahokia-mississippiana",
+    "nome": "A cidade dos montes",
+    "pista": "Grandes plataformas de terra cercavam praças numa metrópole pré-colombiana próxima à confluência de grandes rios.",
+    "periodo": "Cultura Mississippiana, c. 1050–1350",
+    "resposta": "Cahokia",
+    "pais": "Estados Unidos",
+    "regiao": "Américas",
+    "categoria": "História",
+    "lat": 38.655,
+    "lng": -90.062,
+    "revelacao": "Monks Mound é a maior estrutura de terra pré-colombiana ao norte do México.",
+    "imagemAlt": "Grande monte de terra coberto por grama com escadaria.",
+    "imagemArquivo": "Monks_Mound_-_Summer_2024.jpg"
+  },
+  {
+    "id": "nan-madol-saudeleur",
+    "nome": "A cidade sobre recifes",
+    "pista": "Ilhotas artificiais e muralhas de basalto formaram um centro político e cerimonial no Pacífico ocidental.",
+    "periodo": "Dinastia Saudeleur, c. 1200–1628",
+    "resposta": "Nan Madol",
+    "pais": "Estados Federados da Micronésia",
+    "regiao": "Oceania",
+    "categoria": "História",
+    "lat": 6.844,
+    "lng": 158.335,
+    "revelacao": "Canais entre os recintos deram ao sítio o apelido de Veneza do Pacífico.",
+    "imagemAlt": "Muralhas de basalto cercadas por canais e vegetação tropical.",
+    "imagemArquivo": "Nan_madol.jpg"
   }
 ]
