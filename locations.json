@@ -11,7 +11,7 @@
     "lng": 9,
     "revelacao": "Um vasto arquivo de milhares de pinturas e gravuras no sudeste argelino.",
     "imagemArquivo": "Cave painting from the Tassili n'Ajjer mountains.jpg",
-    "imagemAlt": "Figuras humanas e animais pintadas em tons ocres numa parede de Tassili n’Ajjer.",
+    "imagemAlt": "Figuras humanas e animais pintadas em tons ocres numa parede de arenito.",
     "categoria": "Arte rupestre"
   },
   {
@@ -26,7 +26,7 @@
     "lng": 10.3333,
     "revelacao": "As imagens preservam sucessivas mudanças ambientais e modos de vida do Saara.",
     "imagemArquivo": "Libya 4870 Pictograms Tadrart Acacus Luca Galuzzi 2007.jpg",
-    "imagemAlt": "Pessoas e animais pintados em vermelho numa parede rochosa de Tadrart Acacus.",
+    "imagemAlt": "Pessoas e animais pintados em vermelho numa parede rochosa.",
     "categoria": "Arte rupestre"
   },
   {
@@ -41,7 +41,7 @@
     "lng": 21.7542,
     "revelacao": "O conjunto é sagrado para comunidades locais e reúne uma das maiores concentrações de arte rupestre da região.",
     "imagemArquivo": "Red and White Rock Art Tsodilo.jpg",
-    "imagemAlt": "Figura de um antílope pintada em vermelho e branco nas rochas de Tsodilo.",
+    "imagemAlt": "Figura de um antílope pintada em vermelho e branco sobre rocha clara.",
     "categoria": "Arte rupestre"
   },
   {
@@ -56,7 +56,7 @@
     "lng": 14.3726,
     "revelacao": "O sítio reúne uma extraordinária concentração de gravuras de comunidades caçadoras-coletoras.",
     "imagemArquivo": "Rock Paintig Twyfelfontein Namibia.jpg",
-    "imagemAlt": "Animais gravados numa laje alaranjada em Twyfelfontein.",
+    "imagemAlt": "Animais gravados numa laje alaranjada exposta ao ar livre.",
     "categoria": "Arte rupestre"
   },
   {
@@ -101,7 +101,7 @@
     "lng": 19.254,
     "revelacao": "Centenas de abrigos fazem desta paisagem do Cabo Ocidental uma grande galeria San.",
     "imagemArquivo": "San Rock Art - Cederberg.jpg",
-    "imagemAlt": "Figuras humanas San pintadas em vermelho numa parede do Cederberg.",
+    "imagemAlt": "Figuras humanas San pintadas em vermelho numa parede de arenito.",
     "categoria": "Arte rupestre"
   },
   {
@@ -115,8 +115,8 @@
     "lat": -20.55,
     "lng": 28.508,
     "revelacao": "A longa sequência de pinturas acompanha mudanças culturais no sudoeste do Zimbábue.",
-    "imagemArquivo": "Motherandchild Matobo.jpg",
-    "imagemAlt": "Figuras humanas pintadas em uma parede de abrigo nas Colinas de Matobo.",
+    "imagemArquivo": "Fondazione Passaré V40 198.jpg",
+    "imagemAlt": "Girafas e outros animais pintados em tons quentes numa parede de abrigo.",
     "categoria": "Arte rupestre"
   },
   {
@@ -161,7 +161,7 @@
     "lng": 44.4433,
     "revelacao": "As vacas de chifres curvos e vestes cerimoniais estão entre as imagens mais bem preservadas da região.",
     "imagemArquivo": "Laas Geel cow herd.jpg",
-    "imagemAlt": "Rebanho de vacas estilizadas em vermelho, branco e ocre nas cavernas de Laas Geel.",
+    "imagemAlt": "Rebanho de vacas estilizadas em vermelho, branco e ocre numa parede rochosa.",
     "categoria": "Arte rupestre"
   },
   {
@@ -206,7 +206,7 @@
     "lng": 1.171,
     "revelacao": "A caverna original está fechada para conservação; réplicas preservam a experiência visual.",
     "imagemArquivo": "Lascaux painting.jpg",
-    "imagemAlt": "Grandes bovinos e cavalos pintados no teto claro da caverna de Lascaux.",
+    "imagemAlt": "Grandes bovinos e cavalos pintados no teto claro de uma caverna.",
     "categoria": "Arte rupestre"
   },
   {
@@ -251,7 +251,7 @@
     "lng": -3.9655,
     "revelacao": "Alguns motivos estão entre as pinturas datadas mais antigas da Europa.",
     "imagemArquivo": "Hands Panel - Cave of the Castle (cueva del castillo) detail.jpg",
-    "imagemAlt": "Estênceis de mãos vermelhas no painel da caverna de El Castillo.",
+    "imagemAlt": "Estênceis de mãos vermelhas sobre a parede irregular de uma caverna.",
     "categoria": "Arte rupestre"
   },
   {
@@ -266,7 +266,7 @@
     "lng": 1.6444,
     "revelacao": "O painel dos cavalos malhados combina pigmento, contorno e o relevo natural da parede.",
     "imagemArquivo": "Pech Merle cave leopard spotting.JPG",
-    "imagemAlt": "Dois cavalos com manchas negras e mãos em negativo na caverna de Pech Merle.",
+    "imagemAlt": "Dois cavalos com manchas negras cercados por mãos em negativo.",
     "categoria": "Arte rupestre"
   },
   {
@@ -280,8 +280,8 @@
     "lat": 44.9347,
     "lng": 1.0289,
     "revelacao": "É uma das raras cavernas francesas com pintura paleolítica original ainda acessível em visitas limitadas.",
-    "imagemArquivo": "Font de gaume bison.jpg",
-    "imagemAlt": "Reprodução histórica do contorno de um bisão da galeria de Font-de-Gaume.",
+    "imagemArquivo": "Grotte de Font-de-Gaume (5712241543).jpg",
+    "imagemAlt": "Bisões e outros animais pré-históricos pintados sobre uma parede clara.",
     "categoria": "Arte rupestre"
   },
   {
@@ -311,7 +311,7 @@
     "lng": -7.117,
     "revelacao": "A descoberta ajudou a cancelar uma barragem e transformou a compreensão da arte paleolítica ao ar livre.",
     "imagemArquivo": "Prehistoric Rock-Art Site of the Côa Valley - Penascosa - Bull @ 2011-08-06.jpg",
-    "imagemAlt": "Contorno de um bovino paleolítico gravado em rocha no sítio de Penascosa, Vale do Côa.",
+    "imagemAlt": "Contorno de um bovino paleolítico gravado numa superfície de xisto.",
     "categoria": "Arte rupestre"
   },
   {
@@ -326,7 +326,7 @@
     "lng": -6.6611,
     "revelacao": "O sítio espanhol integra o Patrimônio Mundial transfronteiriço compartilhado com o Vale do Côa.",
     "imagemArquivo": "Siega Verde.JPG",
-    "imagemAlt": "Gravura paleolítica de animal numa laje ao ar livre em Siega Verde.",
+    "imagemAlt": "Gravura paleolítica de um animal numa laje ao ar livre.",
     "categoria": "Arte rupestre"
   },
   {
@@ -376,7 +376,7 @@
   },
   {
     "id": "magura",
-    "nome": "A dança em guano de morcego",
+    "nome": "Figuras negras no coração da caverna",
     "pista": "Figuras negras, calendários e cenas rituais foram desenhados com um material incomum no interior de uma longa caverna.",
     "periodo": "Neolítico à Idade do Bronze",
     "resposta": "Caverna de Magura",
@@ -386,7 +386,7 @@
     "lng": 22.6003,
     "revelacao": "Os desenhos escuros foram feitos com guano de morcego e registram ritos, animais e símbolos.",
     "imagemArquivo": "Magura - drawings.jpg",
-    "imagemAlt": "Figuras humanas negras em posições de dança na caverna de Magura.",
+    "imagemAlt": "Figuras humanas negras em posições de dança na parede de uma caverna.",
     "categoria": "Arte rupestre"
   },
   {
@@ -421,7 +421,7 @@
   },
   {
     "id": "daraki-chattan",
-    "nome": "A caverna das cúpulas",
+    "nome": "Marcas feitas por incontáveis golpes",
     "pista": "Centenas de pequenas cavidades circulares foram percutidas numa parede de quartzito, em sucessivas camadas de grande antiguidade.",
     "periodo": "Possivelmente Paleolítico",
     "resposta": "Daraki-Chattan",
@@ -431,7 +431,7 @@
     "lng": 75.7305,
     "revelacao": "As cupules deste abrigo de Madhya Pradesh estão no centro de debates sobre as origens da expressão gráfica.",
     "imagemArquivo": "Daraki-Chattan Cave Cupules 1.jpg",
-    "imagemAlt": "Parede de caverna coberta por pequenas cavidades circulares em Daraki-Chattan.",
+    "imagemAlt": "Parede de caverna coberta por pequenas cavidades circulares percutidas.",
     "categoria": "Arte rupestre"
   },
   {
@@ -446,7 +446,7 @@
     "lng": 75.6703,
     "revelacao": "O complexo de Madhya Pradesh é uma das galerias rupestres contínuas mais extensas da Índia.",
     "imagemArquivo": "Chaturbhujnath Nala rock art 1.jpg",
-    "imagemAlt": "Cenas humanas e animais em pigmento vermelho na parede de Chaturbhujnath Nala.",
+    "imagemAlt": "Cenas humanas e animais em pigmento vermelho numa parede rochosa.",
     "categoria": "Arte rupestre"
   },
   {
@@ -506,12 +506,12 @@
     "lng": 73.814,
     "revelacao": "O nome significa pedras bordadas e descreve uma das maiores concentrações de petróglifos da Ásia Central.",
     "imagemArquivo": "Saimaluu-Tash petroglyph 04.jpg",
-    "imagemAlt": "Animais e figuras geométricas gravados em uma pedra escura de Saimaluu-Tash.",
+    "imagemAlt": "Animais e figuras geométricas gravados numa pedra escura.",
     "categoria": "Arte rupestre"
   },
   {
     "id": "mongolian-altai",
-    "nome": "Caçadores do Altai",
+    "nome": "Caçadores entre montanhas e estepes",
     "pista": "Mamutes, alces e íbex registram doze mil anos de mudanças ambientais e da passagem da caça ao pastoreio.",
     "periodo": "c. 11.000 a.C.–séc. VIII",
     "resposta": "Complexos de Petróglifos do Altai Mongol",
@@ -571,17 +571,17 @@
   },
   {
     "id": "leang-tedongnge",
-    "nome": "O porco vermelho mais antigo",
-    "pista": "Um suídeo pintado com pigmento ocre numa caverna tropical mudou a cronologia da arte figurativa conhecida.",
+    "nome": "Um porco pintado há 45 mil anos",
+    "pista": "Um suídeo pintado com pigmento ocre numa caverna tropical ajudou a recuar a cronologia conhecida da arte figurativa.",
     "periodo": "Pelo menos 45.500 anos",
     "resposta": "Leang Tedongnge",
     "pais": "Indonésia",
     "regiao": "Ásia",
     "lat": -4.9411,
     "lng": 119.6689,
-    "revelacao": "A pintura de um porco-verruguento de Sulawesi está entre as imagens figurativas datadas mais antigas.",
+    "revelacao": "A imagem de um porco-verruguento de Sulawesi, datada em pelo menos 45.500 anos, está entre as pinturas figurativas mais antigas conhecidas.",
     "imagemArquivo": "Leang Tedongnge rock art panel credit Basran Burhan.jpg",
-    "imagemAlt": "Pintura avermelhada de um porco-verruguento na parede de Leang Tedongnge.",
+    "imagemAlt": "Pintura avermelhada de um porco-verruguento numa parede calcária.",
     "categoria": "Arte rupestre"
   },
   {
@@ -596,12 +596,12 @@
     "lng": -70.6572,
     "revelacao": "Pigmento soprado ao redor das mãos criou um dos painéis mais reconhecíveis das Américas.",
     "imagemArquivo": "SantaCruz-CuevaManos-P2210651b.jpg",
-    "imagemAlt": "Muitas mãos em negativo vermelhas, amarelas e pretas na Cueva de las Manos.",
+    "imagemAlt": "Muitas mãos em negativo vermelhas, amarelas e pretas cobrem a rocha.",
     "categoria": "Arte rupestre"
   },
   {
     "id": "serra-da-capivara",
-    "nome": "A dança da Capivara",
+    "nome": "Cenas de movimento no sertão",
     "pista": "Figuras vermelhas correm, caçam e celebram sob paredões no semiárido, compondo cenas cheias de narrativa.",
     "periodo": "Milênios de ocupação",
     "resposta": "Parque Nacional da Serra da Capivara",
@@ -686,7 +686,7 @@
     "lng": -72.5078,
     "revelacao": "É uma das maiores concentrações de petróglifos da América do Sul.",
     "imagemArquivo": "Toro Muerto Archaeological site - petroglyph (llama).jpg",
-    "imagemAlt": "Lhama de corpo quadriculado gravada em um bloco de Toro Muerto.",
+    "imagemAlt": "Lhama de corpo quadriculado gravada num grande bloco vulcânico.",
     "categoria": "Arte rupestre"
   },
   {
@@ -736,7 +736,7 @@
   },
   {
     "id": "newspaper-rock",
-    "nome": "O jornal de pedra",
+    "nome": "Séculos de sinais no mesmo painel",
     "pista": "Centenas de símbolos, animais, pés e cavaleiros se acumulam como mensagens em um único painel de verniz do deserto.",
     "periodo": "Cerca de 2.000 anos de marcas",
     "resposta": "Newspaper Rock",
@@ -746,7 +746,7 @@
     "lng": -109.5183,
     "revelacao": "O painel reúne imagens de diferentes povos e épocas no atual estado de Utah.",
     "imagemArquivo": "Newspaper Rock Full.jpg",
-    "imagemAlt": "Grande painel escuro densamente coberto por petróglifos em Newspaper Rock.",
+    "imagemAlt": "Grande painel escuro densamente coberto por símbolos e figuras gravadas.",
     "categoria": "Arte rupestre"
   },
   {
@@ -760,8 +760,8 @@
     "lat": 49.0819,
     "lng": -111.617,
     "revelacao": "A paisagem do vale do Milk River continua sagrada para o povo Blackfoot.",
-    "imagemArquivo": "Petroglyph from Writing-on-Stone Provincial Park.jpg",
-    "imagemAlt": "Figura gravada na superfície clara de arenito em Writing-on-Stone.",
+    "imagemArquivo": "Battle Scene petroglyph (6022143761).jpg",
+    "imagemAlt": "Guerreiros e cavalos gravados numa superfície clara de arenito.",
     "categoria": "Arte rupestre"
   },
   {
@@ -776,12 +776,12 @@
     "lng": -110.5,
     "revelacao": "Apesar do nome, o cânion se estende por dezenas de quilômetros e guarda milhares de imagens.",
     "imagemArquivo": "Hunt Scene petroglyph along Nine Mile Canyon National Backcountry Byway, near Price, Utah, US.jpg",
-    "imagemAlt": "Arqueiros e carneiros de grandes chifres gravados no painel Hunt Scene de Nine Mile Canyon.",
+    "imagemAlt": "Arqueiros e carneiros de grandes chifres gravados numa rocha escura.",
     "categoria": "Arte rupestre"
   },
   {
     "id": "ubirr",
-    "nome": "O cardápio das monções",
+    "nome": "Animais vistos por dentro",
     "pista": "Peixes, tartarugas e outros animais aparecem com ossos e órgãos internos visíveis em um famoso painel do norte tropical.",
     "periodo": "Tradição contínua milenar",
     "resposta": "Ubirr, Parque Nacional Kakadu",
@@ -805,8 +805,8 @@
     "lat": -12.8617,
     "lng": 132.8125,
     "revelacao": "Namarrgon, o Homem-Relâmpago, é uma das figuras centrais da galeria Anbangbang.",
-    "imagemArquivo": "Kakadu 2488.jpg",
-    "imagemAlt": "Figuras ancestrais pintadas com contornos brancos e detalhes ocres em Burrungkuy.",
+    "imagemArquivo": "Anbangbang gallery Namondjok, Namarrgon, and Barrginj rock art.jpg",
+    "imagemAlt": "Figuras ancestrais de contornos brancos e detalhes ocres pintadas num abrigo.",
     "categoria": "Arte rupestre"
   },
   {
@@ -820,13 +820,13 @@
     "lat": -15.8167,
     "lng": 144.4167,
     "revelacao": "As galerias da península do Cabo York preservam estilos figurativos próprios e histórias dos povos locais.",
-    "imagemArquivo": "Quinkan1.jpg",
-    "imagemAlt": "Figura humana alongada pintada em vermelho e amarelo na região de Quinkan.",
+    "imagemArquivo": "Dingo painting, Split Rock, Australian Aboriginal Art site, Laura, North Queensland.jpg",
+    "imagemAlt": "Figura de um dingo pintada em ocre e branco numa parede de arenito.",
     "categoria": "Arte rupestre"
   },
   {
     "id": "murujuga",
-    "nome": "Um milhão de marcas no ferro",
+    "nome": "Uma paisagem gravada por milênios",
     "pista": "Animais extintos, rostos e formas geométricas foram gravados na pátina escura de incontáveis blocos costeiros.",
     "periodo": "Mais de 40.000 anos de tradição",
     "resposta": "Murujuga / Península de Burrup",
@@ -841,7 +841,7 @@
   },
   {
     "id": "gwion-gwion",
-    "nome": "As figuras de elegantes adornos",
+    "nome": "Figuras esguias em movimento",
     "pista": "Personagens finos usam cocares, borlas e faixas elaboradas em pinturas preservadas nos abrigos de uma região remota.",
     "periodo": "Tradição antiga de Kimberley",
     "resposta": "Pinturas Gwion Gwion, Kimberley",
@@ -916,7 +916,7 @@
   },
   {
     "id": "red-hands-cave",
-    "nome": "Mãos vermelhas nas Montanhas Azuis",
+    "nome": "Mãos sobrepostas em ocre",
     "pista": "Camadas de mãos adultas e infantis foram sopradas em ocre dentro de um abrigo próximo a uma grande metrópole.",
     "periodo": "c. 500–1.600 anos",
     "resposta": "Red Hands Cave, Blue Mountains",
@@ -941,7 +941,7 @@
     "lng": 170.6452,
     "revelacao": "As figuras de Takiroa estão entre os exemplos mais acessíveis da arte rupestre Māori do vale do Waitaki.",
     "imagemArquivo": "Takiroa Rock Art, Duntroon A.jpg",
-    "imagemAlt": "Figura Māori alongada em pigmento vermelho no abrigo rupestre de Takiroa.",
+    "imagemAlt": "Figura humana alongada em pigmentos vermelho e preto num abrigo rochoso.",
     "categoria": "Arte rupestre"
   },
   {
@@ -1101,7 +1101,7 @@
   },
   {
     "id": "challenger-deep",
-    "nome": "O ponto mais profundo",
+    "nome": "Quase onze quilômetros abaixo",
     "pista": "Este vale submarino numa fossa do Pacífico desce a quase onze quilômetros abaixo do nível do mar.",
     "periodo": "c. 10.900 m",
     "resposta": "Challenger Deep, Fossa das Marianas",
@@ -1111,8 +1111,8 @@
     "lat": 11.35,
     "lng": 142.2,
     "revelacao": "É o ponto mais profundo conhecido dos oceanos.",
-    "imagemAlt": "Ilustração oceânica mostrando uma fossa submarina muito profunda.",
-    "imagemArquivo": "Marianatrenchmap.png",
+    "imagemAlt": "Encosta submarina iluminada por um veículo de exploração em águas abissais.",
+    "imagemArquivo": "Challenger Deep Dive 071222 by V Vescovo in DSV Limiting Factor - Southern Wall of Western Pool.jpg",
     "raioKm": 500
   },
   {
@@ -1165,7 +1165,7 @@
   },
   {
     "id": "groenlandia-maior-ilha",
-    "nome": "A maior ilha",
+    "nome": "Um território moldado pelo gelo",
     "pista": "Sem contar os continentes, esta massa terrestre coberta por uma enorme camada de gelo é a maior ilha do planeta.",
     "periodo": "2,16 milhões km²",
     "resposta": "Groenlândia",
@@ -1198,8 +1198,8 @@
   {
     "id": "angel-falls-altura",
     "nome": "A queda quase sem fim",
-    "pista": "A água despenca de um tepui por 979 metros, formando a maior cachoeira ininterrupta do mundo.",
-    "periodo": "979 m",
+    "pista": "A água deixa o topo de um tepui e cai livremente por 807 metros antes de seguir em cascatas menores.",
+    "periodo": "979 m no total; 807 m de queda livre",
     "resposta": "Salto Ángel",
     "pais": "Venezuela",
     "regiao": "Américas",
@@ -1208,7 +1208,7 @@
     "lng": -62.5356,
     "revelacao": "A queda nasce no topo do Auyán-tepui, no Parque Nacional Canaima.",
     "imagemAlt": "Cachoeira muito alta caindo de um paredão rochoso isolado.",
-    "imagemArquivo": "SaltoAngel1.jpg"
+    "imagemArquivo": "KerepakupaiVená.jpg"
   },
   {
     "id": "uyuni-maior-salar",
@@ -1253,14 +1253,14 @@
     "lat": 0,
     "lng": -160,
     "revelacao": "É o maior e mais profundo dos oceanos terrestres.",
-    "imagemAlt": "Vista orbital de uma vasta extensão azul do oceano.",
-    "imagemArquivo": "Pacific_Ocean_-_en.png",
+    "imagemAlt": "Reflexo da Lua sobre uma vasta extensão azul vista da órbita.",
+    "imagemArquivo": "The Moon's glint beams off the Pacific Ocean (iss071e456772).jpg",
     "raioKm": 4000
   },
   {
     "id": "mar-filipinas-maior-mar",
-    "nome": "O maior mar",
-    "pista": "Delimitado por extensos arcos de ilhas no oeste do Pacífico, é geralmente considerado o maior mar do mundo.",
+    "nome": "Um mar entre arcos vulcânicos",
+    "pista": "Grandes fossas oceânicas e cadeias de ilhas delimitam esta imensa área de águas profundas, frequentemente atravessada por tufões.",
     "periodo": "c. 5,7 milhões km²",
     "resposta": "Mar das Filipinas",
     "pais": "Pacífico ocidental",
@@ -1269,14 +1269,14 @@
     "lat": 20,
     "lng": 135,
     "revelacao": "Sua borda oriental acompanha as Ilhas Marianas.",
-    "imagemAlt": "Mar azul profundo cercado por ilhas vistas do espaço.",
-    "imagemArquivo": "Philippine_Sea_location.jpg",
+    "imagemAlt": "Nuvens e águas azuis profundas vistas da Estação Espacial Internacional.",
+    "imagemArquivo": "ISS011-E-13555 - View of the Philippine Sea.jpg",
     "raioKm": 1700
   },
   {
     "id": "baia-bengala-maior",
-    "nome": "A maior baía",
-    "pista": "Esta grande reentrância do Índico recebe rios como Ganges, Brahmaputra e Meghna.",
+    "nome": "Onde três grandes rios encontram o oceano",
+    "pista": "Uma enorme reentrância do Índico recebe um sistema fluvial que construiu o maior delta do planeta.",
     "periodo": "c. 2,17 milhões km²",
     "resposta": "Baía de Bengala",
     "pais": "Sul e Sudeste da Ásia",
@@ -1285,13 +1285,13 @@
     "lat": 15,
     "lng": 88,
     "revelacao": "É amplamente reconhecida como a maior baía do planeta.",
-    "imagemAlt": "Grande baía azul vista em imagem de satélite.",
-    "imagemArquivo": "Bay_of_Bengal_map.png",
+    "imagemAlt": "Grande delta verde recortado por canais diante do oceano, visto de satélite.",
+    "imagemArquivo": "Bay of Bengal (Hooghly - Matla - Bidyadhari - Arpangasia - Sela - Balaswar - Payra-Tetulia - Ganges - Meghna River Deltas), India - Bangladesh (34894569035).jpg",
     "raioKm": 1000
   },
   {
     "id": "peninsula-arabica-maior",
-    "nome": "A maior península",
+    "nome": "Uma imensa língua de terra entre mares",
     "pista": "Cercada pelo Mar Vermelho, Golfo Pérsico e Mar Arábico, esta vasta região é a maior península do mundo.",
     "periodo": "c. 3,2 milhões km²",
     "resposta": "Península Arábica",
@@ -1427,8 +1427,8 @@
     "lat": -24.5,
     "lng": -69.25,
     "revelacao": "É considerado o deserto não polar mais seco da Terra.",
-    "imagemAlt": "Planície desértica extremamente seca diante de montanhas.",
-    "imagemArquivo": "Atacama.png",
+    "imagemAlt": "Planície árida de tons ocres diante de montanhas sob céu límpido.",
+    "imagemArquivo": "Atacama Desert Landscape (iced moment 870-CC).jpg",
     "raioKm": 700
   },
   {
@@ -1448,7 +1448,7 @@
   },
   {
     "id": "ojos-del-salado-vulcao",
-    "nome": "O vulcão mais alto",
+    "nome": "Um vulcão na borda do céu",
     "pista": "Este estratovulcão dos Andes ergue-se na fronteira de dois países e ultrapassa 6.890 metros.",
     "periodo": "6.893 m",
     "resposta": "Ojos del Salado",
@@ -1523,7 +1523,7 @@
   },
   {
     "id": "yangtze-asia",
-    "nome": "O grande rio asiático",
+    "nome": "Da neve do planalto ao mar",
     "pista": "Nascendo no planalto tibetano, atravessa a China até o Mar da China Oriental.",
     "periodo": "c. 6.300 km",
     "resposta": "Rio Yangtzé",
@@ -2291,7 +2291,7 @@
     "lng": 33.748,
     "revelacao": "Reis e rainhas cuxitas governaram dali por muitos séculos.",
     "imagemAlt": "Grupo de pequenas pirâmides íngremes numa paisagem desértica.",
-    "imagemArquivo": "NubianMeroePyramids30sep2005(2).jpg"
+    "imagemArquivo": "Pyramids at Meroe - Sudan.jpg"
   },
   {
     "id": "cartago-fenicia",
@@ -2305,8 +2305,8 @@
     "lat": 36.8528,
     "lng": 10.3233,
     "revelacao": "O general Aníbal partiu de seu mundo político para cruzar os Alpes.",
-    "imagemAlt": "Ruínas de colunas antigas junto ao mar Mediterrâneo.",
-    "imagemArquivo": "Montage_ville_de_Carthage.png"
+    "imagemAlt": "Ruínas de pedra e colunas antigas sob céu azul.",
+    "imagemArquivo": "Ruins near Carthage national museum, Tunisia.jpg"
   },
   {
     "id": "grande-zimbabwe-reino",
@@ -2431,7 +2431,7 @@
   {
     "id": "karakorum-mongol",
     "nome": "A capital da estepe",
-    "pista": "Emissários de terras distantes chegaram a esta cidade criada no vale de um rio pelo império de cavaleiros mais extenso da história contínua.",
+    "pista": "Emissários de terras distantes chegaram a esta cidade criada num vale da estepe pelo maior império terrestre contíguo da história.",
     "periodo": "Império Mongol, séculos XIII–XIV",
     "resposta": "Karakorum",
     "pais": "Mongólia",
@@ -2440,8 +2440,8 @@
     "lat": 47.199,
     "lng": 102.843,
     "revelacao": "A cidade foi centro imperial antes de a corte se deslocar para Khanbaliq.",
-    "imagemAlt": "Tartaruga de pedra e ruínas numa ampla paisagem de estepe.",
-    "imagemArquivo": "Turtle-Karakorum.jpg"
+    "imagemAlt": "Ruínas de pedra dispersas numa ampla paisagem de estepe.",
+    "imagemArquivo": "Séta Karakorum romjai között (Walking at the ruins of Kharakhorum) - panoramio.jpg"
   },
   {
     "id": "fatehpur-sikri-mughal",
@@ -2507,7 +2507,7 @@
     "id": "tiwanaku-imperio",
     "nome": "A porta no altiplano",
     "pista": "Monólitos e uma porta esculpida marcam um centro cerimonial que influenciou grande parte dos Andes meridionais.",
-    "periodo": "Estado Tiwanaku, c. 500–1000",
+    "periodo": "Estado andino, c. 500–1000",
     "resposta": "Tiwanaku",
     "pais": "Bolívia",
     "regiao": "Américas",
@@ -2561,7 +2561,7 @@
     "lng": 170.534,
     "revelacao": "O Guinness reconhece esta rua de Dunedin como a via residencial mais íngreme do mundo.",
     "imagemAlt": "Rua muito inclinada ladeada por casas.",
-    "imagemArquivo": "Baldwinstreet.jpg"
+    "imagemArquivo": "Not quite on the level... (23622860546).jpg"
   },
   {
     "id": "cazaquistao-sem-litoral",
@@ -2597,7 +2597,7 @@
   },
   {
     "id": "piton-reticulada-comprimento",
-    "nome": "A serpente dos grandes comprimentos",
+    "nome": "A caçadora que ultrapassa seis metros",
     "pista": "Uma espécie do Sudeste Asiático detém os maiores comprimentos documentados entre serpentes vivas.",
     "periodo": "Mais de 6 m documentados",
     "resposta": "Píton-reticulada",
@@ -2611,19 +2611,20 @@
     "imagemArquivo": "Python_reticulatus_сетчатый_питон-2.jpg"
   },
   {
-    "id": "chayvo-poco-petroleo",
-    "nome": "Quinze quilômetros sob a broca",
-    "pista": "Perfuração direcional permitiu que um poço alcançasse um reservatório distante lateralmente sob uma ilha do Pacífico Norte.",
-    "periodo": "15 km de comprimento medido",
-    "resposta": "Poço Chayvo Z-44, Sakhalin-I",
-    "pais": "Rússia",
+    "id": "upper-zakum-poco-petroleo",
+    "nome": "Da ilha artificial ao reservatório",
+    "pista": "Uma perfuração de alcance estendido percorreu mais de dezesseis quilômetros sob o leito marinho até alcançar um reservatório offshore.",
+    "periodo": "53.000 pés (c. 16,15 km), em 2024",
+    "resposta": "Poço AD-68, campo de Upper Zakum",
+    "pais": "Emirados Árabes Unidos",
     "regiao": "Ásia",
     "categoria": "Recorde geográfico",
-    "lat": 52,
-    "lng": 143,
-    "revelacao": "O poço Z-44 foi divulgado como um dos poços petrolíferos de maior alcance e profundidade medida.",
-    "imagemAlt": "Instalação petrolífera numa paisagem costeira fria.",
-    "imagemArquivo": "Drilling Platform In The Okhotsk Sea (172197429).jpeg"
+    "lat": 24.8333,
+    "lng": 53.75,
+    "revelacao": "A ADNOC Drilling informou que o AD-68 estabeleceu o recorde mundial de comprimento total de poço em 2024.",
+    "imagemAlt": "Plataforma de perfuração offshore no litoral dos Emirados Árabes Unidos.",
+    "imagemArquivo": "Drilling rig, jack up type, Abu Dhabi port (Mena Zayed), Abu Dhabi, United Arab Emirates, May 2008.jpg",
+    "raioKm": 500
   },
   {
     "id": "la-paz-capital-alta",
@@ -2749,14 +2750,14 @@
     "id": "veryovkina-caverna",
     "nome": "A descida de mais de dois quilômetros",
     "pista": "Exploradores mapearam poços e passagens até uma profundidade superior a 2.200 metros.",
-    "periodo": "2.212 m",
+    "periodo": "2.209 m confirmados",
     "resposta": "Caverna Veryovkina",
     "pais": "Geórgia",
     "regiao": "Ásia",
     "categoria": "Recorde geográfico",
     "lat": 43.3975,
     "lng": 40.3592,
-    "revelacao": "É a caverna conhecida mais profunda do mundo.",
+    "revelacao": "É uma das cavernas mais profundas conhecidas e a mais profunda acessível sem equipamento de mergulho.",
     "imagemAlt": "Exploradores com cordas num poço de caverna vertical.",
     "imagemArquivo": "Veryovkina_cave._Babatunda_pit.jpg"
   },
@@ -2778,7 +2779,7 @@
   {
     "id": "sarawak-chamber-area",
     "nome": "A sala subterrânea colossal",
-    "pista": "Uma única câmara sob floresta tropical possui área suficiente para comportar oito Boeing 747 enfileirados.",
+    "pista": "Uma única câmara sob floresta tropical tem área de piso comparável a mais de vinte campos de futebol.",
     "periodo": "c. 154,5 mil m²",
     "resposta": "Câmara de Sarawak",
     "pais": "Malásia",
@@ -2786,8 +2787,8 @@
     "categoria": "Recorde geográfico",
     "lat": 4.03,
     "lng": 114.81,
-    "revelacao": "É uma das maiores câmaras subterrâneas conhecidas e a maior por área.",
-    "imagemAlt": "Salão gigantesco de caverna com exploradores minúsculos.",
+    "revelacao": "É a maior câmara subterrânea conhecida por área de piso; fica no sistema Gua Nasib Bagus, no Parque Nacional Gunung Mulu.",
+    "imagemAlt": "Entrada monumental da Deer Cave, no mesmo parque que abriga a câmara recordista.",
     "imagemArquivo": "Deer Cave entry, Sarawak, April 2025 01.jpg"
   },
   {
@@ -2822,7 +2823,7 @@
   },
   {
     "id": "general-sherman-volume",
-    "nome": "O maior tronco vivo",
+    "nome": "Um colosso medido em volume",
     "pista": "Esta sequoia-gigante não é a mais alta, mas seu tronco contém mais madeira que o de qualquer outra árvore individual conhecida.",
     "periodo": "c. 1.487 m³ de tronco",
     "resposta": "General Sherman",
@@ -2882,7 +2883,7 @@
   },
   {
     "id": "baleia-azul-tamanho",
-    "nome": "O maior animal conhecido",
+    "nome": "O gigante dos oceanos",
     "pista": "Seu coração pode ter o tamanho de um pequeno veículo e o corpo ultrapassar trinta metros.",
     "periodo": "Até cerca de 30 m",
     "resposta": "Baleia-azul",
@@ -2892,7 +2893,7 @@
     "lat": -60,
     "lng": -50,
     "revelacao": "É o maior animal conhecido na história da Terra; o ponto fica numa importante área de alimentação austral.",
-    "imagemAlt": "Grande baleia azul nadando perto da superfície.",
+    "imagemAlt": "Grande cetáceo nadando perto da superfície do oceano.",
     "raioKm": 1800,
     "imagemArquivo": "Anim1754_-_Flickr_-_NOAA_Photo_Library.jpg"
   },
@@ -2945,8 +2946,8 @@
   },
   {
     "id": "panamericana-rodovia",
-    "nome": "A estrada de dois continentes",
-    "pista": "Uma rede rodoviária liga o extremo norte americano ao sul da Patagônia, interrompida apenas por uma região de selva.",
+    "nome": "Uma estrada quase continental",
+    "pista": "Uma rede rodoviária conecta o extremo norte das Américas ao sul da Patagônia, mas uma faixa de selva impede a continuidade por terra.",
     "periodo": "c. 30 mil km",
     "resposta": "Rodovia Pan-Americana",
     "pais": "Américas",
@@ -2954,14 +2955,14 @@
     "categoria": "Recorde geográfico",
     "lat": 8.5,
     "lng": -77.5,
-    "revelacao": "É a rede rodoviária contínua mais longa do mundo; o ponto marca o Darién Gap.",
-    "imagemAlt": "Rodovia longa atravessando uma paisagem montanhosa.",
+    "revelacao": "É geralmente descrita como o sistema rodoviário mais longo do mundo, mas permanece interrompida pelo Tampão do Darién.",
+    "imagemAlt": "Rodovia atravessando uma paisagem montanhosa e pouco povoada.",
     "raioKm": 1000,
-    "imagemArquivo": "PanAmericanHwy.png"
+    "imagemArquivo": "00 1901 Panamericana (Pan Amerika Highway).jpg"
   },
   {
     "id": "danyang-kunshan-ponte",
-    "nome": "A ponte de cento e sessenta quilômetros",
+    "nome": "Um viaduto que cruza o horizonte",
     "pista": "Este viaduto ferroviário elevado atravessa arrozais, canais e lagos numa rota de alta velocidade.",
     "periodo": "164,8 km",
     "resposta": "Grande Ponte Danyang–Kunshan",
@@ -3005,53 +3006,54 @@
     "imagemArquivo": "1915_Çanakkale_Bridge2.JPG"
   },
   {
-    "id": "duge-ponte-alta",
-    "nome": "A estrada acima das nuvens",
-    "pista": "O tabuleiro desta ponte passa mais de meio quilômetro acima do vale de um rio montanhoso.",
-    "periodo": "565 m sobre o rio",
-    "resposta": "Ponte Duge",
+    "id": "huajiang-ponte-alta",
+    "nome": "Uma travessia acima das nuvens",
+    "pista": "O tabuleiro desta ponte suspensa passa mais de seiscentos metros acima de um rio no fundo de um cânion.",
+    "periodo": "625 m sobre o rio; aberta em 2025",
+    "resposta": "Ponte do Cânion Huajiang",
     "pais": "China",
     "regiao": "Ásia",
     "categoria": "Recorde geográfico",
-    "lat": 26.39,
-    "lng": 104.68,
-    "revelacao": "É a ponte mais alta do mundo medida do tabuleiro ao terreno abaixo.",
-    "imagemAlt": "Ponte estaiada altíssima atravessando um cânion.",
-    "imagemArquivo": "DugeOverlookView.jpg"
+    "lat": 25.7047,
+    "lng": 105.5881,
+    "revelacao": "Desde setembro de 2025, é a ponte rodoviária mais alta do mundo quando medida do tabuleiro ao terreno abaixo.",
+    "imagemAlt": "Ponte suspensa muito elevada atravessando um cânion profundo e verde.",
+    "imagemArquivo": "Huajiang Canyon Bridge2.JPG",
+    "raioKm": 350
   },
   {
     "id": "king-fahd-aeroporto-area",
     "nome": "Um aeroporto do tamanho de uma cidade",
-    "pista": "A área administrativa deste terminal no deserto ultrapassa setecentos quilômetros quadrados.",
-    "periodo": "776 km²",
+    "pista": "A área oficial deste complexo aeroportuário no deserto chega a quase oitocentos quilômetros quadrados, embora grande parte permaneça sem uso.",
+    "periodo": "780 km² de área oficial",
     "resposta": "Aeroporto Internacional Rei Fahd",
     "pais": "Arábia Saudita",
     "regiao": "Ásia",
     "categoria": "Recorde geográfico",
     "lat": 26.4712,
     "lng": 49.7979,
-    "revelacao": "É reconhecido como o maior aeroporto do mundo em área total.",
-    "imagemAlt": "Mesquita moderna no amplo complexo aeroportuário.",
-    "imagemArquivo": "King Fahd Airport mosque 2.jpg"
+    "revelacao": "O Guinness o reconhece como o maior aeroporto do mundo em área total; sua área efetivamente utilizada é muito menor.",
+    "imagemAlt": "Terminal e pátio de um grande aeroporto em uma paisagem desértica.",
+    "imagemArquivo": "Dammam0142.jpg"
   },
   {
     "id": "atlanta-aeroporto-movimento",
-    "nome": "O maior fluxo de passageiros",
+    "nome": "O aeroporto que nunca para",
     "pista": "Este grande centro de conexões do sudeste americano recebe mais passageiros anuais que qualquer outro aeroporto.",
-    "periodo": "Mais de 100 milhões por ano",
+    "periodo": "106,3 milhões de passageiros em 2025",
     "resposta": "Aeroporto Internacional Hartsfield–Jackson Atlanta",
     "pais": "Estados Unidos",
     "regiao": "Américas",
     "categoria": "Recorde geográfico",
     "lat": 33.6407,
     "lng": -84.4277,
-    "revelacao": "Manteve a liderança mundial em 2025, com 106,3 milhões de passageiros.",
+    "revelacao": "A Airports Council International o manteve em primeiro lugar mundial por passageiros totais em 2025.",
     "imagemAlt": "Aeroporto com numerosos terminais e pistas visto do alto.",
     "imagemArquivo": "Hartsfield2026.jpg"
   },
   {
     "id": "hongyancun-metro-profundo",
-    "nome": "A plataforma no subsolo profundo",
+    "nome": "Trinta e nove andares abaixo da rua",
     "pista": "Escadas rolantes descem dezenas de metros dentro de uma cidade construída sobre colinas abruptas.",
     "periodo": "c. 116 m de profundidade",
     "resposta": "Estação Hongyancun",
@@ -3096,7 +3098,7 @@
   },
   {
     "id": "statue-of-unity-altura",
-    "nome": "A figura de cento e oitenta metros",
+    "nome": "Um líder transformado em horizonte",
     "pista": "Uma estátua dedicada a um líder da independência ergue-se perto de uma barragem e supera todos os outros monumentos figurativos em altura.",
     "periodo": "182 m",
     "resposta": "Statue of Unity",
@@ -3121,8 +3123,8 @@
     "lat": 40.7527,
     "lng": -73.9772,
     "revelacao": "Detém o recorde de maior número de plataformas numa estação ferroviária.",
-    "imagemAlt": "Grande saguão ferroviário com relógio central e teto alto.",
-    "imagemArquivo": "Image-Grand_central_Station_Outside_Night_2.jpg"
+    "imagemAlt": "Grande saguão ferroviário com relógio central e teto abobadado.",
+    "imagemArquivo": "Grand Central Terminal Interior.jpg"
   },
   {
     "id": "sihwa-energia-maremotriz",
@@ -3206,7 +3208,7 @@
     "id": "hranice-abyss",
     "nome": "O abismo inundado",
     "pista": "Sondas desceram centenas de metros sem encontrar o fundo definitivo desta caverna cheia de água termal.",
-    "periodo": "Mais de 450 m confirmados",
+    "periodo": "519,5 m confirmados; 450 m sob a água",
     "resposta": "Abismo de Hranice",
     "pais": "Tchéquia",
     "regiao": "Europa",
@@ -3308,7 +3310,7 @@
     "revelacao": "Povos Bininj e Mungguy distinguem seis estações anuais nesta terra viva.",
     "imagemAlt": "Planície alagável tropical diante de escarpas rochosas.",
     "raioKm": 550,
-    "imagemArquivo": "Kakadu_2431.jpg"
+    "imagemArquivo": "Magpie Geese at Mamukala Wetlands, Kakadu National Park.jpg"
   },
   {
     "id": "purnululu-bungle-bungle",
@@ -3738,7 +3740,7 @@
     "id": "shwedagon-pagoda",
     "nome": "A estupa dourada",
     "pista": "Uma grande estupa revestida de ouro domina a cidade e concentra relíquias veneradas por budistas.",
-    "periodo": "Tradição com mais de 2.500 anos",
+    "periodo": "Segundo a tradição, mais de 2.500 anos",
     "resposta": "Pagode Shwedagon",
     "pais": "Myanmar",
     "regiao": "Ásia",
@@ -3946,8 +3948,8 @@
     "lat": 28.6139,
     "lng": 77.209,
     "revelacao": "O jogo persa shatranj e tradições posteriores transformaram o chaturanga no xadrez moderno.",
-    "imagemAlt": "Peças antigas de jogo organizadas sobre um tabuleiro.",
-    "imagemArquivo": "Radha-Krishna_chess.jpg"
+    "imagemAlt": "Peças indianas esculpidas de soldados e animais sobre um tabuleiro.",
+    "imagemArquivo": "Chaturanga Chess Set.jpg"
   },
   {
     "id": "silk-road",
@@ -3961,9 +3963,9 @@
     "lat": 43,
     "lng": 68,
     "revelacao": "Não era uma única estrada, mas uma rede terrestre e marítima de conexões.",
-    "imagemAlt": "Caravana de camelos atravessando uma paisagem árida.",
+    "imagemAlt": "Camelo-bactriano diante de uma construção monumental da Ásia Central.",
     "raioKm": 1200,
-    "imagemArquivo": "Silk_road_Kazakhstan.svg"
+    "imagemArquivo": "Bactrian camel in Kazakhstan.jpg"
   },
   {
     "id": "cuneiform-writing",
@@ -3992,8 +3994,8 @@
     "lat": 34.62,
     "lng": 112.45,
     "revelacao": "Textos chineses atribuem ao oficial Cai Lun a sistematização do processo em 105 d.C., embora papéis anteriores existam.",
-    "imagemAlt": "Folhas e ferramentas tradicionais usadas na fabricação de papel.",
-    "imagemArquivo": "Cai-lun.jpg"
+    "imagemAlt": "Representação museológica das etapas tradicionais de fabricação de papel.",
+    "imagemArquivo": "Process of Cai Lun's Papermaking Art (10353448523).jpg"
   },
   {
     "id": "movable-type-bi-sheng",
@@ -4082,8 +4084,8 @@
     "lat": 37.9723,
     "lng": 23.7192,
     "revelacao": "A Pnyx foi um dos principais espaços de reunião da assembleia.",
-    "imagemAlt": "Colina com plataforma de oradores diante de uma cidade antiga.",
-    "imagemArquivo": "Discurso_funebre_pericles.PNG"
+    "imagemAlt": "Plataforma de pedra para oradores numa colina diante da cidade.",
+    "imagemArquivo": "Orator's platform, Pnyx.jpg"
   },
   {
     "id": "library-alexandria",
@@ -4232,7 +4234,7 @@
     "categoria": "Cultura e invenções",
     "lat": 64.18,
     "lng": -51.72,
-    "revelacao": "A palavra caiaque deriva de línguas Inuit-Yupik-Unangan.",
+    "revelacao": "A palavra portuguesa caiaque remonta ao groenlandês qajaq, nome de uma embarcação individual tradicional.",
     "imagemAlt": "Caiaque tradicional estreito navegando entre gelo costeiro.",
     "imagemArquivo": "Greenland Ilulissat Kajak 1.jpg"
   },
@@ -4279,7 +4281,7 @@
     "lng": -99.1031,
     "revelacao": "O sistema ainda produz flores e alimentos na zona lacustre da Cidade do México.",
     "imagemAlt": "Canais estreitos entre parcelas agrícolas verdes.",
-    "imagemArquivo": "Camas_chinampas.jpg"
+    "imagemArquivo": "Chinampas Xochimilco.jpg"
   },
   {
     "id": "quipu-inca",
@@ -4294,11 +4296,11 @@
     "lng": -71.978,
     "revelacao": "Especialistas chamados khipukamayuq liam e produziam esses registros.",
     "imagemAlt": "Conjunto de cordões coloridos com numerosos nós.",
-    "imagemArquivo": "Inca_Quipu.jpg"
+    "imagemArquivo": "Fragmentary quipu (khipu), a main cord with top, subsidiary, & tertiary cords, Inca, Peru, Late Horizon, 1476-1534 AD, cotton, plant & camelid fiber, indigo & red dye - Dallas Museum of Art - DSC04704.jpg"
   },
   {
     "id": "via-appia-roman-roads",
-    "nome": "Todos os caminhos como infraestrutura",
+    "nome": "A estrada que ensinou um império a avançar",
     "pista": "Camadas de pedra, pontes e marcos conectaram exércitos, comércio e administração por milhares de quilômetros.",
     "periodo": "Desde o século IV a.C.",
     "resposta": "Estradas romanas — Via Ápia",
@@ -4343,7 +4345,7 @@
   },
   {
     "id": "florence-renaissance",
-    "nome": "A cidade que redescobriu proporções",
+    "nome": "Arte, ciência e perspectiva",
     "pista": "Artistas, arquitetos e estudiosos experimentaram perspectiva, anatomia e modelos clássicos sob o apoio de famílias mercantes.",
     "periodo": "Séculos XIV–XVI",
     "resposta": "Renascimento em Florença",
@@ -4413,7 +4415,7 @@
     "lat": -34.6037,
     "lng": -58.3816,
     "revelacao": "Buenos Aires e Montevidéu compartilham a tradição reconhecida como patrimônio cultural imaterial.",
-    "imagemAlt": "Casal dançando tango numa rua urbana.",
+    "imagemAlt": "Casal executando uma dança de abraço fechado numa rua urbana.",
     "imagemArquivo": "Tango_dancers_in_Montevideo.png"
   },
   {
@@ -4443,7 +4445,7 @@
     "lat": -12.9714,
     "lng": -38.5014,
     "revelacao": "A prática criada por africanos e seus descendentes tornou-se símbolo cultural brasileiro.",
-    "imagemAlt": "Duas pessoas executando movimentos de capoeira dentro de uma roda.",
+    "imagemAlt": "Duas pessoas executando movimentos acrobáticos dentro de uma roda.",
     "imagemArquivo": "Rugendasroda.jpg"
   },
   {
@@ -4459,7 +4461,7 @@
     "lng": -5.9845,
     "revelacao": "Comunidades ciganas tiveram papel central no desenvolvimento desta arte.",
     "imagemAlt": "Dançarina com vestido em movimento acompanhada por guitarrista.",
-    "imagemArquivo": "Belen_maya.jpg"
+    "imagemArquivo": "Woman Flamenco dancer.jpg"
   },
   {
     "id": "fado-lisbon",
@@ -4488,8 +4490,8 @@
     "lat": 35.6696,
     "lng": 139.7678,
     "revelacao": "A tradição começou com companhias femininas e depois assumiu formas exclusivamente masculinas.",
-    "imagemAlt": "Ator de teatro com maquiagem colorida e figurino elaborado.",
-    "imagemArquivo": "Kikugorō_Onoe_VI_as_Umeō-maru.jpg"
+    "imagemAlt": "Gravura japonesa colorida com atores em figurinos teatrais elaborados.",
+    "imagemArquivo": "Kabuki-Play-Yoshitsune-Senbon-Zakura-1847.png"
   },
   {
     "id": "wayang-yogyakarta",
@@ -4549,6 +4551,6 @@
     "lng": 135.7681,
     "revelacao": "Princípios como harmonia, respeito, pureza e tranquilidade orientam muitas escolas.",
     "imagemAlt": "Pessoa preparando chá verde numa sala tradicional.",
-    "imagemArquivo": "Tea ceremony performing 2.jpg"
+    "imagemArquivo": "A Japanese Tea Ceremony's Host Preparing Tea - Kyoto, 2023.jpg"
   }
 ]

@@ -1,11 +1,11 @@
-const CACHE = "geogame-v6";
+const CACHE = "geogame-v7";
 const ASSETS = [
   "./",
   "./index.html",
-  "./style.css?v=6",
-  "./app.js?v=6",
-  "./locations.json?v=6",
-  "./manifest.json?v=6",
+  "./style.css?v=7",
+  "./app.js?v=7",
+  "./locations.json?v=7",
+  "./manifest.json?v=7",
   "./icon-192.png",
   "./apple-touch-icon.png"
 ];
