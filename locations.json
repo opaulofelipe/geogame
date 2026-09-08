@@ -1,7 +1,7 @@
 [
   {
     "id": "tassili-n-ajjer",
-    "nome": "Os seres de cabeça redonda",
+    "nome": "Tassili n’Ajjer",
     "pista": "No coração do Saara, figuras humanas fluidas e rebanhos registram a transformação de uma savana fértil em deserto.",
     "periodo": "c. 10.000 a.C.–era comum",
     "resposta": "Tassili n’Ajjer",
@@ -16,7 +16,7 @@
   },
   {
     "id": "tadrart-acacus",
-    "nome": "Pastores onde hoje há areia",
+    "nome": "Tadrart Acacus",
     "pista": "Cenas de caça, dança e pastoreio sobrevivem em abrigos de arenito de uma região hoje extremamente árida.",
     "periodo": "c. 12.000 a.C.–100 d.C.",
     "resposta": "Tadrart Acacus",
@@ -31,7 +31,7 @@
   },
   {
     "id": "tsodilo",
-    "nome": "O Louvre do deserto",
+    "nome": "Tsodilo",
     "pista": "Quatro colinas erguem-se sobre o Kalahari e guardam milhares de imagens, incluindo uma célebre girafa.",
     "periodo": "Milênios de ocupação",
     "resposta": "Tsodilo",
@@ -46,7 +46,7 @@
   },
   {
     "id": "twyfelfontein",
-    "nome": "O leão com cauda de mão",
+    "nome": "Twyfelfontein",
     "pista": "Caçadores gravaram rinocerontes, elefantes e um felino singular nas rochas avermelhadas de um vale seco.",
     "periodo": "Idade da Pedra",
     "resposta": "Twyfelfontein",
@@ -61,7 +61,7 @@
   },
   {
     "id": "brandberg-white-lady",
-    "nome": "A figura branca da montanha",
+    "nome": "Abrigo da White Lady, Brandberg",
     "pista": "Uma personagem clara, cercada por caçadores e animais, tornou este abrigo um ícone do sul da África.",
     "periodo": "Tradição San",
     "resposta": "Abrigo da White Lady, Brandberg",
@@ -76,7 +76,7 @@
   },
   {
     "id": "drakensberg-eland-cave",
-    "nome": "A dança dos elandes",
+    "nome": "Eland Cave, Drakensberg",
     "pista": "Antílopes esguios e figuras humanas parecem mover-se pelas paredes de um abrigo em uma cadeia montanhosa do sul africano.",
     "periodo": "Tradição San",
     "resposta": "Eland Cave, Drakensberg",
@@ -91,7 +91,7 @@
   },
   {
     "id": "cederberg",
-    "nome": "Cinco figuras de manto",
+    "nome": "Cederberg",
     "pista": "Em abrigos de arenito entre formações esculturais, personagens San usam mantos e dividem a parede com elefantes.",
     "periodo": "Tradição San",
     "resposta": "Cederberg",
@@ -106,7 +106,7 @@
   },
   {
     "id": "matobo-hills",
-    "nome": "Animais entre grandes blocos",
+    "nome": "Colinas de Matobo",
     "pista": "Colinas de granito arredondado escondem abrigos com cenas naturalistas de caça e vida cotidiana.",
     "periodo": "Pelo menos 13.000 anos",
     "resposta": "Colinas de Matobo",
@@ -121,7 +121,7 @@
   },
   {
     "id": "chongoni",
-    "nome": "Geometrias de uma tradição viva",
+    "nome": "Área de Arte Rupestre de Chongoni",
     "pista": "Formas brancas ligadas a ritos femininos convivem com pinturas vermelhas de caçadores em colinas florestadas.",
     "periodo": "Idade da Pedra ao séc. XX",
     "resposta": "Área de Arte Rupestre de Chongoni",
@@ -136,7 +136,7 @@
   },
   {
     "id": "kondoa",
-    "nome": "A procissão vermelha",
+    "nome": "Sítios de Arte Rupestre de Kondoa",
     "pista": "Pequenas figuras humanas alongadas correm, dançam e caçam em abrigos de uma escarpa da África Oriental.",
     "periodo": "Tradições antigas e recentes",
     "resposta": "Sítios de Arte Rupestre de Kondoa",
@@ -151,7 +151,7 @@
   },
   {
     "id": "laas-geel",
-    "nome": "Bois de pescoços ornamentados",
+    "nome": "Laas Geel",
     "pista": "Rebanhos multicoloridos, acompanhados de pessoas e cães, cobrem abrigos de granito no Chifre da África.",
     "periodo": "Neolítico",
     "resposta": "Laas Geel",
@@ -166,7 +166,7 @@
   },
   {
     "id": "ennedi-manda-gueli",
-    "nome": "Camelos sob um teto de pedra",
+    "nome": "Manda Guéli, Maciço do Ennedi",
     "pista": "Pastores e animais ocupam um grande abrigo num maciço de arcos, cânions e torres de arenito.",
     "periodo": "Milênios de arte saariana",
     "resposta": "Manda Guéli, Maciço do Ennedi",
@@ -181,7 +181,7 @@
   },
   {
     "id": "dabous-giraffes",
-    "nome": "As duas girafas gigantes",
+    "nome": "Girafas de Dabous",
     "pista": "Um par de animais em tamanho quase natural foi gravado no topo de uma laje, cercado hoje pelas areias do Saara.",
     "periodo": "c. 8.000–6.000 a.C.",
     "resposta": "Girafas de Dabous",
@@ -196,7 +196,7 @@
   },
   {
     "id": "lascaux",
-    "nome": "O salão dos touros",
+    "nome": "Caverna de Lascaux",
     "pista": "Touros, cavalos e cervos ganham volume e movimento numa caverna descoberta por adolescentes durante a Segunda Guerra.",
     "periodo": "c. 17.000 anos",
     "resposta": "Caverna de Lascaux",
@@ -211,7 +211,7 @@
   },
   {
     "id": "chauvet",
-    "nome": "A parede dos leões",
+    "nome": "Caverna de Chauvet-Pont-d’Arc",
     "pista": "Felinos, rinocerontes e ursos aparecem sobrepostos com extraordinário domínio de linha e movimento.",
     "periodo": "c. 36.000 anos",
     "resposta": "Caverna de Chauvet-Pont-d’Arc",
@@ -226,7 +226,7 @@
   },
   {
     "id": "altamira",
-    "nome": "Bisões no teto",
+    "nome": "Caverna de Altamira",
     "pista": "O relevo natural da rocha foi usado para dar corpo a animais pintados em vermelho, preto e ocre.",
     "periodo": "Paleolítico Superior",
     "resposta": "Caverna de Altamira",
@@ -241,7 +241,7 @@
   },
   {
     "id": "el-castillo",
-    "nome": "Mãos e discos vermelhos",
+    "nome": "Caverna de El Castillo",
     "pista": "Estênceis de mãos e pontos circulares ocupam uma caverna do mesmo complexo pré-histórico de outras grandes grutas cantábricas.",
     "periodo": "Mais de 40.000 anos",
     "resposta": "Caverna de El Castillo",
@@ -256,7 +256,7 @@
   },
   {
     "id": "pech-merle",
-    "nome": "Os cavalos pontilhados",
+    "nome": "Pech Merle",
     "pista": "Dois cavalos cercados por pontos e silhuetas de mãos formam uma das composições mais reconhecíveis da pré-história.",
     "periodo": "c. 25.000 anos",
     "resposta": "Pech Merle",
@@ -271,7 +271,7 @@
   },
   {
     "id": "font-de-gaume",
-    "nome": "A procissão dos bisões",
+    "nome": "Font-de-Gaume",
     "pista": "Dezenas de bisões policromados acompanham cavalos, mamutes e renas numa estreita galeria calcária.",
     "periodo": "Magdaleniano",
     "resposta": "Font-de-Gaume",
@@ -286,7 +286,7 @@
   },
   {
     "id": "rouffignac",
-    "nome": "A caverna dos cem mamutes",
+    "nome": "Caverna de Rouffignac",
     "pista": "A maior parte dos animais desenhados nas galerias pertence à espécie de grandes presas e pelagem longa.",
     "periodo": "Magdaleniano",
     "resposta": "Caverna de Rouffignac",
@@ -301,7 +301,7 @@
   },
   {
     "id": "coa-valley",
-    "nome": "O santuário ao ar livre",
+    "nome": "Vale do Côa",
     "pista": "Cavalos, auroques e cabras foram gravados em painéis de xisto ao longo de um rio, sob céu aberto.",
     "periodo": "c. 22.000–10.000 a.C.",
     "resposta": "Vale do Côa",
@@ -316,7 +316,7 @@
   },
   {
     "id": "siega-verde",
-    "nome": "Animais à margem do Águeda",
+    "nome": "Siega Verde",
     "pista": "Cavalos, cervos e um raro rinoceronte foram picotados e incisos em rochas junto a um rio ibérico.",
     "periodo": "Paleolítico Superior",
     "resposta": "Siega Verde",
@@ -331,7 +331,7 @@
   },
   {
     "id": "valcamonica",
-    "nome": "O duelo gravado",
+    "nome": "Arte Rupestre de Valcamonica",
     "pista": "Milhares de figuras — guerreiros, cervos, arados e símbolos — cobrem rochas polidas por antigas geleiras alpinas.",
     "periodo": "8.000 a.C.–Idade do Ferro",
     "resposta": "Arte Rupestre de Valcamonica",
@@ -346,7 +346,7 @@
   },
   {
     "id": "tanum",
-    "nome": "Navios sobre granito",
+    "nome": "Gravuras Rupestres de Tanum",
     "pista": "Em lajes hoje realçadas em vermelho, longas embarcações convivem com guerreiros, animais e rodas solares.",
     "periodo": "Idade do Bronze",
     "resposta": "Gravuras Rupestres de Tanum",
@@ -361,7 +361,7 @@
   },
   {
     "id": "alta",
-    "nome": "Caçadas perto do Círculo Polar",
+    "nome": "Gravuras Rupestres de Alta",
     "pista": "Renas, barcos e caçadores foram gravados em antigas linhas costeiras que subiram à medida que o gelo recuou.",
     "periodo": "c. 5.200 a.C.–100 d.C.",
     "resposta": "Gravuras Rupestres de Alta",
@@ -376,7 +376,7 @@
   },
   {
     "id": "magura",
-    "nome": "Figuras negras no coração da caverna",
+    "nome": "Caverna de Magura",
     "pista": "Figuras negras, calendários e cenas rituais foram desenhados com um material incomum no interior de uma longa caverna.",
     "periodo": "Neolítico à Idade do Bronze",
     "resposta": "Caverna de Magura",
@@ -391,7 +391,7 @@
   },
   {
     "id": "bhimbetka",
-    "nome": "O abrigo das muitas épocas",
+    "nome": "Abrigos Rupestres de Bhimbetka",
     "pista": "Caçadas, cavaleiros, elefantes e cenas comunitárias se sobrepõem em centenas de abrigos de arenito.",
     "periodo": "Paleolítico à história recente",
     "resposta": "Abrigos Rupestres de Bhimbetka",
@@ -406,7 +406,7 @@
   },
   {
     "id": "edakkal",
-    "nome": "A fenda coberta de sinais",
+    "nome": "Cavernas de Edakkal",
     "pista": "Uma enorme rocha presa entre outras cria o abrigo onde pessoas, rodas e símbolos geométricos foram incisados.",
     "periodo": "Neolítico e períodos posteriores",
     "resposta": "Cavernas de Edakkal",
@@ -421,7 +421,7 @@
   },
   {
     "id": "daraki-chattan",
-    "nome": "Marcas feitas por incontáveis golpes",
+    "nome": "Daraki-Chattan",
     "pista": "Centenas de pequenas cavidades circulares foram percutidas numa parede de quartzito, em sucessivas camadas de grande antiguidade.",
     "periodo": "Possivelmente Paleolítico",
     "resposta": "Daraki-Chattan",
@@ -436,7 +436,7 @@
   },
   {
     "id": "chaturbhujnath-nala",
-    "nome": "A longa galeria do desfiladeiro",
+    "nome": "Chaturbhujnath Nala",
     "pista": "Centenas de cenas pintadas acompanham um corredor rochoso, mostrando caçadores, animais e mudanças ao longo do tempo.",
     "periodo": "Mesolítico a períodos históricos",
     "resposta": "Chaturbhujnath Nala",
@@ -451,7 +451,7 @@
   },
   {
     "id": "helan-mountains",
-    "nome": "Rostos na fronteira do deserto",
+    "nome": "Arte Rupestre das Montanhas Helan",
     "pista": "Máscaras, animais e cenas de pastoreio foram gravadas nas encostas de uma cadeia que separa planalto e deserto.",
     "periodo": "Milênios de gravação",
     "resposta": "Arte Rupestre das Montanhas Helan",
@@ -466,7 +466,7 @@
   },
   {
     "id": "zuojiang-huashan",
-    "nome": "Homens vermelhos sobre o rio",
+    "nome": "Arte Rupestre de Zuojiang Huashan",
     "pista": "Centenas de figuras frontais, braços erguidos e pernas abertas, cobrem paredões quase verticais acima da água.",
     "periodo": "c. séc. V a.C.–II d.C.",
     "resposta": "Arte Rupestre de Zuojiang Huashan",
@@ -481,7 +481,7 @@
   },
   {
     "id": "tamgaly",
-    "nome": "Os deuses de cabeça solar",
+    "nome": "Petróglifos de Tamgaly",
     "pista": "Figuras com halos radiantes aparecem entre rebanhos, dançarinos e cenas rituais de uma garganta da estepe.",
     "periodo": "Idade do Bronze em diante",
     "resposta": "Petróglifos de Tamgaly",
@@ -496,7 +496,7 @@
   },
   {
     "id": "saimaluu-tash",
-    "nome": "Milhares de pedras desenhadas",
+    "nome": "Saimaluu-Tash",
     "pista": "Num vale de alta montanha, animais, carros e cenas rituais cobrem blocos escuros espalhados pela encosta.",
     "periodo": "Idade do Bronze à Idade Média",
     "resposta": "Saimaluu-Tash",
@@ -511,7 +511,7 @@
   },
   {
     "id": "mongolian-altai",
-    "nome": "Caçadores entre montanhas e estepes",
+    "nome": "Complexos de Petróglifos do Altai Mongol",
     "pista": "Mamutes, alces e íbex registram doze mil anos de mudanças ambientais e da passagem da caça ao pastoreio.",
     "periodo": "c. 11.000 a.C.–séc. VIII",
     "resposta": "Complexos de Petróglifos do Altai Mongol",
@@ -526,7 +526,7 @@
   },
   {
     "id": "jubbah-hail",
-    "nome": "Os grandes camelos de pedra",
+    "nome": "Arte Rupestre de Jubbah, região de Hail",
     "pista": "Figuras humanas e animais em tamanho expressivo foram gravadas ao redor de um antigo lago no deserto.",
     "periodo": "Neolítico a períodos recentes",
     "resposta": "Arte Rupestre de Jubbah, região de Hail",
@@ -541,7 +541,7 @@
   },
   {
     "id": "hima",
-    "nome": "A rota escrita nas rochas",
+    "nome": "Área Cultural de Ḥimā",
     "pista": "Caçadas, guerreiros e inscrições em vários alfabetos marcam um antigo corredor de caravanas e poços.",
     "periodo": "7.000 anos de registros",
     "resposta": "Área Cultural de Ḥimā",
@@ -556,7 +556,7 @@
   },
   {
     "id": "gobustan",
-    "nome": "Barcos no Mar Cáspio",
+    "nome": "Reserva de Gobustan",
     "pista": "Em montanhas de lama e rochas calcárias, silhuetas de embarcações convivem com dançarinos e caçadores.",
     "periodo": "Paleolítico à Idade Média",
     "resposta": "Reserva de Gobustan",
@@ -571,7 +571,7 @@
   },
   {
     "id": "leang-tedongnge",
-    "nome": "Um porco pintado há 45 mil anos",
+    "nome": "Leang Tedongnge",
     "pista": "Um suídeo pintado com pigmento ocre numa caverna tropical ajudou a recuar a cronologia conhecida da arte figurativa.",
     "periodo": "Pelo menos 45.500 anos",
     "resposta": "Leang Tedongnge",
@@ -586,7 +586,7 @@
   },
   {
     "id": "cueva-de-las-manos",
-    "nome": "Uma nuvem de mãos",
+    "nome": "Cueva de las Manos",
     "pista": "Centenas de mãos em negativo cercam cenas de caça num cânion remoto da Patagônia.",
     "periodo": "c. 9.300–1.300 anos",
     "resposta": "Cueva de las Manos",
@@ -601,7 +601,7 @@
   },
   {
     "id": "serra-da-capivara",
-    "nome": "Cenas de movimento no sertão",
+    "nome": "Parque Nacional da Serra da Capivara",
     "pista": "Figuras vermelhas correm, caçam e celebram sob paredões no semiárido, compondo cenas cheias de narrativa.",
     "periodo": "Milênios de ocupação",
     "resposta": "Parque Nacional da Serra da Capivara",
@@ -616,7 +616,7 @@
   },
   {
     "id": "chiribiquete",
-    "nome": "A maloca do jaguar",
+    "nome": "Parque Nacional de Chiribiquete",
     "pista": "Painéis monumentais cobrem paredões de tepuis no encontro entre floresta amazônica e planícies tropicais.",
     "periodo": "Tradição milenar e viva",
     "resposta": "Parque Nacional de Chiribiquete",
@@ -631,7 +631,7 @@
   },
   {
     "id": "serrania-la-lindosa",
-    "nome": "A muralha de animais vermelhos",
+    "nome": "Serranía de la Lindosa",
     "pista": "Milhares de figuras cobrem longos painéis amazônicos, incluindo humanos, cervos e possíveis animais da megafauna.",
     "periodo": "Fim do Pleistoceno em diante",
     "resposta": "Serranía de la Lindosa",
@@ -646,7 +646,7 @@
   },
   {
     "id": "sierra-san-francisco",
-    "nome": "Os gigantes bicolores",
+    "nome": "Pinturas Rupestres da Sierra de San Francisco",
     "pista": "Pessoas muito maiores que o natural, divididas em vermelho e preto, ocupam tetos de abrigos numa serra desértica.",
     "periodo": "c. 100 a.C.–1300 d.C.",
     "resposta": "Pinturas Rupestres da Sierra de San Francisco",
@@ -661,7 +661,7 @@
   },
   {
     "id": "toquepala",
-    "nome": "A caçada em círculo",
+    "nome": "Cavernas de Toquepala",
     "pista": "Caçadores cercam camelídeos em uma cena dinâmica pintada no alto de uma região mineral andina.",
     "periodo": "c. 9.500 anos",
     "resposta": "Cavernas de Toquepala",
@@ -676,7 +676,7 @@
   },
   {
     "id": "toro-muerto",
-    "nome": "O campo dos dançarinos",
+    "nome": "Toro Muerto",
     "pista": "Milhares de blocos vulcânicos espalhados num deserto carregam lhamas, felinos e figuras humanas dançantes.",
     "periodo": "c. 500–1300 d.C.",
     "resposta": "Toro Muerto",
@@ -691,7 +691,7 @@
   },
   {
     "id": "pusharo",
-    "nome": "A parede de serpentes",
+    "nome": "Petróglifos de Pusharo",
     "pista": "Linhas sinuosas, rostos e símbolos cobrem uma parede na floresta, acessível por rio dentro de uma área protegida.",
     "periodo": "Cronologia ainda debatida",
     "resposta": "Petróglifos de Pusharo",
@@ -706,7 +706,7 @@
   },
   {
     "id": "petroglyph-national-monument",
-    "nome": "Símbolos na lava escura",
+    "nome": "Petroglyph National Monument",
     "pista": "Povos Pueblo e colonizadores hispânicos gravaram milhares de figuras na crosta negra de um antigo campo vulcânico.",
     "periodo": "c. 1300–século XVIII",
     "resposta": "Petroglyph National Monument",
@@ -721,7 +721,7 @@
   },
   {
     "id": "horseshoe-canyon",
-    "nome": "O Espírito Santo do cânion",
+    "nome": "Great Gallery, Horseshoe Canyon",
     "pista": "Figuras altas, sem braços e ricamente decoradas formam um painel solene no fundo de um cânion desértico.",
     "periodo": "Período Arcaico",
     "resposta": "Great Gallery, Horseshoe Canyon",
@@ -736,7 +736,7 @@
   },
   {
     "id": "newspaper-rock",
-    "nome": "Séculos de sinais no mesmo painel",
+    "nome": "Newspaper Rock",
     "pista": "Centenas de símbolos, animais, pés e cavaleiros se acumulam como mensagens em um único painel de verniz do deserto.",
     "periodo": "Cerca de 2.000 anos de marcas",
     "resposta": "Newspaper Rock",
@@ -751,7 +751,7 @@
   },
   {
     "id": "writing-on-stone",
-    "nome": "Batalhas entre os hoodoos",
+    "nome": "Writing-on-Stone / Áísínai’pi",
     "pista": "Guerreiros com escudos, cavalos e cenas de combate foram gravados e pintados em arenito numa paisagem de colunas erodidas.",
     "periodo": "Tradição Blackfoot",
     "resposta": "Writing-on-Stone / Áísínai’pi",
@@ -766,7 +766,7 @@
   },
   {
     "id": "nine-mile-canyon",
-    "nome": "A grande caçada de carneiros",
+    "nome": "Nine Mile Canyon",
     "pista": "Um famoso painel mostra arqueiros cercando animais de grandes chifres numa longa galeria natural do oeste americano.",
     "periodo": "Cultura Fremont",
     "resposta": "Nine Mile Canyon",
@@ -781,7 +781,7 @@
   },
   {
     "id": "ubirr",
-    "nome": "Animais vistos por dentro",
+    "nome": "Ubirr, Parque Nacional Kakadu",
     "pista": "Peixes, tartarugas e outros animais aparecem com ossos e órgãos internos visíveis em um famoso painel do norte tropical.",
     "periodo": "Tradição contínua milenar",
     "resposta": "Ubirr, Parque Nacional Kakadu",
@@ -796,7 +796,7 @@
   },
   {
     "id": "nourlangie",
-    "nome": "O espírito do relâmpago",
+    "nome": "Burrungkuy (Nourlangie), Kakadu",
     "pista": "Uma figura poderosa, cercada por armas e elementos naturais, representa um ancestral ligado às tempestades.",
     "periodo": "Tradição viva",
     "resposta": "Burrungkuy (Nourlangie), Kakadu",
@@ -811,7 +811,7 @@
   },
   {
     "id": "quinkan",
-    "nome": "Os espíritos longos da escarpa",
+    "nome": "Arte Rupestre Quinkan, Laura",
     "pista": "Figuras esguias e seres espirituais habitam abrigos de arenito numa região tropical de serras e savanas.",
     "periodo": "Milênios de tradição",
     "resposta": "Arte Rupestre Quinkan, Laura",
@@ -826,7 +826,7 @@
   },
   {
     "id": "murujuga",
-    "nome": "Uma paisagem gravada por milênios",
+    "nome": "Murujuga / Península de Burrup",
     "pista": "Animais extintos, rostos e formas geométricas foram gravados na pátina escura de incontáveis blocos costeiros.",
     "periodo": "Mais de 40.000 anos de tradição",
     "resposta": "Murujuga / Península de Burrup",
@@ -841,7 +841,7 @@
   },
   {
     "id": "gwion-gwion",
-    "nome": "Figuras esguias em movimento",
+    "nome": "Pinturas Gwion Gwion, Kimberley",
     "pista": "Personagens finos usam cocares, borlas e faixas elaboradas em pinturas preservadas nos abrigos de uma região remota.",
     "periodo": "Tradição antiga de Kimberley",
     "resposta": "Pinturas Gwion Gwion, Kimberley",
@@ -856,7 +856,7 @@
   },
   {
     "id": "wandjina",
-    "nome": "Olhos que trazem a chuva",
+    "nome": "Pinturas Wandjina, Kimberley",
     "pista": "Rostos frontais de olhos enormes e sem boca observam os abrigos, associados a nuvens, chuva e renovação.",
     "periodo": "Tradição viva de Kimberley",
     "resposta": "Pinturas Wandjina, Kimberley",
@@ -871,7 +871,7 @@
   },
   {
     "id": "bunjil-shelter",
-    "nome": "O criador e seus dois cães",
+    "nome": "Abrigo de Bunjil",
     "pista": "Uma figura branca de braços abertos, acompanhada por dois dingos, ocupa um pequeno abrigo de granito.",
     "periodo": "Tradição Djab Wurrung",
     "resposta": "Abrigo de Bunjil",
@@ -886,7 +886,7 @@
   },
   {
     "id": "carnarvon-gorge",
-    "nome": "A parede dos estênceis",
+    "nome": "Art Gallery, Carnarvon Gorge",
     "pista": "Mãos, machados e bumerangues em negativo cobrem dezenas de metros de arenito numa garganta verde do interior.",
     "periodo": "Centenas a milhares de anos",
     "resposta": "Art Gallery, Carnarvon Gorge",
@@ -901,7 +901,7 @@
   },
   {
     "id": "ku-ring-gai-chase",
-    "nome": "O casal na pedra de Sydney",
+    "nome": "Gravuras de Ku-ring-gai Chase",
     "pista": "Figuras humanas, peixes, cangurus e baleias foram sulcados em grandes plataformas planas de arenito.",
     "periodo": "Tradição ancestral contínua",
     "resposta": "Gravuras de Ku-ring-gai Chase",
@@ -916,7 +916,7 @@
   },
   {
     "id": "red-hands-cave",
-    "nome": "Mãos sobrepostas em ocre",
+    "nome": "Red Hands Cave, Blue Mountains",
     "pista": "Camadas de mãos adultas e infantis foram sopradas em ocre dentro de um abrigo próximo a uma grande metrópole.",
     "periodo": "c. 500–1.600 anos",
     "resposta": "Red Hands Cave, Blue Mountains",
@@ -931,7 +931,7 @@
   },
   {
     "id": "takiroa",
-    "nome": "Pessoas-pássaro em carvão e ocre",
+    "nome": "Abrigo Rupestre de Takiroa",
     "pista": "Desenhos Māori alongados combinam formas humanas e animais em um abrigo de calcário da Ilha Sul.",
     "periodo": "Antes e depois do contato europeu",
     "resposta": "Abrigo Rupestre de Takiroa",
@@ -946,7 +946,7 @@
   },
   {
     "id": "orongo",
-    "nome": "O homem-pássaro no vulcão",
+    "nome": "Orongo, Rapa Nui",
     "pista": "Figuras híbridas de corpo humano e cabeça de ave foram gravadas à beira de uma cratera diante de pequenas ilhas oceânicas.",
     "periodo": "c. séculos XVII–XIX",
     "resposta": "Orongo, Rapa Nui",
@@ -961,7 +961,7 @@
   },
   {
     "id": "burj-khalifa-recorde",
-    "nome": "A torre acima das nuvens",
+    "nome": "Prédio mais alto do mundo",
     "pista": "Concluído em 2010, este arranha-céu alcança 828 metros e permanece o edifício concluído mais alto do mundo.",
     "periodo": "828 m",
     "resposta": "Burj Khalifa",
@@ -976,7 +976,7 @@
   },
   {
     "id": "amazonas-maior-vazao",
-    "nome": "O gigante das águas",
+    "nome": "Rio com maior vazão do mundo",
     "pista": "Nenhum outro rio despeja tanta água no oceano; sua bacia atravessa a maior floresta tropical do planeta.",
     "periodo": "Maior vazão",
     "resposta": "Rio Amazonas",
@@ -992,7 +992,7 @@
   },
   {
     "id": "nilo-comprimento",
-    "nome": "A longa faixa verde",
+    "nome": "Rio mais longo do mundo",
     "pista": "Tradicionalmente citado como o rio mais longo do mundo, cruza o nordeste africano antes de formar um grande delta mediterrâneo.",
     "periodo": "c. 6.650 km",
     "resposta": "Rio Nilo",
@@ -1008,7 +1008,7 @@
   },
   {
     "id": "lago-superior-superficie",
-    "nome": "Um mar de água doce",
+    "nome": "Maior lago de água doce por área",
     "pista": "Pela área de superfície, é o maior lago de água doce do planeta e integra um conjunto de cinco grandes lagos.",
     "periodo": "82.100 km²",
     "resposta": "Lago Superior",
@@ -1024,7 +1024,7 @@
   },
   {
     "id": "baikal-profundidade",
-    "nome": "O abismo de água doce",
+    "nome": "Lago mais profundo do mundo",
     "pista": "Este lago siberiano chega a cerca de 1.642 metros de profundidade e guarda uma enorme parcela da água doce líquida superficial do mundo.",
     "periodo": "1.642 m",
     "resposta": "Lago Baikal",
@@ -1040,7 +1040,7 @@
   },
   {
     "id": "congo-rio-profundo",
-    "nome": "O rio sem fundo aparente",
+    "nome": "Rio mais profundo do mundo",
     "pista": "Medições de sonar encontraram canais com mais de 200 metros neste grande rio equatorial africano.",
     "periodo": "Mais de 200 m",
     "resposta": "Rio Congo",
@@ -1056,7 +1056,7 @@
   },
   {
     "id": "everest-altitude",
-    "nome": "O teto acima do mar",
+    "nome": "Montanha mais alta do mundo",
     "pista": "Seu cume, na cordilheira do Himalaia, é o ponto mais alto da superfície terrestre medido a partir do nível do mar.",
     "periodo": "8.848,86 m",
     "resposta": "Monte Everest",
@@ -1071,7 +1071,7 @@
   },
   {
     "id": "chimborazo-centro-terra",
-    "nome": "Mais perto das estrelas",
+    "nome": "Ponto mais distante do centro da Terra",
     "pista": "Graças ao abaulamento equatorial, o cume deste vulcão é o ponto da superfície mais distante do centro da Terra.",
     "periodo": "6.263 m do nível do mar",
     "resposta": "Chimborazo",
@@ -1086,7 +1086,7 @@
   },
   {
     "id": "mauna-kea-base-cume",
-    "nome": "A montanha escondida",
+    "nome": "Montanha mais alta da base ao cume",
     "pista": "Medida desde sua base no fundo oceânico até o cume, esta montanha supera dez quilômetros de altura.",
     "periodo": "Mais de 10 km da base",
     "resposta": "Mauna Kea",
@@ -1101,7 +1101,7 @@
   },
   {
     "id": "challenger-deep",
-    "nome": "Quase onze quilômetros abaixo",
+    "nome": "Ponto mais profundo dos oceanos",
     "pista": "Este vale submarino numa fossa do Pacífico desce a quase onze quilômetros abaixo do nível do mar.",
     "periodo": "c. 10.900 m",
     "resposta": "Challenger Deep, Fossa das Marianas",
@@ -1117,7 +1117,7 @@
   },
   {
     "id": "mar-morto-menor-altitude",
-    "nome": "A margem mais baixa",
+    "nome": "Ponto terrestre exposto mais baixo",
     "pista": "As margens deste lago salgado ficam mais de 430 metros abaixo do nível do mar, a menor altitude continental exposta.",
     "periodo": "c. −430 m",
     "resposta": "Mar Morto",
@@ -1133,7 +1133,7 @@
   },
   {
     "id": "antartida-maior-deserto",
-    "nome": "O maior deserto é gelado",
+    "nome": "Maior deserto do mundo",
     "pista": "Com precipitação extremamente baixa e cerca de 14 milhões de quilômetros quadrados, este continente é o maior deserto da Terra.",
     "periodo": "c. 14 milhões km²",
     "resposta": "Antártida",
@@ -1149,7 +1149,7 @@
   },
   {
     "id": "saara-maior-deserto-quente",
-    "nome": "O oceano de areia",
+    "nome": "Maior deserto quente do mundo",
     "pista": "Este cinturão árido ocupa grande parte do norte africano e é o maior deserto quente do mundo.",
     "periodo": "c. 9,2 milhões km²",
     "resposta": "Deserto do Saara",
@@ -1165,7 +1165,7 @@
   },
   {
     "id": "groenlandia-maior-ilha",
-    "nome": "Um território moldado pelo gelo",
+    "nome": "Maior ilha do mundo",
     "pista": "Sem contar os continentes, esta massa terrestre coberta por uma enorme camada de gelo é a maior ilha do planeta.",
     "periodo": "2,16 milhões km²",
     "resposta": "Groenlândia",
@@ -1181,7 +1181,7 @@
   },
   {
     "id": "caspio-maior-lago",
-    "nome": "O lago chamado de mar",
+    "nome": "Maior lago do mundo por área",
     "pista": "Apesar do nome, esta massa fechada entre Europa e Ásia é o maior corpo de água interior do mundo por área.",
     "periodo": "c. 371 mil km²",
     "resposta": "Mar Cáspio",
@@ -1197,7 +1197,7 @@
   },
   {
     "id": "angel-falls-altura",
-    "nome": "A queda quase sem fim",
+    "nome": "Cachoeira mais alta do mundo",
     "pista": "A água deixa o topo de um tepui e cai livremente por 807 metros antes de seguir em cascatas menores.",
     "periodo": "979 m no total; 807 m de queda livre",
     "resposta": "Salto Ángel",
@@ -1212,7 +1212,7 @@
   },
   {
     "id": "uyuni-maior-salar",
-    "nome": "O espelho do céu",
+    "nome": "Maior salar do mundo",
     "pista": "Na estação úmida, uma fina lâmina de água transforma o maior salar do mundo num gigantesco espelho.",
     "periodo": "10.582 km²",
     "resposta": "Salar de Uyuni",
@@ -1227,7 +1227,7 @@
   },
   {
     "id": "grande-barreira-recifes",
-    "nome": "A estrutura viva colossal",
+    "nome": "Maior sistema de recifes de coral",
     "pista": "Milhares de recifes e ilhas formam o maior sistema de recifes de coral da Terra.",
     "periodo": "Mais de 2.300 km",
     "resposta": "Grande Barreira de Coral",
@@ -1243,7 +1243,7 @@
   },
   {
     "id": "pacifico-maior-oceano",
-    "nome": "Metade do mundo em água",
+    "nome": "Maior oceano do mundo",
     "pista": "Este oceano cobre mais área que todas as terras emersas combinadas e contém a fossa mais profunda.",
     "periodo": "c. 165 milhões km²",
     "resposta": "Oceano Pacífico",
@@ -1259,7 +1259,7 @@
   },
   {
     "id": "mar-filipinas-maior-mar",
-    "nome": "Um mar entre arcos vulcânicos",
+    "nome": "Maior mar do mundo",
     "pista": "Grandes fossas oceânicas e cadeias de ilhas delimitam esta imensa área de águas profundas, frequentemente atravessada por tufões.",
     "periodo": "c. 5,7 milhões km²",
     "resposta": "Mar das Filipinas",
@@ -1275,7 +1275,7 @@
   },
   {
     "id": "baia-bengala-maior",
-    "nome": "Onde três grandes rios encontram o oceano",
+    "nome": "Maior baía do mundo",
     "pista": "Uma enorme reentrância do Índico recebe um sistema fluvial que construiu o maior delta do planeta.",
     "periodo": "c. 2,17 milhões km²",
     "resposta": "Baía de Bengala",
@@ -1291,7 +1291,7 @@
   },
   {
     "id": "peninsula-arabica-maior",
-    "nome": "Uma imensa língua de terra entre mares",
+    "nome": "Maior península do mundo",
     "pista": "Cercada pelo Mar Vermelho, Golfo Pérsico e Mar Arábico, esta vasta região é a maior península do mundo.",
     "periodo": "c. 3,2 milhões km²",
     "resposta": "Península Arábica",
@@ -1307,7 +1307,7 @@
   },
   {
     "id": "andes-cordilheira-longa",
-    "nome": "A espinha dorsal continental",
+    "nome": "Cordilheira continental mais longa",
     "pista": "Esta cadeia acompanha a margem ocidental de um continente por cerca de sete mil quilômetros.",
     "periodo": "c. 7.000 km",
     "resposta": "Cordilheira dos Andes",
@@ -1323,7 +1323,7 @@
   },
   {
     "id": "planalto-tibete-altura",
-    "nome": "O teto do mundo",
+    "nome": "Planalto mais alto e extenso do mundo",
     "pista": "Com altitude média acima de 4.500 metros, este enorme planalto alimenta muitos dos grandes rios asiáticos.",
     "periodo": "Média acima de 4.500 m",
     "resposta": "Planalto Tibetano",
@@ -1339,7 +1339,7 @@
   },
   {
     "id": "delta-ganges-brahmaputra",
-    "nome": "O delta dos grandes rios",
+    "nome": "Maior delta fluvial do mundo",
     "pista": "Sedimentos de três grandes sistemas fluviais criaram uma imensa planície antes das águas alcançarem uma baía tropical.",
     "periodo": "Maior delta",
     "resposta": "Delta do Ganges–Brahmaputra–Meghna",
@@ -1355,7 +1355,7 @@
   },
   {
     "id": "sundarbans-manguezal",
-    "nome": "O labirinto das marés",
+    "nome": "Maior floresta de mangue do mundo",
     "pista": "Ilhas, canais e florestas salobras formam o maior manguezal contínuo do planeta e habitat do tigre-de-bengala.",
     "periodo": "c. 10 mil km²",
     "resposta": "Sundarbans",
@@ -1370,7 +1370,7 @@
   },
   {
     "id": "son-doong-volume",
-    "nome": "A caverna gigante",
+    "nome": "Maior passagem de caverna por volume",
     "pista": "Sua passagem principal é tão volumosa que poderia abrigar quarteirões urbanos e possui floresta sob claraboias naturais.",
     "periodo": "Maior passagem por volume",
     "resposta": "Caverna Sơn Đoòng",
@@ -1385,7 +1385,7 @@
   },
   {
     "id": "lambert-maior-geleira",
-    "nome": "O rio de gelo colossal",
+    "nome": "Maior geleira do mundo",
     "pista": "Uma vasta corrente de gelo drena grande parte do manto oriental do continente mais frio.",
     "periodo": "c. 400 km de extensão",
     "resposta": "Geleira Lambert",
@@ -1401,7 +1401,7 @@
   },
   {
     "id": "titicaca-navegavel",
-    "nome": "Navegação nas alturas",
+    "nome": "Lago navegável mais alto do mundo",
     "pista": "Grandes embarcações cruzam este lago andino situado a mais de 3.800 metros de altitude.",
     "periodo": "3.812 m de altitude",
     "resposta": "Lago Titicaca",
@@ -1417,7 +1417,7 @@
   },
   {
     "id": "atacama-deserto-seco",
-    "nome": "Décadas sem chuva",
+    "nome": "Deserto não polar mais seco do mundo",
     "pista": "Entre o Pacífico e os Andes, algumas estações desta região registram precipitação quase inexistente.",
     "periodo": "Deserto não polar mais seco",
     "resposta": "Deserto do Atacama",
@@ -1433,7 +1433,7 @@
   },
   {
     "id": "mawsynram-chuvas",
-    "nome": "Onde as nuvens descarregam",
+    "nome": "Local habitado mais chuvoso do mundo",
     "pista": "Ventos úmidos são forçados a subir por colinas, produzindo a maior média anual de chuva registrada para uma localidade.",
     "periodo": "c. 11.800 mm por ano",
     "resposta": "Mawsynram",
@@ -1448,7 +1448,7 @@
   },
   {
     "id": "ojos-del-salado-vulcao",
-    "nome": "Um vulcão na borda do céu",
+    "nome": "Vulcão ativo mais alto do mundo",
     "pista": "Este estratovulcão dos Andes ergue-se na fronteira de dois países e ultrapassa 6.890 metros.",
     "periodo": "6.893 m",
     "resposta": "Ojos del Salado",
@@ -1463,7 +1463,7 @@
   },
   {
     "id": "aconcagua-fora-asia",
-    "nome": "O gigante fora da Ásia",
+    "nome": "Montanha mais alta fora da Ásia",
     "pista": "Este pico andino é o mais alto dos hemisférios ocidental e sul.",
     "periodo": "6.961 m",
     "resposta": "Aconcágua",
@@ -1478,7 +1478,7 @@
   },
   {
     "id": "denali-america-norte",
-    "nome": "O grande do norte",
+    "nome": "Montanha mais alta da América do Norte",
     "pista": "A partir da planície ao redor, esta montanha apresenta uma das maiores elevações verticais visíveis do mundo.",
     "periodo": "6.190 m",
     "resposta": "Denali",
@@ -1493,7 +1493,7 @@
   },
   {
     "id": "vinson-antartida",
-    "nome": "O cume do continente branco",
+    "nome": "Montanha mais alta da Antártida",
     "pista": "Este maciço isolado nas montanhas Ellsworth é o ponto mais alto do continente gelado.",
     "periodo": "4.892 m",
     "resposta": "Maciço Vinson",
@@ -1508,7 +1508,7 @@
   },
   {
     "id": "puncak-jaya-oceania",
-    "nome": "A pirâmide tropical de pedra",
+    "nome": "Montanha mais alta da Oceania",
     "pista": "Próximo ao equador, este pico escarpado é o mais alto de uma grande ilha e, na definição mais ampla, da Oceania.",
     "periodo": "4.884 m",
     "resposta": "Puncak Jaya",
@@ -1523,7 +1523,7 @@
   },
   {
     "id": "yangtze-asia",
-    "nome": "Da neve do planalto ao mar",
+    "nome": "Rio mais longo da Ásia",
     "pista": "Nascendo no planalto tibetano, atravessa a China até o Mar da China Oriental.",
     "periodo": "c. 6.300 km",
     "resposta": "Rio Yangtzé",
@@ -1539,7 +1539,7 @@
   },
   {
     "id": "volga-europa",
-    "nome": "A artéria da planície europeia",
+    "nome": "Rio mais longo da Europa",
     "pista": "Este rio corre inteiramente por um único país antes de desaguar no maior lago fechado do mundo.",
     "periodo": "3.530 km",
     "resposta": "Rio Volga",
@@ -1555,7 +1555,7 @@
   },
   {
     "id": "danubio-paises",
-    "nome": "O rio de muitas fronteiras",
+    "nome": "Rio que atravessa mais países",
     "pista": "De uma floresta alemã ao Mar Negro, este curso passa ou faz fronteira com dez países.",
     "periodo": "10 países",
     "resposta": "Rio Danúbio",
@@ -1571,7 +1571,7 @@
   },
   {
     "id": "tanganica-comprimento",
-    "nome": "A cicatriz líquida do Rift",
+    "nome": "Lago de água doce mais longo do mundo",
     "pista": "Estreito, profundo e com cerca de 673 quilômetros, este lago acompanha o vale tectônico africano.",
     "periodo": "c. 673 km",
     "resposta": "Lago Tanganica",
@@ -1587,7 +1587,7 @@
   },
   {
     "id": "monte-atlas",
-    "nome": "Montanhas entre mar e deserto",
+    "nome": "Montanhas do Atlas",
     "pista": "Esta cadeia do noroeste africano separa as costas atlântica e mediterrânea das extensões do Saara.",
     "periodo": "Cordilheira africana",
     "resposta": "Montanhas do Atlas",
@@ -1603,7 +1603,7 @@
   },
   {
     "id": "kilimanjaro-lugar",
-    "nome": "Neve sobre a savana",
+    "nome": "Monte Kilimanjaro",
     "pista": "Três cones vulcânicos formam esta montanha isolada que se eleva quase cinco quilômetros acima das planícies.",
     "periodo": "Patrimônio natural",
     "resposta": "Monte Kilimanjaro",
@@ -1618,7 +1618,7 @@
   },
   {
     "id": "grande-mesquita-djenne",
-    "nome": "A monumental arquitetura de terra",
+    "nome": "Grande Mesquita de Djenné",
     "pista": "Torres com vigas salientes definem este grande edifício comunitário reconstruído anualmente com barro.",
     "periodo": "Reconstruída em 1907",
     "resposta": "Grande Mesquita de Djenné",
@@ -1633,7 +1633,7 @@
   },
   {
     "id": "piramides-gize",
-    "nome": "Geometria no deserto",
+    "nome": "Complexo das Pirâmides de Gizé",
     "pista": "Três grandes pirâmides e uma esfinge compõem esta necrópole erguida na margem ocidental de uma antiga capital.",
     "periodo": "c. 2600–2500 a.C.",
     "resposta": "Complexo das Pirâmides de Gizé",
@@ -1648,7 +1648,7 @@
   },
   {
     "id": "lalibela-igrejas",
-    "nome": "Templos escavados para baixo",
+    "nome": "Igrejas Rupestres de Lalibela",
     "pista": "Onze igrejas foram talhadas diretamente na rocha, formando pátios e passagens abaixo do nível do terreno.",
     "periodo": "Séculos XII–XIII",
     "resposta": "Igrejas Rupestres de Lalibela",
@@ -1663,7 +1663,7 @@
   },
   {
     "id": "axum-obelisco",
-    "nome": "A estela de um antigo reino",
+    "nome": "Obelisco de Axum",
     "pista": "Um monólito esculpido como um edifício de vários andares marca a capital de um poderoso reino do Chifre da África.",
     "periodo": "Séculos III–IV",
     "resposta": "Obelisco de Axum",
@@ -1678,7 +1678,7 @@
   },
   {
     "id": "sankore-timbuktu",
-    "nome": "A cidade dos manuscritos",
+    "nome": "Sankoré, Timbuktu",
     "pista": "Mesquita, universidade e bibliotecas floresceram neste centro de saber ligado às caravanas transaarianas.",
     "periodo": "Apogeu nos séculos XV–XVI",
     "resposta": "Sankoré, Timbuktu",
@@ -1693,7 +1693,7 @@
   },
   {
     "id": "table-mountain",
-    "nome": "A mesa sobre o oceano",
+    "nome": "Table Mountain",
     "pista": "Um topo quase plano domina uma cidade costeira onde dois oceanos se aproximam.",
     "periodo": "Maciço de arenito",
     "resposta": "Table Mountain",
@@ -1708,7 +1708,7 @@
   },
   {
     "id": "delta-okavango",
-    "nome": "O rio que não encontra o mar",
+    "nome": "Delta do Okavango",
     "pista": "Depois de cruzar terras secas, um grande rio se espalha num leque de canais, lagoas e ilhas interiores.",
     "periodo": "Patrimônio natural",
     "resposta": "Delta do Okavango",
@@ -1724,7 +1724,7 @@
   },
   {
     "id": "ngorongoro",
-    "nome": "Um mundo dentro da cratera",
+    "nome": "Área de Conservação de Ngorongoro",
     "pista": "A enorme caldeira de um vulcão extinto abriga savanas, lagos e uma concentração excepcional de grandes animais.",
     "periodo": "Caldeira vulcânica",
     "resposta": "Área de Conservação de Ngorongoro",
@@ -1739,7 +1739,7 @@
   },
   {
     "id": "serengeti",
-    "nome": "A grande migração",
+    "nome": "Parque Nacional do Serengeti",
     "pista": "Milhões de gnus, zebras e gazelas percorrem estas planícies numa das maiores migrações animais da Terra.",
     "periodo": "Ecossistema de savana",
     "resposta": "Parque Nacional do Serengeti",
@@ -1755,7 +1755,7 @@
   },
   {
     "id": "victoria-falls",
-    "nome": "A fumaça que troveja",
+    "nome": "Cataratas Vitória / Mosi-oa-Tunya",
     "pista": "Um grande rio africano cai numa garganta estreita, levantando uma nuvem de spray visível a quilômetros.",
     "periodo": "Queda de 108 m",
     "resposta": "Cataratas Vitória / Mosi-oa-Tunya",
@@ -1770,7 +1770,7 @@
   },
   {
     "id": "petra-lugar",
-    "nome": "A cidade cor-de-rosa",
+    "nome": "Petra",
     "pista": "Fachadas monumentais foram talhadas em paredões de arenito no cruzamento de antigas rotas comerciais.",
     "periodo": "Reino Nabateu",
     "resposta": "Petra",
@@ -1785,7 +1785,7 @@
   },
   {
     "id": "wadi-rum",
-    "nome": "O vale da lua",
+    "nome": "Wadi Rum",
     "pista": "Arcos naturais, cânions e montanhas de arenito emergem de um deserto avermelhado marcado por milênios de presença humana.",
     "periodo": "Paisagem cultural",
     "resposta": "Wadi Rum",
@@ -1800,7 +1800,7 @@
   },
   {
     "id": "jerusalem-cidade-antiga",
-    "nome": "A cidade de muitas fés",
+    "nome": "Cidade Antiga de Jerusalém",
     "pista": "Dentro de muralhas, lugares sagrados do judaísmo, cristianismo e islamismo convivem em poucos quilômetros quadrados.",
     "periodo": "Mais de três milênios",
     "resposta": "Cidade Antiga de Jerusalém",
@@ -1815,7 +1815,7 @@
   },
   {
     "id": "capadocia",
-    "nome": "Chaminés e cidades subterrâneas",
+    "nome": "Capadócia",
     "pista": "Erosão e atividade vulcânica criaram torres de rocha onde comunidades escavaram casas, igrejas e refúgios.",
     "periodo": "Paisagem cultural",
     "resposta": "Capadócia",
@@ -1830,7 +1830,7 @@
   },
   {
     "id": "hagia-sophia",
-    "nome": "A cúpula entre impérios",
+    "nome": "Hagia Sophia",
     "pista": "Basílica, mesquita, museu e novamente mesquita: este edifício testemunhou mudanças de império e religião.",
     "periodo": "Concluída em 537",
     "resposta": "Hagia Sophia",
@@ -1845,7 +1845,7 @@
   },
   {
     "id": "acropole-atenas",
-    "nome": "A cidadela da deusa",
+    "nome": "Acrópole de Atenas",
     "pista": "Templos de mármore ocupam uma colina rochosa acima da cidade onde floresceu a democracia clássica.",
     "periodo": "Século V a.C.",
     "resposta": "Acrópole de Atenas",
@@ -1860,7 +1860,7 @@
   },
   {
     "id": "coliseu",
-    "nome": "A arena de pedra",
+    "nome": "Coliseu",
     "pista": "Dezenas de milhares de espectadores assistiam a combates e espetáculos neste anfiteatro elíptico.",
     "periodo": "Século I",
     "resposta": "Coliseu",
@@ -1875,7 +1875,7 @@
   },
   {
     "id": "stonehenge",
-    "nome": "O círculo do solstício",
+    "nome": "Stonehenge",
     "pista": "Grandes blocos foram erguidos e alinhados na paisagem pré-histórica, incluindo pedras transportadas por centenas de quilômetros.",
     "periodo": "c. 3000–2000 a.C.",
     "resposta": "Stonehenge",
@@ -1890,7 +1890,7 @@
   },
   {
     "id": "mont-saint-michel",
-    "nome": "A abadia das marés",
+    "nome": "Mont-Saint-Michel",
     "pista": "Uma vila e uma abadia medieval coroam um ilhote que muda de relação com o continente conforme a maré.",
     "periodo": "Fundada no século VIII",
     "resposta": "Mont-Saint-Michel",
@@ -1905,7 +1905,7 @@
   },
   {
     "id": "alhambra",
-    "nome": "O palácio da água e da caligrafia",
+    "nome": "Alhambra",
     "pista": "Pátios, fontes e paredes cobertas por arabescos formam uma cidadela palaciana do último reino islâmico da Península Ibérica.",
     "periodo": "Séculos XIII–XV",
     "resposta": "Alhambra",
@@ -1920,7 +1920,7 @@
   },
   {
     "id": "grande-canal-veneza",
-    "nome": "A avenida feita de água",
+    "nome": "Grande Canal de Veneza",
     "pista": "Palácios se alinham às curvas do principal canal de uma cidade construída sobre ilhas numa lagoa.",
     "periodo": "Cidade lagunar",
     "resposta": "Grande Canal de Veneza",
@@ -1935,7 +1935,7 @@
   },
   {
     "id": "matterhorn",
-    "nome": "A pirâmide dos Alpes",
+    "nome": "Matterhorn / Cervino",
     "pista": "Quatro faces íngremes formam uma das silhuetas montanhosas mais reconhecíveis do mundo.",
     "periodo": "4.478 m",
     "resposta": "Matterhorn / Cervino",
@@ -1950,7 +1950,7 @@
   },
   {
     "id": "torre-eiffel",
-    "nome": "A torre de ferro",
+    "nome": "Torre Eiffel",
     "pista": "Construída para uma exposição universal, esta estrutura treliçada tornou-se símbolo de sua cidade.",
     "periodo": "Inaugurada em 1889",
     "resposta": "Torre Eiffel",
@@ -1965,7 +1965,7 @@
   },
   {
     "id": "taj-mahal",
-    "nome": "O mausoléu de mármore",
+    "nome": "Taj Mahal",
     "pista": "Uma cúpula branca e quatro minaretes compõem este monumento de amor imperial junto a um rio.",
     "periodo": "Século XVII",
     "resposta": "Taj Mahal",
@@ -1980,7 +1980,7 @@
   },
   {
     "id": "angkor-wat",
-    "nome": "Torres como botões de lótus",
+    "nome": "Angkor Wat",
     "pista": "Um imenso complexo de templos cercado por fosso nasceu hindu e depois tornou-se um centro budista.",
     "periodo": "Século XII",
     "resposta": "Angkor Wat",
@@ -1995,7 +1995,7 @@
   },
   {
     "id": "borobudur",
-    "nome": "A montanha de estupas",
+    "nome": "Borobudur",
     "pista": "Terraços quadrados e circulares conduzem peregrinos por centenas de relevos até dezenas de estupas perfuradas.",
     "periodo": "Séculos VIII–IX",
     "resposta": "Borobudur",
@@ -2010,7 +2010,7 @@
   },
   {
     "id": "cidade-proibida",
-    "nome": "A cidade dos telhados dourados",
+    "nome": "Cidade Proibida",
     "pista": "Durante quase cinco séculos, um vasto conjunto de pátios e salões foi o centro cerimonial de duas dinastias.",
     "periodo": "1406–1420",
     "resposta": "Cidade Proibida",
@@ -2025,7 +2025,7 @@
   },
   {
     "id": "monte-fuji",
-    "nome": "O cone perfeito",
+    "nome": "Monte Fuji",
     "pista": "Um vulcão quase simétrico, venerado e representado em incontáveis obras, eleva-se perto de uma megacidade.",
     "periodo": "3.776 m",
     "resposta": "Monte Fuji",
@@ -2040,7 +2040,7 @@
   },
   {
     "id": "muralha-mutianyu",
-    "nome": "A muralha sobre as cristas",
+    "nome": "Grande Muralha da China em Mutianyu",
     "pista": "Torres de vigia acompanham montanhas por grandes distâncias numa rede defensiva construída e reconstruída por séculos.",
     "periodo": "Trecho Ming",
     "resposta": "Grande Muralha da China em Mutianyu",
@@ -2055,7 +2055,7 @@
   },
   {
     "id": "bagan",
-    "nome": "Um horizonte de templos",
+    "nome": "Bagan",
     "pista": "Milhares de pagodes e mosteiros de tijolo se espalham por uma planície junto a um grande rio.",
     "periodo": "Séculos XI–XIII",
     "resposta": "Bagan",
@@ -2070,7 +2070,7 @@
   },
   {
     "id": "sigiriya",
-    "nome": "A fortaleza do leão",
+    "nome": "Sigiriya",
     "pista": "Palácio, jardins hidráulicos e afrescos ocupam uma enorme coluna de rocha que se eleva sobre a floresta.",
     "periodo": "Século V",
     "resposta": "Sigiriya",
@@ -2085,7 +2085,7 @@
   },
   {
     "id": "uluru",
-    "nome": "O monólito vermelho",
+    "nome": "Uluru",
     "pista": "A luz transforma as cores deste grande maciço de arenito, sagrado para seus guardiões tradicionais.",
     "periodo": "Paisagem cultural viva",
     "resposta": "Uluru",
@@ -2100,7 +2100,7 @@
   },
   {
     "id": "opera-sydney",
-    "nome": "Velas sobre o porto",
+    "nome": "Sydney Opera House",
     "pista": "Cascas brancas curvas formam a silhueta deste centro de artes cênicas junto a uma ponte monumental.",
     "periodo": "Inaugurada em 1973",
     "resposta": "Sydney Opera House",
@@ -2115,7 +2115,7 @@
   },
   {
     "id": "milford-sound",
-    "nome": "O fiorde da chuva",
+    "nome": "Milford Sound / Piopiotahi",
     "pista": "Paredões escuros, florestas úmidas e cascatas cercam um braço de mar esculpido por geleiras.",
     "periodo": "Fiorde glacial",
     "resposta": "Milford Sound / Piopiotahi",
@@ -2130,7 +2130,7 @@
   },
   {
     "id": "machu-picchu-lugar",
-    "nome": "A cidade entre picos",
+    "nome": "Machu Picchu",
     "pista": "Terraços, templos e residências de pedra ocupam uma crista montanhosa acima de um rio sinuoso.",
     "periodo": "Século XV",
     "resposta": "Machu Picchu",
@@ -2145,7 +2145,7 @@
   },
   {
     "id": "chichen-itza",
-    "nome": "A pirâmide do calendário",
+    "nome": "Chichén Itzá",
     "pista": "Escadarias e plataformas refletem ciclos calendáricos numa grande cidade maia do norte de uma península.",
     "periodo": "Séculos IX–XII",
     "resposta": "Chichén Itzá",
@@ -2160,7 +2160,7 @@
   },
   {
     "id": "teotihuacan-lugar",
-    "nome": "A avenida das pirâmides",
+    "nome": "Teotihuacan",
     "pista": "Uma longa via cerimonial conecta enormes pirâmides numa metrópole anterior ao império asteca.",
     "periodo": "c. 100 a.C.–550 d.C.",
     "resposta": "Teotihuacan",
@@ -2175,7 +2175,7 @@
   },
   {
     "id": "iguacu-lugar",
-    "nome": "As muitas águas",
+    "nome": "Cataratas do Iguaçu",
     "pista": "Centenas de quedas formam um arco dentro de floresta subtropical na fronteira de dois países.",
     "periodo": "Patrimônio natural",
     "resposta": "Cataratas do Iguaçu",
@@ -2190,7 +2190,7 @@
   },
   {
     "id": "nineveh-assiria",
-    "nome": "A capital dos reis guerreiros",
+    "nome": "Império Assírio",
     "pista": "Palácios com relevos, touros alados e uma grande biblioteca marcaram a última capital de um império mesopotâmico.",
     "periodo": "Império Neoassírio, 911–609 a.C.",
     "resposta": "Nínive",
@@ -2205,7 +2205,7 @@
   },
   {
     "id": "persepolis-aquemenida",
-    "nome": "A escadaria das nações",
+    "nome": "Império Aquemênida",
     "pista": "Delegações de muitos povos foram esculpidas levando tributos à capital cerimonial de um vasto império persa.",
     "periodo": "Império Aquemênida, 550–330 a.C.",
     "resposta": "Persépolis",
@@ -2220,7 +2220,7 @@
   },
   {
     "id": "babilonia-imperio",
-    "nome": "A cidade de tijolos azuis",
+    "nome": "Império Neobabilônico",
     "pista": "Uma porta dedicada a Ishtar conduzia à capital associada a Nabucodonosor II e a jardins lendários.",
     "periodo": "Império Neobabilônico, 626–539 a.C.",
     "resposta": "Babilônia",
@@ -2235,7 +2235,7 @@
   },
   {
     "id": "ur-sumeria",
-    "nome": "A cidade do grande zigurate",
+    "nome": "Civilização Suméria",
     "pista": "Um templo em terraços domina as ruínas de uma cidade-estado ligada às primeiras tradições urbanas e à escrita cuneiforme.",
     "periodo": "Suméria, III milênio a.C.",
     "resposta": "Ur",
@@ -2250,7 +2250,7 @@
   },
   {
     "id": "hattusa-hitita",
-    "nome": "A capital dos leões de pedra",
+    "nome": "Império Hitita",
     "pista": "Portões monumentais protegiam a capital de um império que rivalizou com o Egito no final da Idade do Bronze.",
     "periodo": "Império Hitita, c. 1650–1200 a.C.",
     "resposta": "Hattusa",
@@ -2265,7 +2265,7 @@
   },
   {
     "id": "memphis-egito-antigo",
-    "nome": "A cidade de Ptah",
+    "nome": "Antigo Egito",
     "pista": "Próxima ao início do delta, esta antiga capital unificada controlava a passagem entre o Alto e o Baixo país.",
     "periodo": "Antigo Egito, desde c. 3000 a.C.",
     "resposta": "Mênfis",
@@ -2280,7 +2280,7 @@
   },
   {
     "id": "meroe-kush",
-    "nome": "Pirâmides ao sul do Nilo",
+    "nome": "Reino de Cuxe",
     "pista": "Pequenas pirâmides de ângulo acentuado marcam a necrópole de uma capital africana rica em ferro e comércio.",
     "periodo": "Reino de Cuxe, c. 590 a.C.–350 d.C.",
     "resposta": "Meroé",
@@ -2295,7 +2295,7 @@
   },
   {
     "id": "cartago-fenicia",
-    "nome": "A rival do outro lado do mar",
+    "nome": "Império Cartaginês",
     "pista": "Fundada por navegadores fenícios, esta cidade construiu uma potência marítima e enfrentou Roma em três guerras.",
     "periodo": "Império Cartaginês, c. 650–146 a.C.",
     "resposta": "Cartago",
@@ -2310,7 +2310,7 @@
   },
   {
     "id": "grande-zimbabwe-reino",
-    "nome": "A cidade das grandes muralhas",
+    "nome": "Reino do Zimbábue",
     "pista": "Muros de pedra construídos sem argamassa cercavam um centro político ligado ao comércio de ouro do interior africano.",
     "periodo": "Reino do Zimbábue, séculos XI–XV",
     "resposta": "Grande Zimbábue",
@@ -2325,7 +2325,7 @@
   },
   {
     "id": "forum-romano-imperio",
-    "nome": "O centro do mundo romano",
+    "nome": "Império Romano",
     "pista": "Templos, basílicas e arcos ladeavam a praça onde se concentravam cerimônias e decisões de uma potência mediterrânea.",
     "periodo": "Império Romano, 27 a.C.–476 d.C.",
     "resposta": "Fórum Romano",
@@ -2340,7 +2340,7 @@
   },
   {
     "id": "hipodromo-bizantino",
-    "nome": "Corridas na Nova Roma",
+    "nome": "Império Bizantino",
     "pista": "Quadrigas competiam neste espaço monumental da capital oriental que sucedeu Roma por mais de mil anos.",
     "periodo": "Império Bizantino, 330–1453",
     "resposta": "Hipódromo de Constantinopla",
@@ -2355,7 +2355,7 @@
   },
   {
     "id": "knossos-minoico",
-    "nome": "O palácio do labirinto",
+    "nome": "Civilização Minoica",
     "pista": "Afrescos coloridos, pátios e corredores de um complexo insular inspiraram histórias de um rei, um monstro e um fio.",
     "periodo": "Civilização Minoica, c. 2000–1450 a.C.",
     "resposta": "Palácio de Cnossos",
@@ -2370,7 +2370,7 @@
   },
   {
     "id": "micenas",
-    "nome": "A porta dos leões",
+    "nome": "Civilização Micênica",
     "pista": "Uma cidadela fortificada deu nome à cultura grega da Idade do Bronze associada às narrativas da Guerra de Troia.",
     "periodo": "Civilização Micênica, c. 1600–1100 a.C.",
     "resposta": "Micenas",
@@ -2385,7 +2385,7 @@
   },
   {
     "id": "pataliputra-mauria",
-    "nome": "A capital junto ao Ganges",
+    "nome": "Império Máuria",
     "pista": "Desta cidade, um imperador promoveu inscrições em pedra e uma política budista por grande parte do subcontinente.",
     "periodo": "Império Máuria, c. 322–185 a.C.",
     "resposta": "Pataliputra",
@@ -2400,7 +2400,7 @@
   },
   {
     "id": "mohenjo-daro-indus",
-    "nome": "A cidade do Grande Banho",
+    "nome": "Civilização do Vale do Indo",
     "pista": "Ruas em grade, drenagem e tijolos padronizados revelam o planejamento de uma civilização ainda pouco decifrada.",
     "periodo": "Civilização do Vale do Indo, c. 2500 a.C.",
     "resposta": "Mohenjo-daro",
@@ -2415,7 +2415,7 @@
   },
   {
     "id": "exercito-terracota-qin",
-    "nome": "O exército enterrado",
+    "nome": "Dinastia Qin",
     "pista": "Milhares de soldados de cerâmica individualizados guardavam o túmulo do governante que unificou reinos rivais.",
     "periodo": "Dinastia Qin, 221–206 a.C.",
     "resposta": "Exército de Terracota, mausoléu de Qin Shi Huang",
@@ -2430,7 +2430,7 @@
   },
   {
     "id": "karakorum-mongol",
-    "nome": "A capital da estepe",
+    "nome": "Império Mongol",
     "pista": "Emissários de terras distantes chegaram a esta cidade criada num vale da estepe pelo maior império terrestre contíguo da história.",
     "periodo": "Império Mongol, séculos XIII–XIV",
     "resposta": "Karakorum",
@@ -2445,7 +2445,7 @@
   },
   {
     "id": "fatehpur-sikri-mughal",
-    "nome": "A capital abandonada do imperador",
+    "nome": "Império Mogol",
     "pista": "Palácios de arenito vermelho foram erguidos para uma corte imperial, mas a cidade serviu como capital por poucos anos.",
     "periodo": "Império Mogol, século XVI",
     "resposta": "Fatehpur Sikri",
@@ -2460,7 +2460,7 @@
   },
   {
     "id": "tikal-maia",
-    "nome": "Torres acima da floresta",
+    "nome": "Civilização Maia",
     "pista": "Pirâmides-templo emergem da copa tropical numa cidade que rivalizou com outras potências das terras baixas.",
     "periodo": "Civilização Maia, c. 200–900",
     "resposta": "Tikal",
@@ -2475,7 +2475,7 @@
   },
   {
     "id": "templo-mayor-asteca",
-    "nome": "O templo da cidade do lago",
+    "nome": "Império Asteca",
     "pista": "Duas escadarias conduziam aos santuários principais no coração de uma capital construída sobre ilhas.",
     "periodo": "Império Asteca, 1428–1521",
     "resposta": "Templo Mayor de Tenochtitlán",
@@ -2490,7 +2490,7 @@
   },
   {
     "id": "cusco-inca",
-    "nome": "O umbigo do império",
+    "nome": "Império Inca",
     "pista": "Estradas partiam desta capital andina, onde muralhas de blocos perfeitamente ajustados sustentaram construções posteriores.",
     "periodo": "Império Inca, c. 1438–1533",
     "resposta": "Cusco",
@@ -2505,7 +2505,7 @@
   },
   {
     "id": "tiwanaku-imperio",
-    "nome": "A porta no altiplano",
+    "nome": "Estado Tiwanaku",
     "pista": "Monólitos e uma porta esculpida marcam um centro cerimonial que influenciou grande parte dos Andes meridionais.",
     "periodo": "Estado andino, c. 500–1000",
     "resposta": "Tiwanaku",
@@ -2520,7 +2520,7 @@
   },
   {
     "id": "cahokia-mississippiana",
-    "nome": "A cidade dos montes",
+    "nome": "Cultura Mississippiana",
     "pista": "Grandes plataformas de terra cercavam praças numa metrópole pré-colombiana próxima à confluência de grandes rios.",
     "periodo": "Cultura Mississippiana, c. 1050–1350",
     "resposta": "Cahokia",
@@ -2535,7 +2535,7 @@
   },
   {
     "id": "nan-madol-saudeleur",
-    "nome": "A cidade sobre recifes",
+    "nome": "Dinastia Saudeleur",
     "pista": "Ilhotas artificiais e muralhas de basalto formaram um centro político e cerimonial no Pacífico ocidental.",
     "periodo": "Dinastia Saudeleur, c. 1200–1628",
     "resposta": "Nan Madol",
@@ -2550,7 +2550,7 @@
   },
   {
     "id": "baldwin-street-inclinacao",
-    "nome": "A rua que parece uma parede",
+    "nome": "Rua residencial mais íngreme do mundo",
     "pista": "Casas se alinham a uma via residencial cuja inclinação máxima oficial chega a 34,8%.",
     "periodo": "Inclinação de 34,8%",
     "resposta": "Baldwin Street",
@@ -2565,7 +2565,7 @@
   },
   {
     "id": "cazaquistao-sem-litoral",
-    "nome": "Um gigante longe do oceano",
+    "nome": "Maior país sem acesso ao oceano",
     "pista": "Este país de estepes e desertos é maior que toda a Europa Ocidental, mas não possui acesso direto ao oceano aberto.",
     "periodo": "2,72 milhões km²",
     "resposta": "Cazaquistão",
@@ -2581,7 +2581,7 @@
   },
   {
     "id": "islandia-ilha-vulcanica",
-    "nome": "A ilha nascida do fogo",
+    "nome": "Maior ilha vulcânica do mundo",
     "pista": "Geleiras e vulcões ativos dividem uma ilha situada sobre uma dorsal oceânica.",
     "periodo": "103 mil km²",
     "resposta": "Islândia",
@@ -2597,7 +2597,7 @@
   },
   {
     "id": "piton-reticulada-comprimento",
-    "nome": "A caçadora que ultrapassa seis metros",
+    "nome": "Serpente mais comprida do mundo",
     "pista": "Uma espécie do Sudeste Asiático detém os maiores comprimentos documentados entre serpentes vivas.",
     "periodo": "Mais de 6 m documentados",
     "resposta": "Píton-reticulada",
@@ -2612,7 +2612,7 @@
   },
   {
     "id": "upper-zakum-poco-petroleo",
-    "nome": "Da ilha artificial ao reservatório",
+    "nome": "Poço de petróleo mais longo do mundo",
     "pista": "Uma perfuração de alcance estendido percorreu mais de dezesseis quilômetros sob o leito marinho até alcançar um reservatório offshore.",
     "periodo": "53.000 pés (c. 16,15 km), em 2024",
     "resposta": "Poço AD-68, campo de Upper Zakum",
@@ -2628,7 +2628,7 @@
   },
   {
     "id": "la-paz-capital-alta",
-    "nome": "Governo acima das nuvens",
+    "nome": "Sede de governo mais alta do mundo",
     "pista": "A sede de governo deste país andino ocupa um vale urbano a cerca de 3.650 metros de altitude.",
     "periodo": "c. 3.650 m",
     "resposta": "La Paz",
@@ -2643,7 +2643,7 @@
   },
   {
     "id": "reykjavik-capital-norte",
-    "nome": "A capital mais ao norte",
+    "nome": "Capital nacional mais ao norte",
     "pista": "Esta pequena capital geotérmica fica pouco abaixo do Círculo Polar Ártico.",
     "periodo": "64°08′ N",
     "resposta": "Reykjavík",
@@ -2658,7 +2658,7 @@
   },
   {
     "id": "wellington-capital-sul",
-    "nome": "A capital dos ventos austrais",
+    "nome": "Capital nacional mais ao sul",
     "pista": "Prédios governamentais ocupam uma baía estreita entre colinas e um estreito famoso por ventos fortes.",
     "periodo": "41°17′ S",
     "resposta": "Wellington",
@@ -2673,7 +2673,7 @@
   },
   {
     "id": "furnace-creek-calor",
-    "nome": "O termômetro extremo",
+    "nome": "Maior temperatura do ar já registrada",
     "pista": "Uma estação neste vale desértico registrou 56,7 °C, valor reconhecido como recorde oficial de temperatura do ar.",
     "periodo": "56,7 °C em 1913",
     "resposta": "Furnace Creek, Vale da Morte",
@@ -2688,7 +2688,7 @@
   },
   {
     "id": "oymyakon-frio",
-    "nome": "Inverno a sessenta graus negativos",
+    "nome": "Uma das localidades habitadas mais frias",
     "pista": "Moradores convivem com solo permanentemente congelado e algumas das menores temperaturas já medidas numa localidade habitada.",
     "periodo": "−67,7 °C registrado",
     "resposta": "Oymyakon",
@@ -2703,7 +2703,7 @@
   },
   {
     "id": "la-rinconada-altitude",
-    "nome": "A cidade junto à geleira",
+    "nome": "Assentamento permanente mais alto do mundo",
     "pista": "Milhares de pessoas vivem acima de 5.000 metros numa comunidade mineira dos Andes.",
     "periodo": "c. 5.100 m",
     "resposta": "La Rinconada",
@@ -2718,7 +2718,7 @@
   },
   {
     "id": "jerico-cidade-baixa",
-    "nome": "A cidade abaixo do mar",
+    "nome": "Cidade de menor altitude do mundo",
     "pista": "Este oásis histórico fica mais de 250 metros abaixo do nível do mar, perto de um lago muito salgado.",
     "periodo": "c. −258 m",
     "resposta": "Jericó",
@@ -2733,7 +2733,7 @@
   },
   {
     "id": "yarlung-tsangpo-canion",
-    "nome": "O cânion do grande desnível",
+    "nome": "Cânion mais profundo do mundo",
     "pista": "Um rio contorna um pico do Himalaia e corta uma garganta com desnível vertical extraordinário.",
     "periodo": "Mais de 5.000 m de relevo",
     "resposta": "Grande Cânion do Yarlung Tsangpo",
@@ -2748,7 +2748,7 @@
   },
   {
     "id": "veryovkina-caverna",
-    "nome": "A descida de mais de dois quilômetros",
+    "nome": "Caverna sem mergulho mais profunda",
     "pista": "Exploradores mapearam poços e passagens até uma profundidade superior a 2.200 metros.",
     "periodo": "2.209 m confirmados",
     "resposta": "Caverna Veryovkina",
@@ -2763,7 +2763,7 @@
   },
   {
     "id": "mammoth-cave-extensao",
-    "nome": "O labirinto subterrâneo",
+    "nome": "Maior sistema de cavernas do mundo",
     "pista": "Centenas de quilômetros de galerias foram mapeados sob colinas calcárias deste parque.",
     "periodo": "Mais de 680 km mapeados",
     "resposta": "Sistema Mammoth Cave",
@@ -2778,7 +2778,7 @@
   },
   {
     "id": "sarawak-chamber-area",
-    "nome": "A sala subterrânea colossal",
+    "nome": "Maior câmara subterrânea por área",
     "pista": "Uma única câmara sob floresta tropical tem área de piso comparável a mais de vinte campos de futebol.",
     "periodo": "c. 154,5 mil m²",
     "resposta": "Câmara de Sarawak",
@@ -2793,7 +2793,7 @@
   },
   {
     "id": "naica-cristais-gigantes",
-    "nome": "A floresta de cristais",
+    "nome": "Maiores cristais naturais conhecidos",
     "pista": "Calor e água rica em minerais permitiram que enormes cristais transparentes crescessem numa caverna sob uma mina.",
     "periodo": "Cristais de até cerca de 12 m",
     "resposta": "Caverna dos Cristais de Naica",
@@ -2808,7 +2808,7 @@
   },
   {
     "id": "hyperion-arvore-alta",
-    "nome": "A árvore acima da floresta",
+    "nome": "Árvore mais alta do mundo",
     "pista": "Uma sequoia-costeira cuja localização exata é protegida ultrapassa 115 metros de altura.",
     "periodo": "Mais de 115 m",
     "resposta": "Hyperion",
@@ -2823,7 +2823,7 @@
   },
   {
     "id": "general-sherman-volume",
-    "nome": "Um colosso medido em volume",
+    "nome": "Maior árvore do mundo por volume",
     "pista": "Esta sequoia-gigante não é a mais alta, mas seu tronco contém mais madeira que o de qualquer outra árvore individual conhecida.",
     "periodo": "c. 1.487 m³ de tronco",
     "resposta": "General Sherman",
@@ -2838,7 +2838,7 @@
   },
   {
     "id": "methuselah-antiguidade",
-    "nome": "Quase cinco mil anos em anéis",
+    "nome": "Uma das árvores vivas mais antigas",
     "pista": "Um pinheiro de crescimento lento germinou milênios antes das pirâmides; sua posição precisa é mantida em segredo.",
     "periodo": "Mais de 4.850 anos",
     "resposta": "Methuselah",
@@ -2853,7 +2853,7 @@
   },
   {
     "id": "pando-organismo-clonal",
-    "nome": "A floresta que é um indivíduo",
+    "nome": "Um dos maiores organismos clonais por massa",
     "pista": "Dezenas de milhares de troncos compartilham o mesmo sistema de raízes e material genético.",
     "periodo": "c. 43 hectares",
     "resposta": "Pando",
@@ -2868,7 +2868,7 @@
   },
   {
     "id": "rafflesia-flor",
-    "nome": "A flor gigante sem caule",
+    "nome": "Maior flor individual do mundo",
     "pista": "Uma planta parasita produz uma única flor que pode passar de um metro de diâmetro.",
     "periodo": "Mais de 1 m",
     "resposta": "Rafflesia arnoldii",
@@ -2883,7 +2883,7 @@
   },
   {
     "id": "baleia-azul-tamanho",
-    "nome": "O gigante dos oceanos",
+    "nome": "Maior animal do mundo",
     "pista": "Seu coração pode ter o tamanho de um pequeno veículo e o corpo ultrapassar trinta metros.",
     "periodo": "Até cerca de 30 m",
     "resposta": "Baleia-azul",
@@ -2899,7 +2899,7 @@
   },
   {
     "id": "andorinha-do-mar-migracao",
-    "nome": "Do verão ao verão",
+    "nome": "Maior migração anual conhecida",
     "pista": "Esta ave viaja entre regiões polares e registra a mais longa migração anual conhecida entre animais.",
     "periodo": "Dezenas de milhares de km por ano",
     "resposta": "Andorinha-do-mar-ártica",
@@ -2915,7 +2915,7 @@
   },
   {
     "id": "qinghai-tibet-ferrovia",
-    "nome": "Trilhos no teto do mundo",
+    "nome": "Ferrovia mais alta do mundo",
     "pista": "Uma ferrovia cruza permafrost e alcança um passo a mais de cinco mil metros.",
     "periodo": "Passo a 5.072 m",
     "resposta": "Ferrovia Qinghai–Tibete",
@@ -2930,7 +2930,7 @@
   },
   {
     "id": "transiberiana-extensao",
-    "nome": "Trilhos através de um continente",
+    "nome": "Linha ferroviária direta mais longa",
     "pista": "Uma linha conecta a capital europeia de um país ao porto do Pacífico após atravessar oito fusos horários.",
     "periodo": "9.289 km",
     "resposta": "Ferrovia Transiberiana",
@@ -2946,7 +2946,7 @@
   },
   {
     "id": "panamericana-rodovia",
-    "nome": "Uma estrada quase continental",
+    "nome": "Sistema rodoviário mais longo do mundo",
     "pista": "Uma rede rodoviária conecta o extremo norte das Américas ao sul da Patagônia, mas uma faixa de selva impede a continuidade por terra.",
     "periodo": "c. 30 mil km",
     "resposta": "Rodovia Pan-Americana",
@@ -2962,7 +2962,7 @@
   },
   {
     "id": "danyang-kunshan-ponte",
-    "nome": "Um viaduto que cruza o horizonte",
+    "nome": "Ponte mais longa do mundo",
     "pista": "Este viaduto ferroviário elevado atravessa arrozais, canais e lagos numa rota de alta velocidade.",
     "periodo": "164,8 km",
     "resposta": "Grande Ponte Danyang–Kunshan",
@@ -2977,7 +2977,7 @@
   },
   {
     "id": "hong-kong-zhuhai-macau",
-    "nome": "A travessia entre três cidades",
+    "nome": "Maior travessia marítima fixa",
     "pista": "Pontes, ilhas artificiais e um túnel submarino formam uma ligação de dezenas de quilômetros sobre um estuário.",
     "periodo": "55 km",
     "resposta": "Ponte Hong Kong–Zhuhai–Macau",
@@ -2992,7 +2992,7 @@
   },
   {
     "id": "canakkale-1915-vao",
-    "nome": "O vão entre dois continentes",
+    "nome": "Maior vão de ponte suspensa",
     "pista": "Duas torres vermelhas sustentam o maior vão central já construído numa ponte suspensa.",
     "periodo": "Vão de 2.023 m",
     "resposta": "Ponte Çanakkale 1915",
@@ -3007,7 +3007,7 @@
   },
   {
     "id": "huajiang-ponte-alta",
-    "nome": "Uma travessia acima das nuvens",
+    "nome": "Ponte mais alta do mundo",
     "pista": "O tabuleiro desta ponte suspensa passa mais de seiscentos metros acima de um rio no fundo de um cânion.",
     "periodo": "625 m sobre o rio; aberta em 2025",
     "resposta": "Ponte do Cânion Huajiang",
@@ -3023,7 +3023,7 @@
   },
   {
     "id": "king-fahd-aeroporto-area",
-    "nome": "Um aeroporto do tamanho de uma cidade",
+    "nome": "Maior aeroporto do mundo por área",
     "pista": "A área oficial deste complexo aeroportuário no deserto chega a quase oitocentos quilômetros quadrados, embora grande parte permaneça sem uso.",
     "periodo": "780 km² de área oficial",
     "resposta": "Aeroporto Internacional Rei Fahd",
@@ -3038,7 +3038,7 @@
   },
   {
     "id": "atlanta-aeroporto-movimento",
-    "nome": "O aeroporto que nunca para",
+    "nome": "Aeroporto com mais passageiros",
     "pista": "Este grande centro de conexões do sudeste americano recebe mais passageiros anuais que qualquer outro aeroporto.",
     "periodo": "106,3 milhões de passageiros em 2025",
     "resposta": "Aeroporto Internacional Hartsfield–Jackson Atlanta",
@@ -3053,7 +3053,7 @@
   },
   {
     "id": "hongyancun-metro-profundo",
-    "nome": "Trinta e nove andares abaixo da rua",
+    "nome": "Estação de metrô mais profunda",
     "pista": "Escadas rolantes descem dezenas de metros dentro de uma cidade construída sobre colinas abruptas.",
     "periodo": "c. 116 m de profundidade",
     "resposta": "Estação Hongyancun",
@@ -3068,7 +3068,7 @@
   },
   {
     "id": "grande-canal-china",
-    "nome": "A hidrovia milenar",
+    "nome": "Canal artificial mais longo do mundo",
     "pista": "Canais interligados atravessam planícies entre duas grandes cidades chinesas há muitos séculos.",
     "periodo": "c. 1.776 km",
     "resposta": "Grande Canal da China",
@@ -3083,7 +3083,7 @@
   },
   {
     "id": "tres-gargantas-potencia",
-    "nome": "Energia de um grande rio",
+    "nome": "Maior usina hidrelétrica por potência",
     "pista": "Uma barragem monumental possui dezenas de turbinas e a maior capacidade hidrelétrica instalada do planeta.",
     "periodo": "22.500 MW",
     "resposta": "Usina de Três Gargantas",
@@ -3098,7 +3098,7 @@
   },
   {
     "id": "statue-of-unity-altura",
-    "nome": "Um líder transformado em horizonte",
+    "nome": "Estátua mais alta do mundo",
     "pista": "Uma estátua dedicada a um líder da independência ergue-se perto de uma barragem e supera todos os outros monumentos figurativos em altura.",
     "periodo": "182 m",
     "resposta": "Statue of Unity",
@@ -3113,7 +3113,7 @@
   },
   {
     "id": "grand-central-plataformas",
-    "nome": "A estação sob a cidade",
+    "nome": "Estação ferroviária com mais plataformas",
     "pista": "Dois níveis subterrâneos reúnem dezenas de plataformas ferroviárias sob um terminal monumental.",
     "periodo": "44 plataformas",
     "resposta": "Grand Central Terminal",
@@ -3128,7 +3128,7 @@
   },
   {
     "id": "sihwa-energia-maremotriz",
-    "nome": "Energia na mudança das marés",
+    "nome": "Maior usina maremotriz do mundo",
     "pista": "Turbinas instaladas numa barragem costeira geram eletricidade quando a água entra num grande lago artificial.",
     "periodo": "254 MW",
     "resposta": "Usina Maremotriz do Lago Sihwa",
@@ -3143,7 +3143,7 @@
   },
   {
     "id": "manitoulin-ilha-lago",
-    "nome": "Uma ilha dentro de um lago",
+    "nome": "Maior ilha situada dentro de um lago",
     "pista": "Esta grande ilha contém seus próprios lagos, alguns deles com ilhas menores.",
     "periodo": "2.766 km²",
     "resposta": "Ilha Manitoulin",
@@ -3159,7 +3159,7 @@
   },
   {
     "id": "vredefort-cratera",
-    "nome": "A cicatriz de um impacto colossal",
+    "nome": "Maior cratera de impacto confirmada",
     "pista": "Estruturas rochosas circulares revelam a erosão da maior cratera de impacto confirmada na Terra.",
     "periodo": "c. 300 km de diâmetro original",
     "resposta": "Domo de Vredefort",
@@ -3175,7 +3175,7 @@
   },
   {
     "id": "namibe-antiguidade",
-    "nome": "O deserto das dunas antigas",
+    "nome": "Um dos desertos mais antigos do mundo",
     "pista": "Dunas gigantes encontram o Atlântico numa faixa árida que existe há dezenas de milhões de anos.",
     "periodo": "Pelo menos 55 milhões de anos",
     "resposta": "Deserto do Namibe",
@@ -3191,7 +3191,7 @@
   },
   {
     "id": "pravcicka-porta-arenito",
-    "nome": "A porta natural da floresta",
+    "nome": "Maior arco natural de arenito da Europa",
     "pista": "Um grande arco de arenito se eleva acima de florestas e penhascos numa paisagem conhecida como Suíça Boêmia.",
     "periodo": "Vão de 26,5 m",
     "resposta": "Pravčická brána",
@@ -3206,7 +3206,7 @@
   },
   {
     "id": "hranice-abyss",
-    "nome": "O abismo inundado",
+    "nome": "Caverna subaquática mais profunda do mundo",
     "pista": "Sondas desceram centenas de metros sem encontrar o fundo definitivo desta caverna cheia de água termal.",
     "periodo": "519,5 m confirmados; 450 m sob a água",
     "resposta": "Abismo de Hranice",
@@ -3221,7 +3221,7 @@
   },
   {
     "id": "akashi-antigo-recorde",
-    "nome": "O antigo vão recordista",
+    "nome": "Ponte Akashi Kaikyō",
     "pista": "Antes de 2022, esta ponte japonesa manteve por décadas o maior vão central de uma ponte suspensa.",
     "periodo": "Vão de 1.991 m",
     "resposta": "Ponte Akashi Kaikyō",
@@ -3236,7 +3236,7 @@
   },
   {
     "id": "schonbrunn-zoo-antigo",
-    "nome": "O zoológico imperial ainda aberto",
+    "nome": "Tiergarten Schönbrunn",
     "pista": "Fundado no século XVIII dentro de um complexo palaciano, este jardim zoológico continua em funcionamento.",
     "periodo": "Fundado em 1752",
     "resposta": "Tiergarten Schönbrunn",
@@ -3251,7 +3251,7 @@
   },
   {
     "id": "yellowstone-primeiro-parque",
-    "nome": "A ideia de parque nacional",
+    "nome": "Parque Nacional de Yellowstone",
     "pista": "Em 1872, gêiseres, cânions e vida selvagem desta paisagem foram protegidos por uma nova categoria legal.",
     "periodo": "Criado em 1872",
     "resposta": "Parque Nacional de Yellowstone",
@@ -3267,7 +3267,7 @@
   },
   {
     "id": "champagne-pool",
-    "nome": "A piscina que borbulha",
+    "nome": "Champagne Pool, Wai-O-Tapu",
     "pista": "Uma nascente quente cercada por uma borda alaranjada libera bolhas de dióxido de carbono como uma taça efervescente.",
     "periodo": "Água a cerca de 74 °C",
     "resposta": "Champagne Pool, Wai-O-Tapu",
@@ -3282,7 +3282,7 @@
   },
   {
     "id": "kruger-national-park",
-    "nome": "A grande reserva do sul",
+    "nome": "Parque Nacional Kruger",
     "pista": "Savanas, rios e bosques protegem leões, elefantes, rinocerontes, leopardos e búfalos numa área maior que alguns países.",
     "periodo": "Criado em 1926",
     "resposta": "Parque Nacional Kruger",
@@ -3298,7 +3298,7 @@
   },
   {
     "id": "kakadu-national-park",
-    "nome": "Seis estações na terra ancestral",
+    "nome": "Parque Nacional Kakadu",
     "pista": "Planícies alagáveis, escarpas e galerias de arte registram uma relação humana contínua com a paisagem por dezenas de milênios.",
     "periodo": "Patrimônio misto",
     "resposta": "Parque Nacional Kakadu",
@@ -3314,7 +3314,7 @@
   },
   {
     "id": "purnululu-bungle-bungle",
-    "nome": "As colmeias listradas",
+    "nome": "Bungle Bungle, Parque Nacional Purnululu",
     "pista": "Erosão esculpiu cúpulas de arenito com faixas alaranjadas e escuras numa região remota.",
     "periodo": "Formação com cerca de 360 milhões de anos",
     "resposta": "Bungle Bungle, Parque Nacional Purnululu",
@@ -3329,7 +3329,7 @@
   },
   {
     "id": "mount-ararat",
-    "nome": "A montanha de duas cúpulas",
+    "nome": "Monte Ararat",
     "pista": "Um vulcão coberto de neve domina a planície e aparece em tradições ligadas a uma grande embarcação bíblica.",
     "periodo": "5.137 m",
     "resposta": "Monte Ararat",
@@ -3344,7 +3344,7 @@
   },
   {
     "id": "damascus-old-city",
-    "nome": "Pátios na cidade do jasmim",
+    "nome": "Cidade Antiga de Damasco",
     "pista": "Mesquitas, mercados cobertos e casas com pátios ocupam uma cidade cuja história urbana atravessa milênios.",
     "periodo": "Ocupação desde a Antiguidade",
     "resposta": "Cidade Antiga de Damasco",
@@ -3359,7 +3359,7 @@
   },
   {
     "id": "mount-roraima",
-    "nome": "A ilha acima das nuvens",
+    "nome": "Monte Roraima",
     "pista": "Paredões quase verticais sustentam um topo plano isolado com plantas e formações rochosas incomuns.",
     "periodo": "Tepui de 2.810 m",
     "resposta": "Monte Roraima",
@@ -3374,7 +3374,7 @@
   },
   {
     "id": "socotra-island",
-    "nome": "A ilha das árvores-dragão",
+    "nome": "Arquipélago de Socotra",
     "pista": "Longo isolamento produziu plantas de formas incomuns e alto nível de endemismo.",
     "periodo": "Reserva da biosfera",
     "resposta": "Arquipélago de Socotra",
@@ -3390,7 +3390,7 @@
   },
   {
     "id": "lake-natron",
-    "nome": "O lago vermelho dos flamingos",
+    "nome": "Lago Natron",
     "pista": "Águas rasas e alcalinas podem assumir tons vermelhos, enquanto milhões de aves usam ilhas salinas para reprodução.",
     "periodo": "Lago alcalino",
     "resposta": "Lago Natron",
@@ -3406,7 +3406,7 @@
   },
   {
     "id": "danakil-depression",
-    "nome": "Cores no extremo quente",
+    "nome": "Depressão de Danakil",
     "pista": "Lagos de sal, fontes ácidas e vulcões ocupam uma depressão tectônica abaixo do nível do mar.",
     "periodo": "Até cerca de 125 m abaixo do mar",
     "resposta": "Depressão de Danakil",
@@ -3421,7 +3421,7 @@
   },
   {
     "id": "avenue-baobabs",
-    "nome": "A avenida dos gigantes",
+    "nome": "Avenida dos Baobás",
     "pista": "Árvores de troncos enormes ladeiam uma estrada de terra e guardam o que restou de antigas florestas.",
     "periodo": "Paisagem protegida",
     "resposta": "Avenida dos Baobás",
@@ -3436,7 +3436,7 @@
   },
   {
     "id": "virunga-national-park",
-    "nome": "Vulcões e gorilas",
+    "nome": "Parque Nacional de Virunga",
     "pista": "Florestas, lagos e montanhas vulcânicas abrigam gorilas-da-montanha numa das regiões mais biodiversas da África.",
     "periodo": "Criado em 1925",
     "resposta": "Parque Nacional de Virunga",
@@ -3452,7 +3452,7 @@
   },
   {
     "id": "suez-canal",
-    "nome": "O atalho entre dois mares",
+    "nome": "Canal de Suez",
     "pista": "Navios cruzam um corredor artificial no deserto que evita a longa volta ao redor da África.",
     "periodo": "Inaugurado em 1869",
     "resposta": "Canal de Suez",
@@ -3468,7 +3468,7 @@
   },
   {
     "id": "panama-canal",
-    "nome": "Escadas de água entre oceanos",
+    "nome": "Canal do Panamá",
     "pista": "Eclusas elevam navios até um lago artificial antes de baixá-los do outro lado de um istmo tropical.",
     "periodo": "Inaugurado em 1914",
     "resposta": "Canal do Panamá",
@@ -3483,7 +3483,7 @@
   },
   {
     "id": "golden-temple-amritsar",
-    "nome": "O santuário sobre o espelho d’água",
+    "nome": "Templo Dourado de Amritsar",
     "pista": "Um templo dourado parece flutuar no centro de um tanque sagrado e oferece refeições comunitárias a milhares de visitantes.",
     "periodo": "Reconstruído no século XVIII",
     "resposta": "Templo Dourado de Amritsar",
@@ -3498,7 +3498,7 @@
   },
   {
     "id": "potala-palace",
-    "nome": "O palácio sobre a cidade",
+    "nome": "Palácio de Potala",
     "pista": "Centenas de salas ocupam uma fortaleza branca e vermelha construída no alto de uma colina do planalto.",
     "periodo": "Século XVII",
     "resposta": "Palácio de Potala",
@@ -3513,7 +3513,7 @@
   },
   {
     "id": "meteora-monasteries",
-    "nome": "Mosteiros suspensos",
+    "nome": "Mosteiros de Meteora",
     "pista": "Comunidades religiosas ergueram edifícios no topo de pilares naturais de rocha quase inacessíveis.",
     "periodo": "Séculos XIV–XVI",
     "resposta": "Mosteiros de Meteora",
@@ -3528,7 +3528,7 @@
   },
   {
     "id": "neuschwanstein-castle",
-    "nome": "O castelo de conto de fadas",
+    "nome": "Castelo de Neuschwanstein",
     "pista": "Torres brancas surgem acima de florestas alpinas num palácio imaginado por um rei apaixonado por lendas.",
     "periodo": "Iniciado em 1869",
     "resposta": "Castelo de Neuschwanstein",
@@ -3543,7 +3543,7 @@
   },
   {
     "id": "charles-bridge-prague",
-    "nome": "A ponte das estátuas",
+    "nome": "Ponte Carlos",
     "pista": "Uma via medieval de pedra cruza um rio entre torres góticas e dezenas de esculturas.",
     "periodo": "Iniciada em 1357",
     "resposta": "Ponte Carlos",
@@ -3558,7 +3558,7 @@
   },
   {
     "id": "hallstatt-village",
-    "nome": "A vila entre lago e montanha",
+    "nome": "Hallstatt",
     "pista": "Casas estreitas ocupam uma pequena faixa de terra numa região que deu nome a uma cultura da Idade do Ferro.",
     "periodo": "Paisagem cultural alpina",
     "resposta": "Hallstatt",
@@ -3573,7 +3573,7 @@
   },
   {
     "id": "pompeii",
-    "nome": "A cidade sob as cinzas",
+    "nome": "Pompeia",
     "pista": "Ruas, casas e pinturas ficaram preservadas após uma erupção soterrar esta cidade romana.",
     "periodo": "Soterrada em 79 d.C.",
     "resposta": "Pompeia",
@@ -3588,7 +3588,7 @@
   },
   {
     "id": "versailles-palace",
-    "nome": "O palácio do Rei Sol",
+    "nome": "Palácio de Versalhes",
     "pista": "Galerias de espelhos e jardins geométricos transformaram um pavilhão de caça no centro simbólico de uma monarquia.",
     "periodo": "Século XVII",
     "resposta": "Palácio de Versalhes",
@@ -3603,7 +3603,7 @@
   },
   {
     "id": "sagrada-familia",
-    "nome": "A basílica em construção",
+    "nome": "Sagrada Família",
     "pista": "Torres orgânicas e fachadas narrativas continuam a crescer a partir do projeto de um arquiteto catalão.",
     "periodo": "Iniciada em 1882",
     "resposta": "Sagrada Família",
@@ -3618,7 +3618,7 @@
   },
   {
     "id": "pena-palace",
-    "nome": "Cores sobre a serra",
+    "nome": "Palácio da Pena",
     "pista": "Cúpulas amarelas, torres vermelhas e azulejos misturam estilos num palácio romântico envolto em neblina.",
     "periodo": "Século XIX",
     "resposta": "Palácio da Pena",
@@ -3633,7 +3633,7 @@
   },
   {
     "id": "giants-causeway",
-    "nome": "A calçada de basalto",
+    "nome": "Calçada dos Gigantes",
     "pista": "Dezenas de milhares de colunas poligonais descem até o mar como degraus construídos por gigantes.",
     "periodo": "Formada há cerca de 60 milhões de anos",
     "resposta": "Calçada dos Gigantes",
@@ -3648,7 +3648,7 @@
   },
   {
     "id": "cliffs-of-moher",
-    "nome": "As muralhas do Atlântico",
+    "nome": "Falésias de Moher",
     "pista": "Falésias escuras se elevam por mais de duzentos metros diante das ondas e de ilhas distantes.",
     "periodo": "Até 214 m",
     "resposta": "Falésias de Moher",
@@ -3663,7 +3663,7 @@
   },
   {
     "id": "geirangerfjord",
-    "nome": "O fiorde das sete irmãs",
+    "nome": "Geirangerfjord",
     "pista": "Cachoeiras descem por paredões quase verticais até um braço de mar profundo.",
     "periodo": "Fiorde glacial",
     "resposta": "Geirangerfjord",
@@ -3678,7 +3678,7 @@
   },
   {
     "id": "plitvice-lakes",
-    "nome": "Lagos em degraus",
+    "nome": "Lagos de Plitvice",
     "pista": "Barreiras naturais de travertino criam uma sequência de lagos turquesa conectados por cascatas.",
     "periodo": "Parque desde 1949",
     "resposta": "Lagos de Plitvice",
@@ -3693,7 +3693,7 @@
   },
   {
     "id": "lake-bled",
-    "nome": "A ilha da igreja",
+    "nome": "Lago Bled",
     "pista": "Uma pequena ilha com campanário ocupa o centro de um lago alpino vigiado por um castelo no penhasco.",
     "periodo": "Lago glacial",
     "resposta": "Lago Bled",
@@ -3708,7 +3708,7 @@
   },
   {
     "id": "registan-samarkand",
-    "nome": "A praça das três madraças",
+    "nome": "Registan de Samarcanda",
     "pista": "Fachadas revestidas de azulejos azuis cercam uma praça que foi centro comercial e intelectual de uma rota continental.",
     "periodo": "Séculos XV–XVII",
     "resposta": "Registan de Samarcanda",
@@ -3723,7 +3723,7 @@
   },
   {
     "id": "bukhara-old-city",
-    "nome": "A cidade dos caravanserais",
+    "nome": "Centro histórico de Bucara",
     "pista": "Minaretes, mesquitas e mercados cobertos preservam a escala de um antigo centro da Rota da Seda.",
     "periodo": "Mais de dois mil anos",
     "resposta": "Centro histórico de Bucara",
@@ -3738,7 +3738,7 @@
   },
   {
     "id": "shwedagon-pagoda",
-    "nome": "A estupa dourada",
+    "nome": "Pagode Shwedagon",
     "pista": "Uma grande estupa revestida de ouro domina a cidade e concentra relíquias veneradas por budistas.",
     "periodo": "Segundo a tradição, mais de 2.500 anos",
     "resposta": "Pagode Shwedagon",
@@ -3753,7 +3753,7 @@
   },
   {
     "id": "ha-long-bay",
-    "nome": "As ilhas do dragão",
+    "nome": "Baía de Hạ Long",
     "pista": "Milhares de pilares calcários emergem de águas verdes numa paisagem moldada por dissolução e erosão.",
     "periodo": "Carste marítimo",
     "resposta": "Baía de Hạ Long",
@@ -3769,7 +3769,7 @@
   },
   {
     "id": "komodo-national-park",
-    "nome": "As ilhas dos dragões",
+    "nome": "Parque Nacional de Komodo",
     "pista": "Savanas secas, recifes e praias rosadas cercam o habitat do maior lagarto vivo.",
     "periodo": "Criado em 1980",
     "resposta": "Parque Nacional de Komodo",
@@ -3785,7 +3785,7 @@
   },
   {
     "id": "twelve-apostles",
-    "nome": "Sentinelas de calcário",
+    "nome": "Twelve Apostles",
     "pista": "Torres isoladas resistem temporariamente à erosão das ondas diante de uma costa exposta.",
     "periodo": "Costa esculpida pelo mar",
     "resposta": "Twelve Apostles",
@@ -3800,7 +3800,7 @@
   },
   {
     "id": "torres-del-paine",
-    "nome": "As torres da Patagônia",
+    "nome": "Parque Nacional Torres del Paine",
     "pista": "Agulhas de granito, lagos azuis e campos de gelo compõem uma paisagem de ventos fortes.",
     "periodo": "Reserva da biosfera",
     "resposta": "Parque Nacional Torres del Paine",
@@ -3816,7 +3816,7 @@
   },
   {
     "id": "galapagos-islands",
-    "nome": "O laboratório da evolução",
+    "nome": "Ilhas Galápagos",
     "pista": "Ilhas vulcânicas isoladas abrigam tartarugas gigantes, iguanas marinhas e espécies que variam de ilha para ilha.",
     "periodo": "Parque criado em 1959",
     "resposta": "Ilhas Galápagos",
@@ -3832,7 +3832,7 @@
   },
   {
     "id": "grand-canyon-place",
-    "nome": "Camadas de dois bilhões de anos",
+    "nome": "Grand Canyon",
     "pista": "Um rio expôs uma sequência de rochas coloridas ao cortar um vasto planalto.",
     "periodo": "Até cerca de 1.800 m de profundidade",
     "resposta": "Grand Canyon",
@@ -3848,7 +3848,7 @@
   },
   {
     "id": "monument-valley",
-    "nome": "As mesas do cinema",
+    "nome": "Monument Valley",
     "pista": "Buttes de arenito vermelho surgem de uma planície administrada pela Nação Navajo.",
     "periodo": "Paisagem cultural Diné",
     "resposta": "Monument Valley",
@@ -3863,7 +3863,7 @@
   },
   {
     "id": "niagara-falls",
-    "nome": "A fronteira das águas",
+    "nome": "Cataratas do Niágara",
     "pista": "Três quedas canalizam um grande volume de água entre dois países e duas cidades homônimas.",
     "periodo": "Queda principal de 51 m",
     "resposta": "Cataratas do Niágara",
@@ -3878,7 +3878,7 @@
   },
   {
     "id": "lake-louise-banff",
-    "nome": "O lago da cor da geleira",
+    "nome": "Lake Louise, Parque Nacional Banff",
     "pista": "Partículas finas de rocha suspensas criam o tom turquesa deste lago cercado por picos.",
     "periodo": "Parque criado em 1885",
     "resposta": "Lake Louise, Parque Nacional Banff",
@@ -3893,7 +3893,7 @@
   },
   {
     "id": "amber-room",
-    "nome": "O salão desaparecido e reconstruído",
+    "nome": "Sala de Âmbar",
     "pista": "Painéis de âmbar, ouro e espelhos revestiam uma sala palaciana levada durante uma guerra e nunca recuperada por completo.",
     "periodo": "Criada no século XVIII",
     "resposta": "Sala de Âmbar",
@@ -3908,7 +3908,7 @@
   },
   {
     "id": "didgeridoo",
-    "nome": "O sopro contínuo da terra",
+    "nome": "Didjeridu",
     "pista": "Respiração circular sustenta o som grave de um longo instrumento tradicional feito de madeira naturalmente escavada.",
     "periodo": "Tradição milenar",
     "resposta": "Didjeridu",
@@ -3923,7 +3923,7 @@
   },
   {
     "id": "hanseatic-league",
-    "nome": "A rede das cidades mercantes",
+    "nome": "Liga Hanseática",
     "pista": "Portos do Báltico e do Mar do Norte formaram uma aliança comercial que controlou rotas, armazéns e privilégios.",
     "periodo": "Séculos XIII–XVII",
     "resposta": "Liga Hanseática",
@@ -3938,7 +3938,7 @@
   },
   {
     "id": "chaturanga-chess",
-    "nome": "O exército sobre o tabuleiro",
+    "nome": "Surgimento do xadrez",
     "pista": "Peças representando infantaria, cavalaria, elefantes e carros de guerra deram origem a um jogo hoje praticado no mundo inteiro.",
     "periodo": "Surgiu por volta do século VI",
     "resposta": "Chaturanga, precursor do xadrez",
@@ -3953,7 +3953,7 @@
   },
   {
     "id": "silk-road",
-    "nome": "A rota que era muitas rotas",
+    "nome": "Rota da Seda",
     "pista": "Caravanas transportaram tecidos, cavalos, ideias, religiões e tecnologias entre o leste asiático e o Mediterrâneo.",
     "periodo": "Ativa desde o século II a.C.",
     "resposta": "Rota da Seda",
@@ -3969,7 +3969,7 @@
   },
   {
     "id": "cuneiform-writing",
-    "nome": "Marcas em forma de cunha",
+    "nome": "Surgimento da escrita cuneiforme",
     "pista": "Escribas pressionavam um estilete em argila úmida para registrar contas, leis, cartas e literatura.",
     "periodo": "Desde c. 3400 a.C.",
     "resposta": "Escrita cuneiforme",
@@ -3984,7 +3984,7 @@
   },
   {
     "id": "paper-cai-lun",
-    "nome": "Fibras que carregaram ideias",
+    "nome": "Invenção do papel",
     "pista": "Cascas, trapos e redes velhas eram macerados, peneirados e secos para produzir um suporte leve de escrita.",
     "periodo": "Aperfeiçoado no século II",
     "resposta": "Papel associado a Cai Lun",
@@ -3999,7 +3999,7 @@
   },
   {
     "id": "movable-type-bi-sheng",
-    "nome": "Letras que podiam mudar de lugar",
+    "nome": "Invenção dos tipos móveis",
     "pista": "Caracteres individuais de argila podiam ser organizados, impressos e reutilizados séculos antes da imprensa europeia.",
     "periodo": "Século XI",
     "resposta": "Tipos móveis de Bi Sheng",
@@ -4014,7 +4014,7 @@
   },
   {
     "id": "magnetic-compass",
-    "nome": "Uma agulha aponta o caminho",
+    "nome": "Invenção da bússola magnética",
     "pista": "A magnetita orientou navegadores mesmo sem estrelas visíveis e transformou viagens marítimas de longa distância.",
     "periodo": "Uso náutico documentado no século XII",
     "resposta": "Bússola magnética",
@@ -4029,7 +4029,7 @@
   },
   {
     "id": "gunpowder-invention",
-    "nome": "O pó dos alquimistas",
+    "nome": "Invenção da pólvora",
     "pista": "Uma mistura criada em experimentos taoistas passou de fogos e sinais a armas que mudaram a guerra.",
     "periodo": "Documentada no século IX",
     "resposta": "Pólvora",
@@ -4044,7 +4044,7 @@
   },
   {
     "id": "zero-brahmagupta",
-    "nome": "O número que representa nada",
+    "nome": "Formalização matemática do zero",
     "pista": "Um matemático formulou regras para calcular com zero e números negativos, ampliando o sistema decimal posicional.",
     "periodo": "Regras publicadas em 628",
     "resposta": "Zero na matemática indiana",
@@ -4059,7 +4059,7 @@
   },
   {
     "id": "ancient-olympic-games",
-    "nome": "Jogos para Zeus",
+    "nome": "Surgimento dos Jogos Olímpicos",
     "pista": "Atletas de cidades gregas competiam em corridas, lutas e pentatlo durante um festival religioso.",
     "periodo": "Tradicionalmente desde 776 a.C.",
     "resposta": "Jogos Olímpicos da Antiguidade",
@@ -4074,7 +4074,7 @@
   },
   {
     "id": "athenian-democracy",
-    "nome": "A assembleia na colina",
+    "nome": "Surgimento da democracia",
     "pista": "Cidadãos deliberavam diretamente sobre leis e guerra, embora mulheres, escravizados e estrangeiros fossem excluídos.",
     "periodo": "Séculos V–IV a.C.",
     "resposta": "Democracia ateniense",
@@ -4089,7 +4089,7 @@
   },
   {
     "id": "library-alexandria",
-    "nome": "A biblioteca do mundo antigo",
+    "nome": "Biblioteca de Alexandria",
     "pista": "Governantes reuniram rolos de muitas regiões num centro de pesquisa associado às Musas.",
     "periodo": "Fundada no século III a.C.",
     "resposta": "Biblioteca de Alexandria",
@@ -4104,7 +4104,7 @@
   },
   {
     "id": "house-of-wisdom",
-    "nome": "Traduzir para transformar",
+    "nome": "Casa da Sabedoria de Bagdá",
     "pista": "Estudiosos trabalharam com astronomia, medicina, matemática e textos gregos, persas e indianos numa capital abássida.",
     "periodo": "Apogeu nos séculos VIII–IX",
     "resposta": "Casa da Sabedoria de Bagdá",
@@ -4119,7 +4119,7 @@
   },
   {
     "id": "al-qarawiyyin",
-    "nome": "A mesquita que se tornou centro de estudo",
+    "nome": "Universidade al-Qarawiyyin",
     "pista": "Uma instituição fundada por uma mulher no século IX desenvolveu uma longa tradição de ensino religioso e intelectual.",
     "periodo": "Fundada em 859",
     "resposta": "Universidade al-Qarawiyyin",
@@ -4134,7 +4134,7 @@
   },
   {
     "id": "rosetta-stone",
-    "nome": "Três escritas, uma mensagem",
+    "nome": "Pedra de Roseta",
     "pista": "O mesmo decreto aparece em hieróglifos, demótico e grego, fornecendo uma chave para ler textos egípcios antigos.",
     "periodo": "Inscrita em 196 a.C.",
     "resposta": "Pedra de Roseta",
@@ -4149,7 +4149,7 @@
   },
   {
     "id": "dead-sea-scrolls",
-    "nome": "Textos escondidos em cavernas",
+    "nome": "Manuscritos do Mar Morto",
     "pista": "Fragmentos de manuscritos hebraicos, aramaicos e gregos permaneceram preservados no clima seco por cerca de dois mil anos.",
     "periodo": "Séculos III a.C.–I d.C.",
     "resposta": "Manuscritos do Mar Morto",
@@ -4164,7 +4164,7 @@
   },
   {
     "id": "oseberg-viking-ship",
-    "nome": "O navio funerário esculpido",
+    "nome": "Navio de Oseberg",
     "pista": "Uma embarcação ricamente decorada foi enterrada com duas mulheres e numerosos objetos.",
     "periodo": "Construído por volta de 820",
     "resposta": "Navio de Oseberg",
@@ -4179,7 +4179,7 @@
   },
   {
     "id": "polynesian-wayfinding",
-    "nome": "Navegar sem instrumentos modernos",
+    "nome": "Navegação polinésia",
     "pista": "Estrelas, ondas, nuvens, aves e conhecimento transmitido oralmente guiaram viagens por milhares de quilômetros de oceano.",
     "periodo": "Tradição de longa duração",
     "resposta": "Navegação polinésia",
@@ -4195,7 +4195,7 @@
   },
   {
     "id": "haka-maori",
-    "nome": "A força em voz e movimento",
+    "nome": "Haka Māori",
     "pista": "Postura, canto, batidas e expressões faciais transmitem desafio, boas-vindas, luto ou celebração.",
     "periodo": "Tradição Māori",
     "resposta": "Haka",
@@ -4210,7 +4210,7 @@
   },
   {
     "id": "songlines-australia",
-    "nome": "Caminhos cantados pela paisagem",
+    "nome": "Songlines aborígenes",
     "pista": "Narrativas, música e lugares conectam ancestrais, rotas e responsabilidades culturais através de grandes distâncias.",
     "periodo": "Conhecimento ancestral",
     "resposta": "Songlines",
@@ -4225,7 +4225,7 @@
   },
   {
     "id": "inuit-kayak",
-    "nome": "O barco costurado para o Ártico",
+    "nome": "Surgimento do caiaque",
     "pista": "Uma armação leve coberta por pele permitia caça silenciosa e deslocamento eficiente em águas frias.",
     "periodo": "Tecnologia indígena ártica",
     "resposta": "Caiaque Inuit",
@@ -4240,7 +4240,7 @@
   },
   {
     "id": "cacao-mesoamerica",
-    "nome": "A bebida antes da barra",
+    "nome": "Uso do cacau na Mesoamérica",
     "pista": "Sementes eram fermentadas, torradas e transformadas numa bebida amarga ligada a comércio, rituais e prestígio.",
     "periodo": "Uso há mais de três mil anos",
     "resposta": "Cacau na Mesoamérica",
@@ -4255,7 +4255,7 @@
   },
   {
     "id": "maya-calendar",
-    "nome": "Ciclos que se encaixam",
+    "nome": "Calendários maias",
     "pista": "Um calendário ritual de 260 dias e outro solar de 365 combinavam-se numa grande roda temporal.",
     "periodo": "Período Clássico Maia",
     "resposta": "Calendários maias",
@@ -4270,7 +4270,7 @@
   },
   {
     "id": "chinampas-xochimilco",
-    "nome": "Jardins sobre a água",
+    "nome": "Chinampas de Xochimilco",
     "pista": "Parcelas agrícolas elevadas entre canais transformaram zonas rasas de lago em paisagens produtivas.",
     "periodo": "Tecnologia agrícola mesoamericana",
     "resposta": "Chinampas de Xochimilco",
@@ -4285,7 +4285,7 @@
   },
   {
     "id": "quipu-inca",
-    "nome": "Nós que guardavam informação",
+    "nome": "Quipu inca",
     "pista": "Cordões de cores e espessuras diferentes registravam números e possivelmente outras categorias de conhecimento.",
     "periodo": "Império Inca",
     "resposta": "Quipu",
@@ -4300,7 +4300,7 @@
   },
   {
     "id": "via-appia-roman-roads",
-    "nome": "A estrada que ensinou um império a avançar",
+    "nome": "Rede de estradas romanas",
     "pista": "Camadas de pedra, pontes e marcos conectaram exércitos, comércio e administração por milhares de quilômetros.",
     "periodo": "Desde o século IV a.C.",
     "resposta": "Estradas romanas — Via Ápia",
@@ -4315,7 +4315,7 @@
   },
   {
     "id": "ravenna-mosaics",
-    "nome": "Império em pequenos cubos de vidro",
+    "nome": "Mosaicos bizantinos",
     "pista": "Fundos dourados e figuras imperiais cobrem paredes de edifícios que preservam a transição entre Roma e Bizâncio.",
     "periodo": "Séculos V–VI",
     "resposta": "Mosaicos bizantinos de Ravena",
@@ -4330,7 +4330,7 @@
   },
   {
     "id": "chartres-gothic",
-    "nome": "Pedra, vidro e luz",
+    "nome": "Arquitetura gótica",
     "pista": "Arcos apontados, arcobotantes e vitrais permitiram que uma catedral alcançasse grande altura e luminosidade.",
     "periodo": "Séculos XII–XIII",
     "resposta": "Arquitetura gótica — Catedral de Chartres",
@@ -4345,7 +4345,7 @@
   },
   {
     "id": "florence-renaissance",
-    "nome": "Arte, ciência e perspectiva",
+    "nome": "Renascimento em Florença",
     "pista": "Artistas, arquitetos e estudiosos experimentaram perspectiva, anatomia e modelos clássicos sob o apoio de famílias mercantes.",
     "periodo": "Séculos XIV–XVI",
     "resposta": "Renascimento em Florença",
@@ -4360,7 +4360,7 @@
   },
   {
     "id": "mona-lisa",
-    "nome": "O sorriso atrás do vidro",
+    "nome": "Mona Lisa",
     "pista": "Uma pequena pintura a óleo tornou-se uma das obras mais reconhecidas e protegidas do mundo.",
     "periodo": "Iniciada por volta de 1503",
     "resposta": "Mona Lisa",
@@ -4375,7 +4375,7 @@
   },
   {
     "id": "giverny-impressionism",
-    "nome": "Pintar a mudança da luz",
+    "nome": "Impressionismo em Giverny",
     "pista": "Pinceladas visíveis e cores justapostas buscaram capturar atmosferas passageiras fora dos ateliês.",
     "periodo": "Movimento do século XIX",
     "resposta": "Impressionismo em Giverny",
@@ -4390,7 +4390,7 @@
   },
   {
     "id": "jazz-new-orleans",
-    "nome": "Improvisação no delta",
+    "nome": "Surgimento do jazz",
     "pista": "Tradições afro-americanas, blues, ragtime e bandas de metais encontraram-se numa cidade portuária.",
     "periodo": "Consolidado no início do século XX",
     "resposta": "Jazz de Nova Orleans",
@@ -4405,7 +4405,7 @@
   },
   {
     "id": "tango-buenos-aires",
-    "nome": "O abraço do estuário",
+    "nome": "Surgimento do tango",
     "pista": "Música e dança cresceram em bairros portuários a partir do encontro de influências africanas, europeias e locais.",
     "periodo": "Final do século XIX",
     "resposta": "Tango",
@@ -4420,7 +4420,7 @@
   },
   {
     "id": "samba-rio",
-    "nome": "A batida que ocupa a avenida",
+    "nome": "Samba do Rio de Janeiro",
     "pista": "Ritmos afro-brasileiros, rodas comunitárias e escolas de carnaval moldaram uma expressão musical de alcance mundial.",
     "periodo": "Consolidado no início do século XX",
     "resposta": "Samba do Rio de Janeiro",
@@ -4435,7 +4435,7 @@
   },
   {
     "id": "capoeira-salvador",
-    "nome": "Jogo, luta e música",
+    "nome": "Capoeira",
     "pista": "Movimentos acrobáticos acontecem dentro de uma roda ao som de canto, palmas e berimbau.",
     "periodo": "Herança afro-brasileira",
     "resposta": "Capoeira",
@@ -4450,7 +4450,7 @@
   },
   {
     "id": "flamenco-seville",
-    "nome": "Canto, guitarra e palmas",
+    "nome": "Flamenco",
     "pista": "Voz intensa, dança e ritmo expressam uma tradição andaluza marcada por encontros culturais.",
     "periodo": "Consolidado entre os séculos XVIII–XIX",
     "resposta": "Flamenco",
@@ -4465,7 +4465,7 @@
   },
   {
     "id": "fado-lisbon",
-    "nome": "A canção da saudade",
+    "nome": "Fado de Lisboa",
     "pista": "Uma voz acompanhada por guitarras interpreta perdas, destino e vida urbana em casas intimistas.",
     "periodo": "Século XIX",
     "resposta": "Fado de Lisboa",
@@ -4480,7 +4480,7 @@
   },
   {
     "id": "kabuki-tokyo",
-    "nome": "Teatro de maquiagem e poses",
+    "nome": "Teatro kabuki",
     "pista": "Figurinos exuberantes, movimentos codificados e palcos com passarelas criam espetáculos populares de grande intensidade visual.",
     "periodo": "Desde o século XVII",
     "resposta": "Kabuki",
@@ -4495,7 +4495,7 @@
   },
   {
     "id": "wayang-yogyakarta",
-    "nome": "Sombras que contam épicos",
+    "nome": "Teatro de sombras wayang kulit",
     "pista": "Bonecos recortados projetam silhuetas enquanto um narrador conduz vozes, música e histórias durante horas.",
     "periodo": "Tradição javanesa e balinesa",
     "resposta": "Wayang kulit",
@@ -4510,7 +4510,7 @@
   },
   {
     "id": "gamelan-bali",
-    "nome": "Uma orquestra que respira junta",
+    "nome": "Gamelão balinês",
     "pista": "Gongos, metalofones e tambores produzem camadas rítmicas interligadas em cerimônias e apresentações.",
     "periodo": "Tradição indonésia",
     "resposta": "Gamelão balinês",
@@ -4525,7 +4525,7 @@
   },
   {
     "id": "yoga-rishikesh",
-    "nome": "Disciplina de corpo e mente",
+    "nome": "Surgimento do yoga",
     "pista": "Posturas são apenas uma parte de tradições que incluem respiração, ética, concentração e meditação.",
     "periodo": "Raízes antigas na Índia",
     "resposta": "Yoga",
@@ -4540,7 +4540,7 @@
   },
   {
     "id": "tea-ceremony-kyoto",
-    "nome": "Preparar uma tigela com atenção",
+    "nome": "Cerimônia japonesa do chá",
     "pista": "Gestos precisos, utensílios simples e arquitetura silenciosa transformam servir chá numa prática estética e social.",
     "periodo": "Forma consolidada no século XVI",
     "resposta": "Cerimônia japonesa do chá",

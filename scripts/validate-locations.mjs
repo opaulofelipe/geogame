@@ -32,10 +32,15 @@ for (const [index, card] of cards.entries()) {
   if (card.raioKm !== undefined && (!Number.isFinite(card.raioKm) || card.raioKm <= 0)) errors.push(`${where}: raioKm inválido.`);
   counts.set(card.categoria, (counts.get(card.categoria) || 0) + 1);
   const answer = normalize(card.resposta);
-  for (const field of ["nome", "pista", "periodo", "imagemAlt"]) {
+  // O título identifica objetivamente o tema da carta; pista, período e imagem
+  // continuam sem antecipar a resposta completa.
+  for (const field of ["pista", "periodo", "imagemAlt"]) {
     if (answer.length > 4 && normalize(card[field]).includes(answer)) errors.push(`${where}: ${field} entrega a resposta completa.`);
   }
   if (/(^|[_ -])(map|mapa|location|route)([_ .-]|$)/i.test(card.imagemArquivo)) errors.push(`${where}: imagem parece ser um mapa ou diagrama revelador.`);
+  if ((card.categoria === "Arte rupestre" || card.categoria === "Lugar marcante") && card.nome !== card.resposta) {
+    errors.push(`${where}: o título deve usar o nome objetivo do local.`);
+  }
 }
 
 for (const [category, expected] of expectedCategories) {
