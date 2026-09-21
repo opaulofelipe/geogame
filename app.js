@@ -12,10 +12,7 @@
     imageSkeleton: document.getElementById("imageSkeleton"),
     imageFallback: document.getElementById("imageFallback"),
     imageSource: document.getElementById("imageSource"),
-    cardCategory: document.getElementById("cardCategory"),
-    cardPeriod: document.getElementById("cardPeriod"),
     clueTitle: document.getElementById("clueTitle"),
-    clueText: document.getElementById("clueText"),
     distance: document.getElementById("distanceValue"),
     guessStatus: document.getElementById("guessStatus"),
     revealBox: document.getElementById("revealBox"),
@@ -288,9 +285,6 @@
     setProgress();
 
     el.clueTitle.textContent = current.nome;
-    el.clueText.textContent = current.pista;
-    el.cardCategory.textContent = current.categoria;
-    el.cardPeriod.textContent = current.periodo;
     loadCardImage(current);
 
     el.btnToGlobe.disabled = false;
@@ -366,7 +360,6 @@
     } catch (error) {
       console.error(error);
       el.clueTitle.textContent = "Não foi possível abrir as cartas";
-      el.clueText.textContent = "Recarregue a página. Se o problema continuar, verifique o console do navegador.";
       el.imageSkeleton.hidden = true;
       el.imageFallback.hidden = false;
     }
