@@ -1,9 +1,9 @@
-const CACHE = "geogame-v9";
+const CACHE = "geogame-v10";
 const ASSETS = [
   "./",
   "./index.html",
-  "./style.css?v=8",
-  "./app.js?v=9",
+  "./style.css?v=10",
+  "./app.js?v=10",
   "./locations.json?v=8",
   "./manifest.json?v=8",
   "./icon-192.png",
