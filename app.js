@@ -60,6 +60,7 @@
   let visiblePoints = [];
   let revealPaths = [];
   let solved = false;
+  let currentRoundScoringVersion = 2;
   let toastTimer = null;
 
   const world = Globe()
@@ -149,6 +150,19 @@
     if (km >= 3000) return 0;
     const score = 10 * (3000 - km) / 2700;
     return Math.round(score * 10) / 10;
+  }
+
+  function applyConsolationPoints(guesses) {
+    // Só vale quando todos terminariam com zero; evita alterar rodadas normais.
+    if (guesses.length < 2 || guesses.some((guess) => guess.points !== 0)) return;
+
+    const closestDistance = Math.min(...guesses.map((guess) => guess.distance));
+    guesses.forEach((guess) => {
+      if (guess.distance === closestDistance) {
+        guess.points = 3;
+        guess.consolation = true;
+      }
+    });
   }
 
   function formatKm(km) {
@@ -248,6 +262,7 @@
 
     const state = {
       version: 1,
+      scoringVersion: currentRoundScoringVersion,
       players: players.map((player) => ({ name: player.name, score: player.score })),
       currentId: current.id,
       bagIds: bag.map((item) => item.id),
@@ -392,6 +407,8 @@
     solved = true;
     pendingGuess = null;
 
+    if (currentRoundScoringVersion >= 2) applyConsolationPoints(roundGuesses);
+
     if (awardPoints) {
       roundGuesses.forEach((guess) => {
         const player = players[guess.playerIndex];
@@ -481,7 +498,7 @@
       distance.textContent = formatKm(guess.distance);
 
       const points = document.createElement("strong");
-      points.textContent = "+" + formatScore(guess.points) + " pts";
+      points.textContent = "+" + formatScore(guess.points) + " pts" + (guess.consolation ? " · bônus" : "");
 
       metrics.append(distance, points);
       row.append(identity, metrics);
@@ -600,6 +617,7 @@
   }
 
   function startRound(target) {
+    currentRoundScoringVersion = 2;
     current = target;
     clearRoundState();
     setProgress();
@@ -735,6 +753,8 @@
     bag = restoredBag;
     roundNumber = saved.roundNumber;
     startRound(target);
+    // Uma rodada encerrada sob as regras anteriores não recebe pontos retroativamente.
+    currentRoundScoringVersion = saved.solved && saved.scoringVersion !== 2 ? 1 : 2;
     roundGuesses = restoredGuesses;
     currentPlayerIndex = expectedPlayerIndex;
 
