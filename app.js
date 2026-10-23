@@ -1,5 +1,6 @@
 (() => {
   const EARTH_RADIUS_KM = 6371;
+  const STORAGE_KEY = "geogame.partida.v1";
   const PLAYER_COLORS = [
     { name: "Azul", value: "#2f80ed" },
     { name: "Vermelho", value: "#e4473a" },
@@ -242,6 +243,29 @@
     if (last) last.focus();
   }
 
+  function saveGame() {
+    if (!current || !players.length) return;
+
+    const state = {
+      version: 1,
+      players: players.map((player) => ({ name: player.name, score: player.score })),
+      currentId: current.id,
+      bagIds: bag.map((item) => item.id),
+      roundNumber,
+      currentPlayerIndex,
+      roundGuesses: roundGuesses.map(({ playerIndex, lat, lng }) => ({ playerIndex, lat, lng })),
+      pendingGuess,
+      solved,
+      view: el.globeScreen.hidden ? "card" : "globe"
+    };
+
+    try {
+      localStorage.setItem(STORAGE_KEY, JSON.stringify(state));
+    } catch (error) {
+      console.warn("Não foi possível salvar a partida neste navegador:", error);
+    }
+  }
+
   function startGame() {
     if (!locations.length) return;
     readSetupInputs();
@@ -327,6 +351,7 @@
 
     el.btnConfirm.disabled = false;
     el.guessStatus.textContent = "Ponto marcado para " + player.name + ". Você pode trocar o ponto antes de confirmar.";
+    saveGame();
   }
 
   function confirmGuess() {
@@ -355,6 +380,7 @@
       updatePointsLayer();
       world.pointOfView({ lat: 12, lng: -18, altitude: 2.25 }, 350);
       updateTurnUI();
+      saveGame();
       showToast("Palpite de " + previousName + " registrado. Agora é a vez de " + players[currentPlayerIndex].name + ".");
       return;
     }
@@ -362,14 +388,16 @@
     revealRound();
   }
 
-  function revealRound() {
+  function revealRound(awardPoints = true) {
     solved = true;
     pendingGuess = null;
 
-    roundGuesses.forEach((guess) => {
-      const player = players[guess.playerIndex];
-      player.score = Math.round((player.score + guess.points) * 10) / 10;
-    });
+    if (awardPoints) {
+      roundGuesses.forEach((guess) => {
+        const player = players[guess.playerIndex];
+        player.score = Math.round((player.score + guess.points) * 10) / 10;
+      });
+    }
 
     visiblePoints = roundGuesses.map((guess) => {
       const player = players[guess.playerIndex];
@@ -418,8 +446,11 @@
     renderScoreboard();
     world.pointOfView({ lat: current.lat, lng: current.lng, altitude: 1.72 }, 850);
 
-    if (roundGuesses.some((guess) => guess.points === 10)) celebrate();
-    showToast("Rodada concluída. Pontos adicionados ao placar.");
+    if (awardPoints) {
+      saveGame();
+      if (roundGuesses.some((guess) => guess.points === 10)) celebrate();
+      showToast("Rodada concluída. Pontos adicionados ao placar.");
+    }
   }
 
   function renderRoundResults() {
@@ -515,6 +546,7 @@
       player.score = 0;
     });
     renderScoreboard();
+    saveGame();
     showToast("Pontuação zerada.");
   }
 
@@ -585,6 +617,7 @@
     el.clueScreen.hidden = false;
     el.btnSkipCard.disabled = roundGuesses.length > 0 || solved;
     window.requestAnimationFrame(() => el.btnToGlobe.focus({ preventScroll: true }));
+    saveGame();
   }
 
   function showGlobe() {
@@ -596,6 +629,7 @@
       resizeGlobe();
       el.btnBackCard.focus({ preventScroll: true });
     });
+    saveGame();
   }
 
   function skipRound() {
@@ -638,6 +672,88 @@
     });
   }
 
+
+  function validCoordinates(point) {
+    return point
+      && Number.isFinite(point.lat) && point.lat >= -90 && point.lat <= 90
+      && Number.isFinite(point.lng) && point.lng >= -180 && point.lng <= 180;
+  }
+
+  function restoreGame() {
+    let saved;
+    try {
+      const raw = localStorage.getItem(STORAGE_KEY);
+      if (!raw) return false;
+      saved = JSON.parse(raw);
+    } catch (error) {
+      console.warn("Não foi possível recuperar a partida salva:", error);
+      return false;
+    }
+
+    if (!saved || saved.version !== 1
+      || !Array.isArray(saved.players) || saved.players.length < 1 || saved.players.length > PLAYER_COLORS.length
+      || !Array.isArray(saved.bagIds) || !Array.isArray(saved.roundGuesses)
+      || !Number.isInteger(saved.roundNumber) || saved.roundNumber < 1
+      || typeof saved.solved !== "boolean") return false;
+
+    const cardsById = new Map(locations.map((item) => [item.id, item]));
+    const target = cardsById.get(saved.currentId);
+    if (!target) return false;
+
+    const restoredPlayers = saved.players.map((player, index) => {
+      if (!player || typeof player.name !== "string" || player.name.length > 24
+        || !Number.isFinite(player.score) || player.score < 0) return null;
+
+      return {
+        id: "player-" + (index + 1),
+        name: player.name,
+        color: PLAYER_COLORS[index],
+        score: player.score
+      };
+    });
+    if (restoredPlayers.some((player) => !player)) return false;
+
+    const restoredGuesses = saved.roundGuesses.map((guess, index) => {
+      if (!guess || guess.playerIndex !== index || !validCoordinates(guess)) return null;
+      const distance = haversineKm(guess.lat, guess.lng, target.lat, target.lng);
+      return { playerIndex: index, lat: guess.lat, lng: guess.lng, distance, points: scoreForDistance(distance) };
+    });
+    if (restoredGuesses.some((guess) => !guess)) return false;
+    if (saved.solved ? restoredGuesses.length !== restoredPlayers.length
+      : restoredGuesses.length >= restoredPlayers.length) return false;
+
+    const expectedPlayerIndex = saved.solved ? restoredPlayers.length - 1 : restoredGuesses.length;
+    if (saved.currentPlayerIndex !== expectedPlayerIndex
+      || (saved.pendingGuess != null && (saved.solved || !validCoordinates(saved.pendingGuess)))) return false;
+
+    // IDs permitem restaurar o baralho mesmo quando a ordem das cartas é aleatória.
+    const restoredBag = [...new Set(saved.bagIds)]
+      .filter((id) => id !== target.id && cardsById.has(id))
+      .map((id) => cardsById.get(id));
+
+    players = restoredPlayers;
+    bag = restoredBag;
+    roundNumber = saved.roundNumber;
+    startRound(target);
+    roundGuesses = restoredGuesses;
+    currentPlayerIndex = expectedPlayerIndex;
+
+    if (saved.solved) {
+      revealRound(false); // A pontuação já foi contabilizada antes do recarregamento.
+    } else {
+      updateTurnUI();
+      if (saved.pendingGuess) {
+        setPendingGuess(saved.pendingGuess.lat, saved.pendingGuess.lng);
+      }
+    }
+
+    renderScoreboard();
+    el.setupScreen.hidden = true;
+    if (saved.view === "globe") showGlobe();
+    else showCard();
+    return true;
+  }
+
   async function init() {
     renderPlayerSetup();
 
@@ -654,8 +770,10 @@
       updatePointsLayer();
       updatePathLayer();
 
-      el.setupStatus.textContent = locations.length + " cartas prontas. Adicione os jogadores e comece.";
-      renderPlayerSetup();
+      if (!restoreGame()) {
+        el.setupStatus.textContent = locations.length + " cartas prontas. Adicione os jogadores e comece.";
+        renderPlayerSetup();
+      }
     } catch (error) {
       console.error(error);
       el.setupStatus.textContent = "Não foi possível carregar as cartas. Recarregue a página.";
